@@ -4,12 +4,12 @@
 
 ## O problema
 
-Uma escola possui uma sala de estudos que pode ser acessada por alunos e professores.
+Uma escola compara duas políticas alternativas de acesso à sala de estudos para um aluno solicitante.
 
-Existem duas formas de verificar a permissão de entrada:
+Em cada política, considere apenas as condições indicadas para decidir a permissão de entrada:
 
-- **Situação A — Acesso restrito:** a pessoa precisa possuir um cartão de identificação válido **E** estar acompanhada de um professor.
-- **Situação B — Acesso livre:** a pessoa precisa possuir um cartão de identificação válido **OU** estar acompanhada de um professor.
+- **Política A — Cartão e acompanhamento:** o aluno deve possuir um cartão de identificação válido **E** estar acompanhado de um professor.
+- **Política B — Cartão ou acompanhamento:** o aluno deve possuir um cartão de identificação válido **OU** estar acompanhado de um professor.
 
 ## Atividades
 
@@ -19,11 +19,11 @@ Identifique as duas condições do problema e represente cada uma por uma propos
 
 **2. Representação lógica**
 
-Escreva uma expressão lógica para cada situação, utilizando os operadores E (AND) e OU (OR).
+Escreva uma expressão lógica para cada política, utilizando os operadores E (AND) e OU (OR).
 
 **3. Tabelas-verdade**
 
-Construa uma tabela-verdade para cada situação, considerando todas as combinações possíveis de valores das proposições.
+Construa uma tabela-verdade para cada política, considerando todas as combinações possíveis de valores das proposições.
 
 Utilize `0` para falso e `1` para verdadeiro.
 
@@ -31,8 +31,8 @@ Utilize `0` para falso e `1` para verdadeiro.
 
 Responda:
 
-- Em quais situações a entrada é permitida no acesso restrito?
-- Em quais situações a entrada é permitida no acesso livre?
+- Em quais situações a entrada é permitida na política A?
+- Em quais situações a entrada é permitida na política B?
 - Qual é a diferença entre utilizar E e OU nesse problema?
 
 ## Requisitos
