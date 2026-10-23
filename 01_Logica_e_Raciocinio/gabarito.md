@@ -7,8 +7,8 @@
 
 O problema apresenta duas condições que determinam a permissão de entrada:
 
-- **p:** A pessoa possui um cartão de identificação válido.
-- **q:** A pessoa está acompanhada de um professor.
+- **p:** O aluno solicitante possui um cartão de identificação válido.
+- **q:** O aluno solicitante está acompanhado de um professor.
 
 Cada proposição pode assumir dois valores:
 
@@ -25,7 +25,7 @@ As letras utilizadas são arbitrárias. O aluno pode escolher outros identificad
 
 ## 2. Representação lógica
 
-### Situação A — Acesso restrito
+### Política A — Cartão e acompanhamento
 
 A entrada exige cartão válido **E** acompanhamento de um professor.
 
@@ -45,7 +45,7 @@ O operador AND (E) representa a necessidade de satisfazer simultaneamente as dua
 
 Se qualquer uma delas for falsa, a entrada não será permitida.
 
-### Situação B — Acesso livre
+### Política B — Cartão ou acompanhamento
 
 A entrada exige cartão válido **OU** acompanhamento de um professor.
 
@@ -69,7 +69,7 @@ Se ambas forem verdadeiras, a entrada também será permitida.
 
 ## 3. Tabelas-verdade
 
-### Situação A — AND
+### Política A — AND
 
 | p | q | A = p AND q |
 |---|---|---|
@@ -80,7 +80,7 @@ Se ambas forem verdadeiras, a entrada também será permitida.
 
 A entrada é permitida somente quando as duas condições são verdadeiras.
 
-### Situação B — OR
+### Política B — OR
 
 | p | q | B = p OR q |
 |---|---|---|
@@ -107,11 +107,11 @@ Também é válida a construção de uma única tabela contendo os resultados de
 
 ## 4. Interpretação dos resultados
 
-**A. Em quais situações a entrada é permitida no acesso restrito?**
+**A. Em quais situações a entrada é permitida na política A?**
 
 Somente quando a pessoa possui cartão válido e está acompanhada de um professor.
 
-**B. Em quais situações a entrada é permitida no acesso livre?**
+**B. Em quais situações a entrada é permitida na política B?**
 
 Quando a pessoa possui cartão válido, está acompanhada de um professor ou satisfaz ambas as condições.
 
@@ -144,8 +144,8 @@ Durante a correção, observar se o aluno:
 
 O aluno deve compreender que **uma mesma combinação de condições pode produzir resultados diferentes dependendo do operador lógico utilizado**.
 
-Na situação A, as duas condições são obrigatórias.
+Na política A, as duas condições são obrigatórias.
 
-Na situação B, basta que uma delas seja satisfeita.
+Na política B, basta que uma delas seja satisfeita.
 
 Essa compreensão será utilizada posteriormente na construção de expressões condicionais e estruturas de controle em linguagens de programação.
