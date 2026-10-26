@@ -24,11 +24,13 @@ A numeração dos módulos organiza os assuntos, mas não estabelece necessariam
 
 ## Localização dos materiais
 
-Consulte [inventario.csv](inventario.csv), o índice completo dos 178 materiais presentes nos módulos. O arquivo utiliza o separador `;` e as colunas `modulo` e `arquivo`. Para localizar um material a partir da raiz do repositório, combine os valores como `modulo/arquivo`.
+Consulte [inventario.csv](inventario.csv), o índice completo dos 200 materiais presentes nos módulos. O arquivo utiliza o separador `;` e as colunas `modulo` e `arquivo`. Para localizar um material a partir da raiz do repositório, combine os valores como `modulo/arquivo`.
 
 As entradas estão ordenadas por módulo e, dentro de cada módulo, por nome de arquivo. O índice inclui os documentos Markdown e os arquivos-fonte em C dos módulos. Não inclui os documentos de governança, o próprio inventário nem este README.
 
-Os módulos 01, 02, 03, 07, 08, 09 e 10 possuem `exercicio.md` e `gabarito.md` nas respectivas pastas. Consulte o primeiro para o enunciado e o segundo para as respostas e orientações correspondentes. Os módulos 04, 05 e 06 não possuem esses arquivos.
+Os módulos 01, 02, 03, 07, 08, 09 e 10 possuem `exercicio.md` e `gabarito.md` nas respectivas pastas. Consulte o primeiro para o enunciado e o segundo para as respostas e orientações correspondentes. Os módulos 05 e 06 não possuem exercícios ou gabaritos em documentos próprios.
+
+O módulo [04 — Fundamentos de C](04_Fundamentos_de_C/) contém o [exercício de calculadora parametrizável por argumentos](04_Fundamentos_de_C/exercicio1.md) e o [gabarito com a implementação em C](04_Fundamentos_de_C/gabarito1.md).
 
 O módulo [11 — Sistemas Operacionais](11_Sistemas_Operacionais/) contém o [exercício de processos e comunicação entre processos](11_Sistemas_Operacionais/exercicio.md), as [orientações do gabarito](11_Sistemas_Operacionais/gabarito1.md) e os códigos das [partes A](11_Sistemas_Operacionais/gabarito1a.c) e [B](11_Sistemas_Operacionais/gabarito1b.c).
 
