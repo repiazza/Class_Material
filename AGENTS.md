@@ -1,9 +1,20 @@
 # Regras operacionais de curadoria
 
+## Inventário e catálogos semânticos
+
+- Consulte `inventario.csv` para identificar os arquivos presentes em cada módulo. Preserve o separador `;` e as colunas `modulo` e `arquivo`; não acrescente campos, substitua identificadores estáveis ou descarte metadados existentes sem autorização para mudar o contrato.
+- Consulte `NN_Catalogo_Semantico.docx` no módulo correspondente antes de interpretar semanticamente seus materiais. Os 12 catálogos são a fonte documental de referência para conteúdos, representações, exemplos, conceitos, palavras-chave e transições relevantes de GIFs.
+- Relacione os registros documentais aos materiais físicos pelos nomes exatos dos arquivos e pelo módulo. Não confunda o catálogo com imagem, GIF, exercício, gabarito ou código: ele é um documento de referência e também possui entrada própria no inventário.
+- Leia os DOCX com uma ferramenta que extraia o texto do corpo e das tabelas; se a leitura for parcial ou impossível, registre a limitação. Não alegue consulta apenas pela existência do arquivo.
+- Respeite o vocabulário controlado cumulativo. Reutilize o termo estabelecido para o mesmo conceito, por exemplo `ponteiro`, sem criar etiquetas alternativas `pointer` ou `apontador`. Mantenha conceitos distintos separados e não normalize, unifique ou renomeie termos automaticamente.
+- Não infira conteúdo visual ausente das descrições. Distinga conhecimento documentado, verificação física/integridade e inspeção visual; nenhum desses estados implica automaticamente os demais.
+- Os catálogos não substituem os arquivos originais nem comprovam sua correção. Quando a tarefa exigir confirmação visual ou houver dúvida sobre uma descrição, examine o original e os quadros relevantes dos GIFs; informe o que foi efetivamente verificado.
+- Não modifique os catálogos automaticamente. Relate separadamente divergências semânticas, referências quebradas, inconsistências documentais e propostas pedagógicas para avaliação humana, sem alterar materiais para fazê-los corresponder ao catálogo.
+
 ## Inspeção e evidências
 
 - Inspecione o conteúdo real dos materiais. A existência de um arquivo não prova sua correção.
-- Examine visualmente PNGs e quadros suficientes dos GIFs para compreender sua evolução; registre limites de inspeção.
+- Em auditorias visuais ou tarefas que exijam confirmação direta, examine PNGs e quadros suficientes dos GIFs para compreender sua evolução; registre limites de inspeção. A consulta ao catálogo, por si só, não constitui validação visual.
 - Distinga erros objetivos de escolhas pedagógicas, hipóteses e sugestões. Fundamente recomendações em evidências verificáveis.
 - Não recomende remoções apenas por semelhança ou repetição de assunto; avalie a contribuição pedagógica.
 - Preserve o propósito didático dos exercícios. Não presuma que a numeração de arquivos ou módulos estabelece uma sequência pedagógica obrigatória.

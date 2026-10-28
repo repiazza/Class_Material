@@ -1,4 +1,5 @@
 modulo;arquivo
+01_Logica_e_Raciocinio;01_Catalogo_Semantico.docx
 01_Logica_e_Raciocinio;exercicio.md
 01_Logica_e_Raciocinio;gabarito.md
 01_Logica_e_Raciocinio;logica_booleana.png
@@ -13,6 +14,7 @@ modulo;arquivo
 01_Logica_e_Raciocinio;problemas_condicoes3.png
 01_Logica_e_Raciocinio;problemas_condicoes4.png
 01_Logica_e_Raciocinio;problemas_condicoes5.png
+02_Sistemas_de_Numeracao;02_Catalogo_Semantico.docx
 02_Sistemas_de_Numeracao;bit.png
 02_Sistemas_de_Numeracao;bit_byte_nibble.png
 02_Sistemas_de_Numeracao;combinacao_bits.png
@@ -27,6 +29,7 @@ modulo;arquivo
 02_Sistemas_de_Numeracao;signed_unsigned2.png
 02_Sistemas_de_Numeracao;sistemas_representacao_numerica2.png
 02_Sistemas_de_Numeracao;sistemas_representacao_numericas.png
+03_Operacoes_Bitwise;03_Catalogo_Semantico.docx
 03_Operacoes_Bitwise;bitwise_10_12_em_C.gif
 03_Operacoes_Bitwise;bitwise_deslocamento.gif
 03_Operacoes_Bitwise;bitwise_mascaras.gif
@@ -47,6 +50,7 @@ modulo;arquivo
 03_Operacoes_Bitwise;operacao_bit_a_bit.png
 03_Operacoes_Bitwise;operadores_bitwise.png
 03_Operacoes_Bitwise;xor.png
+04_Argumentos_CommandLine;04_Catalogo_Semantico.docx
 04_Argumentos_CommandLine;arg_validation.png
 04_Argumentos_CommandLine;argc_argv.png
 04_Argumentos_CommandLine;argopt.png
@@ -82,6 +86,7 @@ modulo;arquivo
 04_Argumentos_CommandLine;string_parsing.png
 04_Argumentos_CommandLine;strtok_execucao_tokens.gif
 04_Argumentos_CommandLine;typedef.jpeg
+05_Estruturas_de_Dados;05_Catalogo_Semantico.docx
 05_Estruturas_de_Dados;exercicio1.md
 05_Estruturas_de_Dados;exercicio2.md
 05_Estruturas_de_Dados;exercicio3.md
@@ -106,6 +111,7 @@ modulo;arquivo
 05_Estruturas_de_Dados;pilha.jpeg
 05_Estruturas_de_Dados;pilha_conceitos.png
 05_Estruturas_de_Dados;pilha_notacao_polonesa_reversa.png
+06_Arquivos_e_Entrada_Saida;06_Catalogo_Semantico.docx
 06_Arquivos_e_Entrada_Saida;arquivos1.png
 06_Arquivos_e_Entrada_Saida;arquivos2.png
 06_Arquivos_e_Entrada_Saida;arquivos3.png
@@ -114,6 +120,7 @@ modulo;arquivo
 06_Arquivos_e_Entrada_Saida;arquivos6.png
 06_Arquivos_e_Entrada_Saida;exercicio.md
 06_Arquivos_e_Entrada_Saida;gabarito.md
+07_Tracing_e_Execucao;07_Catalogo_Semantico.docx
 07_Tracing_e_Execucao;exercicio.md
 07_Tracing_e_Execucao;funcao_trace.jpeg
 07_Tracing_e_Execucao;gabarito.md
@@ -121,6 +128,7 @@ modulo;arquivo
 07_Tracing_e_Execucao;trace.png
 07_Tracing_e_Execucao;trace2.png
 07_Tracing_e_Execucao;trace3.png
+08_Tipos_e_Memoria_C;08_Catalogo_Semantico.docx
 08_Tipos_e_Memoria_C;Memória contígua versus encadeada.png
 08_Tipos_e_Memoria_C;acesso_inderecao.png
 08_Tipos_e_Memoria_C;aritimetica_ponteiros.png
@@ -148,6 +156,7 @@ modulo;arquivo
 08_Tipos_e_Memoria_C;sizeof_ptr_vs_var.png
 08_Tipos_e_Memoria_C;struct_operador_seta.png
 08_Tipos_e_Memoria_C;structs.png
+09_Depuracao_C;09_Catalogo_Semantico.docx
 09_Depuracao_C;backtrace_callstack.png
 09_Depuracao_C;comandos_gdb.png
 09_Depuracao_C;comandos_gdb2.png
@@ -163,6 +172,7 @@ modulo;arquivo
 09_Depuracao_C;sanitizer_gcc_flags.png
 09_Depuracao_C;soma_passo_a_passo.gif
 09_Depuracao_C;watchpoints.png
+10_Estruturas_Controle;10_Catalogo_Semantico.docx
 10_Estruturas_Controle;aninhamento_estruturas.png
 10_Estruturas_Controle;ansiC89_elementos.png
 10_Estruturas_Controle;blocos.png
@@ -187,6 +197,7 @@ modulo;arquivo
 10_Estruturas_Controle;switch_case2.png
 10_Estruturas_Controle;while.png
 10_Estruturas_Controle;while_vs_for_vs_dowhile.png
+11_Sistemas_Operacionais;11_Catalogo_Semantico.docx
 11_Sistemas_Operacionais;anatomia_processo.png
 11_Sistemas_Operacionais;args_env.png
 11_Sistemas_Operacionais;buffering.png
@@ -226,6 +237,7 @@ modulo;arquivo
 11_Sistemas_Operacionais;stdio_ao_kernel.png
 11_Sistemas_Operacionais;von_neumann.png
 11_Sistemas_Operacionais;wait_waitpid.png
+12_Organizacao_Computadores;12_Catalogo_Semantico.docx
 12_Organizacao_Computadores;algebra_booleana.png
 12_Organizacao_Computadores;canonicas.png
 12_Organizacao_Computadores;circuitos_simplificados.png
