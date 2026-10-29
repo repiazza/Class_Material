@@ -64,3 +64,5 @@ Os gabaritos podem apresentar explicações, critérios de avaliação ou implem
 ## Curadoria e governança
 
 O diretório [curadoria](curadoria/) reúne o [checklist de observações, decisões e pendências](curadoria/checklist.md). As [regras operacionais para o Codex](AGENTS.md) ficam na raiz. Esses documentos acompanham a manutenção do acervo e não são materiais didáticos indexados no CSV.
+
+O [mapa de relacionamentos conceituais](curadoria/relacionamentos_conceituais.md) reúne 26 propostas entre materiais de capítulos diferentes, com evidências e ressalvas documentais. É uma fonte auxiliar, ainda não homologada: não estabelece uma trilha curricular obrigatória nem autoriza edições nos materiais. Os catálogos semânticos e o [vocabulário mestre](curadoria/vocabulario_controlado.md) continuam sendo as referências primárias para conteúdos e conceitos.

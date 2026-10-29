@@ -1,8 +1,10 @@
 # Relacionamentos conceituais do acervo — proposta inicial
 
 **Estado:** proposta para deliberação humana; não homologada como trilha de aprendizagem.  
-**Base documental:** 12 catálogos semânticos atualizados, `inventario.csv` e `curadoria/vocabulario_controlado.md`, recebidos em 28/10/2026.  
+**Base documental:** 12 catálogos semânticos atualizados, [inventario.csv](../inventario.csv) e [vocabulário controlado](vocabulario_controlado.md), recebidos em 28/10/2026.
 **Escopo:** relações selecionadas entre materiais de capítulos diferentes. Nenhum material original foi modificado.
+
+**Uso operacional:** fonte documental auxiliar de propostas. Os catálogos semânticos e o vocabulário mestre continuam sendo as fontes primárias para os conteúdos e conceitos. A integração deste arquivo não homologa relações nem autoriza alterações nos materiais. Consulte o laudo ao final antes de utilizar uma relação com ressalvas.
 
 ## Finalidade e limites
 
@@ -326,6 +328,51 @@ Cada relação é identificada por `RC-###`, tem justificativa, arquivos de orig
 - Ao atualizar uma relação, confirmar os nomes dos arquivos no inventário e a descrição correspondente nos catálogos; consultar o vocabulário mestre para distinguir etiquetas e homônimos.
 - Não criar novas relações somente porque dois arquivos compartilham uma etiqueta. Exigir uma justificativa conceitual específica.
 - Preservar IDs existentes ao revisar relações; novos vínculos recebem novos IDs, sem renumerar os anteriores.
+
+## Laudo de conferência documental — integração
+
+Este laudo verifica sustentação documental, não deliberação pedagógica. Todas as RC continuam **PENDENTES**, inclusive as marcadas como sustentadas. Tipos, direções, justificativas e limites originais foram preservados.
+
+Foram conferidas 26 propostas, 111 citações de materiais e 91 arquivos distintos: todos existem, constam do inventário e possuem registro no catálogo do capítulo indicado. A consulta abrangeu os 12 catálogos e os conceitos correspondentes no vocabulário mestre. Não houve nova inspeção visual nem execução de programas.
+
+- **Sustentada:** as descrições documentais sustentam a relação e o tipo proposto, sem homologação curricular.
+- **Plausível:** a transferência ou o enquadramento pedagógico exige interpretação ou reforço de evidências.
+- **Insuficiente na formulação atual:** parte relevante da justificativa não é sustentada pelos registros citados; isso não demonstra inexistência do conteúdo visual.
+
+| Relação | Resultado documental | Evidência e ressalva para deliberação |
+|---|---|---|
+| RC-001 | Sustentada | Conectivos em `logica_booleana2.png`/`problemas_condicoes3.png` e condições/operadores em `if.png`/`operadores_logicos.png` sustentam a aplicação; não estabelecem cronologia. |
+| RC-002 | Sustentada | Tabelas de AND/OR no capítulo 01 e álgebra, leis e portas em `algebra_booleana.png`/`fundamentos.png` sustentam o aprofundamento. |
+| RC-003 | Sustentada | `operacao_bit_a_bit.png` documenta explicitamente a comparação entre avaliação lógica e transformação de bits; o mestre distingue esses operadores. |
+| RC-004 | Sustentada | Bit, pesos e posições no capítulo 02 fundamentam a leitura de operandos, máscaras e deslocamentos descritos no capítulo 03; pré-requisito é conceitual, não curricular. |
+| RC-005 | Sustentada | Os registros citados tratam representação de inteiros, byte, tipos e sizeof. Preservar a ressalva sobre byte e tamanhos dependentes da implementação. |
+| RC-006 | Sustentada | A enumeração de combinações no capítulo 02 corresponde às entradas de tabelas e formas canônicas descritas no capítulo 12. |
+| RC-007 | Insuficiente na formulação atual | AND/OR/NOT estão documentados nos dois destinos citados; XOR não é descrito nesses registros nem aparece como conteúdo do capítulo 12 no catálogo. A parcela relativa a XOR permanece sem suporte documental; não se presume ausência na imagem sem inspeção visual. |
+| RC-008 | Sustentada | Os registros de condicionais do capítulo 10 e de validação/parsing do capítulo 04 descrevem decisões e tratamento de parâmetros; o tipo aplicação é coerente. |
+| RC-009 | Sustentada | Array de ponteiros e percurso de string no capítulo 08 articulam-se à descrição de argv e parsing textual no capítulo 04. |
+| RC-010 | Sustentada, com sobreposição | Argumentos, ambiente e herança no capítulo 04 são retomados nas variantes de exec do capítulo 11. Há sobreposição parcial com RC-018, sem redundância demonstrada. |
+| RC-011 | Sustentada | Indireção, ponteiros e malloc/free no capítulo 08 fundamentam os nós encadeados e a implementação exigida em `lista1.jpeg`/`exercicio1.md`; `fila.jpeg` oferece a representação da estrutura. |
+| RC-012 | Sustentada | `array_vs_lista_navegacao.gif` documenta explicitamente o contraste entre indexação direta e percurso encadeado, em consonância com os materiais de lista. |
+| RC-013 | Sustentada | Endereços e indireção são documentados no capítulo 08; inspeção de variáveis, ponteiros e memória está descrita em `inspecao_memoria.gif`/`runtime.png`. |
+| RC-014 | Plausível; interpretação pedagógica | O capítulo 05 descreve manipulação/liberação de nós; o 09 descreve double free e acesso por ponteiro nulo. Não há sessão de depuração da lista do capítulo 05 descrita nesses destinos. A aplicação é uma proposta de transferência, não uma prática conjunta já documentada. |
+| RC-015 | Sustentada | `funcao_trace.jpeg` descreve registro de eventos e `output_vs_log_vs_debug.png` compara explicitamente saída, log e depuração interativa. |
+| RC-016 | Plausível; evidência parcial | Os destinos do capítulo 07 descrevem arquivo em append e logs. As origens citadas concentram-se em streams (`arquivos3.png`) e posicionamento (`arquivos4.png`), sem fundamentar diretamente toda a gravação persistente alegada. Os registros `arquivos1.png`/`arquivos2.png` são candidatos a reforço, sujeito à deliberação; referências não foram substituídas. |
+| RC-017 | Sustentada | Persistência/stdio no capítulo 06 e descritores, buffering e chamadas ao kernel no capítulo 11 sustentam a mudança de nível de abstração. |
+| RC-018 | Sustentada, com sobreposição | As descrições de ambiente/argumentos e `args_env.png` sustentam o vínculo; `fork_exec_wait.png` documenta criação, execução e espera. Comparar a finalidade com RC-010 antes de eventual consolidação humana. |
+| RC-019 | Plausível; evidência parcial | As origens descrevem while/switch. As descrições dos destinos tratam criação, espera e comunicação, mas não explicitam os laços e a seleção usados nos programas. Falta uma ponte documental específica para certificar essa aplicação, embora seja tecnicamente plausível. |
+| RC-020 | Sustentada | Programa/processo e anatomia de memória contextualizam runtime e frames no GDB. A distinção entre call stack, stack trace e pilha de dados é mantida no mestre. |
+| RC-021 | Sustentada | A representação dos dados e alocação dinâmica no capítulo 08 são retomadas no espaço de endereçamento, heap e stack documentados em `anatomia_processo.png`. |
+| RC-022 | Insuficiente na formulação atual | As origens citadas no capítulo 01 documentam valores, conectivos e tabelas, não regras de equivalência algébrica ou de simplificação. De Morgan/Karnaugh são explícitos nos destinos do capítulo 12. A conexão introdutória é plausível, mas a justificativa atual atribui à origem um conteúdo não documentado. |
+| RC-023 | Plausível; tipo/direção a avaliar | `data_types.png` contextualiza tipos e tamanhos de operandos; `sizeof_C2.png` trata tamanho de arrays, não aplicação direta de máscaras/deslocamentos. A justificativa usa contextualização, enquanto o tipo é aplicação e a direção é 03→08. Não houve reclassificação ou inversão automática. |
+| RC-024 | Plausível; enquadramento a avaliar | Os capítulos documentam registros de eventos, buffering e fluxos padrão, mas não descrevem diretamente efeitos de buffering sobre os logs citados. A escolha do enquadramento e da leitura 07→11 depende de interpretação pedagógica; não implica identidade entre log/stdout/stderr. |
+| RC-025 | Sustentada | Pilha como estrutura LIFO e stack como região de execução aparecem com sentidos distintos nas fontes. O contraste é coerente com as definições do mestre. |
+| RC-026 | Sustentada | `comandos_gdb.png` descreve break/continue do GDB; `break.png`/`continue.png` descrevem as instruções C. O mestre já explicita os dois contextos; não há equivalência ou pré-requisito. |
+
+**Síntese:** 19 propostas sustentadas documentalmente (duas com sobreposição parcial), cinco plausíveis com ressalvas e duas insuficientemente fundamentadas na formulação atual. RC-010/RC-018 compartilham parte do escopo; RC-002/RC-022 também aproximam os mesmos capítulos, mas têm destinos e propósitos diferentes. Não se demonstrou redundância que justifique exclusão automática. Nenhuma contradição global entre relações foi demonstrada: por exemplo, RC-011 e RC-012 têm direções opostas e tipos distintos, sem impor uma sequência curricular circular.
+
+**Correções documentais executadas:** o mapa foi transferido de `12_Organizacao_Computadores/relacionamentos_conceituais.md` para `curadoria/relacionamentos_conceituais.md`, destino solicitado. Os 111 links de materiais já usavam `../capítulo/arquivo` e permanecem corretos no novo local. As referências administrativas foram convertidas em links relativos e a navegação foi acrescentada ao README e às instruções operacionais. Nenhum arquivo material citado precisou ser substituído, renomeado ou removido. O inventário não foi alterado: seus 255 arquivos continuam nos capítulos, enquanto este mapa é governança documental fora desse escopo.
+
+As ressalvas RC-007, RC-014, RC-016, RC-019, RC-022, RC-023 e RC-024 e as sobreposições indicadas dependem de deliberação humana. Não foram alterados os catálogos, o vocabulário mestre ou o checklist histórico.
 
 ## Proveniência
 
