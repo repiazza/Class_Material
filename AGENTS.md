@@ -166,29 +166,11 @@ A existência dos três protocolos não autoriza iniciar produção por iniciati
 
 ### Política de entrega dos produtos audiovisuais
 
-Os arquivos MP4 e os áudios WAV/MP3 gerados são produtos derivados de execução, não artefatos de versionamento.
+Siga o procedimento padrão da seção 7 de `curadoria/contrato_entrega_video.md`: gere e preserve o MP4 em `/workspace/artifacts/<ID_VIDEO>/<ID_VIDEO>.mp4`, execute as validações previstas e apresente obrigatoriamente na resposta final um link direto para o arquivo real no workspace. Oriente o responsável editorial a abri-lo no visualizador da interface e utilizar **Salvar vídeo como...** no navegador, procedimento validado manualmente no piloto V01-003.
 
-É proibido incluí-los em commits, Git LFS, GitHub Releases ou anexos hospedados no repositório.
+MP4 e áudios WAV/MP3 são produtos derivados de execução, não artefatos de versionamento. É proibido incluí-los em commits, Git LFS, GitHub Releases ou anexos hospedados no repositório. Não criar ZIPs para distribuição audiovisual nem realizar uploads externos para entrega. Versione normalmente planos, scripts, legendas, manifestos, relatórios e evidências leves.
 
-A entrega audiovisual deve ocorrer por arquivo diretamente baixável pelo responsável editorial, utilizando um mecanismo de exportação autorizado e comprovadamente funcional.
-
-O Git deve receber somente os artefatos de projeto, reprodução e rastreabilidade, incluindo planos, scripts, legendas, manifestos, relatórios e evidências leves.
-
-A impossibilidade de disponibilizar um binário não autoriza sua publicação em outro serviço sem aprovação explícita.
-
-Quando não houver mecanismo de download disponível, preservar os arquivos enquanto o ambiente permitir e registrar a limitação, sem refazer renderização ou síntese desnecessariamente.### Política de entrega dos produtos audiovisuais
-
-Os arquivos MP4 e os áudios WAV/MP3 gerados são produtos derivados de execução, não artefatos de versionamento.
-
-É proibido incluí-los em commits, Git LFS, GitHub Releases ou anexos hospedados no repositório.
-
-A entrega audiovisual deve ocorrer por arquivo diretamente baixável pelo responsável editorial, utilizando um mecanismo de exportação autorizado e comprovadamente funcional.
-
-O Git deve receber somente os artefatos de projeto, reprodução e rastreabilidade, incluindo planos, scripts, legendas, manifestos, relatórios e evidências leves.
-
-A impossibilidade de disponibilizar um binário não autoriza sua publicação em outro serviço sem aprovação explícita.
-
-Quando não houver mecanismo de download disponível, preservar os arquivos enquanto o ambiente permitir e registrar a limitação, sem refazer renderização ou síntese desnecessariamente.
+Não exigir confirmação de download para concluir a produção técnica quando a disponibilização no workspace estiver comprovada e os demais critérios técnicos forem atendidos. Não inventar URLs nem afirmar download realizado. Entrega técnica não equivale à aprovação editorial humana e não dispensa inspeções obrigatórias. Se houver indisponibilidade real do arquivo ou do visualizador, registre a limitação e preserve os binários enquanto o ambiente permitir, sem refazer renderização ou síntese desnecessariamente; não prometa persistência após o encerramento do ambiente.
 
 ## Continuidade
 
