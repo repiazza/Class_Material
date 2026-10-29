@@ -1,10 +1,10 @@
 # Protocolo de roteirização e leitura de dossiês
 
 > **Identificador:** `curadoria/roteirizacao`  
-> **Versão:** `0.2.2` — proposta de revisão documental sujeita a homologação  
+> **Versão:** `0.2.3` — revisão operacional da versão editorial 0.2.2 homologada  
 > **Escopo:** dossiês editoriais de tópicos, seleção de candidatos e passagem para especificações de produção  
-> **Estado:** PROPOSTO — depende de homologação humana  
-> **Documento piloto de referência:** `roteiros/01_Logica_e_Raciocinio.md`
+> **Estado:** HOMOLOGADO — protocolo vigente  
+> **Documento piloto de referência:** `editorial/dossies/01_Dossie_Editorial.docx`
 
 ## 1. Finalidade
 
@@ -16,14 +16,14 @@ O objetivo é preservar uma fronteira clara: **curadoria e roteirização propõ
 
 | Artefato | Responsabilidade | Pode conter alternativas? | Pode ser renderizado? |
 |---|---|---|---|
-| `curadoria/protocolo_roteirizacao.md` | Regras compartilhadas, estados e campos | Sim, como regras em discussão | Não |
-| `roteiros/<topico>.md` | Dossiê com N candidatos, fontes, hipóteses, alternativas e decisões | Sim | Não |
-| `roteiros/<topico>/<video_id>_producao.md` | Especificação fechada de **um** vídeo aprovado | Não | Sim, após validação |
+| `curadoria/protocolo_roteirizacao.md` | Regras compartilhadas, estados e campos | Não, na versão homologada | Não |
+| `editorial/dossies/NN_Dossie_Editorial.docx` | Dossiê com N candidatos, fontes, hipóteses, alternativas e decisões | Sim | Não |
+| `editorial/roteiros/<video_id>_producao.md` (proposto) | Especificação fechada de **um** vídeo aprovado | Não | Sim, após validação |
 | `<video_id>_cenas.json` | Plano de execução derivado da especificação | Não | Entrada técnica |
 | `<video_id>_guia.mp4` | Vídeo-guia sem legendas e com áudio provisório | Não | Produto |
 | `<video_id>_roteiro.md` | Texto/guia para gravação humana derivado do contrato | Não | Produto auxiliar |
 
-Os caminhos acima são **convenções propostas**, não diretórios já criados no repositório. Não criar, mover, publicar ou alterar arquivos no Git sem autorização.
+O caminho dos dossiês é a **convenção vigente** do repositório. Os caminhos dos artefatos posteriores à seleção editorial são **provisórios** e dependem da definição do contrato técnico de produção. A autorização explícita da tarefa de geração abrange a criação do dossiê no caminho previsto; operações Git seguem o `AGENTS.md`.
 
 ## 3. Unidade editorial e identificação
 
@@ -101,6 +101,8 @@ Seções recomendadas:
 
 A seção de instruções de leitura que apareceu no piloto do capítulo 01 pertence **a este protocolo** e deve ser retirada de futuras versões do dossiê. A lista de parâmetros comuns também deve ser centralizada aqui; o dossiê mantém apenas exceções específicas do tópico.
 
+O piloto `editorial/dossies/01_Dossie_Editorial.docx` pode orientar **apresentação, legibilidade e organização** da entrega, mas **não** deve ser usado como fonte de conteúdo, seleção de assuntos, fundamentação, número de candidatos ou reprodução de narrativas. A geração de cada novo dossiê deve ser independente e baseada nas fontes documentais do capítulo.
+
 ## 7. Estrutura mínima da ficha de candidato
 
 Cada seção `## VXX-### — <título>` deve identificar:
@@ -166,7 +168,7 @@ A locução sintética do vídeo-guia é **referência de ritmo**, não texto a 
 - Novos campos opcionais ou novas etapas compatíveis: incrementar versão menor.
 - Mudanças incompatíveis de campos, estados ou significado: incrementar versão maior e documentar migração.
 - Cada dossiê declara a versão do protocolo que utiliza. Dossiês anteriores não são reescritos automaticamente.
-- Antes de alterar o repositório, apresentar diferenças e solicitar autorização para commit/push/PR; a aprovação editorial não é autorização implícita para operações Git.
+- A autorização explícita para executar a tarefa de geração ou implementação abrange commit, push e abertura de PR, salvo restrição expressa, conforme `AGENTS.md`. Não solicitar aprovações adicionais para operações Git rotineiras dentro do escopo autorizado. A aprovação editorial isolada não autoriza implementar mudanças fora do escopo; a abertura do PR não autoriza merge.
 
 ## 12. Histórico de evolução
 
@@ -174,4 +176,5 @@ A locução sintética do vídeo-guia é **referência de ritmo**, não texto a 
 - `0.2.0` (proposta): roteirização documental por padrão; fontes e política de confiança; classificação das afirmações; solicitação excepcional de mídias; validação física deslocada à produção; bloqueio de contrato executável com pendências.
 - `0.2.1` (proposta): remoção de conteúdo específico do candidato V01-003; o protocolo permanece universal, com referências particulares mantidas exclusivamente nos dossiês.
 
-- `0.2.2` (proposta): exigência de narrativa preliminar falável, storyboard editorial suficientemente desenvolvido e variedade substantiva de abordagens, sem alterar a política de confiança documental ou antecipar decisões do contrato de produção.
+- `0.2.2` (homologada por decisão humana): exigência de narrativa preliminar falável, storyboard editorial suficientemente desenvolvido e variedade substantiva de abordagens, sem alterar a política de confiança documental ou antecipar decisões do contrato de produção.
+- `0.2.3` (homologada, revisão operacional): atualização dos caminhos dos artefatos, alinhamento com a autorização Git do `AGENTS.md` e delimitação do uso do dossiê piloto como referência de apresentação; sem alteração das exigências editoriais da 0.2.2.
