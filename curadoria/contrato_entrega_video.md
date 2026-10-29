@@ -104,23 +104,38 @@ Não declarar fidelidade temporal do GIF se apenas alguns quadros foram usados. 
 
 ## 7. Estrutura de entrega
 
-Estrutura lógica sugerida:
+Os arquivos de projeto permanecem versionados no repositório:
 
 ```text
-editorial/
-  montagens/
-    NN-XXX_Montagem.json
-
-videos/
-  VNN-XXX/
-    VNN-XXX.mp4
-    VNN-XXX.srt
-    VNN-XXX_Manifesto.json
-    VNN-XXX_Relatorio.md
-    VNN-XXX_Audio_Referencia.wav   # somente quando aplicável
+editorial/montagens/NN-XXX_Montagem.json
+videos/VNN-XXX/
+  VNN-XXX.srt
+  VNN-XXX_Manifesto.json
+  VNN-XXX_Relatorio.md
+  renderizar.py                  # quando aplicável
 ```
 
-O plano e os manifestos são candidatos naturais ao versionamento Git. **MP4 e WAV não devem ser automaticamente adicionados ao Git**: verificar política do repositório, tamanho, limites e destino de armazenamento antes do commit. O destino persistente dos binários será definido antes da primeira publicação operacional.
+Os binários devem ser gerados e preservados fora do checkout:
+
+```text
+/workspace/artifacts/<ID_VIDEO>/
+  <ID_VIDEO>.mp4
+  <ID_VIDEO>_Audio_Referencia.wav  # somente quando aplicável
+```
+
+É proibido incluir MP4 ou WAV em commits, Git LFS, GitHub Releases ou anexos hospedados no repositório. Não criar ZIPs para distribuição audiovisual nem realizar uploads externos para entrega. Planos, scripts, legendas, manifestos, relatórios e evidências leves continuam versionados normalmente.
+
+### Procedimento padrão de disponibilização
+
+1. Gerar e preservar o MP4 real em `/workspace/artifacts/<ID_VIDEO>/<ID_VIDEO>.mp4`.
+2. Executar as validações técnicas e inspeções previstas neste contrato, registrando resultados e limitações.
+3. Conferir a existência e o tamanho não nulo do MP4, calcular seu SHA-256 e registrar o caminho real no manifesto e no relatório.
+4. Apresentar obrigatoriamente na resposta final um link Markdown direto para esse arquivo no workspace, permitindo sua abertura pelo visualizador da interface. Exemplo de sintaxe para V01-003: `[Abrir MP4 V01-003](/workspace/artifacts/V01-003/V01-003.mp4)`. Usar somente o ID e o caminho do arquivo efetivamente produzido, sem inventar URLs.
+5. Orientar o responsável editorial a abrir o vídeo no visualizador e utilizar **Salvar vídeo como...** no navegador para obter o arquivo.
+
+O acesso pelo visualizador e o download com **Salvar vídeo como...** foram validados manualmente pelo responsável editorial no piloto V01-003. Esse é o procedimento padrão; não depende de um conector de upload ou de exportação. Não exigir confirmação de download para concluir a produção técnica quando a disponibilização no workspace estiver comprovada e os demais critérios técnicos da modalidade estiverem atendidos. Não afirmar que o usuário abriu ou baixou o arquivo sem evidência.
+
+O link e o arquivo disponível não substituem as inspeções técnicas exigidas nem a aprovação editorial humana. Se o arquivo ou o acesso pelo visualizador estiver indisponível na execução, registrar a limitação e preservar os binários enquanto o ambiente permitir, sem refazer renderização ou síntese desnecessariamente. Não prometer persistência após o encerramento do ambiente nem publicar em outro serviço como alternativa automática.
 
 Se um artefato obrigatório não puder ser gerado, registrar a ausência e a causa. Não criar arquivos vazios apenas para completar a estrutura.
 
@@ -196,7 +211,7 @@ Dentro de uma execução explicitamente autorizada, o Codex pode criar o plano t
 
 Não realizar merge, publicar em plataformas externas ou divulgar o vídeo automaticamente.
 
-Preservar o escopo das fontes e as alterações preexistentes. Não fazer rebase ou force-push por conveniência. Para binários volumosos, obter primeiro a política de armazenamento e registrar links persistentes somente após sua criação real.
+Preservar o escopo das fontes e as alterações preexistentes. Não fazer rebase ou force-push por conveniência. Para binários audiovisuais, aplicar exclusivamente o procedimento de workspace da seção 7; o link local de entrega não implica armazenamento persistente.
 
 A aprovação de uma PR de artefatos técnicos não equivale à homologação pedagógica do vídeo.
 
