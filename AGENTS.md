@@ -164,6 +164,32 @@ A produção audiovisual constitui etapa posterior à elaboração do roteiro in
 
 A existência dos três protocolos não autoriza iniciar produção por iniciativa própria. Para solicitações como `Gerar vídeo VNN-XXX`, verifique previamente a modalidade pretendida, as fontes vigentes e a autorização de execução; se o pedido já definir esses elementos, prossiga sem autorizações intermediárias para operações rotineiras. Quando uma decisão pedagógica ou editorial extrapolar o escopo, registre `PENDENTE_REVISAO` e solicite deliberação delimitada.
 
+### Política de entrega dos produtos audiovisuais
+
+Os arquivos MP4 e os áudios WAV/MP3 gerados são produtos derivados de execução, não artefatos de versionamento.
+
+É proibido incluí-los em commits, Git LFS, GitHub Releases ou anexos hospedados no repositório.
+
+A entrega audiovisual deve ocorrer por arquivo diretamente baixável pelo responsável editorial, utilizando um mecanismo de exportação autorizado e comprovadamente funcional.
+
+O Git deve receber somente os artefatos de projeto, reprodução e rastreabilidade, incluindo planos, scripts, legendas, manifestos, relatórios e evidências leves.
+
+A impossibilidade de disponibilizar um binário não autoriza sua publicação em outro serviço sem aprovação explícita.
+
+Quando não houver mecanismo de download disponível, preservar os arquivos enquanto o ambiente permitir e registrar a limitação, sem refazer renderização ou síntese desnecessariamente.### Política de entrega dos produtos audiovisuais
+
+Os arquivos MP4 e os áudios WAV/MP3 gerados são produtos derivados de execução, não artefatos de versionamento.
+
+É proibido incluí-los em commits, Git LFS, GitHub Releases ou anexos hospedados no repositório.
+
+A entrega audiovisual deve ocorrer por arquivo diretamente baixável pelo responsável editorial, utilizando um mecanismo de exportação autorizado e comprovadamente funcional.
+
+O Git deve receber somente os artefatos de projeto, reprodução e rastreabilidade, incluindo planos, scripts, legendas, manifestos, relatórios e evidências leves.
+
+A impossibilidade de disponibilizar um binário não autoriza sua publicação em outro serviço sem aprovação explícita.
+
+Quando não houver mecanismo de download disponível, preservar os arquivos enquanto o ambiente permitir e registrar a limitação, sem refazer renderização ou síntese desnecessariamente.
+
 ## Continuidade
 
 Consulte `curadoria/checklist.md` antes de agir. O registro não substitui autorização. A auditoria deve ocorrer por módulo, dentro do escopo solicitado, com resultados apresentados para deliberação humana. Não inicie alterações pedagógicas ou auditorias adicionais fora desse escopo.
