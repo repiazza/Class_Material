@@ -10,7 +10,7 @@
 - Respeite o vocabulário controlado cumulativo. Reutilize o termo estabelecido para o mesmo conceito, por exemplo `ponteiro`, sem criar etiquetas alternativas `pointer` ou `apontador`. Mantenha conceitos distintos separados e não normalize, unifique ou renomeie termos automaticamente.
 - Não infira conteúdo visual ausente das descrições. Distinga conhecimento documentado, verificação física/integridade e inspeção visual; nenhum desses estados implica automaticamente os demais.
 - Os catálogos não substituem os arquivos originais nem comprovam sua correção. Quando a tarefa exigir confirmação visual ou houver dúvida sobre uma descrição, examine o original e os quadros relevantes dos GIFs; informe o que foi efetivamente verificado.
-- Não modifique os catálogos automaticamente. Relate separadamente divergências semânticas, referências quebradas, inconsistências documentais e propostas pedagógicas para avaliação humana, sem alterar materiais para fazê-los corresponder ao catálogo.
+- Não modifique os catálogos silenciosamente. Divergências documentais objetivas seguem `curadoria/protocolo_retroalimentacao.md`: inspeção do original, proposta verificável e, **somente com autorização explícita de implementação**, correção documental delimitada em PR, sem merge automático. Nunca altere materiais originais para fazê-los corresponder ao catálogo.
 
 ### Integridade das referências visuais nos catálogos
 
@@ -19,7 +19,7 @@
 - Diferencie conceitos explicados de elementos efetivamente exibidos. Não afirme a presença de tabelas, expressões, diagramas, destaques ou outros recursos visuais sem confirmação no arquivo original.
 - Para GIFs, documente a sequência de estados ou acontecimentos relevantes à compreensão pedagógica, quando a descrição existente não for suficiente. Não é necessária uma descrição exaustiva de todos os quadros.
 - Priorize descrições concisas, sem repetir informações já registradas. O objetivo é permitir a seleção e a referência às mídias durante a roteirização sem exigir nova inspeção visual.
-- Registre divergências e lacunas para deliberação humana. Não altere os materiais originais nem corrija silenciosamente inconsistências pedagógicas.
+- Registre divergências e lacunas para deliberação humana, aplicando `curadoria/protocolo_retroalimentacao.md` quando couber. Não altere os materiais originais nem corrija silenciosamente inconsistências pedagógicas.
 
 ### Geração autônoma de dossiês editoriais
 
@@ -140,6 +140,16 @@ A criação e a atualização dos mapas espaciais JSON dos capítulos devem segu
 Adote a sequência obrigatória: identificação das unidades visuais completas, proposta inicial abrangente, refinamento redutivo conservador, renderização dos recortes no formato de apresentação e autoauditoria visual dos resultados. Preserve integralmente textos, expressões, títulos, diagramas e relações conceituais; diante de dúvida, prefira margens adicionais a conteúdo truncado. Corrija os recortes a partir dos originais e entregue o JSON com evidências e ressalvas para homologação humana.
 
 O mapa espacial é um acervo inclusivo de regiões com identificadores estáveis. Não determina seleção, ordem, duração nem obrigatoriedade de projeções no vídeo; tais decisões pertencem à montagem e à revisão editorial posteriores. A autoauditoria não substitui a aprovação humana, e a geração do mapa não autoriza alterações nos materiais originais nem publicação automática.
+
+### Retroalimentação e tratamento de inconsistências
+
+A detecção de divergências em catálogos, materiais originais, mapas espaciais ou etapas posteriores deverá seguir `curadoria/protocolo_retroalimentacao.md`. Classifique a ocorrência por sua origem: **divergência documental objetiva**, **defeito pedagógico ou do original**, **ressalva visual prevista** ou **defeito geométrico efetivo**. Encaminhe a correção à camada responsável e preserve os artefatos válidos.
+
+Valorize a autoauditoria espacial: margens de segurança, visões integrais pouco legíveis em 9:16 e fragmentos não impeditivos de painéis vizinhos são resultados aceitáveis quando preservam a integridade visual e conceitual. Não regenere recortes aprovados apenas para obter enquadramentos esteticamente mais justos.
+
+Quando a inspeção do original comprovar divergência **puramente descritiva**, apresente a correção documental mínima e sua evidência. A alteração persistente e a abertura de PR exigem autorização de implementação nos termos de **Deliberação e autorização humana** e **Integração Git**; o merge permanece humano. Ambiguidades pedagógicas e alterações de PNGs/GIFs exigem deliberação específica.
+
+Após correção aprovada e integrada, revalide os derivados afetados; **não regenere automaticamente** mapas, dossiês, roteiros ou vídeos que permaneçam válidos. Mantenha registro e rastreabilidade no `curadoria/checklist.md`.
 
 ## Continuidade
 
