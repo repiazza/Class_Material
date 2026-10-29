@@ -1,0 +1,71 @@
+1
+00:00:00,000 --> 00:00:01,704
+Está chovendo.
+
+2
+00:00:01,954 --> 00:00:06,298
+Será que você consegue sair de casa sem se
+molhar?
+
+3
+00:00:06,548 --> 00:00:11,468
+Vamos descobrir como transformar essa pergunta
+em lógica.
+
+4
+00:00:11,718 --> 00:00:16,614
+Precisamos de duas informações: está chovendo?
+
+5
+00:00:16,864 --> 00:00:19,288
+E você tem guarda-chuva?
+
+6
+00:00:19,538 --> 00:00:22,298
+Chamaremos a chuva de P,
+
+7
+00:00:22,548 --> 00:00:24,828
+o guarda-chuva de Q
+
+8
+00:00:25,078 --> 00:00:27,766
+e a nossa decisão de R.
+
+9
+00:00:28,016 --> 00:00:33,920
+P E Q significa que está chovendo e você tem
+guarda-chuva.
+
+10
+00:00:34,170 --> 00:00:44,178
+Mas essa expressão não resolve tudo: afinal, se
+não estiver chovendo, você também pode sair.
+
+11
+00:00:44,428 --> 00:00:50,716
+A regra correta é: não estar chovendo OU ter
+guarda-chuva.
+
+12
+00:00:50,966 --> 00:00:55,286
+Negamos P e combinamos com Q usando o OU.
+
+13
+00:00:55,536 --> 00:01:00,888
+Assim, basta que uma dessas condições seja
+verdadeira.
+
+14
+00:01:01,138 --> 00:01:10,018
+Só existe uma combinação em que a resposta é
+não: está chovendo e você não tem guarda-chuva.
+
+15
+00:01:10,268 --> 00:01:11,324
+Pronto!
+
+16
+00:01:11,574 --> 00:01:16,974
+Transformamos uma decisão cotidiana em uma
+expressão lógica.
