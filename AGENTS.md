@@ -38,7 +38,7 @@ Na geração de dossiês editoriais, a consulta documental é suficiente para fu
 
 1. Gere oportunidades editoriais independentes, fundamentadas nas fontes consultadas.
 2. Desenvolva os candidatos conforme o protocolo vigente, incluindo narrativas preliminares faláveis e storyboards editoriais.
-3. Não utilize dossiês anteriores como referência para a geração independente, mesmo que estejam disponíveis no repositório.
+3. Não utilize dossiês anteriores como fonte de conteúdo, fundamentação, seleção de candidatos, narrativas ou decisões editoriais. É permitida a consulta ao dossiê piloto exclusivamente como referência de apresentação e organização documental, conforme curadoria/protocolo_roteirizacao.md, sem impor quantidade fixa de candidatos ou reproduzir suas propostas.
 4. Não imponha quantidade fixa de candidatos; priorize relevância pedagógica, variedade e fundamentação.
 5. Não transforme automaticamente candidatos em roteiros definitivos. Todos devem permanecer no estado `PROPOSTO`, aguardando escolha e deliberação humana.
 
