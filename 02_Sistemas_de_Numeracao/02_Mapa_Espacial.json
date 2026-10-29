@@ -1,0 +1,880 @@
+{
+  "schema": "mapa_espacial_capitulo",
+  "versao": "1.0",
+  "capitulo": "02_Sistemas_de_Numeracao",
+  "fonte_semantica": "02_Catalogo_Semantico.docx",
+  "sistema_coordenadas": "[x0,y0,x1,y1] normalizado entre 0 e 1, origem no canto superior esquerdo",
+  "estado": "AUTOAUDITADO_COM_RESSALVAS",
+  "homologacao_humana": "PENDENTE",
+  "materiais": [
+    {
+      "arquivo": "sistemas_representacao_numericas.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "9fe706860787bddb67aa716dd6a2473a8be062fd6f4cc212ab7e0f99070be6e8",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "decimal",
+          "descricao": "Decomposição completa de 572 em base dez",
+          "bbox_normalizada": [
+            0.00152439,
+            0.11676397,
+            0.354420732,
+            0.540450375
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "binario",
+          "descricao": "Decomposição completa de 101 em base dois",
+          "bbox_normalizada": [
+            0.355945122,
+            0.11676397,
+            0.675304878,
+            0.540450375
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "comparacao_bases",
+          "descricao": "Tabelas comparativas e conclusão sobre pesos",
+          "bbox_normalizada": [
+            0.676829268,
+            0.11676397,
+            0.999237805,
+            0.540450375
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "outros_sistemas",
+          "descricao": "Símbolos e bases binária, octal, decimal e hexadecimal",
+          "bbox_normalizada": [
+            0.00152439,
+            0.542118432,
+            0.401676829,
+            0.986655546
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "valor42",
+          "descricao": "Mesmo valor 42 representado em quatro bases",
+          "bbox_normalizada": [
+            0.40320122,
+            0.542118432,
+            0.746189024,
+            0.986655546
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "ideias_principais",
+          "descricao": "Seis afirmações de síntese do princípio posicional",
+          "bbox_normalizada": [
+            0.747713415,
+            0.542118432,
+            0.999237805,
+            0.986655546
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    },
+    {
+      "arquivo": "sistemas_representacao_numerica2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "76c7c04116f6a177a49ed24b59266317aa17231427f0254a6943f20220d70951",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "bases",
+          "descricao": "Tabela de bases, nomes, símbolos e exemplo do valor dez",
+          "bbox_normalizada": [
+            0.00152439,
+            0.114261885,
+            0.338414634,
+            0.463719766
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "notacao_matematica",
+          "descricao": "Equivalências e setas identificadoras das bases",
+          "bbox_normalizada": [
+            0.339939024,
+            0.114261885,
+            0.655487805,
+            0.463719766
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "literais_c",
+          "descricao": "Tabela de literais e ressalvas sobre C23 e octal",
+          "bbox_normalizada": [
+            0.657012195,
+            0.114261885,
+            0.999237805,
+            0.463719766
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "tabela_nibble",
+          "descricao": "Duas metades da tabela de 16 configurações mantidas juntas",
+          "bbox_normalizada": [
+            0.00152439,
+            0.465387823,
+            0.999237805,
+            0.805671393
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "exemplo_pratico",
+          "descricao": "Valor dez nas duas formas de notação",
+          "bbox_normalizada": [
+            0.00152439,
+            0.808173478,
+            0.426067073,
+            0.998331943
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "ideias_principais",
+          "descricao": "Síntese de representação, nibble, literais e hexadecimal",
+          "bbox_normalizada": [
+            0.427591463,
+            0.808173478,
+            0.999237805,
+            0.998331943
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    },
+    {
+      "arquivo": "bit.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "ab5fb6d7ceba128f71677bd8df2c68ffb69eb45ec8a03eb1e32e78d0a79bd424",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "logica_booleana",
+          "descricao": "Dois valores lógicos e sua representação 0/1",
+          "bbox_normalizada": [
+            0.00152439,
+            0.123436197,
+            0.332317073,
+            0.594662219
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "representacao_bit",
+          "descricao": "Diagrama BIT, setas e dois estados",
+          "bbox_normalizada": [
+            0.333079268,
+            0.123436197,
+            0.667682927,
+            0.595496247
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "contextos",
+          "descricao": "Tabela completa de significados contextuais de 0 e 1",
+          "bbox_normalizada": [
+            0.669207317,
+            0.123436197,
+            0.999237805,
+            0.594662219
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "representacao_visual",
+          "descricao": "Duas representações visuais e legendas",
+          "bbox_normalizada": [
+            0.00152439,
+            0.600500417,
+            0.395579268,
+            0.979983319
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Quatro afirmações de síntese sobre bit",
+          "bbox_normalizada": [
+            0.397103659,
+            0.600500417,
+            0.676067073,
+            0.980817348
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "ideia_principal",
+          "descricao": "Dois estados e composição de vários bits",
+          "bbox_normalizada": [
+            0.677591463,
+            0.600500417,
+            0.999237805,
+            0.980817348
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    },
+    {
+      "arquivo": "bit_byte_nibble.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "dfb3571fc2bd9f764b6e95d235e0bfb1b4afd8d0042840acfeac867095344c80",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "bit",
+          "descricao": "Um bit, estados, marcação e 2¹ combinações",
+          "bbox_normalizada": [
+            0.00152439,
+            0.120934112,
+            0.351371951,
+            0.531276063
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "nibble",
+          "descricao": "Quatro bits, agrupamento e 2⁴ combinações",
+          "bbox_normalizada": [
+            0.352896341,
+            0.120934112,
+            0.644054878,
+            0.531276063
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "byte",
+          "descricao": "Oito bits, agrupamento e 2⁸ combinações",
+          "bbox_normalizada": [
+            0.645579268,
+            0.120934112,
+            0.999237805,
+            0.531276063
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "comparacao",
+          "descricao": "Tabela comparativa de bit, nibble e byte com conclusão",
+          "bbox_normalizada": [
+            0.00152439,
+            0.534612177,
+            0.43445122,
+            0.957464554
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "exemplos_nibbles",
+          "descricao": "Tabela de exemplos de quatro bits e valores decimais",
+          "bbox_normalizada": [
+            0.435213415,
+            0.534612177,
+            0.676067073,
+            0.957464554
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "exemplo_byte",
+          "descricao": "Exemplo de oito bits, faixa e usos contextuais",
+          "bbox_normalizada": [
+            0.676829268,
+            0.534612177,
+            0.999237805,
+            0.957464554
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    },
+    {
+      "arquivo": "combinacao_bits.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "d224e36b77030238fe9720e473b5f17391b61578929e9ca215a156237cffbdad",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "um_bit",
+          "descricao": "Fórmula, tabela e conclusão para um bit",
+          "bbox_normalizada": [
+            0.00152439,
+            0.120934112,
+            0.242378049,
+            0.76647206
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "dois_bits",
+          "descricao": "Fórmula, quatro linhas e duplicação das combinações",
+          "bbox_normalizada": [
+            0.243140244,
+            0.120934112,
+            0.461890244,
+            0.76647206
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "tres_bits",
+          "descricao": "Oito configurações, fórmula e conclusão",
+          "bbox_normalizada": [
+            0.462652439,
+            0.120934112,
+            0.704268293,
+            0.76647206
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "padrao_geral",
+          "descricao": "2ⁿ, tabela de larguras e duplicação",
+          "bbox_normalizada": [
+            0.705030488,
+            0.120934112,
+            0.999237805,
+            0.76647206
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "ideia_principal",
+          "descricao": "Síntese horizontal completa sobre contagem de configurações",
+          "bbox_normalizada": [
+            0.00152439,
+            0.769808173,
+            0.999237805,
+            0.987489575
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    },
+    {
+      "arquivo": "contagem_0_a_15.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1400,
+        850
+      ],
+      "sha256": "f7bf63eb9d64c59f7fc51c4d52f39ed8f39363d2e88dc4598935a8f635fd4a75",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "contagem_e_calculo",
+          "descricao": "Pesos, bits, equivalência decimal e cálculo dinâmico juntos",
+          "bbox_normalizada": [
+            0.021428571,
+            0.258823529,
+            0.978571429,
+            0.982352941
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        }
+      ]
+    },
+    {
+      "arquivo": "contagem_0_a_15_hexa.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1400,
+        850
+      ],
+      "sha256": "b67ea1f2ee59e364809a3b048d6ee7be0967936d72d2d0b6b3a71bda17c01872",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "tres_representacoes",
+          "descricao": "Pesos, bits, equivalências e notação C mantidos juntos",
+          "bbox_normalizada": [
+            0.021428571,
+            0.258823529,
+            0.978571429,
+            0.982352941
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        }
+      ]
+    },
+    {
+      "arquivo": "hexadecimal.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "e6eb0763a86ba46f19b527a34991e53ea907829303933f314bb12457deaa72d8",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "problema",
+          "descricao": "Limitação dos dez algarismos decimais diante de 16 configurações",
+          "bbox_normalizada": [
+            0.00152439,
+            0.120934112,
+            0.328506098,
+            0.686405338
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "base16",
+          "descricao": "Os 16 símbolos hexadecimais e justificativa",
+          "bbox_normalizada": [
+            0.330030488,
+            0.120934112,
+            0.644817073,
+            0.613010842
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "correspondencias",
+          "descricao": "Tabela integral de binário, decimal e hexadecimal",
+          "bbox_normalizada": [
+            0.645579268,
+            0.120934112,
+            0.999237805,
+            0.613010842
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "exemplo_nibble",
+          "descricao": "1010, pesos ativos, soma e equivalência com A",
+          "bbox_normalizada": [
+            0.00152439,
+            0.689741451,
+            0.328506098,
+            0.994161802
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "exemplo_byte",
+          "descricao": "Dois nibbles, setas e resultado A6",
+          "bbox_normalizada": [
+            0.330030488,
+            0.615512927,
+            0.675304878,
+            0.994161802
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "ideias_principais",
+          "descricao": "Cinco afirmações de síntese sobre hexadecimal",
+          "bbox_normalizada": [
+            0.676829268,
+            0.615512927,
+            0.999237805,
+            0.994161802
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    },
+    {
+      "arquivo": "msb_lsb.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "9f4616aa2bee21b802af0c8cd05d83fe51dbd3ff733e11b8a81c5872247421a4",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "pendente_conforme_relatorio_autoauditoria"
+        },
+        {
+          "id": "definicao",
+          "descricao": "Título e definição explícita de MSB e LSB",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            0.196289062
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "byte_extremos",
+          "descricao": "Tabela completa de oito posições, pesos, valores e setas dos extremos",
+          "bbox_normalizada": [
+            0.001953125,
+            0.206054688,
+            0.633463542,
+            0.791015625
+          ],
+          "confianca": "pendente_conforme_relatorio_autoauditoria"
+        },
+        {
+          "id": "pratica_paridade",
+          "descricao": "Explicação prática e painel de paridade, preservados conjuntamente",
+          "bbox_normalizada": [
+            0.638020833,
+            0.206054688,
+            0.998046875,
+            0.791015625
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "explicacao_resumo",
+          "descricao": "Justificativa da paridade e síntese com separador",
+          "bbox_normalizada": [
+            0.002604167,
+            0.807617188,
+            0.998046875,
+            0.99609375
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        }
+      ]
+    },
+    {
+      "arquivo": "signed_unsigned.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "7f65264b8a9f231518daa9a816a06eecd63dd1921eebc211457a4ffc84898f76",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "ideia_principal",
+          "descricao": "Interpretação do padrão de bits e referência aos tipos em C",
+          "bbox_normalizada": [
+            0.002604167,
+            0.100585938,
+            0.233723958,
+            0.556640625
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "comparacao_nibble",
+          "descricao": "Mesmo padrão 1010, setas e interpretações 10 e −6",
+          "bbox_normalizada": [
+            0.235677083,
+            0.100585938,
+            0.639322917,
+            0.556640625
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "peso_negativo",
+          "descricao": "Peso −8 e cálculo completo −8+0+2+0=−6",
+          "bbox_normalizada": [
+            0.642578125,
+            0.100585938,
+            0.998046875,
+            0.556640625
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "faixas_nibble",
+          "descricao": "As duas faixas e total de 16 valores",
+          "bbox_normalizada": [
+            0.002604167,
+            0.5625,
+            0.341796875,
+            0.966796875
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "exemplos",
+          "descricao": "Tabela comparativa com transição em 1000",
+          "bbox_normalizada": [
+            0.34375,
+            0.5625,
+            0.626953125,
+            0.966796875
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "linguagem_c",
+          "descricao": "Código, explicações e ressalva do modelo de quatro bits",
+          "bbox_normalizada": [
+            0.62890625,
+            0.5625,
+            0.998046875,
+            0.966796875
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        }
+      ]
+    },
+    {
+      "arquivo": "signed_unsigned.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "3df47c256ea5b23cb022f110b7c32819d8c2e16f81e0d34bfb817a8092ebd0bb",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "pendente_conforme_relatorio_autoauditoria"
+        },
+        {
+          "id": "codigo_contexto",
+          "descricao": "Código e explicação variável do passo, sem separá-los",
+          "bbox_normalizada": [
+            0.02,
+            0.155555556,
+            0.49375,
+            0.955555556
+          ],
+          "confianca": "pendente_conforme_relatorio_autoauditoria"
+        },
+        {
+          "id": "bits_terminal",
+          "descricao": "Comparação dos padrões e saída acumulada no terminal",
+          "bbox_normalizada": [
+            0.50625,
+            0.155555556,
+            0.98125,
+            0.955555556
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        }
+      ]
+    },
+    {
+      "arquivo": "signed_unsigned2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "79a88b703425f64d3b425ebe11f38f148a816b2163951771013b82b29bd2ad93",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo, com título e todos os agrupamentos",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes_com_ressalvas"
+        },
+        {
+          "id": "tabela_completa",
+          "descricao": "16 padrões com valores e chaves laterais de agrupamento",
+          "bbox_normalizada": [
+            0.001302083,
+            0.09765625,
+            0.352864583,
+            0.782226562
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "calculo_signed",
+          "descricao": "Pesos, exemplo 1010 e contraste com unsigned",
+          "bbox_normalizada": [
+            0.354817708,
+            0.09765625,
+            0.716796875,
+            0.595703125
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "faixas_gerais",
+          "descricao": "Fórmulas gerais e tabela de intervalos de 4 e 8 bits",
+          "bbox_normalizada": [
+            0.718098958,
+            0.09765625,
+            0.998697917,
+            0.595703125
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "reta_nibble",
+          "descricao": "Reta numérica e legendas de correspondência dos padrões",
+          "bbox_normalizada": [
+            0.001302083,
+            0.783203125,
+            0.392578125,
+            0.997070312
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "linguagem_c",
+          "descricao": "Código, faixas e observação sobre char",
+          "bbox_normalizada": [
+            0.354817708,
+            0.600585938,
+            0.716796875,
+            0.997070312
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        },
+        {
+          "id": "pontos_importantes",
+          "descricao": "Síntese e conexão explicitada ao operador NOT",
+          "bbox_normalizada": [
+            0.718098958,
+            0.600585938,
+            0.998697917,
+            0.997070312
+          ],
+          "confianca": "inspecao_visual_originais_e_projecoes"
+        }
+      ]
+    }
+  ]
+}
