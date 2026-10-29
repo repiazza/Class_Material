@@ -15,10 +15,10 @@
 ## Relacionamentos conceituais entre capítulos
 
 - Quando a tarefa envolver relações entre conceitos ou materiais de capítulos diferentes, consulte `curadoria/relacionamentos_conceituais.md`, incluindo o laudo e as ressalvas de cada RC.
-- O mapa é uma fonte documental auxiliar de propostas iniciais, não homologadas. Os catálogos e o vocabulário mestre continuam sendo as fontes primárias para conteúdos e conceitos. Resultado documental sustentado não equivale a decisão APROVADA.
+- O mapa é uma fonte documental auxiliar de 26 relações homologadas pedagogicamente por decisão humana: 23 APROVADAS e RC-014, RC-023 e RC-024 APROVADAS COM RESSALVAS, cujos limites de interpretação devem ser respeitados integralmente. Os catálogos e o vocabulário mestre continuam sendo as fontes primárias para conteúdos e conceitos. A homologação pedagógica não modifica a fundamentação documental: 23 relações continuam sustentadas e RC-014, RC-023 e RC-024 continuam plausíveis. Não deduza aprovação pedagógica de uma classificação documental em futuras relações.
 - Preserve os cinco tipos e seus significados, os IDs RC, as direções e as justificativas. A direção não define necessariamente ordem de estudo; etiquetas coincidentes não comprovam dependência pedagógica.
 - Distinga relações sustentadas, plausíveis dependentes de interpretação e insuficientemente fundamentadas. Não infira conteúdo visual que não esteja documentado nas fontes.
-- Nenhuma relação proposta autoriza alterações automáticas em materiais ou substitui deliberações humanas. Não reclassifique, inverta, acrescente, exclua ou homologue relações sem autorização específica; relate divergências para avaliação.
+- A homologação destas relações não autoriza alterações automáticas nos materiais nem a criação de novas relações e não substitui autorizações humanas específicas. Não reclassifique, inverta, acrescente, exclua ou homologue relações sem autorização específica; relate divergências para avaliação.
 
 ## Inspeção e evidências
 
