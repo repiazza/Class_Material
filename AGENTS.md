@@ -12,6 +12,14 @@
 - Os catálogos não substituem os arquivos originais nem comprovam sua correção. Quando a tarefa exigir confirmação visual ou houver dúvida sobre uma descrição, examine o original e os quadros relevantes dos GIFs; informe o que foi efetivamente verificado.
 - Não modifique os catálogos automaticamente. Relate separadamente divergências semânticas, referências quebradas, inconsistências documentais e propostas pedagógicas para avaliação humana, sem alterar materiais para fazê-los corresponder ao catálogo.
 
+## Relacionamentos conceituais entre capítulos
+
+- Quando a tarefa envolver relações entre conceitos ou materiais de capítulos diferentes, consulte `curadoria/relacionamentos_conceituais.md`, incluindo o laudo e as ressalvas de cada RC.
+- O mapa é uma fonte documental auxiliar de propostas iniciais, não homologadas. Os catálogos e o vocabulário mestre continuam sendo as fontes primárias para conteúdos e conceitos. Resultado documental sustentado não equivale a decisão APROVADA.
+- Preserve os cinco tipos e seus significados, os IDs RC, as direções e as justificativas. A direção não define necessariamente ordem de estudo; etiquetas coincidentes não comprovam dependência pedagógica.
+- Distinga relações sustentadas, plausíveis dependentes de interpretação e insuficientemente fundamentadas. Não infira conteúdo visual que não esteja documentado nas fontes.
+- Nenhuma relação proposta autoriza alterações automáticas em materiais ou substitui deliberações humanas. Não reclassifique, inverta, acrescente, exclua ou homologue relações sem autorização específica; relate divergências para avaliação.
+
 ## Inspeção e evidências
 
 - Inspecione o conteúdo real dos materiais. A existência de um arquivo não prova sua correção.
