@@ -351,3 +351,15 @@ As 67 regiões e seus vínculos foram confrontados com as descrições atuais/co
 As quatro pendências anteriormente contadas no relatório espacial são duas ocorrências P em quatro regiões (M02-RF-004 e 005), não quatro defeitos geométricos. O relatório e o campo de confiança do JSON da PR #13 são registros históricos dessa autoauditoria; este checklist fornece a classificação por origem sem apagar evidências ou afirmar que os originais foram corrigidos. As observações V não impedem integração. Recomenda-se que a revisão humana possa aprovar/integrar a entrega espacial independentemente das correções P e da PR documental, mantendo tais limites explícitos. Isso não libera o uso pedagógico de uma célula incorreta ou de texto encoberto nem declara GERADO_OK de produção audiovisual.
 
 Revalidação atual: pré-integração da correção documental, limitada à semântica e integridade. Após aprovação/integração desta PR, conferir que o catálogo publicado contém estes quatro parágrafos e retomar os derivados realmente afetados; não reconstruir mapas/dossiês por padrão. V02-002 e V02-005 permanecem sinalizados para revisão das atribuições documentais, sem edição nesta execução. Não foi identificado roteiro individual existente do capítulo 02 a atualizar.
+
+
+## M01-AV-001 — Dependência espacial ausente no piloto V01-003
+
+- **Ocorrência de revisão:** V01-003-REV-001; preparação da montagem, S01–S05, sem timestamps efetivos de vídeo.
+- **Camada / gravidade:** AV-T — dependência de entrada / BLOQUEANTE no pré-voo; não é defeito D/P/V/G de um artefato existente.
+- **Base / evidência:** main cdb7036; árvore remota/local e histórico local consultados não contêm mapa espacial do capítulo 01. Existe somente 02_Mapa_Espacial.json. Os quatro originais e o roteiro V01-003 estão disponíveis.
+- **Responsável / encaminhamento:** disponibilização da fonte espacial vigente, com revisão verificável; depois a produção resolve os IDs das regiões. Não criar mapa substituto ou alterar originais sem autorização.
+- **Estado da deliberação:** PENDENTE quanto à fonte espacial; execução experimental já autorizada pelo pedido humano, sem homologação editorial implícita.
+- **Autorização / implementação:** preparação, validação documental e publicação autorizadas. Preservados cinco takes literais em plano PENDENTE_REVISAO, manifesto e relatório. Nenhum segmento renderizado; nenhum MP4, WAV ou SRT gerado.
+- **Retomada:** obter o mapa 01 e conferir IDs/hashes antes de renderizar; completar produção, inspeção e acesso ao vídeo sem refazer o roteiro. Não declarar GERADO_OK nesta condição.
+- **Rastreabilidade:** editorial/montagens/01-003_Montagem.json e videos/V01-003/V01-003_Relatorio.md; commit/PR serão informados na entrega. Este registro não presume integração.

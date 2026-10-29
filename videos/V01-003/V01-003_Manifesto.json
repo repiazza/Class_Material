@@ -1,0 +1,159 @@
+{
+  "schema_version": "piloto-1",
+  "video_id": "V01-003",
+  "tipo_entrega": "REFERENCIA",
+  "tipo_entrega_observacao": "Modalidade solicitada, não produzida.",
+  "modalidade_produzida": null,
+  "estado": "PENDENTE_REVISAO",
+  "justificativa": "Mapa espacial do capítulo 01 ausente; pré-voo impede renderização contratual.",
+  "executado_em_utc": "2026-10-29T14:12:38.904455+00:00",
+  "revisao_base": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+  "ferramentas": {
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "encoders_listados": [
+      "libx264",
+      "aac"
+    ],
+    "teste_encode_executado": false
+  },
+  "fontes": {
+    "roteiro": {
+      "caminho": "editorial/roteiros/01-003_Roteiro_Individual.docx",
+      "commit": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+      "sha256": "cbe18856a2a9ffd6c9a52d3e038d1652759bd9cb72ece0769128451efd5286ca",
+      "bytes": 39729
+    },
+    "dossie_origem": {
+      "caminho": "editorial/dossies/01_Dossie_Editorial.docx",
+      "commit": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+      "sha256": "d4a92674107bdc2ae8826852ded093c98ae23bf156beedc8b13b17f452fe6eb4",
+      "bytes": 45546
+    },
+    "mapa": {
+      "caminho_esperado": "01_Logica_e_Raciocinio/01_Mapa_Espacial.json",
+      "disponivel": false,
+      "commit": null,
+      "sha256": null,
+      "regioes_resolvidas": false
+    },
+    "originais": [
+      {
+        "caminho": "01_Logica_e_Raciocinio/problema_condicoes.png",
+        "commit": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+        "sha256": "7c3dd2e4708f8ab95d9646f627677cbe040627503311034f1236abc05a180779",
+        "bytes": 1974990,
+        "dimensoes_px": [
+          1312,
+          1199
+        ],
+        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+      },
+      {
+        "caminho": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
+        "commit": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+        "sha256": "064c2bdd8c209bb55e481ee796a7b9d1a9ddc6619444af8eef7ded7bbda0c425",
+        "bytes": 1942136,
+        "dimensoes_px": [
+          1312,
+          1199
+        ],
+        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+      },
+      {
+        "caminho": "01_Logica_e_Raciocinio/problemas_condicoes3.png",
+        "commit": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+        "sha256": "65dcdbb3c7c5ba3c1d8aa41694db440d6b608e716a7e83814fb2b995cdf55029",
+        "bytes": 2108543,
+        "dimensoes_px": [
+          1312,
+          1199
+        ],
+        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+      },
+      {
+        "caminho": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+        "commit": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+        "sha256": "60c7bd65b1f8b81a7a79ee2112af8cd74704add71dc77570e5656c394fed3ece",
+        "bytes": 2091581,
+        "dimensoes_px": [
+          1312,
+          1199
+        ],
+        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+      }
+    ]
+  },
+  "plano": {
+    "caminho": "editorial/montagens/01-003_Montagem.json",
+    "sha256": "8c0c43806196b154da5a44a3d75206a20bcca9db6649c03905ed083d47b3bc0b",
+    "bytes": 9570
+  },
+  "perfil_previsto": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": 30,
+    "container": "mp4",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec_quando_aplicavel": "aac",
+    "preservar_proporcao": true,
+    "fundo": "neutro"
+  },
+  "perfil_real_saida": null,
+  "duracao_total_ms_estimada": 70000,
+  "duracao_total_ms_medida": null,
+  "segmentos_preparados": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05"
+  ],
+  "segmentos_executados": [],
+  "ocorrencias": [
+    {
+      "id": "V01-003-REV-001",
+      "origem": "pre-condicao de producao: fonte espacial ausente",
+      "gravidade": "BLOQUEANTE",
+      "afeta_segmentos": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "acao": "Localizar/disponibilizar o mapa vigente do capítulo 01 e verificar hashes/IDs antes de selecionar regiões ou renderizar."
+    }
+  ],
+  "artefatos_produzidos": [
+    {
+      "caminho": "editorial/montagens/01-003_Montagem.json",
+      "sha256": "8c0c43806196b154da5a44a3d75206a20bcca9db6649c03905ed083d47b3bc0b",
+      "bytes": 9570
+    },
+    {
+      "caminho": "videos/V01-003/V01-003_Relatorio.md",
+      "sha256": "9f3c5f11735e2e37ddc3da587a784ea6cf0f773765c5339f79751e6cf4f97618",
+      "bytes": 5060
+    }
+  ],
+  "artefatos_nao_produzidos": {
+    "mp4": "fonte espacial obrigatória ausente",
+    "audio": "produção não iniciada; TTS local não localizado",
+    "srt": "não há áudio utilizado para sincronização"
+  },
+  "inspecoes": {
+    "roteiro_integral_incluindo_tabelas": true,
+    "video": false,
+    "audio": false,
+    "srt": false,
+    "projecoes_9_16": false
+  },
+  "entrega_binario": {
+    "acessivel": false,
+    "motivo": "nenhum MP4 produzido",
+    "mecanismos_upload_testados": []
+  },
+  "homologacao_humana": "não declarada"
+}
