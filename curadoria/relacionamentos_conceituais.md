@@ -1,14 +1,16 @@
-# Relacionamentos conceituais do acervo — proposta inicial
+# Relacionamentos conceituais do acervo — homologação pedagógica
 
-**Estado:** proposta para deliberação humana; não homologada como trilha de aprendizagem.  
+**Estado:** 26 relações homologadas pedagogicamente por decisão humana expressa: 23 APROVADAS e três APROVADAS COM RESSALVAS (RC-014, RC-023 e RC-024).
 **Base documental:** 12 catálogos semânticos atualizados, [inventario.csv](../inventario.csv) e [vocabulário controlado](vocabulario_controlado.md), recebidos em 28/10/2026.
 **Escopo:** relações selecionadas entre materiais de capítulos diferentes. Nenhum material original foi modificado.
 
-**Uso operacional:** fonte documental auxiliar de propostas. Os catálogos semânticos e o vocabulário mestre continuam sendo as fontes primárias para os conteúdos e conceitos. A integração deste arquivo não homologa relações nem autoriza alterações nos materiais. Consulte o laudo ao final antes de utilizar uma relação com ressalvas.
+**Decisão humana:** a homologação das 26 relações foi expressamente autorizada nesta etapa. Reconhece sua pertinência pedagógica, preservando a fundamentação documental de 23 relações sustentadas e três plausíveis. Os limites de RC-014, RC-023 e RC-024 são obrigatórios. Os estados individuais constam na visão geral; a decisão não estabelece ordem obrigatória de estudo nem autoriza alterações automáticas nos materiais ou novas relações.
+
+**Uso operacional:** fonte documental auxiliar de relações homologadas pedagogicamente. Os catálogos semânticos e o vocabulário mestre continuam sendo as fontes primárias para os conteúdos e conceitos. A homologação não modifica os resultados do laudo documental nem autoriza alterações nos materiais. Consulte o laudo ao final antes de utilizar uma relação com ressalvas.
 
 ## Finalidade e limites
 
-Este mapa explicita ligações pedagógicas **propostas** entre conceitos já descritos nos catálogos. Ele não determina ordem obrigatória de capítulos, não substitui os registros individuais nem comprova inspeção visual dos PNG/JPEG/GIF. Os nomes dos arquivos são chaves de referência, preservadas literalmente. Relações não listadas não são necessariamente inexistentes: esta é uma seleção inicial, não um grafo exaustivo.
+Este mapa explicita ligações **homologadas pedagogicamente** entre conceitos já descritos nos catálogos. Ele não determina ordem obrigatória de capítulos, não substitui os registros individuais nem comprova inspeção visual dos PNG/JPEG/GIF. Os nomes dos arquivos são chaves de referência, preservadas literalmente. Relações não listadas não são necessariamente inexistentes: esta é uma seleção inicial, não um grafo exaustivo.
 
 **Tipos utilizados:**
 
@@ -22,36 +24,37 @@ Cada relação é identificada por `RC-###`, tem justificativa, arquivos de orig
 
 ## Visão geral
 
-| ID | Origem | Destino | Tipo | Núcleo da relação |
-|---|---|---|---|---|
-| RC-001 | 01 | 10 | aplicação | As proposições e conectivos lógicos apresentados no módulo 01 são empregados como condições em `if`, `else` e expressões lógicas do módulo 10 |
-| RC-002 | 01 | 12 | aprofundamento | Os conectivos e as tabelas-verdade introdutórios são retomados em linguagem algébrica e representação de circuitos |
-| RC-003 | 01 | 03 | contraste | Os materiais permitem comparar conectivos lógicos sobre proposições com operadores aplicados bit a bit a operandos binários |
-| RC-004 | 02 | 03 | pré-requisito conceitual | A leitura de operandos binários e posições de bits sustenta a interpretação de máscaras, deslocamentos e operações bitwise |
-| RC-005 | 02 | 08 | aprofundamento | A representação de valores e o conceito de byte reaparecem na discussão sobre tipos, tamanho de objetos e organização de memória |
-| RC-006 | 02 | 12 | aplicação | Combinações de valores binários são usadas como entradas de tabelas-verdade de funções lógicas e circuitos digitais |
-| RC-007 | 03 | 12 | aplicação | As operações AND, OR e NOT são documentadas tanto na manipulação bitwise em C do capítulo 03 quanto nas funções booleanas e portas descritas em algebra_booleana.png e circuitos_simplificados.png do capítulo 12. |
-| RC-008 | 10 | 04 | aplicação | Estruturas condicionais e validação de entrada sustentam decisões de parsing e tratamento de argumentos de linha de comando |
-| RC-009 | 08 | 04 | aplicação | Strings, arrays e ponteiros ajudam a compreender `argv` e a manipulação textual dos argumentos |
-| RC-010 | 04 | 11 | aprofundamento | A passagem de argumentos e ambiente é retomada no contexto de processos e da família `exec` |
-| RC-011 | 08 | 05 | pré-requisito conceitual | Ponteiros, alocação dinâmica e acesso indireto fundamentam a implementação das estruturas encadeadas descritas no módulo 05 |
-| RC-012 | 05 | 08 | contraste | A navegação em estruturas encadeadas e a indexação em arrays são comparadas nos materiais de memória |
-| RC-013 | 08 | 09 | aplicação | Endereços, ponteiros e estado de memória são objetos de inspeção em sessões de depuração com GDB |
-| RC-014 | 05 | 09 | aplicação | Propõe-se aplicar os recursos de depuração do capítulo 09 à investigação de operações sobre estruturas encadeadas do capítulo 05, como o encadeamento e a liberação de nós. Os destinos descrevem erros de memória e inspeção de ponteiros, não uma sessão de depuração da lista do capítulo 05. |
-| RC-015 | 07 | 09 | contraste | O registro por trace/log é apresentado como forma de observação distinta da depuração interativa |
-| RC-016 | 06 | 07 | aplicação | A persistência entre execuções e o ciclo de gravação/leitura com fopen, fprintf, fscanf e fclose descritos em arquivos1.png e arquivos2.png oferecem base para os registros de execução em arquivo mantido em append propostos no exercício e no gabarito de TRACE do capítulo 07. |
-| RC-017 | 06 | 11 | aprofundamento | Operações de entrada/saída são retomadas no nível de descritores, redirecionamento, buffering e comunicação com o kernel |
-| RC-018 | 04 | 11 | aplicação | Variáveis de ambiente e argumentos reaparecem na criação e execução de processos |
-| RC-019 | 10 | 11 | aplicação | Os textos e códigos de referência do capítulo 11 demonstram a aplicação de laços e decisões ao gerenciamento de processos: os dois gabaritos usam for (;;) e if no menu e na distinção pai/filho; iAguardarFilho usa do/while com waitpid; a versão B usa while e if nas rotinas de leitura/escrita dos pipes. |
-| RC-020 | 11 | 09 | contextualização | A distinção entre programa e processo e a noção de espaço de endereçamento contextualizam o estado observado durante a depuração |
-| RC-021 | 08 | 11 | aprofundamento | As representações de memória do programa são retomadas na anatomia de processos, incluindo heap e stack |
-| RC-022 | 01 | 12 | aprofundamento | Os fundamentos de proposições, valores lógicos, conectivos e tabelas-verdade documentados no capítulo 01 são retomados e aprofundados no capítulo 12 por leis de De Morgan e mapas de Karnaugh para transformar e simplificar expressões booleanas. |
-| RC-023 | 03 | 08 | contextualização | Os exemplos de máscaras e deslocamentos em C do capítulo 03 oferecem um contexto de uso para discutir a representação, os tamanhos e os limites dos tipos documentados em data_types.png e sizeof_C.png do capítulo 08. |
-| RC-024 | 07 | 11 | contextualização | Propõe-se contextualizar a observação de eventos por TRACE do capítulo 07 em relação aos conceitos de fluxos de saída e buffering descritos no capítulo 11, distinguindo o registro de eventos, os destinos das mensagens e o envio de dados após fflush. |
-| RC-025 | 05 | 11 | contraste | O termo pilha aparece em estruturas de dados e na organização da execução de processos; os materiais permitem explicitar a diferença |
-| RC-026 | 09 | 10 | contraste | Os termos `break` e `continue` aparecem como comandos do GDB e como instruções da linguagem C, com semânticas distintas |
+| ID | Origem | Destino | Tipo | Núcleo da relação | Homologação pedagógica |
+|---|---|---|---|---|---|
+| RC-001 | 01 | 10 | aplicação | As proposições e conectivos lógicos apresentados no módulo 01 são empregados como condições em `if`, `else` e expressões lógicas do módulo 10 | APROVADA |
+| RC-002 | 01 | 12 | aprofundamento | Os conectivos e as tabelas-verdade introdutórios são retomados em linguagem algébrica e representação de circuitos | APROVADA |
+| RC-003 | 01 | 03 | contraste | Os materiais permitem comparar conectivos lógicos sobre proposições com operadores aplicados bit a bit a operandos binários | APROVADA |
+| RC-004 | 02 | 03 | pré-requisito conceitual | A leitura de operandos binários e posições de bits sustenta a interpretação de máscaras, deslocamentos e operações bitwise | APROVADA |
+| RC-005 | 02 | 08 | aprofundamento | A representação de valores e o conceito de byte reaparecem na discussão sobre tipos, tamanho de objetos e organização de memória | APROVADA |
+| RC-006 | 02 | 12 | aplicação | Combinações de valores binários são usadas como entradas de tabelas-verdade de funções lógicas e circuitos digitais | APROVADA |
+| RC-007 | 03 | 12 | aplicação | As operações AND, OR e NOT são documentadas tanto na manipulação bitwise em C do capítulo 03 quanto nas funções booleanas e portas descritas em algebra_booleana.png e circuitos_simplificados.png do capítulo 12. | APROVADA |
+| RC-008 | 10 | 04 | aplicação | Estruturas condicionais e validação de entrada sustentam decisões de parsing e tratamento de argumentos de linha de comando | APROVADA |
+| RC-009 | 08 | 04 | aplicação | Strings, arrays e ponteiros ajudam a compreender `argv` e a manipulação textual dos argumentos | APROVADA |
+| RC-010 | 04 | 11 | aprofundamento | A passagem de argumentos e ambiente é retomada no contexto de processos e da família `exec` | APROVADA |
+| RC-011 | 08 | 05 | pré-requisito conceitual | Ponteiros, alocação dinâmica e acesso indireto fundamentam a implementação das estruturas encadeadas descritas no módulo 05 | APROVADA |
+| RC-012 | 05 | 08 | contraste | A navegação em estruturas encadeadas e a indexação em arrays são comparadas nos materiais de memória | APROVADA |
+| RC-013 | 08 | 09 | aplicação | Endereços, ponteiros e estado de memória são objetos de inspeção em sessões de depuração com GDB | APROVADA |
+| RC-014 | 05 | 09 | aplicação | Propõe-se aplicar os recursos de depuração do capítulo 09 à investigação de operações sobre estruturas encadeadas do capítulo 05, como o encadeamento e a liberação de nós. Os destinos descrevem erros de memória e inspeção de ponteiros, não uma sessão de depuração da lista do capítulo 05. | APROVADA COM RESSALVAS |
+| RC-015 | 07 | 09 | contraste | O registro por trace/log é apresentado como forma de observação distinta da depuração interativa | APROVADA |
+| RC-016 | 06 | 07 | aplicação | A persistência entre execuções e o ciclo de gravação/leitura com fopen, fprintf, fscanf e fclose descritos em arquivos1.png e arquivos2.png oferecem base para os registros de execução em arquivo mantido em append propostos no exercício e no gabarito de TRACE do capítulo 07. | APROVADA |
+| RC-017 | 06 | 11 | aprofundamento | Operações de entrada/saída são retomadas no nível de descritores, redirecionamento, buffering e comunicação com o kernel | APROVADA |
+| RC-018 | 04 | 11 | aplicação | Variáveis de ambiente e argumentos reaparecem na criação e execução de processos | APROVADA |
+| RC-019 | 10 | 11 | aplicação | Os textos e códigos de referência do capítulo 11 demonstram a aplicação de laços e decisões ao gerenciamento de processos: os dois gabaritos usam for (;;) e if no menu e na distinção pai/filho; iAguardarFilho usa do/while com waitpid; a versão B usa while e if nas rotinas de leitura/escrita dos pipes. | APROVADA |
+| RC-020 | 11 | 09 | contextualização | A distinção entre programa e processo e a noção de espaço de endereçamento contextualizam o estado observado durante a depuração | APROVADA |
+| RC-021 | 08 | 11 | aprofundamento | As representações de memória do programa são retomadas na anatomia de processos, incluindo heap e stack | APROVADA |
+| RC-022 | 01 | 12 | aprofundamento | Os fundamentos de proposições, valores lógicos, conectivos e tabelas-verdade documentados no capítulo 01 são retomados e aprofundados no capítulo 12 por leis de De Morgan e mapas de Karnaugh para transformar e simplificar expressões booleanas. | APROVADA |
+| RC-023 | 03 | 08 | contextualização | Os exemplos de máscaras e deslocamentos em C do capítulo 03 oferecem um contexto de uso para discutir a representação, os tamanhos e os limites dos tipos documentados em data_types.png e sizeof_C.png do capítulo 08. | APROVADA COM RESSALVAS |
+| RC-024 | 07 | 11 | contextualização | Propõe-se contextualizar a observação de eventos por TRACE do capítulo 07 em relação aos conceitos de fluxos de saída e buffering descritos no capítulo 11, distinguindo o registro de eventos, os destinos das mensagens e o envio de dados após fflush. | APROVADA COM RESSALVAS |
+| RC-025 | 05 | 11 | contraste | O termo pilha aparece em estruturas de dados e na organização da execução de processos; os materiais permitem explicitar a diferença | APROVADA |
+| RC-026 | 09 | 10 | contraste | Os termos `break` e `continue` aparecem como comandos do GDB e como instruções da linguagem C, com semânticas distintas | APROVADA |
 
-## Relações propostas e evidências documentais
+
+## Relações homologadas e evidências documentais
 
 ### RC-001 — 01 → 10 · aplicação
 
@@ -318,12 +321,12 @@ Cada relação é identificada por `RC-###`, tem justificativa, arquivos de orig
 1. **Homônimos `break` e `continue`:** diferenciar comando do GDB e instrução da linguagem C; a relação RC-026 é de contraste, não equivalência.
 2. **`byte`:** distinguir a apresentação de oito bits no módulo 02 da unidade definida por `sizeof` no contexto da linguagem C (módulo 08); não impor generalizações indevidas.
 3. **Pilha e stack:** distinguir estrutura de dados, pilha de execução, call stack e stack trace; não fundir termos só por semelhança.
-4. **Exercícios e gabaritos:** as relações propostas não certificam que exercícios de capítulos distintos possam ser reutilizados uns nos outros sem adaptação.
+4. **Exercícios e gabaritos:** as relações homologadas não certificam que exercícios de capítulos distintos possam ser reutilizados uns nos outros sem adaptação.
 5. **Checklist histórico:** `curadoria/checklist.md` contém deliberações de curadoria anteriores. Este mapa não altera seus estados nem transforma propostas antigas em autorização de execução.
 
 ## Critérios para revisão e manutenção
 
-- A decisão humana poderá marcar cada `RC-###` como **APROVADA**, **REJEITADA** ou **PENDENTE** em processo posterior. Todas permanecem **PENDENTES** nesta versão.
+- Os estados individuais da homologação humana constam na visão geral: **APROVADA**, ou **APROVADA COM RESSALVAS** para RC-014, RC-023 e RC-024. Revisões desses estados dependem de nova deliberação humana explícita.
 - Uma relação aprovada poderá ser usada para sugerir combinações de materiais; isso não implica autorização para editar os originais.
 - Ao atualizar uma relação, confirmar os nomes dos arquivos no inventário e a descrição correspondente nos catálogos; consultar o vocabulário mestre para distinguir etiquetas e homônimos.
 - Não criar novas relações somente porque dois arquivos compartilham uma etiqueta. Exigir uma justificativa conceitual específica.
@@ -331,11 +334,11 @@ Cada relação é identificada por `RC-###`, tem justificativa, arquivos de orig
 
 ## Laudo de conferência documental — integração
 
-Este laudo verifica sustentação documental, não deliberação pedagógica. Todas as RC continuam **PENDENTES**, inclusive as marcadas como sustentadas. A integração inicial preservou tipos, direções, justificativas e limites. A revisão dirigida subsequente, explicitamente autorizada, altera somente RC-007, RC-014, RC-016, RC-019, RC-022, RC-023 e RC-024; as demais 19 propostas e seus resultados anteriores permanecem intactos.
+Este laudo verifica sustentação documental, não deliberação pedagógica. A homologação pedagógica das 26 relações foi decidida separadamente pelo responsável humano, com ressalvas para RC-014, RC-023 e RC-024; os resultados documentais deste laudo permanecem inalterados. A integração inicial preservou tipos, direções, justificativas e limites. A revisão dirigida subsequente, explicitamente autorizada, altera somente RC-007, RC-014, RC-016, RC-019, RC-022, RC-023 e RC-024; as demais 19 propostas e seus resultados anteriores permanecem intactos.
 
 Na conferência inicial, foram verificadas 26 propostas, 111 citações de materiais e 91 arquivos distintos: todos existem, constam do inventário e possuem registro no catálogo do capítulo indicado. A consulta inicial abrangeu os 12 catálogos e os conceitos correspondentes no vocabulário mestre. Nesta revisão, foram consultados somente os registros pertinentes às sete RC e os materiais textuais necessários, incluindo os dois gabaritos C para RC-019, sem repetir a auditoria integral. O mapa atualizado contém 113 citações e 91 materiais distintos; a contagem é estrutural, não uma nova auditoria das 26 propostas. Não houve nova inspeção visual nem execução de programas.
 
-- **Sustentada:** as descrições documentais sustentam a relação e o tipo proposto, sem homologação curricular.
+- **Sustentada:** as descrições documentais sustentam a relação e o tipo proposto; essa classificação é independente da decisão de homologação pedagógica.
 - **Plausível:** a transferência ou o enquadramento pedagógico exige interpretação ou reforço de evidências.
 - **Insuficiente na formulação atual:** parte relevante da justificativa não é sustentada pelos registros citados; isso não demonstra inexistência do conteúdo visual.
 
@@ -354,7 +357,7 @@ Na conferência inicial, foram verificadas 26 propostas, 111 citações de mater
 | RC-011 | Sustentada | Indireção, ponteiros e malloc/free no capítulo 08 fundamentam os nós encadeados e a implementação exigida em `lista1.jpeg`/`exercicio1.md`; `fila.jpeg` oferece a representação da estrutura. |
 | RC-012 | Sustentada | `array_vs_lista_navegacao.gif` documenta explicitamente o contraste entre indexação direta e percurso encadeado, em consonância com os materiais de lista. |
 | RC-013 | Sustentada | Endereços e indireção são documentados no capítulo 08; inspeção de variáveis, ponteiros e memória está descrita em `inspecao_memoria.gif`/`runtime.png`. |
-| RC-014 | Plausível; interpretação pedagógica | A redação explicita a possibilidade de aplicar depuração à manipulação/liberação de nós. As fontes não descrevem exercício integrado nem sessão GDB da lista do capítulo 05; essa transferência pedagógica continua pendente. |
+| RC-014 | Plausível; interpretação pedagógica | A redação explicita a possibilidade de aplicar depuração à manipulação/liberação de nós. As fontes não descrevem exercício integrado nem sessão GDB da lista do capítulo 05; essa limitação documental permanece, apesar da aprovação pedagógica com ressalvas. |
 | RC-015 | Sustentada | `funcao_trace.jpeg` descreve registro de eventos e `output_vs_log_vs_debug.png` compara explicitamente saída, log e depuração interativa. |
 | RC-016 | Sustentada após revisão | Origens substituídas por `arquivos1.png` e `arquivos2.png`: persistência entre execuções e fopen/fprintf/fscanf/fclose. Os destinos descrevem log em append. A base documental foi fortalecida, sem afirmar identidade entre programas. |
 | RC-017 | Sustentada | Persistência/stdio no capítulo 06 e descritores, buffering e chamadas ao kernel no capítulo 11 sustentam a mudança de nível de abstração. |
@@ -362,18 +365,18 @@ Na conferência inicial, foram verificadas 26 propostas, 111 citações de mater
 | RC-019 | Sustentada por evidência textual direta | Origens ajustadas para while/for/if e destinos para o exercício e os dois gabaritos C. A leitura confirma `for (;;)`/`if` nos menus, `do/while` em `iAguardarFilho` e `while`/`if` nas rotinas de pipes da versão B. Sem execução nem certificação dos programas. |
 | RC-020 | Sustentada | Programa/processo e anatomia de memória contextualizam runtime e frames no GDB. A distinção entre call stack, stack trace e pilha de dados é mantida no mestre. |
 | RC-021 | Sustentada | A representação dos dados e alocação dinâmica no capítulo 08 são retomadas no espaço de endereçamento, heap e stack documentados em `anatomia_processo.png`. |
-| RC-022 | Sustentada após revisão | Tipo alterado para aprofundamento: proposições, conectivos e tabelas na origem; leis de De Morgan e Karnaugh nos destinos. Retirada a atribuição de regras de equivalência/simplificação ao capítulo 01. Homologação pedagógica continua pendente. |
+| RC-022 | Sustentada após revisão | Tipo alterado para aprofundamento: proposições, conectivos e tabelas na origem; leis de De Morgan e Karnaugh nos destinos. Retirada a atribuição de regras de equivalência/simplificação ao capítulo 01. Homologação pedagógica registrada na visão geral; fundamentação documental inalterada. |
 | RC-023 | Plausível; contextualização explicitada | Tipo alterado para contextualização, mantida a direção 03→08; `sizeof_C2.png` substituído por `sizeof_C.png` para tratar tamanho de tipos. Os exemplos bitwise são contexto de uso, não demonstração conjunta com sizeof. O enquadramento pedagógico ainda depende de interpretação. |
 | RC-024 | Plausível; enquadramento a avaliar | A redação apresenta associação conceitual entre observação, fluxos e buffering. Não afirma efeito de fflush sobre os logs citados nem demonstração conjunta; mantém tipo/direção e a distinção entre log/stdout/stderr. |
 | RC-025 | Sustentada | Pilha como estrutura LIFO e stack como região de execução aparecem com sentidos distintos nas fontes. O contraste é coerente com as definições do mestre. |
 | RC-026 | Sustentada | `comandos_gdb.png` descreve break/continue do GDB; `break.png`/`continue.png` descrevem as instruções C. O mestre já explicita os dois contextos; não há equivalência ou pré-requisito. |
 
-**Síntese após revisão dirigida:** os 19 resultados anteriores foram preservados. RC-007, RC-016, RC-019 e RC-022 tiveram sua fundamentação fortalecida; RC-014, RC-023 e RC-024 continuam plausíveis com ressalvas. O laudo passa a reunir 23 relações sustentadas e três plausíveis, sem relação ainda insuficientemente fundamentada na formulação revista. Isso não equivale a uma revalidação integral nem a homologação pedagógica: todas as 26 permanecem PENDENTES. RC-010 e RC-018 permanecem relações distintas, sem consolidação; compartilham parte do escopo. RC-002/RC-022 também aproximam os mesmos capítulos, mas têm destinos e propósitos diferentes. Não se demonstrou redundância que justifique exclusão automática. Nenhuma contradição global entre relações foi demonstrada: por exemplo, RC-011 e RC-012 têm direções opostas e tipos distintos, sem impor uma sequência curricular circular.
+**Síntese após revisão dirigida:** os 19 resultados anteriores foram preservados. RC-007, RC-016, RC-019 e RC-022 tiveram sua fundamentação fortalecida; RC-014, RC-023 e RC-024 continuam plausíveis com ressalvas. O laudo passa a reunir 23 relações sustentadas e três plausíveis, sem relação ainda insuficientemente fundamentada na formulação revista. A homologação pedagógica foi autorizada posteriormente por decisão humana expressa, sem revalidação integral ou mudança desses resultados documentais; os estados individuais constam na visão geral. RC-010 e RC-018 permanecem relações distintas, sem consolidação; compartilham parte do escopo. RC-002/RC-022 também aproximam os mesmos capítulos, mas têm destinos e propósitos diferentes. Não se demonstrou redundância que justifique exclusão automática. Nenhuma contradição global entre relações foi demonstrada: por exemplo, RC-011 e RC-012 têm direções opostas e tipos distintos, sem impor uma sequência curricular circular.
 
 **Correções documentais executadas:** o mapa foi transferido de `12_Organizacao_Computadores/relacionamentos_conceituais.md` para `curadoria/relacionamentos_conceituais.md`, destino solicitado. Na integração inicial, os 111 links de materiais já usavam `../capítulo/arquivo` e permanecem corretos no novo local. As referências administrativas foram convertidas em links relativos e a navegação foi acrescentada ao README e às instruções operacionais. Nenhum arquivo material citado precisou ser substituído, renomeado ou removido. O inventário não foi alterado: seus 255 arquivos continuam nos capítulos, enquanto este mapa é governança documental fora desse escopo.
 
-Na revisão dirigida, as referências de RC-016 e RC-019 foram ajustadas às evidências mais diretas, e RC-023 passou a citar sizeof de tipos. Nenhum material físico foi modificado. As ressalvas persistentes de RC-014, RC-023 e RC-024, as sobreposições já registradas e a homologação de todas as propostas dependem de deliberação humana. Não foram alterados os catálogos, o vocabulário mestre ou o checklist histórico.
+Na revisão dirigida, as referências de RC-016 e RC-019 foram ajustadas às evidências mais diretas, e RC-023 passou a citar sizeof de tipos. Nenhum material físico foi modificado. As ressalvas de RC-014, RC-023 e RC-024 permanecem obrigatórias após sua aprovação pedagógica com ressalvas. As sobreposições registradas são preservadas; alterações nas relações continuam dependendo de autorização específica. Não foram alterados os catálogos, o vocabulário mestre ou o checklist histórico.
 
 ## Proveniência
 
-A fundamentação é **documental**: descrições e representações registradas nos catálogos, associadas aos arquivos existentes no inventário. Na integração inicial não houve revisão dos arquivos `.c`. A revisão dirigida posterior incluiu leitura estática de `gabarito1a.c` e `gabarito1b.c` exclusivamente para fundamentar RC-019, sem execução, modificação ou auditoria de correção dos programas. Não houve nova homologação visual dos materiais nem validação pedagógica externa. O documento continua sendo uma proposta para deliberação humana.
+A fundamentação é **documental**: descrições e representações registradas nos catálogos, associadas aos arquivos existentes no inventário. Na integração inicial não houve revisão dos arquivos `.c`. A revisão dirigida posterior incluiu leitura estática de `gabarito1a.c` e `gabarito1b.c` exclusivamente para fundamentar RC-019, sem execução, modificação ou auditoria de correção dos programas. Não houve nova homologação visual dos materiais. A homologação pedagógica aqui registrada decorre da análise e da decisão humana expressamente comunicadas nesta etapa, sem nova investigação ou alteração dos resultados documentais anteriores.
