@@ -133,6 +133,14 @@ A inspeção dos arquivos visuais originais não é obrigatória durante a rotei
 
 Não presumir características não documentadas, não substituir materiais automaticamente e não executar decisões editoriais pendentes de aprovação humana.
 
+### Mapeamento espacial e autoauditoria visual
+
+A criação e a atualização dos mapas espaciais JSON dos capítulos devem seguir `curadoria/protocolo_mapeamento_espacial.md`. Nesta atividade, examine os arquivos visuais originais e confronte as regiões identificadas com o catálogo semântico correspondente; a consulta documental isolada não substitui a inspeção visual.
+
+Adote a sequência obrigatória: identificação das unidades visuais completas, proposta inicial abrangente, refinamento redutivo conservador, renderização dos recortes no formato de apresentação e autoauditoria visual dos resultados. Preserve integralmente textos, expressões, títulos, diagramas e relações conceituais; diante de dúvida, prefira margens adicionais a conteúdo truncado. Corrija os recortes a partir dos originais e entregue o JSON com evidências e ressalvas para homologação humana.
+
+O mapa espacial é um acervo inclusivo de regiões com identificadores estáveis. Não determina seleção, ordem, duração nem obrigatoriedade de projeções no vídeo; tais decisões pertencem à montagem e à revisão editorial posteriores. A autoauditoria não substitui a aprovação humana, e a geração do mapa não autoriza alterações nos materiais originais nem publicação automática.
+
 ## Continuidade
 
 Consulte `curadoria/checklist.md` antes de agir. O registro não substitui autorização. A auditoria deve ocorrer por módulo, dentro do escopo solicitado, com resultados apresentados para deliberação humana. Não inicie alterações pedagógicas ou auditorias adicionais fora desse escopo.
