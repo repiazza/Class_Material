@@ -12,6 +12,45 @@
 - Os catálogos não substituem os arquivos originais nem comprovam sua correção. Quando a tarefa exigir confirmação visual ou houver dúvida sobre uma descrição, examine o original e os quadros relevantes dos GIFs; informe o que foi efetivamente verificado.
 - Não modifique os catálogos automaticamente. Relate separadamente divergências semânticas, referências quebradas, inconsistências documentais e propostas pedagógicas para avaliação humana, sem alterar materiais para fazê-los corresponder ao catálogo.
 
+### Integridade das referências visuais nos catálogos
+
+- Na criação ou revisão dos catálogos semânticos, confronte as descrições com os arquivos originais, verificando a correspondência entre os elementos didáticos mencionados e aqueles efetivamente presentes nas imagens e GIFs.
+- Preserve a estrutura e os campos existentes dos catálogos. Acrescente `Referências visuais verificadas` somente quando necessário para documentar elementos relevantes, sequências de animação ou limitações que possam comprometer a interpretação do material.
+- Diferencie conceitos explicados de elementos efetivamente exibidos. Não afirme a presença de tabelas, expressões, diagramas, destaques ou outros recursos visuais sem confirmação no arquivo original.
+- Para GIFs, documente a sequência de estados ou acontecimentos relevantes à compreensão pedagógica, quando a descrição existente não for suficiente. Não é necessária uma descrição exaustiva de todos os quadros.
+- Priorize descrições concisas, sem repetir informações já registradas. O objetivo é permitir a seleção e a referência às mídias durante a roteirização sem exigir nova inspeção visual.
+- Registre divergências e lacunas para deliberação humana. Não altere os materiais originais nem corrija silenciosamente inconsistências pedagógicas.
+
+### Geração autônoma de dossiês editoriais
+
+Quando solicitado a criar um dossiê editorial para determinado capítulo, execute a geração autonomamente, seguindo `curadoria/protocolo_roteirizacao.md` e as regras deste arquivo.
+
+**Localização das fontes**
+
+1. Identifique o diretório do capítulo pelo prefixo numérico `NN_`.
+2. Consulte `inventario.csv` e o catálogo `NN_Catalogo_Semantico.docx` localizado no diretório correspondente.
+3. Consulte `curadoria/vocabulario_controlado.md` e `curadoria/relacionamentos_conceituais.md` para fundamentar conceitos e identificar oportunidades de conexão entre capítulos.
+4. Quando uma proposta depender de elementos específicos de outro capítulo, consulte também seu catálogo semântico.
+5. Utilize exclusivamente fontes documentais verificadas. Não exija inspeção das imagens e GIFs originais quando o catálogo for suficiente.
+Na geração de dossiês editoriais, a consulta documental é suficiente para fundamentar propostas quando o catálogo contém as referências necessárias. As regras de inspeção visual aplicam-se às auditorias de materiais e às situações de insuficiência ou contradição documental, não constituindo uma etapa obrigatória da geração editorial.
+
+**Elaboração**
+
+1. Gere oportunidades editoriais independentes, fundamentadas nas fontes consultadas.
+2. Desenvolva os candidatos conforme o protocolo vigente, incluindo narrativas preliminares faláveis e storyboards editoriais.
+3. Não utilize dossiês anteriores como referência para a geração independente, mesmo que estejam disponíveis no repositório.
+4. Não imponha quantidade fixa de candidatos; priorize relevância pedagógica, variedade e fundamentação.
+5. Não transforme automaticamente candidatos em roteiros definitivos. Todos devem permanecer no estado `PROPOSTO`, aguardando escolha e deliberação humana.
+
+**Entrega e validação**
+
+1. Gere o documento final em formato DOCX, no caminho `editorial/dossies/NN_Dossie_Editorial.docx`.
+2. Preserve a identificação do capítulo, os IDs dos candidatos, as referências documentais e as decisões pendentes.
+3. Verifique a existência dos arquivos referenciados, a correspondência com o inventário e a sustentação documental das referências visuais.
+4. Verifique se o DOCX pode ser aberto e se contém os campos obrigatórios definidos no protocolo.
+5. Não substitua um dossiê existente sem autorização explícita para sua regeneração.
+6. Apresente o resultado e as limitações encontradas. Quando a execução estiver autorizada, siga o fluxo de commit, push e PR estabelecido neste `AGENTS.md`, sem realizar merge automaticamente.
+
 ## Relacionamentos conceituais entre capítulos
 
 - Quando a tarefa envolver relações entre conceitos ou materiais de capítulos diferentes, consulte `curadoria/relacionamentos_conceituais.md`, incluindo o laudo e as ressalvas de cada RC.
@@ -30,7 +69,7 @@
 
 ## Deliberação e autorização humana
 
-- Registre as propostas em `curadoria/checklist.md`, com identificadores estáveis e estado APROVADA, REJEITADA, PENDENTE ou APROVADA — PRESERVAÇÃO.
+- Registre propostas de alteração dos materiais didáticos e da documentação de curadoria em `curadoria/checklist.md`, com identificadores estáveis e estado APROVADA, REJEITADA, PENDENTE ou APROVADA — PRESERVAÇÃO. Candidatos editoriais pertencem aos respectivos dossiês e seguem os estados definidos em `curadoria/protocolo_roteirizacao.md`.
 - Ausência de manifestação significa PENDENTE. Preserve as justificativas humanas e não interprete rejeição como pedido de alternativa.
 - Aprovação conceitual não autoriza modificação de arquivos. A implementação exige autorização textual explícita, identificando propostas e escopo permitido. Após essa autorização, execute autonomamente as operações técnicas e de publicação necessárias, sem pedir aprovação para cada comando.
 - Não execute propostas pendentes ou rejeitadas nem amplie o escopo autorizado.
@@ -63,6 +102,17 @@ Distinga e registre: (1) proposta aprovada; (2) execução autorizada; (3) alter
 - Solicite nova deliberação somente diante de conteúdo não aprovado, extrapolação do escopo, ambiguidade técnica ou pedagógica relevante, impossibilidade de execução ou validação, risco significativo de perda de conteúdo ou integridade, ou decisão editorial não contemplada.
 - Concentre a supervisão humana nos laudos, decisões sobre propostas, prioridades pedagógicas e revisão dos PRs. Evite verificações redundantes e pedidos de autorização para operações rotineiras.
 
+### Roteirização de materiais educacionais
+
+A criação e a manutenção de dossiês editoriais devem seguir `curadoria/protocolo_roteirizacao.md`.
+
+A identificação e a seleção de materiais devem utilizar prioritariamente `inventario.csv`, os catálogos semânticos dos capítulos e `curadoria/relacionamentos_conceituais.md`.
+
+A inspeção dos arquivos visuais originais não é obrigatória durante a roteirização quando as informações documentais forem suficientes. A validação dos binários e das características técnicas das mídias pertence à etapa de produção audiovisual.
+
+Não presumir características não documentadas, não substituir materiais automaticamente e não executar decisões editoriais pendentes de aprovação humana.
+
 ## Continuidade
 
 Consulte `curadoria/checklist.md` antes de agir. O registro não substitui autorização. A auditoria deve ocorrer por módulo, dentro do escopo solicitado, com resultados apresentados para deliberação humana. Não inicie alterações pedagógicas ou auditorias adicionais fora desse escopo.
+
