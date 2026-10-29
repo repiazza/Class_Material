@@ -16,11 +16,15 @@
     "fundo": "neutro"
   },
   "audio": {
-    "modalidade_solicitada": "referencia_sintetica_pt_BR",
-    "produzido": false,
-    "ferramenta_selecionada": null,
-    "duracao_ms_medida": null,
-    "observacao": "Nenhum sintetizador local localizado nas verificações realizadas; não houve instalação ou teste de serviço remoto. Resolver fonte espacial antes da retomada da produção."
+    "modalidade": "referencia_sintetica_pt_BR",
+    "produzido": true,
+    "ferramenta": "Google Translate TTS, endpoint translate.google.com/translate_tts, client=tw-ob, tl=pt-BR",
+    "versao_servico": "não exposta pelo serviço; WAV preservado com hash para reprodução sem nova síntese",
+    "voz_definitiva_aprovada": false,
+    "duracao_ms_medida": 77224,
+    "divisao": 16,
+    "pausa_tecnica_ms_por_clipe": 250,
+    "texto": "Falas literais; separação em frases e três cláusulas na nomeação P/Q/R, sem troca de palavras."
   },
   "fontes": {
     "roteiro": {
@@ -36,11 +40,13 @@
       "bytes": 45546
     },
     "mapa": {
-      "caminho_esperado": "01_Logica_e_Raciocinio/01_Mapa_Espacial.json",
-      "disponivel": false,
-      "commit": null,
-      "sha256": null,
-      "regioes_resolvidas": false
+      "caminho": "01_Logica_e_Raciocinio/01_Mapa_Espacial.json",
+      "disponivel": true,
+      "commit_integracao_main": "edba16d2d344bbf27139d1e68ef9e56e6c30ad7a",
+      "commit_mapa": "c5711ef6a37b378dc607a4b7d8b25cef1facb015",
+      "sha256": "abc56bc3a40bee936edcbd6f209a6a66313468a2c8fa986b578a90703f855806",
+      "regioes_resolvidas": true,
+      "homologacao": "PR16 aprovada e integrada pelo responsável humano, conforme solicitação de retomada."
     },
     "originais": [
       {
@@ -52,7 +58,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       },
       {
         "caminho": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
@@ -63,7 +69,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       },
       {
         "caminho": "01_Logica_e_Raciocinio/problemas_condicoes3.png",
@@ -74,7 +80,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       },
       {
         "caminho": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
@@ -85,7 +91,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       }
     ]
   },
@@ -97,7 +103,7 @@
     "Estado de entrega: roteiro individual experimental completo, ainda não homologado para gravação ou produção."
   ],
   "duracao_total_ms_estimada": 70000,
-  "duracao_total_ms_medida": null,
+  "duracao_total_ms_medida": 77224,
   "segmentos": [
     {
       "id": "S01",
@@ -106,17 +112,64 @@
       "fala": "Está chovendo. Será que você consegue sair de casa sem se molhar? Vamos descobrir como transformar essa pergunta em lógica.",
       "inicio_ms_estimado": 0,
       "duracao_ms_estimada": 9000,
-      "inicio_ms_medido": null,
-      "duracao_ms_medida": null,
+      "inicio_ms_medido": 0,
+      "duracao_ms_medida": 11718,
       "arquivo": "01_Logica_e_Raciocinio/problema_condicoes.png",
-      "regiao_id": null,
+      "regiao_id": "problema",
       "funcao_visual": "Apresentar a pergunta",
       "justificativa": "Apresentar cenários ilustrados de chuva e guarda-chuva. A pergunta abre o vídeo; não é necessário esgotar a imagem no fim da frase.",
-      "modo_apresentacao": "imagem_estatica_planejada",
+      "modo_apresentacao": "imagens_estaticas_com_cortes_secos",
       "transicao": "corte_seco",
-      "estado": "PENDENTE_REVISAO",
+      "estado": "RENDERIZADO_COM_INSPECAO_PARCIAL",
       "pendencias": [
-        "V01-003-REV-001: resolver ID de região a partir do mapa vigente ausente."
+        "Escuta perceptiva e sincronismo fino aguardam revisão; entrega externa bloqueada por HTTP 401 no upload."
+      ],
+      "projecoes": [
+        {
+          "id": "S01-01",
+          "fala": "Está chovendo.",
+          "inicio_ms": 0,
+          "duracao_audio_ms": 1954,
+          "duracao_fala_ms": 1704,
+          "arquivo": "01_Logica_e_Raciocinio/problema_condicoes.png",
+          "regiao_id": "problema",
+          "bbox_px": [
+            2,
+            131,
+            708,
+            529
+          ]
+        },
+        {
+          "id": "S01-02",
+          "fala": "Será que você consegue sair de casa sem se molhar?",
+          "inicio_ms": 1954,
+          "duracao_audio_ms": 4594,
+          "duracao_fala_ms": 4344,
+          "arquivo": "01_Logica_e_Raciocinio/problema_condicoes.png",
+          "regiao_id": "problema",
+          "bbox_px": [
+            2,
+            131,
+            708,
+            529
+          ]
+        },
+        {
+          "id": "S01-03",
+          "fala": "Vamos descobrir como transformar essa pergunta em lógica.",
+          "inicio_ms": 6548,
+          "duracao_audio_ms": 5170,
+          "duracao_fala_ms": 4920,
+          "arquivo": "01_Logica_e_Raciocinio/problema_condicoes.png",
+          "regiao_id": "problema",
+          "bbox_px": [
+            2,
+            131,
+            708,
+            529
+          ]
+        }
       ]
     },
     {
@@ -126,17 +179,94 @@
       "fala": "Precisamos de duas informações: está chovendo? E você tem guarda-chuva? Chamaremos a chuva de P, o guarda-chuva de Q e a nossa decisão de R.",
       "inicio_ms_estimado": 9000,
       "duracao_ms_estimada": 13000,
-      "inicio_ms_medido": null,
-      "duracao_ms_medida": null,
+      "inicio_ms_medido": 11718,
+      "duracao_ms_medida": 16298,
       "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
-      "regiao_id": null,
+      "regiao_id": "proposicao_p",
       "funcao_visual": "Nomear condições e resultado",
       "justificativa": "Introduzir P e Q como condições e R como resultado. A fala pode começar antes da troca visual, desde que a nomeação coincida com a apresentação das variáveis.",
-      "modo_apresentacao": "imagem_estatica_planejada",
+      "modo_apresentacao": "imagens_estaticas_com_cortes_secos",
       "transicao": "corte_seco",
-      "estado": "PENDENTE_REVISAO",
+      "estado": "RENDERIZADO_COM_INSPECAO_PARCIAL",
       "pendencias": [
-        "V01-003-REV-001: resolver ID de região a partir do mapa vigente ausente."
+        "Escuta perceptiva e sincronismo fino aguardam revisão; entrega externa bloqueada por HTTP 401 no upload."
+      ],
+      "projecoes": [
+        {
+          "id": "S02-01",
+          "fala": "Precisamos de duas informações: está chovendo?",
+          "inicio_ms": 11718,
+          "duracao_audio_ms": 5146,
+          "duracao_fala_ms": 4896,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
+          "regiao_id": "proposicao_p",
+          "bbox_px": [
+            29,
+            415,
+            431,
+            665
+          ]
+        },
+        {
+          "id": "S02-02",
+          "fala": "E você tem guarda-chuva?",
+          "inicio_ms": 16864,
+          "duracao_audio_ms": 2674,
+          "duracao_fala_ms": 2424,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
+          "regiao_id": "proposicao_q",
+          "bbox_px": [
+            455,
+            415,
+            864,
+            665
+          ]
+        },
+        {
+          "id": "S02-03",
+          "fala": "Chamaremos a chuva de P,",
+          "inicio_ms": 19538,
+          "duracao_audio_ms": 3010,
+          "duracao_fala_ms": 2760,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
+          "regiao_id": "proposicao_p",
+          "bbox_px": [
+            29,
+            415,
+            431,
+            665
+          ]
+        },
+        {
+          "id": "S02-04",
+          "fala": "o guarda-chuva de Q",
+          "inicio_ms": 22548,
+          "duracao_audio_ms": 2530,
+          "duracao_fala_ms": 2280,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
+          "regiao_id": "proposicao_q",
+          "bbox_px": [
+            455,
+            415,
+            864,
+            665
+          ]
+        },
+        {
+          "id": "S02-05",
+          "fala": "e a nossa decisão de R.",
+          "inicio_ms": 25078,
+          "duracao_audio_ms": 2938,
+          "duracao_fala_ms": 2688,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
+          "regiao_id": "proposicao_r",
+          "bbox_px": [
+            885,
+            415,
+            1294,
+            665
+          ]
+        }
       ]
     },
     {
@@ -146,17 +276,49 @@
       "fala": "P E Q significa que está chovendo e você tem guarda-chuva. Mas essa expressão não resolve tudo: afinal, se não estiver chovendo, você também pode sair.",
       "inicio_ms_estimado": 22000,
       "duracao_ms_estimada": 14000,
-      "inicio_ms_medido": null,
-      "duracao_ms_medida": null,
+      "inicio_ms_medido": 28016,
+      "duracao_ms_medida": 16412,
       "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes3.png",
-      "regiao_id": null,
+      "regiao_id": "significado_and",
       "funcao_visual": "Distinguir etapa intermediária",
       "justificativa": "Apresentar P ∧ Q como etapa intermediária, nunca como resposta final. O contraste verbal prepara a expressão da cena seguinte.",
-      "modo_apresentacao": "imagem_estatica_planejada",
+      "modo_apresentacao": "imagens_estaticas_com_cortes_secos",
       "transicao": "corte_seco",
-      "estado": "PENDENTE_REVISAO",
+      "estado": "RENDERIZADO_COM_INSPECAO_PARCIAL",
       "pendencias": [
-        "V01-003-REV-001: resolver ID de região a partir do mapa vigente ausente."
+        "Escuta perceptiva e sincronismo fino aguardam revisão; entrega externa bloqueada por HTTP 401 no upload."
+      ],
+      "projecoes": [
+        {
+          "id": "S03-01",
+          "fala": "P E Q significa que está chovendo e você tem guarda-chuva.",
+          "inicio_ms": 28016,
+          "duracao_audio_ms": 6154,
+          "duracao_fala_ms": 5904,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes3.png",
+          "regiao_id": "significado_and",
+          "bbox_px": [
+            730,
+            146,
+            1311,
+            634
+          ]
+        },
+        {
+          "id": "S03-02",
+          "fala": "Mas essa expressão não resolve tudo: afinal, se não estiver chovendo, você também pode sair.",
+          "inicio_ms": 34170,
+          "duracao_audio_ms": 10258,
+          "duracao_fala_ms": 10008,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes3.png",
+          "regiao_id": "conclusao",
+          "bbox_px": [
+            659,
+            902,
+            1311,
+            1195
+          ]
+        }
       ]
     },
     {
@@ -166,17 +328,64 @@
       "fala": "A regra correta é: não estar chovendo OU ter guarda-chuva. Negamos P e combinamos com Q usando o OU. Assim, basta que uma dessas condições seja verdadeira.",
       "inicio_ms_estimado": 36000,
       "duracao_ms_estimada": 19000,
-      "inicio_ms_medido": null,
-      "duracao_ms_medida": null,
+      "inicio_ms_medido": 44428,
+      "duracao_ms_medida": 16710,
       "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
-      "regiao_id": null,
+      "regiao_id": "construcao_expressao",
       "funcao_visual": "Construir a resposta lógica",
       "justificativa": "Usar a tabela documentada com P, Q, ¬P e ¬P ∨ Q. Permitir tempo de observação da expressão enquanto a fala avança.",
-      "modo_apresentacao": "imagem_estatica_planejada",
+      "modo_apresentacao": "imagens_estaticas_com_cortes_secos",
       "transicao": "corte_seco",
-      "estado": "PENDENTE_REVISAO",
+      "estado": "RENDERIZADO_COM_INSPECAO_PARCIAL",
       "pendencias": [
-        "V01-003-REV-001: resolver ID de região a partir do mapa vigente ausente."
+        "Escuta perceptiva e sincronismo fino aguardam revisão; entrega externa bloqueada por HTTP 401 no upload."
+      ],
+      "projecoes": [
+        {
+          "id": "S04-01",
+          "fala": "A regra correta é: não estar chovendo OU ter guarda-chuva.",
+          "inicio_ms": 44428,
+          "duracao_audio_ms": 6538,
+          "duracao_fala_ms": 6288,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+          "regiao_id": "construcao_expressao",
+          "bbox_px": [
+            462,
+            124,
+            887,
+            611
+          ]
+        },
+        {
+          "id": "S04-02",
+          "fala": "Negamos P e combinamos com Q usando o OU.",
+          "inicio_ms": 50966,
+          "duracao_audio_ms": 4570,
+          "duracao_fala_ms": 4320,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+          "regiao_id": "construcao_expressao",
+          "bbox_px": [
+            462,
+            124,
+            887,
+            611
+          ]
+        },
+        {
+          "id": "S04-03",
+          "fala": "Assim, basta que uma dessas condições seja verdadeira.",
+          "inicio_ms": 55536,
+          "duracao_audio_ms": 5602,
+          "duracao_fala_ms": 5352,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+          "regiao_id": "tabela_final",
+          "bbox_px": [
+            2,
+            609,
+            918,
+            877
+          ]
+        }
       ]
     },
     {
@@ -186,21 +395,82 @@
       "fala": "Só existe uma combinação em que a resposta é não: está chovendo e você não tem guarda-chuva. Pronto! Transformamos uma decisão cotidiana em uma expressão lógica.",
       "inicio_ms_estimado": 55000,
       "duracao_ms_estimada": 15000,
-      "inicio_ms_medido": null,
-      "duracao_ms_medida": null,
+      "inicio_ms_medido": 61138,
+      "duracao_ms_medida": 16086,
       "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
-      "regiao_id": null,
+      "regiao_id": "cenario_10",
       "funcao_visual": "Concluir pelo caso negativo",
       "justificativa": "Manter o mesmo material da cena anterior. O foco narrativo passa à combinação chuva sem guarda-chuva; eventual destaque visual fica para definição futura.",
-      "modo_apresentacao": "imagem_estatica_planejada",
+      "modo_apresentacao": "imagens_estaticas_com_cortes_secos",
       "transicao": "corte_seco",
-      "estado": "PENDENTE_REVISAO",
+      "estado": "RENDERIZADO_COM_INSPECAO_PARCIAL",
       "pendencias": [
-        "V01-003-REV-001: resolver ID de região a partir do mapa vigente ausente."
+        "Escuta perceptiva e sincronismo fino aguardam revisão; entrega externa bloqueada por HTTP 401 no upload."
+      ],
+      "projecoes": [
+        {
+          "id": "S05-01",
+          "fala": "Só existe uma combinação em que a resposta é não: está chovendo e você não tem guarda-chuva.",
+          "inicio_ms": 61138,
+          "duracao_audio_ms": 9130,
+          "duracao_fala_ms": 8880,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+          "regiao_id": "cenario_10",
+          "bbox_px": [
+            429,
+            925,
+            634,
+            1175
+          ]
+        },
+        {
+          "id": "S05-02",
+          "fala": "Pronto!",
+          "inicio_ms": 70268,
+          "duracao_audio_ms": 1306,
+          "duracao_fala_ms": 1056,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+          "regiao_id": "conclusao",
+          "bbox_px": [
+            843,
+            876,
+            1311,
+            1194
+          ]
+        },
+        {
+          "id": "S05-03",
+          "fala": "Transformamos uma decisão cotidiana em uma expressão lógica.",
+          "inicio_ms": 71574,
+          "duracao_audio_ms": 5650,
+          "duracao_fala_ms": 5400,
+          "arquivo": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
+          "regiao_id": "conclusao",
+          "bbox_px": [
+            843,
+            876,
+            1311,
+            1194
+          ]
+        }
       ]
     }
   ],
   "pendencias": [
+    {
+      "id": "V01-003-REV-003",
+      "gravidade": "BLOQUEANTE",
+      "acao": "Disponibilizar MP4 por canal com upload autenticado; duas tentativas GitHub falharam com HTTP 401."
+    },
+    {
+      "id": "V01-003-REV-004",
+      "gravidade": "BLOQUEANTE_PARA_VALIDACAO_INTEGRAL",
+      "acao": "Realizar escuta perceptiva da referência e conferir pronúncia, ritmo e sincronismo fino do SRT; não executado nesta interface."
+    }
+  ],
+  "renderizavel": true,
+  "duracao_video_ms_medida": 77224,
+  "historico_pendencias": [
     {
       "id": "V01-003-REV-001",
       "origem": "pre-condicao de producao: fonte espacial ausente",
@@ -212,8 +482,8 @@
         "S04",
         "S05"
       ],
-      "acao": "Localizar/disponibilizar o mapa vigente do capítulo 01 e verificar hashes/IDs antes de selecionar regiões ou renderizar."
+      "acao": "Localizar/disponibilizar o mapa vigente do capítulo 01 e verificar hashes/IDs antes de selecionar regiões ou renderizar.",
+      "estado": "RESOLVIDA_PELA_PR16_INTEGRADA"
     }
-  ],
-  "renderizavel": false
+  ]
 }

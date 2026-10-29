@@ -1,39 +1,68 @@
-# Piloto V01-003 — pré-voo e preparação preservada
+# Produção audiovisual piloto V01-003 — retomada da PR #15
 
-**Estado: PENDENTE_REVISAO. Nenhum vídeo foi renderizado.** Modalidade solicitada: REFERENCIA; modalidade produzida: nenhuma. Esta entrega não é PREVIA_SEM_AUDIO nem GERADO_OK.
+**Resultado: PENDENTE_REVISAO. Modalidade produzida: REFERENCIA.** MP4, voz sintética real e SRT foram gerados. A produção não está entregue externamente: uploads recusados com HTTP 401; escuta perceptiva e sincronismo fino permanecem não verificados. Não é uma prévia silenciosa nem homologação humana.
 
-## Resultado concreto
+## Fontes e continuidade
 
-O roteiro individual foi lido integralmente, incluindo suas duas tabelas e cinco takes. Preparou-se `editorial/montagens/01-003_Montagem.json`, com cinco falas literais, ordem original, referências visuais e janelas estimadas totalizando 70 segundos. A concatenação das falas coincide exatamente com o texto corrido de ensaio. O dossiê 01 foi consultado somente no candidato de origem V01-003 para rastreabilidade; não serviu para regenerar a narrativa.
+Preservado o commit inicial 05f67b2. A branch audiovisual/piloto-v01-003 recebeu origin/main edba16d por merge 1be0466, sem rebase, force-push ou reescrita. Mapa 01 efetivamente usado: commit c5711ef6a37b378dc607a4b7d8b25cef1facb015, integrado pela PR #16. SHA-256 do mapa: `abc56bc3a40bee936edcbd6f209a6a66313468a2c8fa986b578a90703f855806`. Roteiro individual 1.0 PROPOSTO, dossiê de origem, mapa e originais mantidos byte a byte; autorização expressa da retomada permite o piloto experimental. O roteiro continua sendo a autoridade das falas; o dossiê não foi usado para regenerá-las.
 
-Não foram inventados IDs, coordenadas, duração medida, voz ou sincronismo. Os campos `regiao_id` são nulos e `renderizavel` é falso. O roteiro mantém seu estado documental PROPOSTO; a solicitação humana autoriza este piloto experimental, sem homologação editorial implícita.
+Foram reutilizados os cinco takes S01–S05 e suas falas literais. Os 70 segundos iniciais permanecem no plano como estimativa histórica; a duração final medida é **77,224 segundos**. Não se acelerou a voz para caber em 70 segundos. Não se regenerou o mapa ou se reabriu auditoria geral.
 
-## Impedimento demonstrado — V01-003-REV-001
+## Montagem executada
 
-Falta o mapa espacial vigente do capítulo 01. Em main cdb7036, o único `NN_Mapa_Espacial.json` é o do capítulo 02. A consulta da árvore remota após fetch confirmou o mesmo resultado; a pesquisa no histórico local para mapa do capítulo 01 não retornou registro. A busca por arquivos de mapas em /workspace e /tmp também não o localizou; um diretório interno do daemon em /tmp não permitiu leitura, limitação sem efeito sobre a constatação da árvore Git. Não se presume ausência em sistemas externos não acessados.
+| Take | Intervalo medido (s) | Material e regiões homologadas |
+|---|---|---|
+| S01 / Take 01 | 0.000–11.718 | problema_condicoes.png: `problema` |
+| S02 / Take 02 | 11.718–28.016 | problemas_condicoes2.png: `proposicao_p`, `proposicao_q`, `proposicao_r` |
+| S03 / Take 03 | 28.016–44.428 | problemas_condicoes3.png: `significado_and`, `conclusao` |
+| S04 / Take 04 | 44.428–61.138 | problemas_condicoes5.png: `construcao_expressao`, `tabela_final` |
+| S05 / Take 05 | 61.138–77.224 | problemas_condicoes5.png: `cenario_10`, `conclusao` |
 
-Camada: dependência de entrada da produção (AV-T, bloqueante no pré-voo), não defeito D/P/V/G de fonte existente. Afeta S01–S05: sem mapa não há como selecionar/verificar IDs e coordenadas. Registro de deliberação: M01-AV-001 no checklist. Não se criou mapa substituto, nem se reutilizou o mapa 02 ou coordenadas temporárias antigas.
+O plano registra 16 projeções/trechos de voz dentro desses cinco takes. Todos são PNGs estáticos, com cortes secos e fundo neutro; nenhum GIF ou movimento foi presumido. As regiões são resolvidas por IDs reais; as caixas não mudam. Pequenas margens e fragmentos previstos do mapa foram preservados. A condição simplificada chuva/guarda-chuva continua sendo limite pedagógico do roteiro, não garantia física. O r da conjunção intermediária não é a decisão final: o aviso de conclusão da imagem 3 foi preservado ao fazer esse contraste.
 
-Os §§2 e 6 do contrato_entrega_video.md e o §2 do protocolo_montagem_audiovisual.md exigem mapa compatível e IDs reais antes da renderização. A prévia sem áudio permitida pelo pedido resolve ausência de voz, mas não esta dependência espacial. Inventar um recorte integral ou novo ID não satisfaria esse contrato.
+## Voz e SRT reais
 
-## Fontes e ferramentas verificadas
+FFmpeg/ffprobe 7.1.5, Python e Pillow disponíveis. Embora não houvesse sintetizador instalado, o endpoint Google Translate TTS foi testado com sucesso: `client=tw-ob`, `tl=pt-BR`, respostas HTTP 200 com áudio MPEG. Não houve instalação, contratação ou troca de palavras; textos foram enviados ao serviço externo autorizado para síntese de referência. O serviço não expõe versão/identificador estável de voz: preservou-se o WAV resultante com hash, para que reproduzir o vídeo não dependa de nova síntese.
 
-Base: main cdb7036. AGENTS.md e os protocolos vigentes de montagem, entrega, revisão audiovisual, retroalimentação e mapeamento espacial; checklist consultado. As fontes existentes têm hashes no manifesto/plano. Os quatro PNGs indicados pelo roteiro existem e abrem tecnicamente. Não se realizou nova auditoria pedagógica ou inspeção visual das imagens: a compatibilidade espacial permanece não demonstrada.
+Cada frase/cláusula foi sintetizada, decodificada para PCM mono 48 kHz e medida; foram inseridos 250 ms de pausa técnica ao final de cada bloco. O SRT tem 16 entradas UTF-8, obtidas dos intervalos reais dos blocos e com quebra de linha textual, sem sobreposição. Não se trata de alinhamento palavra a palavra, nem SRT de futura gravação humana. A sincronização por blocos não comprova pronúncia ou sincronismo perceptivo fino. Legendas externas, sem queima no MP4.
 
-FFmpeg e ffprobe 7.1.5-0+deb13u1 disponíveis; encoders libx264 e AAC listados. Python, python-docx e Pillow disponíveis para leitura e pré-voo. Não se executou teste de encode ou renderização, pois a entrada obrigatória está ausente.
+## Inspeção, correção dirigida e limites
 
-Não foram localizados comandos espeak, espeak-ng, piper, say ou festival, nem módulos edge_tts, gtts, pyttsx3, piper, TTS, soundfile ou moviepy. Isso documenta a busca local, não prova impossibilidade de instalar ou obter um serviço. Não se adicionaram dependências, pois não resolveriam o bloqueio espacial. A descoberta das ferramentas habilitadas não retornou mecanismo de síntese de voz ou upload de arquivos.
+- MP4 1080×1920, H.264/yuv420p, 30 fps; AAC mono 48 kHz. Duração ffprobe: 77,224 s. Decodificação completa de áudio/vídeo concluída sem erros.
+- Os 16 trechos têm sinal de voz não silencioso, sem amostras PCM saturadas. Áudio AAC extraído do MP4 correlaciona com o WAV PCM em 0,999911, evidência de integridade da codificação, não de qualidade linguística.
+- Foram extraídos e visualmente inspecionados 16 quadros representativos dos trechos, cobrindo todos os takes. Comparação numérica com as projeções de origem e em ambos os lados dos 15 limites (30 verificações, ±100 ms) confirmou as imagens esperadas; nenhuma troca indevida, corte ou distorção foi identificada. Quantização do tempo da imagem decorre da taxa de quadros; o plano preserva tempos medidos do áudio.
+- **V01-003-REV-002 / AV-M, corrigida:** a primeira exportação mostrava o painel conjunto P/Q/R pequeno durante a nomeação. Só esse trecho foi dividido em três cláusulas literais e recebeu os cartões individuais homologados; demais áudios foram reutilizados. SRT e cronologia posteriores foram atualizados, a saída completa foi novamente decodificada e os quadros/fronteiras reinspecionados.
+- **V01-003-REV-004, pendente:** não houve escuta perceptiva nem reprodução audiovisual humana contínua nesta interface. Quadros estáticos e métricas não demonstram pronúncia, cadência ou sincronismo percebido. Conferir especialmente P/E/Q, OU e os pontos de troca visual. Não se afirma ter assistido ou ouvido integralmente o resultado.
 
-## Artefatos e acesso
+Evidências: [antes da correção do take 02](evidencias/take02-antes.jpg); [métricas](evidencias/validacao.json). Painéis extraídos do MP4 final:
 
-Produzidos: plano JSON incompleto de preparação, manifesto de pré-voo e este relatório; registro no checklist. Nenhum MP4, WAV, SRT, captura de vídeo ou binário fictício foi criado. Não há tamanho/hash de MP4 a informar.
+- [Inspeção final 01](evidencias/inspecao-final-01.jpg)
+- [Inspeção final 02](evidencias/inspecao-final-02.jpg)
+- [Inspeção final 03](evidencias/inspecao-final-03.jpg)
+- [Inspeção final 04](evidencias/inspecao-final-04.jpg)
+- [Inspeção final 05](evidencias/inspecao-final-05.jpg)
+- [Inspeção final 06](evidencias/inspecao-final-06.jpg)
 
-Não houve tentativa de upload de vídeo, pois não existe MP4 para transmitir. Não se testaram destinos externos nem se publicou em plataforma audiovisual. Não se declara impedimento de entrega externa testado: a execução foi bloqueada antes dessa etapa. A entrega do vídeo acessível permanece não realizada.
+## Artefatos preservados e acesso
 
-## Validação e retomada
+**O MP4 ainda não é acessível externamente.** Os caminhos abaixo identificam arquivos reais do ambiente; não são links de entrega ao usuário.
 
-Verificados cinco takes, falas literais, ordem, quatro referências físicas, hashes e estimativas contíguas sem sobreposição, total de 70 segundos. Verificados JSONs e integridade/reabertura do roteiro. Não executados: inspeção de recortes, áudio, sincronismo SRT, MP4, transições e reprodução temporal; zero segmentos renderizados/revisados audiovisualmente.
+| Artefato | Caminho local preservado | Bytes | SHA-256 |
+|---|---|---|
+| V01-003.mp4 | `/workspace/artifacts/V01-003/V01-003.mp4` | 3884176 | `f464acd110d627f8d7e71f5a3d8cfeb6cb95500e447f9030833d35e6eebd9378` |
+| V01-003_Audio_Referencia.wav | `/workspace/artifacts/V01-003/V01-003_Audio_Referencia.wav` | 7413548 | `1a215ae1505a3bdbc5d84668ca8d5d2d7fe94fe1314b695cedd5b3f542ba1d8b` |
+| V01-003.srt | `/workspace/artifacts/V01-003/V01-003.srt` | 1300 | `0aa83917f1fc2cab411f22ea1e8d0e2d9b493ff1c712c1b0fbb3f68937e32c83` |
 
-Retomada delimitada: disponibilizar a revisão identificável do mapa 01; validar regiões e hashes contra os quatro PNGs; completar os cinco vínculos, resolver a ferramenta de voz ou usar a prévia sem áudio autorizada, produzir e medir os artefatos, revisar segmentos/transições e disponibilizar o MP4 por mecanismo efetivamente acessível. Não reescrever roteiro, criar protocolos ou repetir auditorias gerais.
+**V01-003-REV-003 / entrega bloqueada:** foram realmente testados criação e upload em release em rascunho do próprio GitHub, sem publicação. Metadados da release 428215524 foram criados, mas `gh release upload` retornou HTTP 401 Bad credentials em uploads.github.com; POST direto autenticado ao endpoint oficial também retornou HTTP 401. A consulta confirmou zero anexos. O rascunho vazio foi removido, sem criar tag publicada ou release pública. As credenciais disponíveis permitiram operações do repositório, mas não o upload nesse host. Nenhum segredo foi registrado.
 
-O plano, manifesto e relatório são propostos em PR de preparação pendente, não de vídeo concluído. Hashes e link de publicação serão informados na conversa e na PR; não se presume publicação ou integração pelo conteúdo deste relatório. Nenhum merge é autorizado.
+A descoberta das ferramentas conectadas não encontrou upload de arquivos ou serviço de hospedagem de artefatos; download_file serve somente para entrada. Não foram usados serviços públicos aleatórios, links locais como se fossem acessíveis, nem MP4/WAV no Git. Para concluir, é necessário um canal de entrega suportado com autorização de upload funcional. Não se considera a distribuição concluída. Os binários ficam fora do repositório e sua persistência depende da retenção do workspace.
+
+Versionados: plano atualizado, SRT da referência, manifesto, relatório, script de renderização e evidências pequenas. O script [renderizar.py](renderizar.py) recebe o WAV preservado e reconstitui o MP4 com hashes de entrada verificados; não instala ferramentas ou sintetiza outra voz. Comando: `python videos/V01-003/renderizar.py --audio /workspace/artifacts/V01-003/V01-003_Audio_Referencia.wav --saida /tmp/V01-003.mp4`. A disponibilidade externa do WAV tem o mesmo bloqueio do MP4.
+
+## Validações e encerramento
+
+Falas e IDs dos cinco takes preservados, soma dos intervalos medidos 77.224 ms, cobertura contínua; IDs de região e hashes resolvidos no mapa integrado; SRT cronológico, sem sobreposição, texto recomposto igual às falas, dentro do tempo do MP4; hashes dos artefatos calculados. Não se modificaram originais, mapa, catálogo, roteiro ou dossiê.
+
+A ocorrência espacial V01-003-REV-001 está resolvida pela integração da PR #16. A execução continua sendo da PR #15, com o histórico anterior preservado. Correção técnica própria concluída; acesso ao vídeo e revisão auditiva permanecem pendentes. Não há GERADO_OK, nova PR para o piloto, merge automático ou publicação em plataforma audiovisual.
+
+Teste de reprodução: o script versionado gerou um segundo MP4 com SHA-256 idêntico ao original (`f464acd110d627f8d7e71f5a3d8cfeb6cb95500e447f9030833d35e6eebd9378`), confirmando reprodução byte a byte neste ambiente.

@@ -2,21 +2,11 @@
   "schema_version": "piloto-1",
   "video_id": "V01-003",
   "tipo_entrega": "REFERENCIA",
-  "tipo_entrega_observacao": "Modalidade solicitada, não produzida.",
-  "modalidade_produzida": null,
+  "modalidade_produzida": "REFERENCIA",
   "estado": "PENDENTE_REVISAO",
-  "justificativa": "Mapa espacial do capítulo 01 ausente; pré-voo impede renderização contratual.",
-  "executado_em_utc": "2026-10-29T14:12:38.904455+00:00",
-  "revisao_base": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
-  "ferramentas": {
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
-    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
-    "encoders_listados": [
-      "libx264",
-      "aac"
-    ],
-    "teste_encode_executado": false
-  },
+  "justificativa": "MP4/voz/SRT produzidos e verificações técnicas aprovadas; upload externo bloqueado por HTTP 401 e escuta perceptiva/sincronismo fino não executados.",
+  "executado_em_utc": "2026-10-29T18:00:25.221541+00:00",
+  "revisao_fontes": "1be04666ce6ed242e02a2e739d9f21cf7e5d58c0",
   "fontes": {
     "roteiro": {
       "caminho": "editorial/roteiros/01-003_Roteiro_Individual.docx",
@@ -31,11 +21,13 @@
       "bytes": 45546
     },
     "mapa": {
-      "caminho_esperado": "01_Logica_e_Raciocinio/01_Mapa_Espacial.json",
-      "disponivel": false,
-      "commit": null,
-      "sha256": null,
-      "regioes_resolvidas": false
+      "caminho": "01_Logica_e_Raciocinio/01_Mapa_Espacial.json",
+      "disponivel": true,
+      "commit_integracao_main": "edba16d2d344bbf27139d1e68ef9e56e6c30ad7a",
+      "commit_mapa": "c5711ef6a37b378dc607a4b7d8b25cef1facb015",
+      "sha256": "abc56bc3a40bee936edcbd6f209a6a66313468a2c8fa986b578a90703f855806",
+      "regioes_resolvidas": true,
+      "homologacao": "PR16 aprovada e integrada pelo responsável humano, conforme solicitação de retomada."
     },
     "originais": [
       {
@@ -47,7 +39,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       },
       {
         "caminho": "01_Logica_e_Raciocinio/problemas_condicoes2.png",
@@ -58,7 +50,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       },
       {
         "caminho": "01_Logica_e_Raciocinio/problemas_condicoes3.png",
@@ -69,7 +61,7 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       },
       {
         "caminho": "01_Logica_e_Raciocinio/problemas_condicoes5.png",
@@ -80,80 +72,189 @@
           1312,
           1199
         ],
-        "verificacao": "existencia, SHA-256 e abertura tecnica; sem inspeção visual ou validação de enquadramento nesta execução"
+        "verificacao": "SHA-256 igual ao mapa homologado; projeções verificadas e quadros do MP4 inspecionados."
       }
     ]
   },
   "plano": {
     "caminho": "editorial/montagens/01-003_Montagem.json",
-    "sha256": "8c0c43806196b154da5a44a3d75206a20bcca9db6649c03905ed083d47b3bc0b",
-    "bytes": 9570
+    "sha256": "ac09db1698e9fa77bc97b30758659fc62011a29353c812d67956de964ebc7fbe"
   },
-  "perfil_previsto": {
+  "ferramentas": {
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "python": "Python 3.12.14",
+    "tts": "Google Translate TTS, endpoint translate.google.com/translate_tts, client=tw-ob, tl=pt-BR",
+    "tts_servico_versao": null
+  },
+  "perfil_real_saida": {
     "largura": 1080,
     "altura": 1920,
-    "fps": 30,
-    "container": "mp4",
+    "fps": "30/1",
     "video_codec": "h264",
     "pixel_format": "yuv420p",
-    "audio_codec_quando_aplicavel": "aac",
-    "preservar_proporcao": true,
-    "fundo": "neutro"
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "audio_canais": 1,
+    "audio_bitrate_solicitado": 128000,
+    "duracao_s": 77.224,
+    "encoder": "libx264",
+    "preset": "fast",
+    "tune": "stillimage",
+    "crf": 20,
+    "movflags": "+faststart"
   },
-  "perfil_real_saida": null,
-  "duracao_total_ms_estimada": 70000,
-  "duracao_total_ms_medida": null,
-  "segmentos_preparados": [
-    "S01",
-    "S02",
-    "S03",
-    "S04",
-    "S05"
+  "segmentos_executados": [
+    {
+      "id": "S01",
+      "inicio_ms": 0,
+      "duracao_ms": 11718,
+      "regioes": [
+        "problema",
+        "problema",
+        "problema"
+      ]
+    },
+    {
+      "id": "S02",
+      "inicio_ms": 11718,
+      "duracao_ms": 16298,
+      "regioes": [
+        "proposicao_p",
+        "proposicao_q",
+        "proposicao_p",
+        "proposicao_q",
+        "proposicao_r"
+      ]
+    },
+    {
+      "id": "S03",
+      "inicio_ms": 28016,
+      "duracao_ms": 16412,
+      "regioes": [
+        "significado_and",
+        "conclusao"
+      ]
+    },
+    {
+      "id": "S04",
+      "inicio_ms": 44428,
+      "duracao_ms": 16710,
+      "regioes": [
+        "construcao_expressao",
+        "construcao_expressao",
+        "tabela_final"
+      ]
+    },
+    {
+      "id": "S05",
+      "inicio_ms": 61138,
+      "duracao_ms": 16086,
+      "regioes": [
+        "cenario_10",
+        "conclusao",
+        "conclusao"
+      ]
+    }
   ],
-  "segmentos_executados": [],
+  "audio": {
+    "modalidade": "referencia_sintetica_pt_BR",
+    "produzido": true,
+    "ferramenta": "Google Translate TTS, endpoint translate.google.com/translate_tts, client=tw-ob, tl=pt-BR",
+    "versao_servico": "não exposta pelo serviço; WAV preservado com hash para reprodução sem nova síntese",
+    "voz_definitiva_aprovada": false,
+    "duracao_ms_medida": 77224,
+    "divisao": 16,
+    "pausa_tecnica_ms_por_clipe": 250,
+    "texto": "Falas literais; separação em frases e três cláusulas na nomeação P/Q/R, sem troca de palavras."
+  },
+  "legendas": {
+    "arquivo": "videos/V01-003/V01-003.srt",
+    "estado": "SINCRONIZADO_A_REFERENCIA_POR_BLOCOS_ESCUTA_PENDENTE",
+    "metodo": "Início e duração medidos dos 16 trechos realmente sintetizados; SRT acompanha o áudio sem aceleração, excluindo 250ms de pausa técnica por bloco. Não é alinhamento palavra a palavra nem legenda de voz humana definitiva."
+  },
+  "artefatos": [
+    {
+      "nome": "V01-003.mp4",
+      "caminho_local_preservado": "/workspace/artifacts/V01-003/V01-003.mp4",
+      "bytes": 3884176,
+      "sha256": "f464acd110d627f8d7e71f5a3d8cfeb6cb95500e447f9030833d35e6eebd9378",
+      "url_acessivel": null
+    },
+    {
+      "nome": "V01-003_Audio_Referencia.wav",
+      "caminho_local_preservado": "/workspace/artifacts/V01-003/V01-003_Audio_Referencia.wav",
+      "bytes": 7413548,
+      "sha256": "1a215ae1505a3bdbc5d84668ca8d5d2d7fe94fe1314b695cedd5b3f542ba1d8b",
+      "url_acessivel": null
+    },
+    {
+      "nome": "V01-003.srt",
+      "caminho_local_preservado": "/workspace/artifacts/V01-003/V01-003.srt",
+      "bytes": 1300,
+      "sha256": "0aa83917f1fc2cab411f22ea1e8d0e2d9b493ff1c712c1b0fbb3f68937e32c83",
+      "url_acessivel": null
+    },
+    {
+      "nome": "renderizar.py",
+      "caminho_versionado": "videos/V01-003/renderizar.py",
+      "bytes": 3633,
+      "sha256": "518d8658ff6da19847f9a89ae3f8e63ccdfc985ac14d918f9631048b762955d5"
+    },
+    {
+      "nome": "V01-003.srt",
+      "caminho_versionado": "videos/V01-003/V01-003.srt",
+      "bytes": 1300,
+      "sha256": "0aa83917f1fc2cab411f22ea1e8d0e2d9b493ff1c712c1b0fbb3f68937e32c83"
+    }
+  ],
+  "validacao": {
+    "dados": "videos/V01-003/evidencias/validacao.json",
+    "decode_completo": true,
+    "quadros_inspecionados": 16,
+    "fronteiras_comparadas": 30,
+    "audio_com_sinal": true,
+    "escuta_perceptiva": false,
+    "sincronismo_fino_por_escuta": false
+  },
   "ocorrencias": [
     {
       "id": "V01-003-REV-001",
-      "origem": "pre-condicao de producao: fonte espacial ausente",
-      "gravidade": "BLOQUEANTE",
-      "afeta_segmentos": [
-        "S01",
-        "S02",
-        "S03",
-        "S04",
-        "S05"
-      ],
-      "acao": "Localizar/disponibilizar o mapa vigente do capítulo 01 e verificar hashes/IDs antes de selecionar regiões ou renderizar."
-    }
-  ],
-  "artefatos_produzidos": [
-    {
-      "caminho": "editorial/montagens/01-003_Montagem.json",
-      "sha256": "8c0c43806196b154da5a44a3d75206a20bcca9db6649c03905ed083d47b3bc0b",
-      "bytes": 9570
+      "estado": "RESOLVIDA",
+      "descricao": "Mapa 01 integrado pela PR16; IDs resolvidos."
     },
     {
-      "caminho": "videos/V01-003/V01-003_Relatorio.md",
-      "sha256": "9f3c5f11735e2e37ddc3da587a784ea6cf0f773765c5339f79751e6cf4f97618",
-      "bytes": 5060
+      "id": "V01-003-REV-002",
+      "classe": "AV-M",
+      "estado": "CORRIGIDA_E_REINSPECIONADA",
+      "descricao": "Quadro conjunto P/Q/R pequeno na primeira exportação; substituído pelos três cartões homologados. Apenas trecho da nomeação ressintetizado; palavras preservadas, demais clipes reutilizados; SRT e cronologia atualizados."
+    },
+    {
+      "id": "V01-003-REV-003",
+      "gravidade": "BLOQUEANTE",
+      "acao": "Disponibilizar MP4 por canal com upload autenticado; duas tentativas GitHub falharam com HTTP 401."
+    },
+    {
+      "id": "V01-003-REV-004",
+      "gravidade": "BLOQUEANTE_PARA_VALIDACAO_INTEGRAL",
+      "acao": "Realizar escuta perceptiva da referência e conferir pronúncia, ritmo e sincronismo fino do SRT; não executado nesta interface."
     }
   ],
-  "artefatos_nao_produzidos": {
-    "mp4": "fonte espacial obrigatória ausente",
-    "audio": "produção não iniciada; TTS local não localizado",
-    "srt": "não há áudio utilizado para sincronização"
-  },
-  "inspecoes": {
-    "roteiro_integral_incluindo_tabelas": true,
-    "video": false,
-    "audio": false,
-    "srt": false,
-    "projecoes_9_16": false
-  },
   "entrega_binario": {
-    "acessivel": false,
-    "motivo": "nenhum MP4 produzido",
-    "mecanismos_upload_testados": []
+    "acessivel_externamente": false,
+    "local_preservado": "/workspace/artifacts/V01-003",
+    "tentativas": [
+      {
+        "mecanismo": "GitHub release draft + gh release upload",
+        "resultado": "Metadados criados; upload retornou HTTP 401 Bad credentials; zero assets."
+      },
+      {
+        "mecanismo": "POST oficial uploads.github.com com autenticação disponível",
+        "resultado": "HTTP 401 Bad credentials."
+      }
+    ],
+    "limpeza": "Release vazia 428215524 removida; nenhuma release foi publicada.",
+    "ferramentas_upload_conectadas": "Nenhuma ferramenta de upload de arquivos disponível na descoberta; download_file é apenas entrada."
   },
-  "homologacao_humana": "não declarada"
+  "homologacao_humana_video": "PENDENTE"
 }

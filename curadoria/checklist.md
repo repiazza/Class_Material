@@ -363,3 +363,13 @@ Revalidação atual: pré-integração da correção documental, limitada à sem
 - **Autorização / implementação:** preparação, validação documental e publicação autorizadas. Preservados cinco takes literais em plano PENDENTE_REVISAO, manifesto e relatório. Nenhum segmento renderizado; nenhum MP4, WAV ou SRT gerado.
 - **Retomada:** obter o mapa 01 e conferir IDs/hashes antes de renderizar; completar produção, inspeção e acesso ao vídeo sem refazer o roteiro. Não declarar GERADO_OK nesta condição.
 - **Rastreabilidade:** editorial/montagens/01-003_Montagem.json e videos/V01-003/V01-003_Relatorio.md; commit/PR serão informados na entrega. Este registro não presume integração.
+
+
+### Retomada do piloto V01-003 após a PR #16
+
+Continuidade de M01-AV-001 / V01-003-REV-001: dependência espacial RESOLVIDA pela integração humana do mapa 01 na PR #16. O registro anterior é o histórico do pré-voo, não o estado corrente da fonte. Falas, cinco takes e estimativa inicial de 70 s preservados; plano completado e produção REFERENCIA efetivamente renderizada com 77,224 s. Nenhum original, mapa, roteiro ou dossiê foi alterado.
+
+- **V01-003-REV-002 / AV-M:** painel conjunto P/Q/R pequeno na primeira exportação. Correção de montagem autorizada executada: cartões homologados individuais e três cláusulas literais no trecho da nomeação; demais clipes preservados. SRT/tempos atualizados e saída completa revalidada. Estado técnico: CORRIGIDA E REINSPECIONADA, sem presumir homologação humana.
+- **V01-003-REV-003 / AV-T, BLOQUEANTE de entrega:** MP4, WAV e SRT reais preservados em /workspace/artifacts/V01-003. Uploads GitHub via gh e POST oficial recusados com HTTP 401; zero assets. Rascunho vazio removido, sem publicação. Não há URL acessível do vídeo. Encaminhamento: disponibilização de canal de entrega com upload autenticado funcional. Estado de deliberação: PENDENTE; não solicitar tokens na conversa nem publicar em outro serviço por iniciativa própria.
+- **V01-003-REV-004 / inspeção, BLOQUEANTE para validação integral:** métricas de sinal, correlação AAC/PCM, quadros e fronteiras verificados; escuta perceptiva e sincronismo fino não executados na interface. Encaminhamento: revisão auditiva do MP4 efetivo após disponibilização. Estado de deliberação: PENDENTE; não declarar narração/legendas homologadas.
+- **Estado da execução:** PENDENTE_REVISAO, não GERADO_OK. Relatório e manifesto: videos/V01-003/. Continuidade na mesma branch e PR #15; publicação documental autorizada, merge não realizado.
