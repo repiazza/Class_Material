@@ -51,6 +51,25 @@ Na geração de dossiês editoriais, a consulta documental é suficiente para fu
 5. Não substitua um dossiê existente sem autorização explícita para sua regeneração.
 6. Apresente o resultado e as limitações encontradas. Quando a execução estiver autorizada, siga o fluxo de commit, push e PR estabelecido neste `AGENTS.md`, sem realizar merge automaticamente.
 
+### Geração autônoma de roteiros individuais pré-edição
+
+Quando solicitado a desenvolver um roteiro individual para um candidato `VNN-XXX` já identificado em um dossiê, siga `curadoria/protocolo_roteiro_individual.md`.
+
+**Fontes e escopo**
+
+1. Localize o candidato no dossiê `editorial/dossies/NN_Dossie_Editorial.docx`; o dossiê é a **única fonte de conteúdo editorial** para o roteiro.
+2. Utilize este `AGENTS.md` e `curadoria/protocolo_roteiro_individual.md` somente como instruções operacionais. O roteiro piloto `editorial/roteiros/01-003_Roteiro_Individual.docx` pode orientar exclusivamente a apresentação e a estrutura, sem fornecer conteúdo ou impor número de cenas e duração.
+3. **Não consulte** inventário, catálogos, vocabulário, relacionamentos, imagens, GIFs, exercícios, outros capítulos ou fontes externas para complementar o roteiro. As regras gerais de consulta e inspeção deste arquivo continuam aplicáveis às outras atividades de curadoria, mas **não** a esta tarefa específica.
+4. Preserve tese, promessa, ressalvas, IDs e nomes de mídia documentados no candidato. Não alegue inspeção visual não realizada.
+
+**Elaboração e entrega**
+
+1. Desenvolva falas completas e naturais, organizadas por cenas/takes com tempos estimados e função dos materiais visuais. Admita sincronismo flexível, mas pedagogicamente coerente, entre narração e imagem.
+2. Gere o DOCX em `editorial/roteiros/NN-XXX_Roteiro_Individual.docx` (sem o prefixo `V` no nome do arquivo); inclua texto corrido para ensaio e pendências efetivas, conforme o protocolo específico.
+3. Mantenha o roteiro no estado `PROPOSTO`. Não antecipe especificações técnicas de edição, aprovação editorial ou produção audiovisual.
+4. Valide o documento e a correspondência com o dossiê. Não sobrescreva roteiro existente sem autorização explícita.
+5. Dentro da execução autorizada, realize commit, push e abertura de PR conforme a seção **Integração Git**, sem merge automático e sem solicitações de aprovação intermediárias para decisões redacionais ordinárias.
+
 ## Relacionamentos conceituais entre capítulos
 
 - Quando a tarefa envolver relações entre conceitos ou materiais de capítulos diferentes, consulte `curadoria/relacionamentos_conceituais.md`, incluindo o laudo e as ressalvas de cada RC.
@@ -105,6 +124,8 @@ Distinga e registre: (1) proposta aprovada; (2) execução autorizada; (3) alter
 ### Roteirização de materiais educacionais
 
 A criação e a manutenção de dossiês editoriais devem seguir `curadoria/protocolo_roteirizacao.md`.
+
+A criação de roteiros individuais pré-edição a partir de candidatos selecionados deve seguir `curadoria/protocolo_roteiro_individual.md`, observando a regra de fonte editorial exclusiva do dossiê. Não aplicar automaticamente ao roteiro individual as fontes adicionais exigidas para a geração de dossiês.
 
 A identificação e a seleção de materiais devem utilizar prioritariamente `inventario.csv`, os catálogos semânticos dos capítulos e `curadoria/relacionamentos_conceituais.md`.
 

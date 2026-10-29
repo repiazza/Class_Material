@@ -1,9 +1,9 @@
 # Protocolo de roteirização e leitura de dossiês
 
 > **Identificador:** `curadoria/roteirizacao`  
-> **Versão:** `0.2.3` — revisão operacional da versão editorial 0.2.2 homologada  
-> **Escopo:** dossiês editoriais de tópicos, seleção de candidatos e passagem para especificações de produção  
-> **Estado:** HOMOLOGADO — protocolo vigente  
+> **Versão:** `0.2.4` — proposta de integração com roteiros individuais pré-edição  
+> **Escopo:** dossiês editoriais de tópicos, seleção de candidatos e encaminhamento para roteiros individuais pré-edição e futura produção  
+> **Estado:** PROPOSTO — atualização de integração sujeita à homologação humana; regras editoriais da 0.2.3 preservadas  
 > **Documento piloto de referência:** `editorial/dossies/01_Dossie_Editorial.docx`
 
 ## 1. Finalidade
@@ -18,12 +18,13 @@ O objetivo é preservar uma fronteira clara: **curadoria e roteirização propõ
 |---|---|---|---|
 | `curadoria/protocolo_roteirizacao.md` | Regras compartilhadas, estados e campos | Não, na versão homologada | Não |
 | `editorial/dossies/NN_Dossie_Editorial.docx` | Dossiê com N candidatos, fontes, hipóteses, alternativas e decisões | Sim | Não |
+| `editorial/roteiros/NN-XXX_Roteiro_Individual.docx` | Roteiro individual pré-edição, derivado do candidato `VNN-XXX` selecionado, conforme protocolo próprio | Não, na versão proposta | Não |
 | `editorial/roteiros/<video_id>_producao.md` (proposto) | Especificação fechada de **um** vídeo aprovado | Não | Sim, após validação |
 | `<video_id>_cenas.json` | Plano de execução derivado da especificação | Não | Entrada técnica |
 | `<video_id>_guia.mp4` | Vídeo-guia sem legendas e com áudio provisório | Não | Produto |
 | `<video_id>_roteiro.md` | Texto/guia para gravação humana derivado do contrato | Não | Produto auxiliar |
 
-O caminho dos dossiês é a **convenção vigente** do repositório. Os caminhos dos artefatos posteriores à seleção editorial são **provisórios** e dependem da definição do contrato técnico de produção. A autorização explícita da tarefa de geração abrange a criação do dossiê no caminho previsto; operações Git seguem o `AGENTS.md`.
+Os caminhos dos dossiês e dos roteiros individuais DOCX são **convenções vigentes** do repositório. O roteiro individual é um documento editorial para ensaio e gravação, não uma especificação executável. Os caminhos dos demais artefatos de produção são **provisórios** e dependem da definição do contrato técnico de produção. A autorização explícita da tarefa de geração abrange a criação do dossiê no caminho previsto; operações Git seguem o `AGENTS.md`.
 
 ## 3. Unidade editorial e identificação
 
@@ -148,9 +149,15 @@ A ficha deve permitir **avaliar o vídeo como proposta narrativa**, e não apena
 
 Esses valores não devem ser copiados em cada dossiê. O contrato aprovado fixa os valores reais de cada vídeo.
 
-## 9. Passagem do candidato para o contrato de produção
+## 9. Passagem do candidato para roteiro individual e futura produção
 
-A ficha aprovada deve originar **uma especificação independente por vídeo** com: ID, versão, fontes, aprovação, formato e duração, narração final do vídeo-guia, segmentos, mídias existentes/derivadas, sequência de cenas, tempos em frames, enquadramento, animações, transições, áudio e política de legendas.
+### 9.1 Roteiro individual pré-edição
+
+A partir de um candidato `VNN-XXX` selecionado, pode ser solicitado um roteiro independente em `editorial/roteiros/NN-XXX_Roteiro_Individual.docx`, regido por `curadoria/protocolo_roteiro_individual.md`. A **única fonte de conteúdo editorial** nessa tarefa é o dossiê correspondente; `AGENTS.md` e o protocolo específico servem apenas como regras operacionais. O roteiro desenvolve falas completas, cenas/takes, tempos estimados e funções dos materiais visuais, com sincronismo editorial flexível e coerente. Não exige consulta aos catálogos, inventário ou mídias originais, nem constitui aprovação do candidato ou contrato de produção. A geração depende de solicitação específica e não ocorre automaticamente ao criar o dossiê.
+
+### 9.2 Contrato técnico de produção (futuro)
+
+Quando a etapa técnica de produção for autorizada, a proposta editorial aprovada deverá originar **uma especificação independente por vídeo** com: ID, versão, fontes, aprovação, formato e duração, narração final do vídeo-guia, segmentos, mídias existentes/derivadas, sequência de cenas, tempos em frames, enquadramento, animações, transições, áudio e política de legendas.
 
 **A especificação não admite:** hooks alternativos, `A_DEFINIR`, instruções vagas como “melhorar visual”, mídias não verificadas ou operações não definidas no vocabulário do renderizador.
 
@@ -178,3 +185,5 @@ A locução sintética do vídeo-guia é **referência de ritmo**, não texto a 
 
 - `0.2.2` (homologada por decisão humana): exigência de narrativa preliminar falável, storyboard editorial suficientemente desenvolvido e variedade substantiva de abordagens, sem alterar a política de confiança documental ou antecipar decisões do contrato de produção.
 - `0.2.3` (homologada, revisão operacional): atualização dos caminhos dos artefatos, alinhamento com a autorização Git do `AGENTS.md` e delimitação do uso do dossiê piloto como referência de apresentação; sem alteração das exigências editoriais da 0.2.2.
+
+- `0.2.4` (proposta): inclusão do roteiro individual pré-edição como etapa editorial independente; reconhecimento da convenção `NN-XXX_Roteiro_Individual.docx` e remissão ao protocolo específico, sem alteração das regras de geração dos dossiês.
