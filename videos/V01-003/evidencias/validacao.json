@@ -1,0 +1,193 @@
+{
+  "duracao_mp4_s": 77.224,
+  "bytes_mp4": 3884176,
+  "decode_completo_sem_erros": true,
+  "quadros_extraidos": [
+    {
+      "id": "S01-01",
+      "tempo_inspecao_s": 0.977,
+      "erro_medio_pixel_h264": 0.7674
+    },
+    {
+      "id": "S01-02",
+      "tempo_inspecao_s": 4.251,
+      "erro_medio_pixel_h264": 0.7676
+    },
+    {
+      "id": "S01-03",
+      "tempo_inspecao_s": 9.133,
+      "erro_medio_pixel_h264": 0.7171
+    },
+    {
+      "id": "S02-01",
+      "tempo_inspecao_s": 14.291,
+      "erro_medio_pixel_h264": 0.5213
+    },
+    {
+      "id": "S02-02",
+      "tempo_inspecao_s": 18.201,
+      "erro_medio_pixel_h264": 0.6286
+    },
+    {
+      "id": "S02-03",
+      "tempo_inspecao_s": 21.043,
+      "erro_medio_pixel_h264": 0.5211
+    },
+    {
+      "id": "S02-04",
+      "tempo_inspecao_s": 23.813,
+      "erro_medio_pixel_h264": 0.6284
+    },
+    {
+      "id": "S02-05",
+      "tempo_inspecao_s": 26.547,
+      "erro_medio_pixel_h264": 0.7007
+    },
+    {
+      "id": "S03-01",
+      "tempo_inspecao_s": 31.093,
+      "erro_medio_pixel_h264": 0.8689
+    },
+    {
+      "id": "S03-02",
+      "tempo_inspecao_s": 39.299,
+      "erro_medio_pixel_h264": 0.5946
+    },
+    {
+      "id": "S04-01",
+      "tempo_inspecao_s": 47.697,
+      "erro_medio_pixel_h264": 1.2751
+    },
+    {
+      "id": "S04-02",
+      "tempo_inspecao_s": 53.251,
+      "erro_medio_pixel_h264": 1.2755
+    },
+    {
+      "id": "S04-03",
+      "tempo_inspecao_s": 58.337,
+      "erro_medio_pixel_h264": 0.3817
+    },
+    {
+      "id": "S05-01",
+      "tempo_inspecao_s": 65.703,
+      "erro_medio_pixel_h264": 1.0737
+    },
+    {
+      "id": "S05-02",
+      "tempo_inspecao_s": 70.921,
+      "erro_medio_pixel_h264": 0.8582
+    },
+    {
+      "id": "S05-03",
+      "tempo_inspecao_s": 74.399,
+      "erro_medio_pixel_h264": 0.8581
+    }
+  ],
+  "lados_de_fronteira_comparados": 30,
+  "correlacao_wav_pcm_audio_aac_decodificado": 0.9999113461802538,
+  "clipes_audio": [
+    {
+      "id": "S01-01",
+      "rms_dbfs": -20.6,
+      "pico_dbfs": -4.68,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S01-02",
+      "rms_dbfs": -20.99,
+      "pico_dbfs": -6.52,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S01-03",
+      "rms_dbfs": -19.75,
+      "pico_dbfs": -5.3,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S02-01",
+      "rms_dbfs": -20.16,
+      "pico_dbfs": -4.75,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S02-02",
+      "rms_dbfs": -19.27,
+      "pico_dbfs": -5.44,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S02-03",
+      "rms_dbfs": -19.4,
+      "pico_dbfs": -6.03,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S02-04",
+      "rms_dbfs": -20.11,
+      "pico_dbfs": -5.89,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S02-05",
+      "rms_dbfs": -18.76,
+      "pico_dbfs": -4.83,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S03-01",
+      "rms_dbfs": -20.87,
+      "pico_dbfs": -6.51,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S03-02",
+      "rms_dbfs": -20.08,
+      "pico_dbfs": -3.79,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S04-01",
+      "rms_dbfs": -20.03,
+      "pico_dbfs": -5.55,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S04-02",
+      "rms_dbfs": -18.14,
+      "pico_dbfs": -5.04,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S04-03",
+      "rms_dbfs": -20.16,
+      "pico_dbfs": -5.35,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S05-01",
+      "rms_dbfs": -20.22,
+      "pico_dbfs": -5.39,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S05-02",
+      "rms_dbfs": -20.12,
+      "pico_dbfs": -4.57,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "S05-03",
+      "rms_dbfs": -18.9,
+      "pico_dbfs": -5.23,
+      "amostras_saturadas": 0
+    }
+  ],
+  "escuta_perceptiva_realizada": false,
+  "reproducao_temporal_humana_realizada": false,
+  "reproducao_script": {
+    "resultado": "MP4 idêntico byte a byte",
+    "sha256": "f464acd110d627f8d7e71f5a3d8cfeb6cb95500e447f9030833d35e6eebd9378"
+  }
+}

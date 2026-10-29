@@ -351,3 +351,25 @@ As 67 regiões e seus vínculos foram confrontados com as descrições atuais/co
 As quatro pendências anteriormente contadas no relatório espacial são duas ocorrências P em quatro regiões (M02-RF-004 e 005), não quatro defeitos geométricos. O relatório e o campo de confiança do JSON da PR #13 são registros históricos dessa autoauditoria; este checklist fornece a classificação por origem sem apagar evidências ou afirmar que os originais foram corrigidos. As observações V não impedem integração. Recomenda-se que a revisão humana possa aprovar/integrar a entrega espacial independentemente das correções P e da PR documental, mantendo tais limites explícitos. Isso não libera o uso pedagógico de uma célula incorreta ou de texto encoberto nem declara GERADO_OK de produção audiovisual.
 
 Revalidação atual: pré-integração da correção documental, limitada à semântica e integridade. Após aprovação/integração desta PR, conferir que o catálogo publicado contém estes quatro parágrafos e retomar os derivados realmente afetados; não reconstruir mapas/dossiês por padrão. V02-002 e V02-005 permanecem sinalizados para revisão das atribuições documentais, sem edição nesta execução. Não foi identificado roteiro individual existente do capítulo 02 a atualizar.
+
+
+## M01-AV-001 — Dependência espacial ausente no piloto V01-003
+
+- **Ocorrência de revisão:** V01-003-REV-001; preparação da montagem, S01–S05, sem timestamps efetivos de vídeo.
+- **Camada / gravidade:** AV-T — dependência de entrada / BLOQUEANTE no pré-voo; não é defeito D/P/V/G de um artefato existente.
+- **Base / evidência:** main cdb7036; árvore remota/local e histórico local consultados não contêm mapa espacial do capítulo 01. Existe somente 02_Mapa_Espacial.json. Os quatro originais e o roteiro V01-003 estão disponíveis.
+- **Responsável / encaminhamento:** disponibilização da fonte espacial vigente, com revisão verificável; depois a produção resolve os IDs das regiões. Não criar mapa substituto ou alterar originais sem autorização.
+- **Estado da deliberação:** PENDENTE quanto à fonte espacial; execução experimental já autorizada pelo pedido humano, sem homologação editorial implícita.
+- **Autorização / implementação:** preparação, validação documental e publicação autorizadas. Preservados cinco takes literais em plano PENDENTE_REVISAO, manifesto e relatório. Nenhum segmento renderizado; nenhum MP4, WAV ou SRT gerado.
+- **Retomada:** obter o mapa 01 e conferir IDs/hashes antes de renderizar; completar produção, inspeção e acesso ao vídeo sem refazer o roteiro. Não declarar GERADO_OK nesta condição.
+- **Rastreabilidade:** editorial/montagens/01-003_Montagem.json e videos/V01-003/V01-003_Relatorio.md; commit/PR serão informados na entrega. Este registro não presume integração.
+
+
+### Retomada do piloto V01-003 após a PR #16
+
+Continuidade de M01-AV-001 / V01-003-REV-001: dependência espacial RESOLVIDA pela integração humana do mapa 01 na PR #16. O registro anterior é o histórico do pré-voo, não o estado corrente da fonte. Falas, cinco takes e estimativa inicial de 70 s preservados; plano completado e produção REFERENCIA efetivamente renderizada com 77,224 s. Nenhum original, mapa, roteiro ou dossiê foi alterado.
+
+- **V01-003-REV-002 / AV-M:** painel conjunto P/Q/R pequeno na primeira exportação. Correção de montagem autorizada executada: cartões homologados individuais e três cláusulas literais no trecho da nomeação; demais clipes preservados. SRT/tempos atualizados e saída completa revalidada. Estado técnico: CORRIGIDA E REINSPECIONADA, sem presumir homologação humana.
+- **V01-003-REV-003 / AV-T, BLOQUEANTE de entrega:** MP4, WAV e SRT reais preservados em /workspace/artifacts/V01-003. Uploads GitHub via gh e POST oficial recusados com HTTP 401; zero assets. Rascunho vazio removido, sem publicação. Não há URL acessível do vídeo. Encaminhamento: disponibilização de canal de entrega com upload autenticado funcional. Estado de deliberação: PENDENTE; não solicitar tokens na conversa nem publicar em outro serviço por iniciativa própria.
+- **V01-003-REV-004 / inspeção, BLOQUEANTE para validação integral:** métricas de sinal, correlação AAC/PCM, quadros e fronteiras verificados; escuta perceptiva e sincronismo fino não executados na interface. Encaminhamento: revisão auditiva do MP4 efetivo após disponibilização. Estado de deliberação: PENDENTE; não declarar narração/legendas homologadas.
+- **Estado da execução:** PENDENTE_REVISAO, não GERADO_OK. Relatório e manifesto: videos/V01-003/. Continuidade na mesma branch e PR #15; publicação documental autorizada, merge não realizado.
