@@ -1,0 +1,959 @@
+{
+  "schema": "mapa_espacial_capitulo",
+  "versao": "1.0",
+  "capitulo": "01_Logica_e_Raciocinio",
+  "fonte_semantica": "01_Catalogo_Semantico.docx",
+  "sistema_coordenadas": "[x0,y0,x1,y1] normalizado entre 0 e 1, origem no canto superior esquerdo",
+  "estado": "AUTOAUDITADO_COM_RESSALVAS",
+  "homologacao_humana": "PENDENTE",
+  "materiais": [
+    {
+      "arquivo": "logica_booleana.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "de062d9d77b5ace088267c935f9ff574102886f89c5a47d776fb9ee580428135",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "representacao_vf_10",
+          "descricao": "Correspondência V/F–1/0 e aviso de preservação do significado",
+          "bbox_normalizada": [
+            0.00152439,
+            0.1117598,
+            0.34527439,
+            0.524603837
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "problema_expressao",
+          "descricao": "Definições p/q/r e expressão r=¬p∨q com leitura contextual",
+          "bbox_normalizada": [
+            0.346036585,
+            0.1117598,
+            0.680640244,
+            0.524603837
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "tabela_vf",
+          "descricao": "Tabela de entradas, negação e resultado em V/F",
+          "bbox_normalizada": [
+            0.682164634,
+            0.1117598,
+            0.999237805,
+            0.524603837
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "tabela_10",
+          "descricao": "Explicação da troca e tabela completa em 1/0",
+          "bbox_normalizada": [
+            0.00152439,
+            0.526271893,
+            0.382621951,
+            0.979149291
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "definicao_boole",
+          "descricao": "Definição, conectivos, referência histórica e aplicações",
+          "bbox_normalizada": [
+            0.384146341,
+            0.526271893,
+            0.691310976,
+            0.979149291
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "conclusao",
+          "descricao": "Conclusão e correspondência V/F–1/0 com a expressão",
+          "bbox_normalizada": [
+            0.692073171,
+            0.526271893,
+            0.999237805,
+            0.979149291
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "logica_booleana2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "7f1c4f4243a0b9445846f67a8fd97cc3fe79d8296441396e8518bb9a7624724a",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "not",
+          "descricao": "Definição, símbolo, regra, tabela e exemplos de NOT",
+          "bbox_normalizada": [
+            0.00152439,
+            0.10175146,
+            0.335365854,
+            0.692243536
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "and",
+          "descricao": "Definição, símbolo, regra, tabela e exemplos de AND",
+          "bbox_normalizada": [
+            0.336128049,
+            0.10175146,
+            0.666920732,
+            0.692243536
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "or",
+          "descricao": "Definição, símbolo, regra, tabela e exemplos de OR inclusivo",
+          "bbox_normalizada": [
+            0.667682927,
+            0.10175146,
+            0.999237805,
+            0.692243536
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "tamanhos_tabelas",
+          "descricao": "Comparação de uma e duas entradas com 2¹ e 2² linhas",
+          "bbox_normalizada": [
+            0.00152439,
+            0.693077565,
+            0.381859756,
+            0.995829858
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "resumo_conectivos",
+          "descricao": "Tabela comparativa dos três conectivos e suas tabelas",
+          "bbox_normalizada": [
+            0.382621951,
+            0.693077565,
+            0.710365854,
+            0.995829858
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "ideias_principais",
+          "descricao": "Síntese de conectivos, entradas e combinações",
+          "bbox_normalizada": [
+            0.711128049,
+            0.693077565,
+            0.999237805,
+            0.995829858
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "logica_booleana3.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "b008bdc3ec1f1183753b9f764e23f1a5fc73490c4217bd7b363e618272e05dec",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "uma_proposicao",
+          "descricao": "Uma proposição com dois valores e tabela",
+          "bbox_normalizada": [
+            0.00152439,
+            0.105921601,
+            0.235518293,
+            0.547122602
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "duas_proposicoes",
+          "descricao": "Duas proposições, fórmula e quatro combinações",
+          "bbox_normalizada": [
+            0.236280488,
+            0.105921601,
+            0.455792683,
+            0.547122602
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "tres_proposicoes",
+          "descricao": "Três proposições, fórmula e oito combinações",
+          "bbox_normalizada": [
+            0.456554878,
+            0.105921601,
+            0.678353659,
+            0.547122602
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "tabela_tres_variaveis",
+          "descricao": "Tabela integral de oito cenários para p/q/r",
+          "bbox_normalizada": [
+            0.679878049,
+            0.105921601,
+            0.999237805,
+            0.547122602
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "padrao_geral",
+          "descricao": "Fórmula 2ⁿ, exemplos e duplicação",
+          "bbox_normalizada": [
+            0.00152439,
+            0.547956631,
+            0.336890244,
+            0.985821518
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "arvore",
+          "descricao": "Árvore integral com nós p/q/r, ramos e folhas",
+          "bbox_normalizada": [
+            0.338414634,
+            0.547956631,
+            0.729420732,
+            0.985821518
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "ideias_principais",
+          "descricao": "Síntese da contagem de combinações",
+          "bbox_normalizada": [
+            0.730945122,
+            0.547956631,
+            0.999237805,
+            0.985821518
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "not_p.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1400,
+        820
+      ],
+      "sha256": "9591b305f83e2b5cc7d443f6c2ebf63ad76e2386f627cf86ddd3dfd25f57a93b",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_completa",
+          "descricao": "Regra, diagrama, expressão calculada e explicação dinâmica preservados conjuntamente",
+          "bbox_normalizada": [
+            0.021428571,
+            0.146341463,
+            0.978571429,
+            0.969512195
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "p_and_q.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1400,
+        820
+      ],
+      "sha256": "2748d7da60577feadaa33c752ffd71fcaf1248c2f55dea630965cb67375c0a5d",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_completa",
+          "descricao": "Regra, diagrama, expressão calculada e explicação dinâmica preservados conjuntamente",
+          "bbox_normalizada": [
+            0.021428571,
+            0.146341463,
+            0.978571429,
+            0.969512195
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "p_or_q.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1400,
+        820
+      ],
+      "sha256": "9850337f5051a8516fe15beec4d78229be8b94a38d2d60fd9dc32a58a30704a5",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_completa",
+          "descricao": "Regra, diagrama, expressão calculada e explicação dinâmica preservados conjuntamente",
+          "bbox_normalizada": [
+            0.021428571,
+            0.146341463,
+            0.978571429,
+            0.969512195
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "p_xor_q.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1400,
+        820
+      ],
+      "sha256": "5363ab3c69db1ad346df7cd8ab6c491269bb30da78f4eeaa8d0bcaadbc35cef0",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_completa",
+          "descricao": "Regra, diagrama, expressão calculada e explicação dinâmica preservados conjuntamente",
+          "bbox_normalizada": [
+            0.021428571,
+            0.146341463,
+            0.978571429,
+            0.969512195
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "problema_condicoes.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "7c3dd2e4708f8ab95d9646f627677cbe040627503311034f1236abc05a180779",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "problema",
+          "descricao": "Pergunta original ilustrada e contexto de chuva",
+          "bbox_normalizada": [
+            0.00152439,
+            0.109257715,
+            0.539634146,
+            0.441201001
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "condicoes",
+          "descricao": "Duas perguntas binárias com chuva, guarda-chuva e SIM/NÃO",
+          "bbox_normalizada": [
+            0.544969512,
+            0.109257715,
+            0.999237805,
+            0.441201001
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "quatro_cenarios",
+          "descricao": "Quatro cenários ilustrados e cabeçalho contextual",
+          "bbox_normalizada": [
+            0.00152439,
+            0.442035029,
+            0.999237805,
+            0.679733111
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "respostas",
+          "descricao": "Tabela integral de decisões e conclusão",
+          "bbox_normalizada": [
+            0.00152439,
+            0.680567139,
+            0.999237805,
+            0.995829858
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_sem_chuva_sem_guarda_chuva",
+          "descricao": "Cenário 1: não chove e não há guarda-chuva",
+          "bbox_normalizada": [
+            0.016768293,
+            0.517097581,
+            0.24695122,
+            0.672226856
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_sem_chuva_com_guarda_chuva",
+          "descricao": "Cenário 2: não chove e há guarda-chuva",
+          "bbox_normalizada": [
+            0.262957317,
+            0.517097581,
+            0.493902439,
+            0.672226856
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_chuva_sem_guarda_chuva",
+          "descricao": "Cenário 3: chuva sem guarda-chuva",
+          "bbox_normalizada": [
+            0.508384146,
+            0.517097581,
+            0.740853659,
+            0.672226856
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_chuva_com_guarda_chuva",
+          "descricao": "Cenário 4: chuva e guarda-chuva",
+          "bbox_normalizada": [
+            0.753810976,
+            0.517097581,
+            0.988567073,
+            0.672226856
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "problemas_condicoes2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "064c2bdd8c209bb55e481ee796a7b9d1a9ddc6619444af8eef7ded7bbda0c425",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "perguntas_proposicoes",
+          "descricao": "Definição de proposição com ilustração e pergunta",
+          "bbox_normalizada": [
+            0.00152439,
+            0.10675563,
+            0.99847561,
+            0.283569641
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "proposicoes",
+          "descricao": "Definições conjuntas p, q e r com suas condições de verdade",
+          "bbox_normalizada": [
+            0.00152439,
+            0.281901585,
+            0.99847561,
+            0.560467056
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "valores_verdade",
+          "descricao": "SIM/NÃO, V/F e interpretação dos valores",
+          "bbox_normalizada": [
+            0.00152439,
+            0.560467056,
+            0.99847561,
+            0.69557965
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "tabela_cenarios",
+          "descricao": "Tabela completa com p/q/r, interpretação e conclusão",
+          "bbox_normalizada": [
+            0.00152439,
+            0.694745621,
+            0.99847561,
+            0.996663887
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "proposicao_p",
+          "descricao": "Chuva: definição de p e seus valores V/F",
+          "bbox_normalizada": [
+            0.022103659,
+            0.346121768,
+            0.328506098,
+            0.554628857
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "proposicao_q",
+          "descricao": "Guarda-chuva: definição de q e seus valores V/F",
+          "bbox_normalizada": [
+            0.34679878,
+            0.346121768,
+            0.658536585,
+            0.554628857
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "proposicao_r",
+          "descricao": "Decisão: definição de r e seus valores V/F",
+          "bbox_normalizada": [
+            0.674542683,
+            0.346121768,
+            0.986280488,
+            0.554628857
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "problemas_condicoes3.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "65dcdbb3c7c5ba3c1d8aa41694db440d6b608e716a7e83814fb2b995cdf55029",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "proposicoes",
+          "descricao": "p/q e nova proposição r do exemplo de conjunção",
+          "bbox_normalizada": [
+            0.00152439,
+            0.12176814,
+            0.554878049,
+            0.528773978
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "significado_and",
+          "descricao": "Expressão, definição e diagrama do conectivo E",
+          "bbox_normalizada": [
+            0.556402439,
+            0.12176814,
+            0.999237805,
+            0.528773978
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "cenarios_and",
+          "descricao": "Quatro cenários com p, q e r e cabeçalho contextual",
+          "bbox_normalizada": [
+            0.00152439,
+            0.528773978,
+            0.999237805,
+            0.75145955
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "tabela_and",
+          "descricao": "Tabela completa de conjunção r=p∧q",
+          "bbox_normalizada": [
+            0.00152439,
+            0.752293578,
+            0.50152439,
+            0.996663887
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "conclusao",
+          "descricao": "Equivalência simbólica e aviso de que não é a resposta original",
+          "bbox_normalizada": [
+            0.502286585,
+            0.752293578,
+            0.999237805,
+            0.996663887
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "cenario_00",
+          "descricao": "Cenário 00: valores p=F/q=F e r=F",
+          "bbox_normalizada": [
+            0.013719512,
+            0.589658048,
+            0.258384146,
+            0.746455379
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_01",
+          "descricao": "Cenário 01: valores p=F/q=V e r=F",
+          "bbox_normalizada": [
+            0.261432927,
+            0.589658048,
+            0.499237805,
+            0.746455379
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_10",
+          "descricao": "Cenário 10: valores p=V/q=F e r=F",
+          "bbox_normalizada": [
+            0.50304878,
+            0.589658048,
+            0.741615854,
+            0.746455379
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_11",
+          "descricao": "Cenário 11: valores p=V/q=V e r=V",
+          "bbox_normalizada": [
+            0.746189024,
+            0.589658048,
+            0.995426829,
+            0.746455379
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "problemas_condicoes4.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "be81b18d287a8013889f60751e1f127a5f7a69e0e8a91d0370256472f9ebef34",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "not_contextual",
+          "descricao": "NOT: proposição, exemplos, tabela e definição unária",
+          "bbox_normalizada": [
+            0.00152439,
+            0.105087573,
+            0.335365854,
+            0.851542952
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "and_contextual",
+          "descricao": "AND: proposições, exemplos, tabela e definição binária",
+          "bbox_normalizada": [
+            0.336128049,
+            0.105087573,
+            0.666920732,
+            0.851542952
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "or_contextual",
+          "descricao": "OR inclusivo: condições locais, exemplos, tabela e definição",
+          "bbox_normalizada": [
+            0.667682927,
+            0.105087573,
+            0.999237805,
+            0.851542952
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Resumo integral dos conectivos com definições e exemplos",
+          "bbox_normalizada": [
+            0.00152439,
+            0.851542952,
+            0.999237805,
+            0.998331943
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "problemas_condicoes5.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "60c7bd65b1f8b81a7a79ee2112af8cd74704add71dc77570e5656c394fed3ece",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com título, contexto e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "problema_original",
+          "descricao": "Pergunta, definições p/q/r e ilustração",
+          "bbox_normalizada": [
+            0.00152439,
+            0.103419516,
+            0.350609756,
+            0.509591326
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "construcao_expressao",
+          "descricao": "Construção da regra, tradução em proposições e r=¬p∨q",
+          "bbox_normalizada": [
+            0.352134146,
+            0.103419516,
+            0.676067073,
+            0.509591326
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "definicao_tabela",
+          "descricao": "Definição de tabela-verdade e cálculo em duas etapas",
+          "bbox_normalizada": [
+            0.676829268,
+            0.103419516,
+            0.999237805,
+            0.509591326
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "tabela_e_leitura",
+          "descricao": "Tabela completa de r=¬p∨q e instruções de leitura",
+          "bbox_normalizada": [
+            0.00152439,
+            0.507923269,
+            0.999237805,
+            0.731442869
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "tabela_final",
+          "descricao": "Título da expressão e tabela completa, sem fragmentar linhas",
+          "bbox_normalizada": [
+            0.00152439,
+            0.507923269,
+            0.699695122,
+            0.731442869
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "interpretacao_cenarios",
+          "descricao": "Quatro cenários com p/q/r e decisões finais",
+          "bbox_normalizada": [
+            0.00152439,
+            0.730608841,
+            0.642530488,
+            0.995829858
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "conclusao",
+          "descricao": "Expressão e conclusão que retoma o problema",
+          "bbox_normalizada": [
+            0.642530488,
+            0.730608841,
+            0.999237805,
+            0.995829858
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "cenario_00",
+          "descricao": "Não chove e não há guarda-chuva: r=V",
+          "bbox_normalizada": [
+            0.012957317,
+            0.77147623,
+            0.166920732,
+            0.979983319
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_01",
+          "descricao": "Não chove e há guarda-chuva: r=V",
+          "bbox_normalizada": [
+            0.168445122,
+            0.77147623,
+            0.323932927,
+            0.979983319
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_10",
+          "descricao": "Chove sem guarda-chuva: r=F, não posso sair sem me molhar",
+          "bbox_normalizada": [
+            0.326981707,
+            0.77147623,
+            0.483231707,
+            0.979983319
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "cenario_11",
+          "descricao": "Chove com guarda-chuva: r=V",
+          "bbox_normalizada": [
+            0.485518293,
+            0.77147623,
+            0.634908537,
+            0.979983319
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    }
+  ],
+  "revisao_base": "cdb70365842d168f2bccd99ee6609122fe0c16ff",
+  "fonte_semantica_sha256": "236c6306881fd1633f6c7b1a416d94314b3347a05a593c2028b20bd17678af20"
+}
