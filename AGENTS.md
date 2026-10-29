@@ -151,6 +151,19 @@ Quando a inspeção do original comprovar divergência **puramente descritiva**,
 
 Após correção aprovada e integrada, revalide os derivados afetados; **não regenere automaticamente** mapas, dossiês, roteiros ou vídeos que permaneçam válidos. Mantenha registro e rastreabilidade no `curadoria/checklist.md`.
 
+### Produção audiovisual: montagem, entrega e revisão
+
+A produção audiovisual constitui etapa posterior à elaboração do roteiro individual e ao mapeamento espacial. Não aplique retroativamente as regras de consulta visual da produção à geração de roteiros: nessa atividade permanece vigente a fonte editorial exclusiva do dossiê.
+
+- **Preparação da montagem:** siga `curadoria/protocolo_montagem_audiovisual.md`. Use o roteiro individual como autoridade para falas, tese e sequência pedagógica; utilize o mapa espacial como conjunto inclusivo de regiões, sem interpretar suas regiões como ordem, duração ou seleção obrigatória. Gere o plano específico em `editorial/montagens/NN-XXX_Montagem.json`, com fontes rastreáveis, segmentos, tempos estimados ou medidos e pendências.
+- **Execução e entrega:** siga `curadoria/contrato_entrega_video.md`. Distinga `PREVIA_SEM_AUDIO`, `REFERENCIA` e `FINAL_TECNICO`; produza somente os artefatos pertinentes à modalidade autorizada. O SRT final deve acompanhar o áudio efetivamente utilizado. Registre fontes, hashes, ferramentas, resultados e limitações no manifesto e no relatório; não declare inspeções não realizadas.
+- **Revisão audiovisual:** siga `curadoria/protocolo_revisao_audiovisual.md`. Inspecione o resultado renderizado por segmentos e transições, classifique ocorrências, corrija falhas técnicas próprias dentro do escopo autorizado e revalide os derivados afetados. Não confunda aprovação técnica (`GERADO_OK`) com homologação humana.
+- **Retroalimentação:** se a montagem ou revisão encontrar erro documental, pedagógico, do original ou geométrico, aplique `curadoria/protocolo_retroalimentacao.md`. Preserve regiões e segmentos válidos; não altere silenciosamente roteiro, catálogo, originais ou mapa espacial.
+- **Autorização e Git:** o comando de preparação de montagem não autoriza automaticamente renderização, publicação externa ou substituição de fontes. Dentro de escopo expressamente autorizado, execute autonomamente as operações técnicas, commit, push e PR dos arquivos permitidos. A revisão, aprovação, homologação e integração permanecem humanas; **nunca realize merge automático**.
+- **Binários audiovisuais:** não adicione MP4 ou WAV volumosos ao Git sem política de armazenamento previamente definida. Preserve os documentos e manifestos versionáveis e identifique claramente qualquer artefato que ainda não tenha destino persistente.
+
+A existência dos três protocolos não autoriza iniciar produção por iniciativa própria. Para solicitações como `Gerar vídeo VNN-XXX`, verifique previamente a modalidade pretendida, as fontes vigentes e a autorização de execução; se o pedido já definir esses elementos, prossiga sem autorizações intermediárias para operações rotineiras. Quando uma decisão pedagógica ou editorial extrapolar o escopo, registre `PENDENTE_REVISAO` e solicite deliberação delimitada.
+
 ## Continuidade
 
 Consulte `curadoria/checklist.md` antes de agir. O registro não substitui autorização. A auditoria deve ocorrer por módulo, dentro do escopo solicitado, com resultados apresentados para deliberação humana. Não inicie alterações pedagógicas ou auditorias adicionais fora desse escopo.
