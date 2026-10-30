@@ -1,0 +1,61 @@
+{
+  "schema_version": "motor3-1",
+  "video_id": "V04-004",
+  "tipo_entrega": "REFERENCIA",
+  "natureza_gravacao": "TESTE_SINTETICO",
+  "estado": "PENDENTE_REVISAO",
+  "motivo": "Execução interrompida; resultados anteriores preservados: ValueError: Palavras sem tempos válidos, sobrepostas ou fora do áudio",
+  "utc": "2026-10-30T22:42:10.498038+00:00",
+  "homologacao_humana": false,
+  "inputs": {
+    "plano": {
+      "path": "/workspace/Class_Material/editorial/montagens/04-004_Montagem.json",
+      "sha256": "e98a9e9b0cbe5ca315295e17a13805ecab57eda6ff692bd2f6e83a35b3a9a2ad"
+    },
+    "fontes_sha256": {
+      "editorial/dossies/04_Dossie_Editorial.docx": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+      "editorial/roteiros/04-004_Roteiro_Individual.docx": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+      "04_Argumentos_CommandLine/04_Mapa_Espacial.json": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7"
+    },
+    "gravacao": {
+      "path": "/workspace/artifacts/V04-004/V04-004_Audio_Referencia.wav",
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a",
+      "track": 0,
+      "start_s": 0
+    },
+    "politica": {
+      "path": "/workspace/Class_Material/videos/motor3/politica_v04.json",
+      "sha256": "2db65a60e96933c342e11cdcabe7b4ac86b46b91777adf9b81af09d047ddf5b6"
+    }
+  },
+  "artefatos": [
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-asr-sintetico/audio_trabalho.wav",
+      "bytes": 5046478,
+      "sha256": "5d90f01c66c21fcd4ac265d9263b89784c20097e1a4b4d5c0cf835a7138d0f0a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-asr-sintetico/gravacao_ffprobe.json",
+      "bytes": 1420,
+      "sha256": "54518f6d3d382df1ab632eca8cffcfce5baeb245fb4dbb00b0373f3188860b8c"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-asr-sintetico/gravacao_original.wav",
+      "bytes": 2318234,
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-asr-sintetico/transcricao.json",
+      "bytes": 18339,
+      "sha256": "6c13d1e0f91369f5d18b5b3dea0e45d00d1cf86c35a7a579201746f817299c02"
+    }
+  ],
+  "ferramentas": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "limites": [
+    "Sem escuta perceptiva ou revisão audiovisual integral automática.",
+    "Aceitação textual conservadora não equivale a homologação semântica."
+  ]
+}

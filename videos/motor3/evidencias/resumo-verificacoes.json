@@ -1,0 +1,11 @@
+{
+  "testes_unitarios": 14,
+  "fontes_preexistentes_inalteradas": true,
+  "checklist_apenas_acrescimo": true,
+  "binarios_no_git": false,
+  "srt_controle": "OK",
+  "marco_a": "DEMONSTRADO",
+  "marco_b_humano": "NAO_DEMONSTRADO",
+  "entrada_humana": "AUSENTE_CONFIRMADA_PELO_RESPONSAVEL",
+  "escuta_perceptiva": "NAO_EXECUTADA"
+}

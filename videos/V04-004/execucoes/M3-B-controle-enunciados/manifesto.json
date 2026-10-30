@@ -1,0 +1,141 @@
+{
+  "schema_version": "motor3-1",
+  "video_id": "V04-004",
+  "tipo_entrega": "REFERENCIA",
+  "natureza_gravacao": "TESTE_SINTETICO",
+  "estado": "PENDENTE_REVISAO",
+  "motivo": "MP4 renderizado e decodificado integralmente. Conferir áudio, legendas, takes e cortes na revisão audiovisual; não se presume escuta ou homologação. SRT baseado em ASR requer confirmação perceptiva.",
+  "utc": "2026-10-30T22:44:41.523734+00:00",
+  "homologacao_humana": false,
+  "inputs": {
+    "plano": {
+      "path": "/workspace/Class_Material/editorial/montagens/04-004_Montagem.json",
+      "sha256": "e98a9e9b0cbe5ca315295e17a13805ecab57eda6ff692bd2f6e83a35b3a9a2ad"
+    },
+    "fontes_sha256": {
+      "editorial/dossies/04_Dossie_Editorial.docx": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+      "editorial/roteiros/04-004_Roteiro_Individual.docx": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+      "04_Argumentos_CommandLine/04_Mapa_Espacial.json": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7"
+    },
+    "gravacao": {
+      "path": "/workspace/artifacts/V04-004/V04-004_Audio_Referencia.wav",
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a",
+      "track": 0,
+      "start_s": 0
+    },
+    "politica": {
+      "path": "/workspace/Class_Material/videos/motor3/politica_v04.json",
+      "sha256": "c4edf3b15b5263ef6c20ae5b9f96053b214848acd16d986aeb3345a09eebf7fd"
+    }
+  },
+  "artefatos": [
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/V04-004.mp4",
+      "bytes": 2386573,
+      "sha256": "4637848ef76d9e4b42e6cac10d22055aec1ff362c4ccd62dd2fb550986afcf3e"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/V04-004.srt",
+      "bytes": 1083,
+      "sha256": "caec6b0d461feb4f1e77552cb97a842be1539e3801e160107045534039de911b"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/associacao.json",
+      "bytes": 2300,
+      "sha256": "8aa2187c737905ae83943b9b6b53e735c6080997737ab34f8523a2d07311e6d1"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/audio_trabalho.wav",
+      "bytes": 5046478,
+      "sha256": "5d90f01c66c21fcd4ac265d9263b89784c20097e1a4b4d5c0cf835a7138d0f0a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/clipe-00.mp4",
+      "bytes": 366854,
+      "sha256": "bc1ed27a278431a4952b022c46b15585b993f8d554b9715b6a4353ef9213fd1b"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/clipe-01.mp4",
+      "bytes": 362684,
+      "sha256": "f69442635b76405c30873c4c4ca682269dd4816d3546660d29d7eeb6e856659a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/clipe-02.mp4",
+      "bytes": 216568,
+      "sha256": "da8b3ac1959c4069d216e444133d6ee80b849ff6559d0a47e60eaa4d844b854d"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/clipe-03.mp4",
+      "bytes": 157470,
+      "sha256": "54a2e88f9ecad5febbc5808a19eb18c001e6bc5db347809c5fb20887b5f9b749"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/clipe-04.mp4",
+      "bytes": 326653,
+      "sha256": "3a32f9a9e56e8961906809037bd00475bf371716f8bb27c88307d5bc878b92d4"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/clips.txt",
+      "bytes": 100,
+      "sha256": "b045b83387bcb7dfac1e5cbf87314a5cd8cc9622445827e9d7d8a423fdad9539"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/ffprobe.json",
+      "bytes": 3536,
+      "sha256": "17529b1da0f60b94f227897a14f86d585563bd5273f87f530fc51c1671b6068e"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/gravacao_ffprobe.json",
+      "bytes": 1426,
+      "sha256": "4ce67e729f69397b494585643f4cd0e96049b46be09a8ca4c1550fcca9ed8338"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/gravacao_original.wav",
+      "bytes": 2318234,
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/plano.json",
+      "bytes": 6728,
+      "sha256": "99334d6140acec08f6521ed89b372caadab6cdc5dbe8a15f0f032afcd81efb8b"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/quadro-00.png",
+      "bytes": 701841,
+      "sha256": "56ebf2b68cdbd9c4b4fb47b1502d7996c23caa910aa843f378771f75550538b6"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/quadro-01.png",
+      "bytes": 690178,
+      "sha256": "1dc647e484960e83c3ed6ddf8492f19397ad81a15e4736e1c1fda8689db95395"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/quadro-02.png",
+      "bytes": 648375,
+      "sha256": "ed5d2840014f8161bfd992560cfcebc9191871eda4abdc0e4f5e1584d850e677"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/quadro-03.png",
+      "bytes": 634014,
+      "sha256": "20c0bbbac536367ea9a6315fa6cee92e868b5fc0371230cdebc06f96b640b5f0"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/quadro-04.png",
+      "bytes": 690178,
+      "sha256": "1dc647e484960e83c3ed6ddf8492f19397ad81a15e4736e1c1fda8689db95395"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-B-controle-enunciados/transcricao.json",
+      "bytes": 1983,
+      "sha256": "f27c16ab203930a66925cb15de11ebaffa10c82716347b0a689dcc217771ef91"
+    }
+  ],
+  "ferramentas": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "limites": [
+    "Sem escuta perceptiva ou revisão audiovisual integral automática.",
+    "Aceitação textual conservadora não equivale a homologação semântica."
+  ]
+}

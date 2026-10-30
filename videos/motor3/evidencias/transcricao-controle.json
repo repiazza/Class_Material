@@ -1,0 +1,62 @@
+{
+  "audio_sha256": "5d90f01c66c21fcd4ac265d9263b89784c20097e1a4b4d5c0cf835a7138d0f0a",
+  "words": [
+    {
+      "start": 0.18,
+      "end": 4.444,
+      "word": "Uma aplicação pode obter a mesma configuração de três lugares:"
+    },
+    {
+      "start": 4.5440000000000005,
+      "end": 8.371,
+      "word": "argumentos, variáveis de ambiente e um valor padrão."
+    },
+    {
+      "start": 8.471,
+      "end": 12.182,
+      "word": "Quando há mais de uma fonte, não basta saber ler cada uma;"
+    },
+    {
+      "start": 12.282,
+      "end": 14.591,
+      "word": "é preciso definir qual prevalece."
+    },
+    {
+      "start": 15.247,
+      "end": 19.576999999999998,
+      "word": "Os materiais deste capítulo apresentam uma política explícita:"
+    },
+    {
+      "start": 19.677,
+      "end": 26.575,
+      "word": "primeiro o argumento, depois o ambiente e, se nenhum deles fornecer a configuração, o padrão."
+    },
+    {
+      "start": 27.213,
+      "end": 34.926,
+      "word": "Isso permite explicar por que mudar o ambiente pode não alterar uma execução que já recebeu o valor pela linha de comando."
+    },
+    {
+      "start": 35.58,
+      "end": 39.98,
+      "word": "Não é uma prioridade imposta pela linguagem C a todos os programas."
+    },
+    {
+      "start": 40.08,
+      "end": 43.105,
+      "word": "É o contrato implementado por esta aplicação."
+    },
+    {
+      "start": 43.747,
+      "end": 52.094,
+      "word": "Para entender o resultado, siga a decisão desde a fonte de maior prioridade e descubra em qual etapa o valor foi escolhido."
+    }
+  ],
+  "provenance": {
+    "tipo": "TESTE_CONTROLADO_COM_TEMPOS_FORNECIDOS",
+    "origem": "SRT sintético anterior, intervalos por blocos PCM, não ASR e não gravação humana",
+    "granularidade": "enunciado",
+    "marcacoes_de_takes": false
+  },
+  "limite": "Demonstra fluxo técnico com enunciados e tempos conhecidos. Não comprova reconhecimento autônomo nem fala humana."
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "motor3-1",
+  "video_id": "V04-004",
+  "tipo_entrega": "REFERENCIA",
+  "natureza_gravacao": "TESTE_SINTETICO",
+  "estado": "PENDENTE_REVISAO",
+  "motivo": "MP4 renderizado e decodificado integralmente. Conferir áudio, legendas, takes e cortes na revisão audiovisual; não se presume escuta ou homologação. SRT baseado em ASR requer confirmação perceptiva.",
+  "utc": "2026-10-30T22:43:19.681411+00:00",
+  "homologacao_humana": false,
+  "inputs": {
+    "plano": {
+      "path": "/workspace/Class_Material/editorial/montagens/04-004_Montagem.json",
+      "sha256": "e98a9e9b0cbe5ca315295e17a13805ecab57eda6ff692bd2f6e83a35b3a9a2ad"
+    },
+    "fontes_sha256": {
+      "editorial/dossies/04_Dossie_Editorial.docx": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+      "editorial/roteiros/04-004_Roteiro_Individual.docx": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+      "04_Argumentos_CommandLine/04_Mapa_Espacial.json": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7"
+    },
+    "gravacao": {
+      "path": "/workspace/artifacts/V04-004/V04-004_Audio_Referencia.wav",
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a",
+      "track": 0,
+      "start_s": 0
+    }
+  },
+  "artefatos": [
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/V04-004.mp4",
+      "bytes": 2397257,
+      "sha256": "da38592dc7315dcdffad670cf254ed71740f5c08372b0255d332d7789150fb78"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/audio_trabalho.wav",
+      "bytes": 5046478,
+      "sha256": "5d90f01c66c21fcd4ac265d9263b89784c20097e1a4b4d5c0cf835a7138d0f0a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/clipe-00.mp4",
+      "bytes": 366448,
+      "sha256": "8276de385403c3ab629e10626c2563e996ccf473edaf55c376cfdbd3c3d4a9cd"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/clipe-01.mp4",
+      "bytes": 362684,
+      "sha256": "f69442635b76405c30873c4c4ca682269dd4816d3546660d29d7eeb6e856659a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/clipe-02.mp4",
+      "bytes": 216568,
+      "sha256": "da8b3ac1959c4069d216e444133d6ee80b849ff6559d0a47e60eaa4d844b854d"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/clipe-03.mp4",
+      "bytes": 157470,
+      "sha256": "54a2e88f9ecad5febbc5808a19eb18c001e6bc5db347809c5fb20887b5f9b749"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/clipe-04.mp4",
+      "bytes": 337751,
+      "sha256": "d3bb2d7253c3767952913cc70c858ef456de35bfe11572828744d69d29ebfb65"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/clips.txt",
+      "bytes": 100,
+      "sha256": "b045b83387bcb7dfac1e5cbf87314a5cd8cc9622445827e9d7d8a423fdad9539"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/ffprobe.json",
+      "bytes": 3530,
+      "sha256": "1822945a201728c261d228faef302d7b142606026e96c8a3c822f92bb056f5ce"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/gravacao_ffprobe.json",
+      "bytes": 1420,
+      "sha256": "b72929dd8ca3f7f4c283601fbd079c8db1c13e004821a0ba89c6d501343c6bfd"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/gravacao_original.wav",
+      "bytes": 2318234,
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/plano.json",
+      "bytes": 5720,
+      "sha256": "e98a9e9b0cbe5ca315295e17a13805ecab57eda6ff692bd2f6e83a35b3a9a2ad"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/quadro-00.png",
+      "bytes": 701841,
+      "sha256": "56ebf2b68cdbd9c4b4fb47b1502d7996c23caa910aa843f378771f75550538b6"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/quadro-01.png",
+      "bytes": 690178,
+      "sha256": "1dc647e484960e83c3ed6ddf8492f19397ad81a15e4736e1c1fda8689db95395"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/quadro-02.png",
+      "bytes": 648375,
+      "sha256": "ed5d2840014f8161bfd992560cfcebc9191871eda4abdc0e4f5e1584d850e677"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/quadro-03.png",
+      "bytes": 634014,
+      "sha256": "20c0bbbac536367ea9a6315fa6cee92e868b5fc0371230cdebc06f96b640b5f0"
+    },
+    {
+      "path": "/workspace/artifacts/V04-004/M3-A-audio-externo/quadro-04.png",
+      "bytes": 690178,
+      "sha256": "1dc647e484960e83c3ed6ddf8492f19397ad81a15e4736e1c1fda8689db95395"
+    }
+  ],
+  "ferramentas": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "limites": [
+    "Sem escuta perceptiva ou revisão audiovisual integral automática.",
+    "Aceitação textual conservadora não equivale a homologação semântica."
+  ]
+}

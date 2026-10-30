@@ -1,0 +1,20 @@
+{
+  "video_id": "V04-004",
+  "fontes_sha256": {
+    "editorial/dossies/04_Dossie_Editorial.docx": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+    "editorial/roteiros/04-004_Roteiro_Individual.docx": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+    "04_Argumentos_CommandLine/04_Mapa_Espacial.json": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7"
+  },
+  "equivalencias": [],
+  "ressalvas_essenciais": [
+    {
+      "id": "V04-C04-NAO-UNIVERSAL",
+      "take": "S04",
+      "padroes_aceitos": [
+        "nao e uma prioridade imposta pela linguagem c a todos os programas"
+      ]
+    }
+  ],
+  "limite": "Política piloto conservadora, sem validação semântica geral. Equivalências adicionais exigem fundamentação editorial, não similaridade arbitrária.",
+  "plano_origem_sha256": "e98a9e9b0cbe5ca315295e17a13805ecab57eda6ff692bd2f6e83a35b3a9a2ad"
+}

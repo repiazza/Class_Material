@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "video_id": "V04-004",
+  "estado": "PROPOSTO",
+  "execucao": "EXPERIMENTAL_AUTORIZADA; escolha única excepcional após salvar dossiê; sem homologação humana",
+  "tipo_entrega": "REFERENCIA",
+  "audio": "eSpeak NG pt-br, 155 palavras/minuto; sintético local, não definitivo",
+  "legendas": "PROVISORIO; intervalos medidos por amostras PCM de cada enunciado sintetizado, não estimados por palavras",
+  "perfil": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": 30,
+    "fundo_rgb": [
+      15,
+      20,
+      30
+    ],
+    "escala": "conter, proporção preservada"
+  },
+  "fontes_sha256": {
+    "editorial/dossies/04_Dossie_Editorial.docx": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+    "editorial/roteiros/04-004_Roteiro_Individual.docx": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+    "04_Argumentos_CommandLine/04_Mapa_Espacial.json": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7"
+  },
+  "segmentos": [
+    {
+      "id": "S01",
+      "cena_roteiro": "C01",
+      "fala_id": "F01",
+      "texto": "Uma aplicação pode obter a mesma configuração de três lugares: argumentos, variáveis de ambiente e um valor padrão. Quando há mais de uma fonte, não basta saber ler cada uma; é preciso definir qual prevalece.",
+      "material_candidato": "04_Argumentos_CommandLine/argopt3.png",
+      "inicio_estimado_ms": 0,
+      "duracao_estimada_ms": 14000,
+      "arquivo": "04_Argumentos_CommandLine/argopt3.png",
+      "regiao_id": "tres_fontes",
+      "bbox_px": [
+        12,
+        97,
+        510,
+        500
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 0.0,
+      "duracao_s": 16.066666666666666,
+      "frame_inicial": 0,
+      "quadros": 482,
+      "fonte_sha256": "9b1a59f314533dbbb96ec8fcb72f5e6e98e4ab0aa90b743fce7395ea7179a20b"
+    },
+    {
+      "id": "S02",
+      "cena_roteiro": "C02",
+      "fala_id": "F02",
+      "texto": "Os materiais deste capítulo apresentam uma política explícita: primeiro o argumento, depois o ambiente e, se nenhum deles fornecer a configuração, o padrão.",
+      "material_candidato": "04_Argumentos_CommandLine/env4.png",
+      "inicio_estimado_ms": 14000,
+      "duracao_estimada_ms": 15000,
+      "arquivo": "04_Argumentos_CommandLine/env4.png",
+      "regiao_id": "fluxo_precedencia",
+      "bbox_px": [
+        534,
+        98,
+        1018,
+        507
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 16.066666666666666,
+      "duracao_s": 12.966666666666667,
+      "frame_inicial": 482,
+      "quadros": 389,
+      "fonte_sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9"
+    },
+    {
+      "id": "S03",
+      "cena_roteiro": "C03",
+      "fala_id": "F03",
+      "texto": "Isso permite explicar por que mudar o ambiente pode não alterar uma execução que já recebeu o valor pela linha de comando.",
+      "material_candidato": "04_Argumentos_CommandLine/env4.png",
+      "inicio_estimado_ms": 29000,
+      "duracao_estimada_ms": 14000,
+      "arquivo": "04_Argumentos_CommandLine/env4.png",
+      "regiao_id": "exemplos_fontes",
+      "bbox_px": [
+        1025,
+        98,
+        1526,
+        507
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 29.033333333333335,
+      "duracao_s": 9.366666666666667,
+      "frame_inicial": 871,
+      "quadros": 281,
+      "fonte_sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9"
+    },
+    {
+      "id": "S04",
+      "cena_roteiro": "C04",
+      "fala_id": "F04",
+      "texto": "Não é uma prioridade imposta pela linguagem C a todos os programas. É o contrato implementado por esta aplicação.",
+      "material_candidato": "04_Argumentos_CommandLine/resumo2.png",
+      "inicio_estimado_ms": 43000,
+      "duracao_estimada_ms": 13000,
+      "arquivo": "04_Argumentos_CommandLine/resumo2.png",
+      "regiao_id": "estrutura",
+      "bbox_px": [
+        12,
+        97,
+        468,
+        461
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 38.4,
+      "duracao_s": 9.166666666666666,
+      "frame_inicial": 1152,
+      "quadros": 275,
+      "fonte_sha256": "cb8319c8cdb9179042817ed708921ba2738335582a065e2d2a7ca2be40b487c0"
+    },
+    {
+      "id": "S05",
+      "cena_roteiro": "C05",
+      "fala_id": "F05",
+      "texto": "Para entender o resultado, siga a decisão desde a fonte de maior prioridade e descubra em qual etapa o valor foi escolhido.",
+      "material_candidato": "04_Argumentos_CommandLine/resumo2.png",
+      "inicio_estimado_ms": 56000,
+      "duracao_estimada_ms": 14000,
+      "arquivo": "04_Argumentos_CommandLine/env4.png",
+      "regiao_id": "fluxo_precedencia",
+      "bbox_px": [
+        534,
+        98,
+        1018,
+        507
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 47.56666666666667,
+      "duracao_s": 10.0,
+      "frame_inicial": 1427,
+      "quadros": 300,
+      "fonte_sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9"
+    }
+  ],
+  "duracao_s": 57.56666666666667,
+  "ajustes_montagem": [
+    "C05 repete env4.png/fluxo_precedencia, fonte já presente no candidato, em vez do painel de resumo2.png que mostra a ordem inversa de atribuição. Seleção visual autorizada; falas e sequência inalteradas.",
+    "Tempos substituídos pela duração medida da síntese, com pausas e alinhamento a quadros."
+  ],
+  "pendencias": [
+    "Escuta contínua e revisão editorial humana; SRT de referência provisório."
+  ],
+  "natureza_teste": "PREVIA_SEM_AUDIO, Marco A; não é montagem homologada"
+}

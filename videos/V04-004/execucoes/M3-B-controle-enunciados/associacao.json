@@ -1,0 +1,65 @@
+{
+  "estado": "ASSOCIADO_CONSERVADORAMENTE",
+  "metodo": "Alinhamento global monotônico por distância de edição; aceitação somente sem edições após equivalências documentadas. Sem limiar de similaridade/confiança arbitrário.",
+  "equivalencias_consideradas": [],
+  "distancia_edicao": 0,
+  "takes": [
+    {
+      "take": "S01",
+      "indices_palavras": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "texto_observado": "Uma aplicação pode obter a mesma configuração de três lugares: argumentos, variáveis de ambiente e um valor padrão. Quando há mais de uma fonte, não basta saber ler cada uma; é preciso definir qual prevalece.",
+      "inicio_fala_s": 0.18,
+      "fim_fala_s": 14.591,
+      "correspondencia": "TEXTUAL"
+    },
+    {
+      "take": "S02",
+      "indices_palavras": [
+        4,
+        5
+      ],
+      "texto_observado": "Os materiais deste capítulo apresentam uma política explícita: primeiro o argumento, depois o ambiente e, se nenhum deles fornecer a configuração, o padrão.",
+      "inicio_fala_s": 15.247,
+      "fim_fala_s": 26.575,
+      "correspondencia": "TEXTUAL"
+    },
+    {
+      "take": "S03",
+      "indices_palavras": [
+        6
+      ],
+      "texto_observado": "Isso permite explicar por que mudar o ambiente pode não alterar uma execução que já recebeu o valor pela linha de comando.",
+      "inicio_fala_s": 27.213,
+      "fim_fala_s": 34.926,
+      "correspondencia": "TEXTUAL"
+    },
+    {
+      "take": "S04",
+      "indices_palavras": [
+        7,
+        8
+      ],
+      "texto_observado": "Não é uma prioridade imposta pela linguagem C a todos os programas. É o contrato implementado por esta aplicação.",
+      "inicio_fala_s": 35.58,
+      "fim_fala_s": 43.105,
+      "correspondencia": "TEXTUAL"
+    },
+    {
+      "take": "S05",
+      "indices_palavras": [
+        9
+      ],
+      "texto_observado": "Para entender o resultado, siga a decisão desde a fonte de maior prioridade e descubra em qual etapa o valor foi escolhido.",
+      "inicio_fala_s": 43.747,
+      "fim_fala_s": 52.094,
+      "correspondencia": "TEXTUAL"
+    }
+  ],
+  "ocorrencias": [],
+  "limite": "Correspondência textual não certifica transcrição nem significado. Reformulações não cadastradas permanecem pendentes."
+}
