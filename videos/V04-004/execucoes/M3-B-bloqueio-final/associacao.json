@@ -1,0 +1,10 @@
+{
+  "estado": "PENDENTE_REVISAO",
+  "ocorrencias": [
+    {
+      "tipo": "TRANSCRICAO_TEMPORAL_INVALIDA",
+      "evidencia": "Palavras sem tempos válidos, sobrepostas ou fora do áudio"
+    }
+  ],
+  "limite": "Nenhuma associação temporal validada; transcrição bruta preservada."
+}

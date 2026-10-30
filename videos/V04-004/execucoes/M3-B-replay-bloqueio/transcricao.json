@@ -1,0 +1,889 @@
+{
+  "audio_sha256": "5d90f01c66c21fcd4ac265d9263b89784c20097e1a4b4d5c0cf835a7138d0f0a",
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.36,
+      "word": " Uma",
+      "probability": 0.03130695968866348
+    },
+    {
+      "start": 0.36,
+      "end": 0.96,
+      "word": " aplicação",
+      "probability": 0.8341232240200043
+    },
+    {
+      "start": 0.96,
+      "end": 1.36,
+      "word": " pode",
+      "probability": 0.932568371295929
+    },
+    {
+      "start": 1.36,
+      "end": 1.8,
+      "word": " obter",
+      "probability": 0.5399054735898972
+    },
+    {
+      "start": 1.8,
+      "end": 1.96,
+      "word": " a",
+      "probability": 0.8737983107566833
+    },
+    {
+      "start": 1.96,
+      "end": 2.28,
+      "word": " mesma",
+      "probability": 0.9828338623046875
+    },
+    {
+      "start": 2.28,
+      "end": 3.26,
+      "word": " configuração",
+      "probability": 0.8388543128967285
+    },
+    {
+      "start": 3.26,
+      "end": 3.48,
+      "word": " de",
+      "probability": 0.9564657211303711
+    },
+    {
+      "start": 3.48,
+      "end": 3.8,
+      "word": " três",
+      "probability": 0.7317619323730469
+    },
+    {
+      "start": 3.8,
+      "end": 4.32,
+      "word": " úgates,",
+      "probability": 0.2289934108654658
+    },
+    {
+      "start": 4.6,
+      "end": 5.4,
+      "word": " argumentos,",
+      "probability": 0.8491322100162506
+    },
+    {
+      "start": 5.66,
+      "end": 5.8,
+      "word": " mas",
+      "probability": 0.30035728216171265
+    },
+    {
+      "start": 5.8,
+      "end": 5.94,
+      "word": " de",
+      "probability": 0.18358464539051056
+    },
+    {
+      "start": 5.94,
+      "end": 6.06,
+      "word": " a",
+      "probability": 0.10052531212568283
+    },
+    {
+      "start": 6.06,
+      "end": 6.26,
+      "word": " vez",
+      "probability": 0.30357253551483154
+    },
+    {
+      "start": 6.26,
+      "end": 6.44,
+      "word": " que",
+      "probability": 0.45541971921920776
+    },
+    {
+      "start": 6.44,
+      "end": 7.1,
+      "word": " ambienci",
+      "probability": 0.241143931945165
+    },
+    {
+      "start": 7.1,
+      "end": 7.36,
+      "word": " um",
+      "probability": 0.5792046785354614
+    },
+    {
+      "start": 7.36,
+      "end": 7.66,
+      "word": " valor",
+      "probability": 0.9786928296089172
+    },
+    {
+      "start": 7.66,
+      "end": 8.0,
+      "word": " para",
+      "probability": 0.7066453695297241
+    },
+    {
+      "start": 8.0,
+      "end": 8.22,
+      "word": " a",
+      "probability": 0.16235262155532837
+    },
+    {
+      "start": 8.22,
+      "end": 8.36,
+      "word": " um,",
+      "probability": 0.600119411945343
+    },
+    {
+      "start": 8.54,
+      "end": 8.9,
+      "word": " quando",
+      "probability": 0.2885286808013916
+    },
+    {
+      "start": 8.9,
+      "end": 9.08,
+      "word": " a",
+      "probability": 0.261078417301178
+    },
+    {
+      "start": 9.08,
+      "end": 9.32,
+      "word": " mais",
+      "probability": 0.8564437031745911
+    },
+    {
+      "start": 9.32,
+      "end": 9.52,
+      "word": " de",
+      "probability": 0.4006844162940979
+    },
+    {
+      "start": 9.52,
+      "end": 9.7,
+      "word": " uma",
+      "probability": 0.8392748236656189
+    },
+    {
+      "start": 9.7,
+      "end": 10.1,
+      "word": " fonte,",
+      "probability": 0.7086502611637115
+    },
+    {
+      "start": 10.38,
+      "end": 10.52,
+      "word": " não",
+      "probability": 0.4671928882598877
+    },
+    {
+      "start": 10.52,
+      "end": 10.9,
+      "word": " basta",
+      "probability": 0.8763612508773804
+    },
+    {
+      "start": 10.9,
+      "end": 11.26,
+      "word": " saber",
+      "probability": 0.9804667830467224
+    },
+    {
+      "start": 11.26,
+      "end": 11.46,
+      "word": " o",
+      "probability": 0.09673026949167252
+    },
+    {
+      "start": 11.46,
+      "end": 11.78,
+      "word": " mercado,",
+      "probability": 0.4525737464427948
+    },
+    {
+      "start": 12.08,
+      "end": 12.38,
+      "word": " a",
+      "probability": 0.28225159645080566
+    },
+    {
+      "start": 12.38,
+      "end": 12.92,
+      "word": " preciza",
+      "probability": 0.6043099860350291
+    },
+    {
+      "start": 12.92,
+      "end": 13.48,
+      "word": " definir",
+      "probability": 0.7437192052602768
+    },
+    {
+      "start": 13.48,
+      "end": 13.66,
+      "word": " que",
+      "probability": 0.3404756784439087
+    },
+    {
+      "start": 13.66,
+      "end": 13.78,
+      "word": " o",
+      "probability": 0.3070690333843231
+    },
+    {
+      "start": 13.78,
+      "end": 13.96,
+      "word": " valor",
+      "probability": 0.7665640115737915
+    },
+    {
+      "start": 13.96,
+      "end": 14.4,
+      "word": " é",
+      "probability": 0.35231176018714905
+    },
+    {
+      "start": 14.4,
+      "end": 14.56,
+      "word": " assim.",
+      "probability": 0.047206878662109375
+    },
+    {
+      "start": 15.2,
+      "end": 15.42,
+      "word": " Os",
+      "probability": 0.8402296900749207
+    },
+    {
+      "start": 15.42,
+      "end": 16.08,
+      "word": " materiais",
+      "probability": 0.6841066926717758
+    },
+    {
+      "start": 16.08,
+      "end": 16.38,
+      "word": " deste",
+      "probability": 0.38248106837272644
+    },
+    {
+      "start": 16.38,
+      "end": 17.0,
+      "word": " capítulo",
+      "probability": 0.9143357872962952
+    },
+    {
+      "start": 17.0,
+      "end": 17.92,
+      "word": " apresentam",
+      "probability": 0.944154292345047
+    },
+    {
+      "start": 17.92,
+      "end": 18.16,
+      "word": " uma",
+      "probability": 0.9452956914901733
+    },
+    {
+      "start": 18.16,
+      "end": 18.56,
+      "word": " política",
+      "probability": 0.956735372543335
+    },
+    {
+      "start": 18.56,
+      "end": 19.56,
+      "word": " esclícita,",
+      "probability": 0.6262235641479492
+    },
+    {
+      "start": 19.76,
+      "end": 20.24,
+      "word": " remédio,",
+      "probability": 0.515416239698728
+    },
+    {
+      "start": 20.36,
+      "end": 21.08,
+      "word": " argumento,",
+      "probability": 0.8891250491142273
+    },
+    {
+      "start": 21.28,
+      "end": 21.52,
+      "word": " depois",
+      "probability": 0.8281996250152588
+    },
+    {
+      "start": 21.52,
+      "end": 21.84,
+      "word": " de",
+      "probability": 0.19790595769882202
+    },
+    {
+      "start": 21.84,
+      "end": 22.72,
+      "word": " ambienciar,",
+      "probability": 0.8142564967274666
+    },
+    {
+      "start": 22.92,
+      "end": 23.3,
+      "word": " sininho",
+      "probability": 0.29915690422058105
+    },
+    {
+      "start": 23.3,
+      "end": 23.62,
+      "word": " de",
+      "probability": 0.14211173355579376
+    },
+    {
+      "start": 23.62,
+      "end": 23.82,
+      "word": " les",
+      "probability": 0.34409773349761963
+    },
+    {
+      "start": 23.82,
+      "end": 24.36,
+      "word": " fornecer",
+      "probability": 0.6325626770655314
+    },
+    {
+      "start": 24.36,
+      "end": 24.6,
+      "word": " da",
+      "probability": 0.8880940675735474
+    },
+    {
+      "start": 24.6,
+      "end": 25.68,
+      "word": " configuração",
+      "probability": 0.9941630164782206
+    },
+    {
+      "start": 25.68,
+      "end": 25.96,
+      "word": " ou",
+      "probability": 0.09675627946853638
+    },
+    {
+      "start": 25.96,
+      "end": 26.16,
+      "word": " para",
+      "probability": 0.989471971988678
+    },
+    {
+      "start": 26.16,
+      "end": 26.46,
+      "word": " a",
+      "probability": 0.6738842129707336
+    },
+    {
+      "start": 26.46,
+      "end": 26.6,
+      "word": " um.",
+      "probability": 0.9512863755226135
+    },
+    {
+      "start": 26.6,
+      "end": 27.34,
+      "word": " e",
+      "probability": 0.33607226610183716
+    },
+    {
+      "start": 27.34,
+      "end": 27.76,
+      "word": " sopeda",
+      "probability": 0.20828288793563843
+    },
+    {
+      "start": 27.76,
+      "end": 27.86,
+      "word": "-me",
+      "probability": 0.5874056220054626
+    },
+    {
+      "start": 27.86,
+      "end": 28.04,
+      "word": " a",
+      "probability": 0.24423347413539886
+    },
+    {
+      "start": 28.04,
+      "end": 28.42,
+      "word": " explicar",
+      "probability": 0.36840152740478516
+    },
+    {
+      "start": 28.42,
+      "end": 28.82,
+      "word": " por",
+      "probability": 0.6034815907478333
+    },
+    {
+      "start": 28.82,
+      "end": 29.04,
+      "word": " que",
+      "probability": 0.905511200428009
+    },
+    {
+      "start": 29.04,
+      "end": 29.34,
+      "word": " muda",
+      "probability": 0.35039955377578735
+    },
+    {
+      "start": 29.34,
+      "end": 29.54,
+      "word": " o",
+      "probability": 0.2351500689983368
+    },
+    {
+      "start": 29.54,
+      "end": 29.82,
+      "word": " âmbio",
+      "probability": 0.4996964434782664
+    },
+    {
+      "start": 29.82,
+      "end": 30.06,
+      "word": " em",
+      "probability": 0.4170975387096405
+    },
+    {
+      "start": 30.06,
+      "end": 30.64,
+      "word": " chipodina,",
+      "probability": 0.3245023836692174
+    },
+    {
+      "start": 30.72,
+      "end": 30.84,
+      "word": " ao",
+      "probability": 0.23355138301849365
+    },
+    {
+      "start": 30.84,
+      "end": 31.0,
+      "word": " ter",
+      "probability": 0.31096169352531433
+    },
+    {
+      "start": 31.0,
+      "end": 31.3,
+      "word": " dado",
+      "probability": 0.28811177611351013
+    },
+    {
+      "start": 31.3,
+      "end": 31.44,
+      "word": " um",
+      "probability": 0.06483323127031326
+    },
+    {
+      "start": 31.44,
+      "end": 31.68,
+      "word": " exemplo",
+      "probability": 0.10206610709428787
+    },
+    {
+      "start": 31.68,
+      "end": 32.26,
+      "word": " que",
+      "probability": 0.7830955982208252
+    },
+    {
+      "start": 32.26,
+      "end": 32.48,
+      "word": " já",
+      "probability": 0.8451023697853088
+    },
+    {
+      "start": 32.48,
+      "end": 33.12,
+      "word": " recebeu",
+      "probability": 0.7034402092297872
+    },
+    {
+      "start": 33.12,
+      "end": 33.3,
+      "word": " o",
+      "probability": 0.6792848110198975
+    },
+    {
+      "start": 33.3,
+      "end": 33.48,
+      "word": " valor",
+      "probability": 0.9934647679328918
+    },
+    {
+      "start": 33.48,
+      "end": 33.8,
+      "word": " pela",
+      "probability": 0.8581580519676208
+    },
+    {
+      "start": 33.8,
+      "end": 34.12,
+      "word": " linha",
+      "probability": 0.9126806855201721
+    },
+    {
+      "start": 34.12,
+      "end": 34.34,
+      "word": " de",
+      "probability": 0.9391992092132568
+    },
+    {
+      "start": 34.34,
+      "end": 34.84,
+      "word": " comando.",
+      "probability": 0.45706090331077576
+    },
+    {
+      "start": 35.4,
+      "end": 35.72,
+      "word": " Na",
+      "probability": 0.4188315272331238
+    },
+    {
+      "start": 35.72,
+      "end": 35.98,
+      "word": " uma",
+      "probability": 0.06140165030956268
+    },
+    {
+      "start": 35.98,
+      "end": 36.64,
+      "word": " prioridade",
+      "probability": 0.9002623856067657
+    },
+    {
+      "start": 36.64,
+      "end": 37.3,
+      "word": " imposta",
+      "probability": 0.7301417142152786
+    },
+    {
+      "start": 37.3,
+      "end": 37.62,
+      "word": " pela",
+      "probability": 0.9942702054977417
+    },
+    {
+      "start": 37.62,
+      "end": 38.08,
+      "word": " língua",
+      "probability": 0.7424192577600479
+    },
+    {
+      "start": 38.08,
+      "end": 38.32,
+      "word": " em",
+      "probability": 0.23632057011127472
+    },
+    {
+      "start": 38.32,
+      "end": 38.5,
+      "word": " ser",
+      "probability": 0.3772795498371124
+    },
+    {
+      "start": 38.5,
+      "end": 38.88,
+      "word": " todos",
+      "probability": 0.4177100956439972
+    },
+    {
+      "start": 38.88,
+      "end": 39.2,
+      "word": " os",
+      "probability": 0.9900199174880981
+    },
+    {
+      "start": 39.2,
+      "end": 39.94,
+      "word": " programas",
+      "probability": 0.9108108580112457
+    },
+    {
+      "start": 39.94,
+      "end": 40.18,
+      "word": " e",
+      "probability": 0.1551261991262436
+    },
+    {
+      "start": 40.18,
+      "end": 40.28,
+      "word": " o",
+      "probability": 0.3106673061847687
+    },
+    {
+      "start": 40.28,
+      "end": 40.78,
+      "word": " contrato",
+      "probability": 0.6559211164712906
+    },
+    {
+      "start": 40.78,
+      "end": 41.6,
+      "word": " implementado",
+      "probability": 0.9177860021591187
+    },
+    {
+      "start": 41.6,
+      "end": 41.92,
+      "word": " por",
+      "probability": 0.924079179763794
+    },
+    {
+      "start": 41.92,
+      "end": 42.22,
+      "word": " desta",
+      "probability": 0.6442144513130188
+    },
+    {
+      "start": 42.22,
+      "end": 42.9,
+      "word": " aplicação.",
+      "probability": 0.8218141794204712
+    },
+    {
+      "start": 43.58,
+      "end": 43.94,
+      "word": " Para",
+      "probability": 0.25112515687942505
+    },
+    {
+      "start": 43.94,
+      "end": 44.34,
+      "word": " entender",
+      "probability": 0.3644792139530182
+    },
+    {
+      "start": 44.34,
+      "end": 44.76,
+      "word": " do",
+      "probability": 0.2879246771335602
+    },
+    {
+      "start": 44.76,
+      "end": 44.88,
+      "word": " que",
+      "probability": 0.47346019744873047
+    },
+    {
+      "start": 44.88,
+      "end": 45.26,
+      "word": " muda",
+      "probability": 0.8402552604675293
+    },
+    {
+      "start": 45.26,
+      "end": 45.52,
+      "word": " do",
+      "probability": 0.18322359025478363
+    },
+    {
+      "start": 45.52,
+      "end": 46.16,
+      "word": " cigarro,",
+      "probability": 0.2952925115823746
+    },
+    {
+      "start": 46.36,
+      "end": 46.66,
+      "word": " desceram",
+      "probability": 0.24858864645163217
+    },
+    {
+      "start": 46.66,
+      "end": 46.96,
+      "word": " desde",
+      "probability": 0.3188939690589905
+    },
+    {
+      "start": 46.96,
+      "end": 47.22,
+      "word": " a",
+      "probability": 0.9379717707633972
+    },
+    {
+      "start": 47.22,
+      "end": 47.54,
+      "word": " fonte",
+      "probability": 0.7266305088996887
+    },
+    {
+      "start": 47.54,
+      "end": 47.76,
+      "word": " de",
+      "probability": 0.9805270433425903
+    },
+    {
+      "start": 47.76,
+      "end": 47.98,
+      "word": " maior",
+      "probability": 0.9759505391120911
+    },
+    {
+      "start": 47.98,
+      "end": 48.66,
+      "word": " prioridade",
+      "probability": 0.9953854978084564
+    },
+    {
+      "start": 48.66,
+      "end": 49.14,
+      "word": " e",
+      "probability": 0.8371586799621582
+    },
+    {
+      "start": 49.14,
+      "end": 49.6,
+      "word": " desculpa",
+      "probability": 0.39133378863334656
+    },
+    {
+      "start": 49.6,
+      "end": 49.84,
+      "word": " em",
+      "probability": 0.4588136374950409
+    },
+    {
+      "start": 49.84,
+      "end": 50.1,
+      "word": " qual",
+      "probability": 0.5510479211807251
+    },
+    {
+      "start": 50.1,
+      "end": 50.32,
+      "word": " é",
+      "probability": 0.49408310651779175
+    },
+    {
+      "start": 50.32,
+      "end": 50.64,
+      "word": " Apa,",
+      "probability": 0.166885768994689
+    },
+    {
+      "start": 50.74,
+      "end": 50.74,
+      "word": " o",
+      "probability": 0.5872128009796143
+    },
+    {
+      "start": 50.74,
+      "end": 51.08,
+      "word": " malor",
+      "probability": 0.6962616145610809
+    },
+    {
+      "start": 51.08,
+      "end": 51.34,
+      "word": " foi",
+      "probability": 0.4948330521583557
+    },
+    {
+      "start": 51.34,
+      "end": 52.0,
+      "word": " escorido.",
+      "probability": 0.4094441185394923
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.4,
+      "text": " Uma aplicação pode obter a mesma configuração de três úgates, argumentos,"
+    },
+    {
+      "start": 5.66,
+      "end": 8.36,
+      "text": " mas de a vez que ambienci um valor para a um,"
+    },
+    {
+      "start": 8.54,
+      "end": 11.78,
+      "text": " quando a mais de uma fonte, não basta saber o mercado,"
+    },
+    {
+      "start": 12.08,
+      "end": 14.56,
+      "text": " a preciza definir que o valor é assim."
+    },
+    {
+      "start": 15.2,
+      "end": 19.56,
+      "text": " Os materiais deste capítulo apresentam uma política esclícita,"
+    },
+    {
+      "start": 19.76,
+      "end": 22.72,
+      "text": " remédio, argumento, depois de ambienciar,"
+    },
+    {
+      "start": 22.92,
+      "end": 26.6,
+      "text": " sininho de les fornecer da configuração ou para a um."
+    },
+    {
+      "start": 26.6,
+      "end": 30.64,
+      "text": " e sopeda-me a explicar por que muda o âmbio em chipodina,"
+    },
+    {
+      "start": 30.72,
+      "end": 34.84,
+      "text": " ao ter dado um exemplo que já recebeu o valor pela linha de comando."
+    },
+    {
+      "start": 35.4,
+      "end": 39.94,
+      "text": " Na uma prioridade imposta pela língua em ser todos os programas"
+    },
+    {
+      "start": 39.94,
+      "end": 42.9,
+      "text": " e o contrato implementado por desta aplicação."
+    },
+    {
+      "start": 43.58,
+      "end": 46.16,
+      "text": " Para entender do que muda do cigarro,"
+    },
+    {
+      "start": 46.36,
+      "end": 50.32,
+      "text": " desceram desde a fonte de maior prioridade e desculpa em qual é"
+    },
+    {
+      "start": 50.32,
+      "end": 52.0,
+      "text": " Apa, o malor foi escorido."
+    }
+  ],
+  "provenance": {
+    "backend": "faster-whisper",
+    "version": "1.2.1",
+    "ctranslate2": "4.8.4",
+    "model_files_sha256": {
+      "config.json": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a",
+      "model.bin": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+      "tokenizer.json": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+      "vocabulary.txt": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+    },
+    "language": "pt",
+    "compute_type": "int8",
+    "cpu_threads": 4,
+    "beam_size": 5,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "condition_on_previous_text": false,
+    "prompt_roteiro": false
+  },
+  "limite": "Tempos e palavras são estimativas ASR, não transcrição humana homologada. Probabilidades registradas, sem limiar não calibrado."
+}

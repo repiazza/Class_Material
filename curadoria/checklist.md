@@ -496,3 +496,14 @@ Mapeamento autorizado do capítulo completo; originais e documentos editoriais p
 - **Limitação:** inspeção visual por quadros e fronteiras e validações técnicas não substituem escuta perceptiva contínua. Sem ferramenta de reprodução auditiva para o agente nesta interface; pronúncia, naturalidade e sincronismo fino da referência ficam PENDENTE_REVISAO.
 - **Encaminhamento:** revisar humanamente o MP4 já entregue; não ressintetizar nem regenerar artefatos válidos preventivamente. SRT provisório medido sobre as amostras da síntese local.
 - **Rastreabilidade:** `editorial/montagens/04-004_Montagem.json`, `videos/V04-004/V04-004_Manifesto.json` e `V04-004_Relatorio.md`; mesma branch do experimento. Não representa homologação editorial ou autorização de merge.
+
+## Motor 3 — primeiro núcleo de finalização
+
+### M3-V04-ASR-001 — AV-S / transcrição — PENDENTE
+
+- **Autorização:** implementação e testes do primeiro núcleo; V04-004 como referência. Não autoriza alterações dos originais ou merge.
+- **Evidência:** backend local faster-whisper base executado sobre o áudio sintético anterior; trocas textuais e palavra `o` com início=fim em 50,74 s. Resultado preservado em `videos/V04-004/execucoes/M3-B-asr-sintetico/transcricao.json`. Não representa gravação humana.
+- **Conduta:** temporização inválida recusada; nenhum vídeo/SRT gerado com esse ASR. Bloqueio reproduzido por transcrição preservada em `M3-B-bloqueio-final`; não foram inventados tempos ou cadastradas equivalências para forçar aprovação.
+- **Estado e impacto:** Marco A demonstrado. Marco B humano/autônomo não concluído; responsável confirmou que ainda não há gravação humana. Teste controlado por enunciados sintéticos não substitui essa demonstração.
+- **Encaminhamento:** avaliar transcrição e associação com a futura gravação humana, preservando o núcleo, as fontes e as renderizações válidas. Reformulações desconhecidas e ressalvas não confirmadas permanecem pendentes; sem correção silenciosa da fala.
+- **Rastreabilidade:** `videos/motor3/RELATORIO.md`, testes e evidências; branch `audiovisual/motor3-nucleo`. Estados e decisões anteriores preservados.

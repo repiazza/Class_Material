@@ -1,0 +1,39 @@
+1
+00:00:00,180 --> 00:00:04,444
+Uma aplicação pode obter a mesma configuração de três lugares:
+
+2
+00:00:04,544 --> 00:00:08,371
+argumentos, variáveis de ambiente e um valor padrão.
+
+3
+00:00:08,471 --> 00:00:12,182
+Quando há mais de uma fonte, não basta saber ler cada uma;
+
+4
+00:00:12,282 --> 00:00:14,591
+é preciso definir qual prevalece.
+
+5
+00:00:15,247 --> 00:00:19,577
+Os materiais deste capítulo apresentam uma política explícita:
+
+6
+00:00:19,677 --> 00:00:26,575
+primeiro o argumento, depois o ambiente e, se nenhum deles fornecer a configuração, o padrão.
+
+7
+00:00:27,213 --> 00:00:34,926
+Isso permite explicar por que mudar o ambiente pode não alterar uma execução que já recebeu o valor pela linha de comando.
+
+8
+00:00:35,580 --> 00:00:39,980
+Não é uma prioridade imposta pela linguagem C a todos os programas.
+
+9
+00:00:40,080 --> 00:00:43,105
+É o contrato implementado por esta aplicação.
+
+10
+00:00:43,747 --> 00:00:52,094
+Para entender o resultado, siga a decisão desde a fonte de maior prioridade e descubra em qual etapa o valor foi escolhido.
