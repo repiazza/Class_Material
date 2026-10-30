@@ -1,0 +1,2093 @@
+[
+  {
+    "arquivo": "bitwise_10_12_em_C.gif",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "final_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_10_12_em_C.gif",
+    "id": "codigo_e_explicacao",
+    "primaria_px": [
+      16,
+      124,
+      800,
+      872
+    ],
+    "final_px": [
+      24,
+      132,
+      792,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_10_12_em_C.gif",
+    "id": "bits_e_terminal",
+    "primaria_px": [
+      800,
+      124,
+      1584,
+      872
+    ],
+    "final_px": [
+      808,
+      132,
+      1576,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_deslocamento.gif",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "final_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_deslocamento.gif",
+    "id": "demonstracao_completa",
+    "primaria_px": [
+      22,
+      124,
+      1578,
+      872
+    ],
+    "final_px": [
+      30,
+      132,
+      1570,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_mascaras.gif",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "final_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_mascaras.gif",
+    "id": "operacao_com_contexto",
+    "primaria_px": [
+      22,
+      124,
+      1578,
+      746
+    ],
+    "final_px": [
+      30,
+      132,
+      1570,
+      738
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_mascaras.gif",
+    "id": "operacao_e_resultado",
+    "primaria_px": [
+      22,
+      316,
+      1578,
+      746
+    ],
+    "final_px": [
+      30,
+      324,
+      1570,
+      738
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "logico_vs_bitwise",
+    "primaria_px": [
+      0,
+      112,
+      544,
+      472
+    ],
+    "final_px": [
+      0,
+      120,
+      536,
+      464
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "exemplo_4_bits",
+    "primaria_px": [
+      526,
+      112,
+      998,
+      472
+    ],
+    "final_px": [
+      534,
+      120,
+      990,
+      464
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "exemplo_8_bits",
+    "primaria_px": [
+      981,
+      112,
+      1536,
+      472
+    ],
+    "final_px": [
+      989,
+      120,
+      1536,
+      464
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "interpretacao",
+    "primaria_px": [
+      0,
+      456,
+      596,
+      785
+    ],
+    "final_px": [
+      0,
+      464,
+      588,
+      777
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "complemento_dois",
+    "primaria_px": [
+      579,
+      456,
+      1049,
+      785
+    ],
+    "final_px": [
+      587,
+      464,
+      1041,
+      777
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "exemplo_c",
+    "primaria_px": [
+      1032,
+      456,
+      1536,
+      785
+    ],
+    "final_px": [
+      1040,
+      464,
+      1536,
+      777
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "promocao_inteiros",
+    "primaria_px": [
+      0,
+      766,
+      711,
+      1024
+    ],
+    "final_px": [
+      0,
+      774,
+      703,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "caracteristicas",
+    "primaria_px": [
+      693,
+      766,
+      1068,
+      1024
+    ],
+    "final_px": [
+      701,
+      774,
+      1060,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "comparacao_operadores",
+    "primaria_px": [
+      1052,
+      766,
+      1536,
+      1024
+    ],
+    "final_px": [
+      1060,
+      774,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "pesos_posicoes",
+    "primaria_px": [
+      0,
+      106,
+      585,
+      422
+    ],
+    "final_px": [
+      0,
+      114,
+      577,
+      414
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "valor_original",
+    "primaria_px": [
+      567,
+      106,
+      995,
+      422
+    ],
+    "final_px": [
+      575,
+      114,
+      987,
+      414
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "esquerda_uma_posicao",
+    "primaria_px": [
+      978,
+      106,
+      1536,
+      422
+    ],
+    "final_px": [
+      986,
+      114,
+      1536,
+      414
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "entrada_saida",
+    "primaria_px": [
+      0,
+      405,
+      755,
+      714
+    ],
+    "final_px": [
+      0,
+      413,
+      747,
+      706
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "exemplo_c",
+    "primaria_px": [
+      738,
+      405,
+      1536,
+      714
+    ],
+    "final_px": [
+      746,
+      413,
+      1536,
+      706
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "mais_exemplos",
+    "primaria_px": [
+      0,
+      697,
+      633,
+      1016
+    ],
+    "final_px": [
+      0,
+      705,
+      625,
+      1008
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "n_posicoes",
+    "primaria_px": [
+      617,
+      697,
+      1048,
+      1016
+    ],
+    "final_px": [
+      625,
+      705,
+      1040,
+      1008
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "resumo",
+    "primaria_px": [
+      1031,
+      697,
+      1536,
+      1016
+    ],
+    "final_px": [
+      1039,
+      705,
+      1536,
+      1008
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "sintaxe",
+    "primaria_px": [
+      0,
+      109,
+      797,
+      368
+    ],
+    "final_px": [
+      0,
+      117,
+      789,
+      360
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "pesos",
+    "primaria_px": [
+      781,
+      109,
+      1536,
+      368
+    ],
+    "final_px": [
+      789,
+      117,
+      1536,
+      360
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "exemplos_esquerda",
+    "primaria_px": [
+      0,
+      352,
+      793,
+      691
+    ],
+    "final_px": [
+      0,
+      360,
+      785,
+      683
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "exemplos_direita",
+    "primaria_px": [
+      777,
+      352,
+      1536,
+      691
+    ],
+    "final_px": [
+      785,
+      360,
+      1536,
+      683
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "n_posicoes",
+    "primaria_px": [
+      0,
+      674,
+      939,
+      1005
+    ],
+    "final_px": [
+      0,
+      682,
+      931,
+      997
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "efeito_numerico",
+    "primaria_px": [
+      923,
+      674,
+      1536,
+      1005
+    ],
+    "final_px": [
+      931,
+      682,
+      1536,
+      997
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "esquerda",
+    "primaria_px": [
+      0,
+      107,
+      777,
+      405
+    ],
+    "final_px": [
+      0,
+      115,
+      769,
+      397
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "direita",
+    "primaria_px": [
+      761,
+      107,
+      1536,
+      405
+    ],
+    "final_px": [
+      769,
+      115,
+      1536,
+      397
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "perda_esquerda",
+    "primaria_px": [
+      0,
+      388,
+      805,
+      713
+    ],
+    "final_px": [
+      0,
+      396,
+      797,
+      705
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "perda_direita",
+    "primaria_px": [
+      789,
+      388,
+      1536,
+      713
+    ],
+    "final_px": [
+      797,
+      396,
+      1536,
+      705
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "exemplos_completos",
+    "primaria_px": [
+      0,
+      695,
+      971,
+      1004
+    ],
+    "final_px": [
+      0,
+      703,
+      963,
+      996
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "resumo",
+    "primaria_px": [
+      955,
+      695,
+      1536,
+      1004
+    ],
+    "final_px": [
+      963,
+      703,
+      1536,
+      996
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift_em_c.gif",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "final_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift_em_c.gif",
+    "id": "codigo_e_explicacao",
+    "primaria_px": [
+      16,
+      124,
+      800,
+      872
+    ],
+    "final_px": [
+      24,
+      132,
+      792,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "bitwise_shift_em_c.gif",
+    "id": "bits_e_terminal",
+    "primaria_px": [
+      800,
+      124,
+      1584,
+      872
+    ],
+    "final_px": [
+      808,
+      132,
+      1576,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "valor_original",
+    "primaria_px": [
+      0,
+      103,
+      401,
+      588
+    ],
+    "final_px": [
+      0,
+      111,
+      393,
+      580
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "campo_desejado",
+    "primaria_px": [
+      385,
+      103,
+      826,
+      588
+    ],
+    "final_px": [
+      393,
+      111,
+      818,
+      580
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "resultado_esperado",
+    "primaria_px": [
+      810,
+      103,
+      1191,
+      588
+    ],
+    "final_px": [
+      818,
+      111,
+      1183,
+      580
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "definicao_campo",
+    "primaria_px": [
+      1174,
+      103,
+      1536,
+      588
+    ],
+    "final_px": [
+      1182,
+      111,
+      1536,
+      580
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "outros_exemplos",
+    "primaria_px": [
+      0,
+      572,
+      912,
+      1018
+    ],
+    "final_px": [
+      0,
+      580,
+      904,
+      1010
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "resumo",
+    "primaria_px": [
+      895,
+      572,
+      1536,
+      1018
+    ],
+    "final_px": [
+      903,
+      580,
+      1536,
+      1010
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "parametros",
+    "primaria_px": [
+      0,
+      101,
+      527,
+      511
+    ],
+    "final_px": [
+      0,
+      109,
+      519,
+      503
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "blocos_expressao",
+    "primaria_px": [
+      510,
+      101,
+      1074,
+      511
+    ],
+    "final_px": [
+      518,
+      109,
+      1066,
+      503
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "calculo_posicao",
+    "primaria_px": [
+      1057,
+      101,
+      1536,
+      404
+    ],
+    "final_px": [
+      1065,
+      109,
+      1536,
+      396
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "deslocar",
+    "primaria_px": [
+      0,
+      492,
+      496,
+      764
+    ],
+    "final_px": [
+      0,
+      500,
+      488,
+      756
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "construir_mascara",
+    "primaria_px": [
+      479,
+      492,
+      1075,
+      764
+    ],
+    "final_px": [
+      487,
+      500,
+      1067,
+      756
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "aplicar_and",
+    "primaria_px": [
+      1058,
+      385,
+      1536,
+      713
+    ],
+    "final_px": [
+      1066,
+      393,
+      1536,
+      705
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "ordem_apresentada",
+    "primaria_px": [
+      0,
+      744,
+      622,
+      1023
+    ],
+    "final_px": [
+      0,
+      752,
+      614,
+      1015
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "arvore_expressao",
+    "primaria_px": [
+      605,
+      744,
+      1126,
+      1023
+    ],
+    "final_px": [
+      613,
+      752,
+      1118,
+      1015
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "resumo",
+    "primaria_px": [
+      1109,
+      692,
+      1536,
+      1023
+    ],
+    "final_px": [
+      1117,
+      700,
+      1536,
+      1015
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "getbits.gif",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "final_px": [
+      0,
+      0,
+      1600,
+      900
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "getbits.gif",
+    "id": "codigo_e_explicacao",
+    "primaria_px": [
+      16,
+      124,
+      804,
+      872
+    ],
+    "final_px": [
+      24,
+      132,
+      796,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "getbits.gif",
+    "id": "operacao_e_resultado",
+    "primaria_px": [
+      804,
+      124,
+      1584,
+      872
+    ],
+    "final_px": [
+      812,
+      132,
+      1576,
+      864
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "definicao",
+    "primaria_px": [
+      0,
+      80,
+      1536,
+      204
+    ],
+    "final_px": [
+      8,
+      88,
+      1530,
+      196
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "valor_original",
+    "primaria_px": [
+      0,
+      187,
+      422,
+      592
+    ],
+    "final_px": [
+      0,
+      195,
+      414,
+      584
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "objetivo",
+    "primaria_px": [
+      406,
+      187,
+      777,
+      592
+    ],
+    "final_px": [
+      414,
+      195,
+      769,
+      584
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "mascara",
+    "primaria_px": [
+      760,
+      187,
+      1105,
+      592
+    ],
+    "final_px": [
+      768,
+      195,
+      1097,
+      584
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "aplicacao",
+    "primaria_px": [
+      1088,
+      187,
+      1536,
+      592
+    ],
+    "final_px": [
+      1096,
+      195,
+      1536,
+      584
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "exemplo_c",
+    "primaria_px": [
+      0,
+      572,
+      616,
+      858
+    ],
+    "final_px": [
+      0,
+      580,
+      608,
+      850
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "saida_programa",
+    "primaria_px": [
+      600,
+      572,
+      1023,
+      858
+    ],
+    "final_px": [
+      608,
+      580,
+      1015,
+      850
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "regra_and",
+    "primaria_px": [
+      1006,
+      572,
+      1536,
+      858
+    ],
+    "final_px": [
+      1014,
+      580,
+      1536,
+      850
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "resumo",
+    "primaria_px": [
+      0,
+      840,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      848,
+      1536,
+      1018
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "ideia",
+    "primaria_px": [
+      0,
+      126,
+      371,
+      572
+    ],
+    "final_px": [
+      0,
+      134,
+      363,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "valor_original",
+    "primaria_px": [
+      355,
+      126,
+      768,
+      572
+    ],
+    "final_px": [
+      363,
+      134,
+      760,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "mascara",
+    "primaria_px": [
+      750,
+      126,
+      1113,
+      572
+    ],
+    "final_px": [
+      758,
+      134,
+      1105,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "aplicacao_or",
+    "primaria_px": [
+      1096,
+      126,
+      1536,
+      572
+    ],
+    "final_px": [
+      1104,
+      134,
+      1536,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "exemplo_c",
+    "primaria_px": [
+      0,
+      553,
+      648,
+      848
+    ],
+    "final_px": [
+      0,
+      561,
+      640,
+      840
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "saida_programa",
+    "primaria_px": [
+      632,
+      553,
+      1016,
+      848
+    ],
+    "final_px": [
+      640,
+      561,
+      1008,
+      840
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "regra_or",
+    "primaria_px": [
+      999,
+      553,
+      1536,
+      848
+    ],
+    "final_px": [
+      1007,
+      561,
+      1536,
+      840
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "resumo",
+    "primaria_px": [
+      0,
+      830,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      838,
+      1536,
+      1019
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "ideia",
+    "primaria_px": [
+      0,
+      126,
+      370,
+      572
+    ],
+    "final_px": [
+      0,
+      134,
+      362,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "valor_original",
+    "primaria_px": [
+      354,
+      126,
+      766,
+      572
+    ],
+    "final_px": [
+      362,
+      134,
+      758,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "mascara",
+    "primaria_px": [
+      750,
+      126,
+      1113,
+      572
+    ],
+    "final_px": [
+      758,
+      134,
+      1105,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "aplicacao_xor",
+    "primaria_px": [
+      1096,
+      126,
+      1536,
+      572
+    ],
+    "final_px": [
+      1104,
+      134,
+      1536,
+      564
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "exemplo_c",
+    "primaria_px": [
+      0,
+      554,
+      648,
+      847
+    ],
+    "final_px": [
+      0,
+      562,
+      640,
+      839
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "saida_programa",
+    "primaria_px": [
+      632,
+      554,
+      1016,
+      847
+    ],
+    "final_px": [
+      640,
+      562,
+      1008,
+      839
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "regra_xor",
+    "primaria_px": [
+      999,
+      554,
+      1536,
+      847
+    ],
+    "final_px": [
+      1007,
+      562,
+      1536,
+      839
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "resumo",
+    "primaria_px": [
+      0,
+      829,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      837,
+      1536,
+      1019
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "construcao_mascara",
+    "primaria_px": [
+      0,
+      106,
+      542,
+      569
+    ],
+    "final_px": [
+      0,
+      114,
+      534,
+      561
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "valor_e_mascara",
+    "primaria_px": [
+      526,
+      106,
+      973,
+      573
+    ],
+    "final_px": [
+      534,
+      114,
+      965,
+      565
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "teste_and",
+    "primaria_px": [
+      957,
+      106,
+      1536,
+      558
+    ],
+    "final_px": [
+      965,
+      114,
+      1536,
+      550
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "ligar_or",
+    "primaria_px": [
+      0,
+      552,
+      514,
+      1024
+    ],
+    "final_px": [
+      0,
+      560,
+      506,
+      1016
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "desligar_and_not",
+    "primaria_px": [
+      497,
+      552,
+      1008,
+      1024
+    ],
+    "final_px": [
+      505,
+      560,
+      1000,
+      1016
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "alternar_xor",
+    "primaria_px": [
+      990,
+      539,
+      1536,
+      866
+    ],
+    "final_px": [
+      998,
+      547,
+      1536,
+      858
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "resumo",
+    "primaria_px": [
+      990,
+      846,
+      1536,
+      1024
+    ],
+    "final_px": [
+      998,
+      854,
+      1536,
+      1016
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1312,
+      1199
+    ],
+    "final_px": [
+      0,
+      0,
+      1312,
+      1199
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "sequencias",
+    "primaria_px": [
+      0,
+      132,
+      448,
+      644
+    ],
+    "final_px": [
+      0,
+      140,
+      440,
+      636
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "aplicacao_and",
+    "primaria_px": [
+      432,
+      132,
+      863,
+      644
+    ],
+    "final_px": [
+      440,
+      140,
+      855,
+      636
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "operacoes_por_posicao",
+    "primaria_px": [
+      847,
+      132,
+      1312,
+      644
+    ],
+    "final_px": [
+      855,
+      140,
+      1312,
+      636
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "resultado_final",
+    "primaria_px": [
+      0,
+      627,
+      463,
+      1186
+    ],
+    "final_px": [
+      0,
+      635,
+      455,
+      1178
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "exemplo_c",
+    "primaria_px": [
+      447,
+      627,
+      898,
+      1186
+    ],
+    "final_px": [
+      455,
+      635,
+      890,
+      1178
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "ideias_principais",
+    "primaria_px": [
+      882,
+      627,
+      1312,
+      1186
+    ],
+    "final_px": [
+      890,
+      635,
+      1312,
+      1178
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1312,
+      1199
+    ],
+    "final_px": [
+      0,
+      0,
+      1312,
+      1199
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "and",
+    "primaria_px": [
+      0,
+      138,
+      361,
+      624
+    ],
+    "final_px": [
+      0,
+      146,
+      353,
+      616
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "or",
+    "primaria_px": [
+      344,
+      138,
+      683,
+      624
+    ],
+    "final_px": [
+      352,
+      146,
+      675,
+      616
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "xor",
+    "primaria_px": [
+      666,
+      138,
+      1043,
+      624
+    ],
+    "final_px": [
+      674,
+      146,
+      1035,
+      616
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "not",
+    "primaria_px": [
+      1026,
+      138,
+      1312,
+      624
+    ],
+    "final_px": [
+      1034,
+      146,
+      1312,
+      616
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "resumo_tabelas",
+    "primaria_px": [
+      0,
+      612,
+      455,
+      1108
+    ],
+    "final_px": [
+      0,
+      620,
+      447,
+      1100
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "exemplo_4_bits",
+    "primaria_px": [
+      439,
+      612,
+      889,
+      1108
+    ],
+    "final_px": [
+      447,
+      620,
+      881,
+      1100
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "operadores_c",
+    "primaria_px": [
+      872,
+      612,
+      1312,
+      1108
+    ],
+    "final_px": [
+      880,
+      620,
+      1312,
+      1100
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "sintese",
+    "primaria_px": [
+      0,
+      1095,
+      1312,
+      1199
+    ],
+    "final_px": [
+      0,
+      1103,
+      1312,
+      1199
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "integral",
+    "primaria_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "final_px": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "tabela_or",
+    "primaria_px": [
+      0,
+      156,
+      519,
+      627
+    ],
+    "final_px": [
+      0,
+      164,
+      511,
+      619
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "tabela_xor",
+    "primaria_px": [
+      502,
+      156,
+      1029,
+      627
+    ],
+    "final_px": [
+      510,
+      164,
+      1021,
+      619
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "comparativo_or",
+    "primaria_px": [
+      1013,
+      156,
+      1536,
+      627
+    ],
+    "final_px": [
+      1021,
+      164,
+      1536,
+      619
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "exemplo_binario",
+    "primaria_px": [
+      0,
+      614,
+      632,
+      1009
+    ],
+    "final_px": [
+      0,
+      622,
+      624,
+      1001
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "resumo_operacoes",
+    "primaria_px": [
+      614,
+      614,
+      1071,
+      1009
+    ],
+    "final_px": [
+      622,
+      622,
+      1063,
+      1001
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "conclusao",
+    "primaria_px": [
+      1054,
+      614,
+      1536,
+      1009
+    ],
+    "final_px": [
+      1062,
+      622,
+      1536,
+      1001
+    ],
+    "refinamento": "Redução de até 8 px da região primária abrangente nos limites dos painéis; margens e símbolos preservados. Integral sem redução."
+  }
+]

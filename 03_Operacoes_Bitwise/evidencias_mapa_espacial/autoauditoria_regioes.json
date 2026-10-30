@@ -1,0 +1,1312 @@
+[
+  {
+    "arquivo": "bitwise_10_12_em_C.gif",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_10_12_em_C.gif",
+    "id": "codigo_e_explicacao",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_10_12_em_C.gif",
+    "id": "bits_e_terminal",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_deslocamento.gif",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_deslocamento.gif",
+    "id": "demonstracao_completa",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_mascaras.gif",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_mascaras.gif",
+    "id": "operacao_com_contexto",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_mascaras.gif",
+    "id": "operacao_e_resultado",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-001"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-001"
+    ]
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "logico_vs_bitwise",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "exemplo_4_bits",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "exemplo_8_bits",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "interpretacao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-001"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-001"
+    ]
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "complemento_dois",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-001"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-001"
+    ]
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "exemplo_c",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "promocao_inteiros",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "caracteristicas",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_not.png",
+    "id": "comparacao_operadores",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "pesos_posicoes",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "valor_original",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "esquerda_uma_posicao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "entrada_saida",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "exemplo_c",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "mais_exemplos",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "n_posicoes",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift.png",
+    "id": "resumo",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "sintaxe",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "pesos",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "exemplos_esquerda",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "exemplos_direita",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "n_posicoes",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift2.png",
+    "id": "efeito_numerico",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "esquerda",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "direita",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "perda_esquerda",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "perda_direita",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "exemplos_completos",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift3.png",
+    "id": "resumo",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift_em_c.gif",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift_em_c.gif",
+    "id": "codigo_e_explicacao",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "bitwise_shift_em_c.gif",
+    "id": "bits_e_terminal",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-004"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-004"
+    ]
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "valor_original",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "campo_desejado",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "resultado_esperado",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "definicao_campo",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "outros_exemplos",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-004"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-004"
+    ]
+  },
+  {
+    "arquivo": "get_bits.png",
+    "id": "resumo",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-005",
+      "P: conteúdo do original requer deliberação; ver M03-P-006"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005",
+      "M03-P-006"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "parametros",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-005"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "blocos_expressao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-005"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "calculo_posicao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-006"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-006"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "deslocar",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "construir_mascara",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-005"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "aplicar_and",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-005"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "ordem_apresentada",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-005",
+      "P: conteúdo do original requer deliberação; ver M03-P-006"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005",
+      "M03-P-006"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "arvore_expressao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-005"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005"
+    ]
+  },
+  {
+    "arquivo": "get_bits2.png",
+    "id": "resumo",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: pequeno fragmento da borda do painel superior preservado junto ao limite; não interfere no resumo."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "getbits.gif",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-005",
+      "P: conteúdo do original requer deliberação; ver M03-P-006",
+      "P: conteúdo do original requer deliberação; ver M03-P-007"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005",
+      "M03-P-006",
+      "M03-P-007"
+    ]
+  },
+  {
+    "arquivo": "getbits.gif",
+    "id": "codigo_e_explicacao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-005"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-005"
+    ]
+  },
+  {
+    "arquivo": "getbits.gif",
+    "id": "operacao_e_resultado",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-006"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-006"
+    ]
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "definicao",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "valor_original",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: pequena extremidade do círculo do painel inferior mantida para não comprimir a borda principal."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "objetivo",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "mascara",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "aplicacao",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "exemplo_c",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "saida_programa",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "regra_and",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise.png",
+    "id": "resumo",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "ideia",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "valor_original",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "mascara",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "aplicacao_or",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "exemplo_c",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "saida_programa",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "regra_or",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise2.png",
+    "id": "resumo",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-002"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-002"
+    ]
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "ideia",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "valor_original",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-002"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-002"
+    ]
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "mascara",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "aplicacao_xor",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-002"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-002"
+    ]
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "exemplo_c",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "saida_programa",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "regra_xor",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise3.png",
+    "id": "resumo",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone.",
+      "P: conteúdo do original requer deliberação; ver M03-P-003"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-003"
+    ]
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "construcao_mascara",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "valor_e_mascara",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "teste_and",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "ligar_or",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "desligar_and_not",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "P: conteúdo do original requer deliberação; ver M03-P-003"
+    ],
+    "ocorrencias_fonte": [
+      "M03-P-003"
+    ]
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "alternar_xor",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "mascara_bitwise4.png",
+    "id": "resumo",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "sequencias",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "aplicacao_and",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "operacoes_por_posicao",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "resultado_final",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "exemplo_c",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operacao_bit_a_bit.png",
+    "id": "ideias_principais",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "and",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "or",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "xor",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "not",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "resumo_tabelas",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "exemplo_4_bits",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "operadores_c",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "operadores_bitwise.png",
+    "id": "sintese",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "integral",
+    "resultado": "APROVADA_COM_RESSALVA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [
+      "V: visão abrangente/faixa larga; conteúdo integral, leitura pequena no 9:16. Não garante leitura confortável em telefone."
+    ],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "tabela_or",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "tabela_xor",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "comparativo_or",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "exemplo_binario",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "resumo_operacoes",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  },
+  {
+    "arquivo": "xor.png",
+    "id": "conclusao",
+    "resultado": "APROVADA_NA_AUTOAUDITORIA",
+    "geometria": "SEM_DEFEITO_IMPEDITIVO_IDENTIFICADO",
+    "inspecao": "Projeção renderizada examinada em painel, comparada ao original; GIF em todos os quadros. Não é homologação humana.",
+    "ressalvas": [],
+    "ocorrencias_fonte": []
+  }
+]

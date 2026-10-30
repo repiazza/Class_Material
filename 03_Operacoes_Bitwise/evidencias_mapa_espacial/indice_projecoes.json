@@ -1,0 +1,3389 @@
+{
+  "algoritmo": "round(normalizado*dimensão), bbox exclusiva, RGB, Lanczos, fit integral 1080x1920, fundo RGB(22,22,22)",
+  "projecoes": [
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f00.png",
+      "sha256": "3d0058944dc8edf0e04f1a1556c6c4489c5984434af01930c52f4e5503df6154"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 0,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f00.png",
+      "sha256": "34a1a861a369de24288cb87e61176a9f752af0a2824aaca90dacd7d231af4cc2"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 0,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f00.png",
+      "sha256": "fbb81561fe0c5740d664983fdd483933130023eef85f3b05d190d48d6b88a4d1"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 1,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f01.png",
+      "sha256": "356236d693e4faa3864f324ff23f7c999e68fc31ea1c26e3719ee43e4662672e"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 1,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f01.png",
+      "sha256": "f5bfa3915f3b9085df4a61ad9d82855fe0d49611af5761d79c25d287ea5a18fa"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 1,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f01.png",
+      "sha256": "4ea5a7dacd51c34f1e59fca73211dcce3d2d852eff111bfdfb1aad02883e99f3"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 2,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f02.png",
+      "sha256": "6adf2a03ed4390edca22af46df8f5e49098d09941d691a0227b6b61b55416716"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 2,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f02.png",
+      "sha256": "4dfaa598511fa647cbad80d2570f617cb8a0361064a6b94a9c3a280f74634ade"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 2,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f02.png",
+      "sha256": "298ab2ead30e9a691a7059ca45bff3598665745f6883ed5c2b34f055b268fc79"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 3,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f03.png",
+      "sha256": "1e7073faca46cdbd0a4fa3749f9254e6c970ade61ee0503c1bcee53c2e1f63cd"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 3,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f03.png",
+      "sha256": "e2f0945639c2d07c01643068f1903c9bf000bc07e1c2afb5df69865671244ea7"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 3,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f03.png",
+      "sha256": "60aa76f6cdadc916fb78a1159cdd2e56b5d951e1999d70fa59c24d14a59156f2"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 4,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f04.png",
+      "sha256": "3b489bd3e4dea2ba17acec21b6e66c5f3ec63962b951b680075f1ee7497fb737"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 4,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f04.png",
+      "sha256": "e65c86974bb3a5823f8d6359c18d26ff61640e4238fff200700d3a62395bb68b"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 4,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f04.png",
+      "sha256": "adc55be050a64f8e37d212f91a5c0310ab385282b405e1a1d49dfd598a3d1de9"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 5,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f05.png",
+      "sha256": "ded6a780710d372e5489fd9f1d5521e91a8d20e3154108ec7d8e75bfe6f15240"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 5,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f05.png",
+      "sha256": "c74900ea8e0ab049fc4e08537e97245432be85257ec3f2368f754a8989d67199"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 5,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f05.png",
+      "sha256": "8151318f3d6492d87ca47517d8a9f213bb9df919fe58e8acd7920cb8c192c99f"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "integral",
+      "quadro": 6,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__integral__f06.png",
+      "sha256": "8bc74051b7a6b960fc4644f6a38ce058cebd642ef889d5d30af25701d6fcb5a5"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 6,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__codigo_e_explicacao__f06.png",
+      "sha256": "8452e6fdb2c18e286e40978eae0f871fbe948ebc185378a36ae6217ae939687d"
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 6,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_10_12_em_C_gif__bits_e_terminal__f06.png",
+      "sha256": "6016e2649d5f3da71a7fd96467a11297f277598aa08f8834d517b4cb139072e7"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_deslocamento_gif__integral__f00.png",
+      "sha256": "2ace12f6ed8d30fa73f0f1df20bd235b2defccd83ea3c5dafb770dd5503304d6"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "demonstracao_completa",
+      "quadro": 0,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        864
+      ],
+      "projecao": "bitwise_deslocamento_gif__demonstracao_completa__f00.png",
+      "sha256": "b1f5d48bc712003bc3314070f8469c59762c381a497114523024cf07e628c481"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "integral",
+      "quadro": 1,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_deslocamento_gif__integral__f01.png",
+      "sha256": "c50e820646520e3b49535f9129f5a4a2b1889c6435268d7d747b2b2dc463e5ea"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "demonstracao_completa",
+      "quadro": 1,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        864
+      ],
+      "projecao": "bitwise_deslocamento_gif__demonstracao_completa__f01.png",
+      "sha256": "3dc421c9aff8ca6c100a445c7af17b028351d1bae7482a5ceb0db0ba8095a3a2"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "integral",
+      "quadro": 2,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_deslocamento_gif__integral__f02.png",
+      "sha256": "50b5213bceb176290ae36c8acc1579934447a2edf51a1ca21e0fc17b2fb3690a"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "demonstracao_completa",
+      "quadro": 2,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        864
+      ],
+      "projecao": "bitwise_deslocamento_gif__demonstracao_completa__f02.png",
+      "sha256": "ed804013ee41d9bf74d8eeca4bb923662d4a678edd82456f0d3a99226a91502e"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "integral",
+      "quadro": 3,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_deslocamento_gif__integral__f03.png",
+      "sha256": "1efea7a57030eec757dae6b97091e4089207396fc01dfc88461f27c3c64cbaaf"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "demonstracao_completa",
+      "quadro": 3,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        864
+      ],
+      "projecao": "bitwise_deslocamento_gif__demonstracao_completa__f03.png",
+      "sha256": "216e91f5d860f9c6b590addb0edfd6f5b5614d562cb8046b7b5cb1a7c617a3be"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "integral",
+      "quadro": 4,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_deslocamento_gif__integral__f04.png",
+      "sha256": "53ea6a2ea3eb8303ec8a709385ff1386e8efa70a4a6b044889c8d79cb55573df"
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "regiao": "demonstracao_completa",
+      "quadro": 4,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        864
+      ],
+      "projecao": "bitwise_deslocamento_gif__demonstracao_completa__f04.png",
+      "sha256": "e96a53c601b4942ce4a13d13e4311c9301c02fc19cc50b0b7758e6158162465a"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_mascaras_gif__integral__f00.png",
+      "sha256": "f8d2fe13d83dccd8813d78b83c9fa341045e51450303d209d9e281ad843a187e"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_com_contexto",
+      "quadro": 0,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_com_contexto__f00.png",
+      "sha256": "e067963e9ba457b2df773aed737724ea4654a27d8cb5430ef630c4ff2a8a2512"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 0,
+      "bbox_px": [
+        30,
+        324,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_e_resultado__f00.png",
+      "sha256": "172cea0b558b2b4faa733c15c465c34cd1acc08cbee1535783b3cf320f66fb9d"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "integral",
+      "quadro": 1,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_mascaras_gif__integral__f01.png",
+      "sha256": "d6662b97585bd1426ce273af797ca7af386b97f91100555397adc05d612a479f"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_com_contexto",
+      "quadro": 1,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_com_contexto__f01.png",
+      "sha256": "0053373a67991219707afa3843c802f79ae3169d36f842eeb0e40e6ee3a8b29a"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 1,
+      "bbox_px": [
+        30,
+        324,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_e_resultado__f01.png",
+      "sha256": "7060a55c9dae2d9fd440712ccd9ca8c4a5f0873ab4ced851a8ce01cb31c67e10"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "integral",
+      "quadro": 2,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_mascaras_gif__integral__f02.png",
+      "sha256": "0189c10d505a5c6eed16f56129bc8686a0b5d2da30e587f0fd4fde1e3b2a9c97"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_com_contexto",
+      "quadro": 2,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_com_contexto__f02.png",
+      "sha256": "512beb1420fcae97e6d045d44671771e3ac771353d4b29daf78871517a8c7725"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 2,
+      "bbox_px": [
+        30,
+        324,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_e_resultado__f02.png",
+      "sha256": "0d7c4538c1f296ccfaf0f537c403701ea066169836c5e0e7133a76891590618c"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "integral",
+      "quadro": 3,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_mascaras_gif__integral__f03.png",
+      "sha256": "276646f5a2c18d2021e57c9bb48f81228191e544f9565e3d1ba4573d7cd0706a"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_com_contexto",
+      "quadro": 3,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_com_contexto__f03.png",
+      "sha256": "7c9d57f4006d2254820f7491d9e98b71d95b2324b23cc861b7033894ab9e6406"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 3,
+      "bbox_px": [
+        30,
+        324,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_e_resultado__f03.png",
+      "sha256": "256e10e373f62cbd3fd2eb855534238125161a94f49fc848cb1fa7578a564bbb"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "integral",
+      "quadro": 4,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_mascaras_gif__integral__f04.png",
+      "sha256": "de41c4cc010abc724a45c968fc9e9facac004e62b2ea51e942e264a1982f1c1d"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_com_contexto",
+      "quadro": 4,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_com_contexto__f04.png",
+      "sha256": "8cb33193513a836bff6657d00dfbffcad40c929015febc923767dc92959570cb"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 4,
+      "bbox_px": [
+        30,
+        324,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_e_resultado__f04.png",
+      "sha256": "250697ffd95406259fb7d2ed3a81ee60dfab52a33a80876e43a92c729a942739"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "integral",
+      "quadro": 5,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_mascaras_gif__integral__f05.png",
+      "sha256": "819378b2325212259ef3d956802aa10569db19956a22d109d16a04b7bdfd92b1"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_com_contexto",
+      "quadro": 5,
+      "bbox_px": [
+        30,
+        132,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_com_contexto__f05.png",
+      "sha256": "3783cede1ded94de08cb7645e968ed5e087fadae2660db2eed277bea95a8cd37"
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 5,
+      "bbox_px": [
+        30,
+        324,
+        1570,
+        738
+      ],
+      "projecao": "bitwise_mascaras_gif__operacao_e_resultado__f05.png",
+      "sha256": "89b1a3d1e67668ff15902422db1b9da95c58685c5302d34a04004013bde33520"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "bitwise_not_png__integral__f00.png",
+      "sha256": "321d64f6913ef60a658d68c4d6479997385641ad0d2d9b40559a215b29806dd5"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "logico_vs_bitwise",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        120,
+        536,
+        464
+      ],
+      "projecao": "bitwise_not_png__logico_vs_bitwise__f00.png",
+      "sha256": "6169eb2e555b18809f3e4aa233b3c9ec2ac62fb235d446bcef11f4b28d1b22ab"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "exemplo_4_bits",
+      "quadro": 0,
+      "bbox_px": [
+        534,
+        120,
+        990,
+        464
+      ],
+      "projecao": "bitwise_not_png__exemplo_4_bits__f00.png",
+      "sha256": "691aaffe32453c9cae5a4470cf94643d80c65d5eb05991e36ca4df8565504808"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "exemplo_8_bits",
+      "quadro": 0,
+      "bbox_px": [
+        989,
+        120,
+        1536,
+        464
+      ],
+      "projecao": "bitwise_not_png__exemplo_8_bits__f00.png",
+      "sha256": "c926066c4768aedfe5f040498e9d258f0f4f8a2a1f651bdad6ab6f2b6cdebd55"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "interpretacao",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        464,
+        588,
+        777
+      ],
+      "projecao": "bitwise_not_png__interpretacao__f00.png",
+      "sha256": "3292b7fb1312fb89ceeed29cb43b8ab488ce6f3c22679207469a4905d0f7e237"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "complemento_dois",
+      "quadro": 0,
+      "bbox_px": [
+        587,
+        464,
+        1041,
+        777
+      ],
+      "projecao": "bitwise_not_png__complemento_dois__f00.png",
+      "sha256": "e69012ccb0b946aed0b72209974721874ee105f3f5578a9a0793e34119c160cb"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "exemplo_c",
+      "quadro": 0,
+      "bbox_px": [
+        1040,
+        464,
+        1536,
+        777
+      ],
+      "projecao": "bitwise_not_png__exemplo_c__f00.png",
+      "sha256": "ed8a5c1875460510bf677ddc59b6a26c4815544f4b2a32ec4fca7f03e4725144"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "promocao_inteiros",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        774,
+        703,
+        1024
+      ],
+      "projecao": "bitwise_not_png__promocao_inteiros__f00.png",
+      "sha256": "a687cba8c59744f427747b3f8cfbd266c8ee59049dacd653e51c0b56e1cf2d53"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "caracteristicas",
+      "quadro": 0,
+      "bbox_px": [
+        701,
+        774,
+        1060,
+        1024
+      ],
+      "projecao": "bitwise_not_png__caracteristicas__f00.png",
+      "sha256": "f9e3a1383c731e4f66df641989db187c296d5c7c017fb729db85e45c5eec4167"
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "regiao": "comparacao_operadores",
+      "quadro": 0,
+      "bbox_px": [
+        1060,
+        774,
+        1536,
+        1024
+      ],
+      "projecao": "bitwise_not_png__comparacao_operadores__f00.png",
+      "sha256": "b3e0a522e410bdf62100337f7df5d5858e9dce530b1dec8767d306245142ee3e"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "bitwise_shift_png__integral__f00.png",
+      "sha256": "1401abb754ab192a8e13d54e2258994ff1bfe38df55ca50bcac07ea95c3ef734"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "pesos_posicoes",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        114,
+        577,
+        414
+      ],
+      "projecao": "bitwise_shift_png__pesos_posicoes__f00.png",
+      "sha256": "0dc92b188e3ea898af79bec7651a9e1467132fb33b3c2ffd183ac4b30b733ad3"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "valor_original",
+      "quadro": 0,
+      "bbox_px": [
+        575,
+        114,
+        987,
+        414
+      ],
+      "projecao": "bitwise_shift_png__valor_original__f00.png",
+      "sha256": "e5b1e79695b73692776dadaf36cf4b0d662e4b46609b5e470d78624fd30a865a"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "esquerda_uma_posicao",
+      "quadro": 0,
+      "bbox_px": [
+        986,
+        114,
+        1536,
+        414
+      ],
+      "projecao": "bitwise_shift_png__esquerda_uma_posicao__f00.png",
+      "sha256": "c56b3c00f4320ba0d8d932f078aba9191a4845188352756065098baee2d0eecb"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "entrada_saida",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        413,
+        747,
+        706
+      ],
+      "projecao": "bitwise_shift_png__entrada_saida__f00.png",
+      "sha256": "fd6506617af652785787ef1239427fee0098a38d05ef300ac4ce1e87fb8cbf35"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "exemplo_c",
+      "quadro": 0,
+      "bbox_px": [
+        746,
+        413,
+        1536,
+        706
+      ],
+      "projecao": "bitwise_shift_png__exemplo_c__f00.png",
+      "sha256": "915cf85aac10902b6476a4a73615a39a524d03350efbf21e1bad9441700702c2"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "mais_exemplos",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        705,
+        625,
+        1008
+      ],
+      "projecao": "bitwise_shift_png__mais_exemplos__f00.png",
+      "sha256": "6024a8cee3a2cb4460dc80fccc38d6b65f8ead7cdc72670408f9d85e1c72c115"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "n_posicoes",
+      "quadro": 0,
+      "bbox_px": [
+        625,
+        705,
+        1040,
+        1008
+      ],
+      "projecao": "bitwise_shift_png__n_posicoes__f00.png",
+      "sha256": "afcb8602f13cbfa9df9aeda324ed1cc1bd618fa5956ef9224fbabd9cc5bc3a1f"
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        1039,
+        705,
+        1536,
+        1008
+      ],
+      "projecao": "bitwise_shift_png__resumo__f00.png",
+      "sha256": "5a4767eab0b7c415b4593a10685ad6cecbcb76bddb46a119018885e5640dda67"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "bitwise_shift2_png__integral__f00.png",
+      "sha256": "5cbee84891d127d34f6cee11236428dadde8d2b458d994cf21db825de9d8411c"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "sintaxe",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        117,
+        789,
+        360
+      ],
+      "projecao": "bitwise_shift2_png__sintaxe__f00.png",
+      "sha256": "c7421abb245de7b76fdf15692e995fff0b748f3d46158590b7d6ead57ca41685"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "pesos",
+      "quadro": 0,
+      "bbox_px": [
+        789,
+        117,
+        1536,
+        360
+      ],
+      "projecao": "bitwise_shift2_png__pesos__f00.png",
+      "sha256": "c36893a484be8645bae81db1a0776b266fa1ee984737ad672596b5932e80bd52"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "exemplos_esquerda",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        360,
+        785,
+        683
+      ],
+      "projecao": "bitwise_shift2_png__exemplos_esquerda__f00.png",
+      "sha256": "0b0b9e5220e6a4a01ddfada5e9d475f94ee4e59781ca061deaab410d641f4772"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "exemplos_direita",
+      "quadro": 0,
+      "bbox_px": [
+        785,
+        360,
+        1536,
+        683
+      ],
+      "projecao": "bitwise_shift2_png__exemplos_direita__f00.png",
+      "sha256": "90a637e266263484bb5a1796a8bcdcf5628da6bafd36e63dc52370d89f077d8c"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "n_posicoes",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        682,
+        931,
+        997
+      ],
+      "projecao": "bitwise_shift2_png__n_posicoes__f00.png",
+      "sha256": "924df35aa3095d0995fb11d78540ccc7b8de20dc835371f1d3c9688b06738027"
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "regiao": "efeito_numerico",
+      "quadro": 0,
+      "bbox_px": [
+        931,
+        682,
+        1536,
+        997
+      ],
+      "projecao": "bitwise_shift2_png__efeito_numerico__f00.png",
+      "sha256": "823ef4a276818cf2735c88b7963622db28935624783d0e5d2d78fe7e2399fdf7"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "bitwise_shift3_png__integral__f00.png",
+      "sha256": "d3e9481f4e5c7c413f8af1a4a83ef2a20efbd15dc829f600aae9fbfa8ab30ef3"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "esquerda",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        115,
+        769,
+        397
+      ],
+      "projecao": "bitwise_shift3_png__esquerda__f00.png",
+      "sha256": "80bc06c58f962a2ac368264888afde094d0d0e81ea3f3cdce776260f0998ac0c"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "direita",
+      "quadro": 0,
+      "bbox_px": [
+        769,
+        115,
+        1536,
+        397
+      ],
+      "projecao": "bitwise_shift3_png__direita__f00.png",
+      "sha256": "4c308ad71c0ea32e1190023f1ccaa6df07aa8e9c54a03a5218a9360b14f0470c"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "perda_esquerda",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        396,
+        797,
+        705
+      ],
+      "projecao": "bitwise_shift3_png__perda_esquerda__f00.png",
+      "sha256": "70d99be0cc5ffceeefc42f97a8fea1300de6ca8be8946f8ff61c04ee45a7993e"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "perda_direita",
+      "quadro": 0,
+      "bbox_px": [
+        797,
+        396,
+        1536,
+        705
+      ],
+      "projecao": "bitwise_shift3_png__perda_direita__f00.png",
+      "sha256": "8ac988e975cb7107b54830bb09c4525c9359f75cc7a397a21f1cdb8f3483b2cd"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "exemplos_completos",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        703,
+        963,
+        996
+      ],
+      "projecao": "bitwise_shift3_png__exemplos_completos__f00.png",
+      "sha256": "18946ed34afe45a67a6c9833f48e84da481a1286beef8c83576da49215ad9aad"
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        963,
+        703,
+        1536,
+        996
+      ],
+      "projecao": "bitwise_shift3_png__resumo__f00.png",
+      "sha256": "0fc536c2895e8c2e16520858358adeca68e0f03f8f8742abecc31606fb5e847a"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f00.png",
+      "sha256": "3c5d348e951f550846219b9c21d902c1e497dac1f1a108ccc41471aff51e9aab"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 0,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f00.png",
+      "sha256": "f1fe4faa89bd8f7c8900649bf8dafb890c1941fed763d306199473e81c9a93fe"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 0,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f00.png",
+      "sha256": "988e3a3cf0739815b798a2bd3f82e0e2c941c63563fc22541a2735d3919ce17d"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 1,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f01.png",
+      "sha256": "e7563271413c57957f617f2036d41e1eec9239930a228879a8223cdbd1997356"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 1,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f01.png",
+      "sha256": "bf06d9339229dc59b4130f10843c0e4e29d3a7dff55ed03e8c89f91c47890ca0"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 1,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f01.png",
+      "sha256": "7e271c325140aab8c84221dbfc8bcdc2b9b590888412b531e684fd2413bf6ba6"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 2,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f02.png",
+      "sha256": "cd8937624d8b6012bd39cb4fb0608b98d4f2c19f5fa14c8ad157c23624bf7145"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 2,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f02.png",
+      "sha256": "e0f4cba244a588b7b5c5c6098463e45d4a4c4e77ca7b0aac1f560a39744567ab"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 2,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f02.png",
+      "sha256": "05823b6fd23d40ef7a583958372888c5c511e99dad57c13e1129edaa00dbc085"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 3,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f03.png",
+      "sha256": "eab23e042b5b7bfcb6165794a779eae1545aa3b621cbcd173054a4b4219dd0ba"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 3,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f03.png",
+      "sha256": "ac3cdbcb2956961b9126cd27d49b5a85b14287a4fce9339cf697848f7223b2b1"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 3,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f03.png",
+      "sha256": "398626b1b3315ef538f27a6434ec654df7627bd97c8f4859851313a9eccc58e9"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 4,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f04.png",
+      "sha256": "d2a01c509ae1cae73c87f9d403aaf0338e6ee7e89bca7e9260715b551f81fd4c"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 4,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f04.png",
+      "sha256": "f82453e128beefbd73fc608bab4ab57cf000f2689d29faa30d2f3d68b53104e7"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 4,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f04.png",
+      "sha256": "06cbb5f41d8eab580d4ae6b112dd786bbce257c6f54acf6f994616f432355f8f"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 5,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f05.png",
+      "sha256": "cd15ed5fc26cc1d2b9c29c26c9c0c8087543173570786b6f0f576e27bc7b54e6"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 5,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f05.png",
+      "sha256": "5a26c22ce8299d8f8d33451c33e69c4ea382f8f59ec8742c26efea549c70375b"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 5,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f05.png",
+      "sha256": "34557ad5f86b8d843fe1a8a88a9f7d19d04e29b2d50bc968fd372f29fb9d88ed"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 6,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f06.png",
+      "sha256": "fc5d27c45fc6534a0037bf3c9200f2598440f549fe33785371c1399095ff1e47"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 6,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f06.png",
+      "sha256": "7f49809829cf3c58adaef56bf37729054f79410bafded21b62c2263ef115cf31"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 6,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f06.png",
+      "sha256": "2d917df3f2b51d146746dd167b3fdc8e5fdf1c167eecaa338e2a2ea8aad9951d"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 7,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f07.png",
+      "sha256": "f5d36bf18a1f711ae07cee9748b302789294941ddbbe1d24d2d92b114711721d"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 7,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f07.png",
+      "sha256": "b545e833072fa7714734bf4f6bbb5a4b7e22d97486548a20be897859ae2ccf02"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 7,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f07.png",
+      "sha256": "dfaf0da721d8bd5ab944e53de53fcf63afa505cc742b909f352864d49729f882"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "integral",
+      "quadro": 8,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "bitwise_shift_em_c_gif__integral__f08.png",
+      "sha256": "424b3821603cc4cceca98cc0101a46d5741d4edd7bf16df99c877194d406ccc5"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 8,
+      "bbox_px": [
+        24,
+        132,
+        792,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__codigo_e_explicacao__f08.png",
+      "sha256": "9d680ed2467378bd53aff1f41cb0be5ccf4e9578abc7b7f890f546a54e13f26c"
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "regiao": "bits_e_terminal",
+      "quadro": 8,
+      "bbox_px": [
+        808,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "bitwise_shift_em_c_gif__bits_e_terminal__f08.png",
+      "sha256": "401c1e96f765978f6e4ccf72c8562e2dbe13cd14a60fcb3e4e1cba1018a8b2ce"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "get_bits_png__integral__f00.png",
+      "sha256": "e4467b4cc420ddfbba4e97b6c821c6d7378ec83c5a381bee83dc02154586ef87"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "valor_original",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        111,
+        393,
+        580
+      ],
+      "projecao": "get_bits_png__valor_original__f00.png",
+      "sha256": "9457aacc3feaa3de3515827c85765b08f2a78ca44a74953953ea42b6cf79d190"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "campo_desejado",
+      "quadro": 0,
+      "bbox_px": [
+        393,
+        111,
+        818,
+        580
+      ],
+      "projecao": "get_bits_png__campo_desejado__f00.png",
+      "sha256": "2a422062d5f668cb212de161733bcb7c4e4b3b3521ae075ed5d9bf03730b7773"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "resultado_esperado",
+      "quadro": 0,
+      "bbox_px": [
+        818,
+        111,
+        1183,
+        580
+      ],
+      "projecao": "get_bits_png__resultado_esperado__f00.png",
+      "sha256": "fa56791ffaecb835c1f2171af42a87a53b3c188f3b79430d26a5d32b32746dbb"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "definicao_campo",
+      "quadro": 0,
+      "bbox_px": [
+        1182,
+        111,
+        1536,
+        580
+      ],
+      "projecao": "get_bits_png__definicao_campo__f00.png",
+      "sha256": "312f4cd1de963b565549cfa071219ce2aa30debdd0c96884b60082667371cd34"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "outros_exemplos",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        580,
+        904,
+        1010
+      ],
+      "projecao": "get_bits_png__outros_exemplos__f00.png",
+      "sha256": "dcc2d8f86c913b718c9cee7716129f443d7110c3d4dbe414793bdf93d85a9be1"
+    },
+    {
+      "arquivo": "get_bits.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        903,
+        580,
+        1536,
+        1010
+      ],
+      "projecao": "get_bits_png__resumo__f00.png",
+      "sha256": "83de1e9344ceca6463daea026c363a83d3da7493a85666ef2ec26f0263830f38"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "get_bits2_png__integral__f00.png",
+      "sha256": "8f471c3dffaa10f33b3bab29d1c496b9dff7d0afde4eade0c976f49f3d6dd06e"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "parametros",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        109,
+        519,
+        503
+      ],
+      "projecao": "get_bits2_png__parametros__f00.png",
+      "sha256": "5cedfd563cf96c6b045898c7f6d2deaa7029e445e0137b3eaf2a7ba9a381af2d"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "blocos_expressao",
+      "quadro": 0,
+      "bbox_px": [
+        518,
+        109,
+        1066,
+        503
+      ],
+      "projecao": "get_bits2_png__blocos_expressao__f00.png",
+      "sha256": "8240df5e4b103e69c7caf169859a3aec9ca64b90fc8bf927d37f5b480d65c1b2"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "calculo_posicao",
+      "quadro": 0,
+      "bbox_px": [
+        1065,
+        109,
+        1536,
+        396
+      ],
+      "projecao": "get_bits2_png__calculo_posicao__f00.png",
+      "sha256": "5e1539f4811c84d842a53b5e0cb61464d8100b55096a3e34aacc394f297a3e31"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "deslocar",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        500,
+        488,
+        756
+      ],
+      "projecao": "get_bits2_png__deslocar__f00.png",
+      "sha256": "59f8a95e73654d8dddb6510a39ba322710a29cf36df227e5ec30ac595bf4810d"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "construir_mascara",
+      "quadro": 0,
+      "bbox_px": [
+        487,
+        500,
+        1067,
+        756
+      ],
+      "projecao": "get_bits2_png__construir_mascara__f00.png",
+      "sha256": "92819e03e3457a8f2ce04e0b4076ad7a0d2015107e7564936d0f2c2c9bb6d7c2"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "aplicar_and",
+      "quadro": 0,
+      "bbox_px": [
+        1066,
+        393,
+        1536,
+        705
+      ],
+      "projecao": "get_bits2_png__aplicar_and__f00.png",
+      "sha256": "a403ba4ed5f77804ff1b63d67136e830fa0c2347facf08d3b7eca903114b4e1c"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "ordem_apresentada",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        752,
+        614,
+        1015
+      ],
+      "projecao": "get_bits2_png__ordem_apresentada__f00.png",
+      "sha256": "4f5758f3f7202cdf308effd1d766622765963822cc878f7875f455ddec89afee"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "arvore_expressao",
+      "quadro": 0,
+      "bbox_px": [
+        613,
+        752,
+        1118,
+        1015
+      ],
+      "projecao": "get_bits2_png__arvore_expressao__f00.png",
+      "sha256": "6741eed445ede71929541057ea7b2cb1ef05cabd3f6ece78ff80dab38b21a4fe"
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        1117,
+        700,
+        1536,
+        1015
+      ],
+      "projecao": "get_bits2_png__resumo__f00.png",
+      "sha256": "1d69f53f6be1c10c091884539ad6ae0a1680703ba4b14597da22d7353b1a329d"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f00.png",
+      "sha256": "d97308b468900ec1ed405544fdd046085b3a24e23a05e3d1ec913d5193a233fc"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 0,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f00.png",
+      "sha256": "2736c5d3bd333d48d753e08c2a82c9e569f8fab964909db658b75cae4ca38556"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 0,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f00.png",
+      "sha256": "a7aed95941aec625f0ab5d70a8f711b532f4ee09fcd89c8cae5cca1ea8af984d"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 1,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f01.png",
+      "sha256": "8bef8da5b794dc5db2b2c709e22d68d3c2101dbfce4464599be1e729c50c6b45"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 1,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f01.png",
+      "sha256": "26b6eb9efbe7e27f54f7fa58b532bb2677792c499956acf4503e49e844b60e5f"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 1,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f01.png",
+      "sha256": "a56b9369f00e17ddea169da89719a17e19b53c57b473ca94dc4c94796d0f594e"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 2,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f02.png",
+      "sha256": "1868f9e80472c1823c1fb13aaaa65ee85dae5d1d41c324019619b2232c0bdaca"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 2,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f02.png",
+      "sha256": "d328a28f08b6c020e69f0ff8320283fa24dbcd2fc04b68108e648972ef6914ac"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 2,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f02.png",
+      "sha256": "ade9981db2d04b4093940fd49259dc327b4bdf81f7b3d2d28697e810aac6a796"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 3,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f03.png",
+      "sha256": "415921224ad7be0ff6c4205324823dcb959f756ff4e168f075f42241e473509c"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 3,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f03.png",
+      "sha256": "a54da051e3980363c94fc8f984211065bda6e8e791e3ad059357109dd3b8cefd"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 3,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f03.png",
+      "sha256": "0193093f77796d543a10ad865c40d5bab5e5e0f8c4914aacffb7e8d1e476cf63"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 4,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f04.png",
+      "sha256": "090bc5439455974fee79c6fd9f68472f24d120dfb4739c3ca761f5d5991962ab"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 4,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f04.png",
+      "sha256": "f51e305dbdf851eb674e73f8b6f897c7cf6bc78ceaa5f79e6be50c69b8fe8c33"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 4,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f04.png",
+      "sha256": "c4a2d289806e565178054e22e62239efe8d0147777e9948b0c9dc62ad7b7d7b5"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 5,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f05.png",
+      "sha256": "98b77cb59542efd2c81297635d0bab1aa15b7acbf37adbe6645c7b23d4c7650b"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 5,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f05.png",
+      "sha256": "d7c36f18940750f3ace5bb3829936e8cd829af6a1f299da244fdad8db545622b"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 5,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f05.png",
+      "sha256": "145e324ab5bd15a2441c29a22e66c49e8fbd666d80a34400211584d460b1815e"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 6,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f06.png",
+      "sha256": "1ccc921ac3ce859cab4e637978513418f94c9fd5303e6a8b780f33b0996c5f3b"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 6,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f06.png",
+      "sha256": "833fa0243ec859b46c8e6242e5a87deaabe319e441b5d17837713195f2f34335"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 6,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f06.png",
+      "sha256": "3b10ac6f8a644cdae0ac7d93571fec9e0b104c6c56f69411ae7e38a30082d18c"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 7,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f07.png",
+      "sha256": "66005466d4bcc4e1f3d944f1aa9e82d1fb35add5eb3840a8620935a7ab8f7092"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 7,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f07.png",
+      "sha256": "e9ff3fdebb6217cc23a7f8b5e8029ad88ea461185f70c4fe0d584cc12168a1bf"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 7,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f07.png",
+      "sha256": "42976f78973d93244408b536744ad8cc04fceab9bb175a8577e6091a8a1456f1"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 8,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f08.png",
+      "sha256": "a3b09041274108143fee297b949d8382162075b73ff36ae2107d175fb98f45ba"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 8,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f08.png",
+      "sha256": "9f17daa636a766b03fcbb96f3ceecd26b820b3d749253e5919b93f77c32877f6"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 8,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f08.png",
+      "sha256": "20dae92295a228c2b09e7dcc41525c7edec1c3c688557fed06460f79406fe3a5"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "integral",
+      "quadro": 9,
+      "bbox_px": [
+        0,
+        0,
+        1600,
+        900
+      ],
+      "projecao": "getbits_gif__integral__f09.png",
+      "sha256": "8bca3eb313a054b9c26dc0ca24da50920851e7ce150b1e1e6a2855faa58616a7"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "codigo_e_explicacao",
+      "quadro": 9,
+      "bbox_px": [
+        24,
+        132,
+        796,
+        864
+      ],
+      "projecao": "getbits_gif__codigo_e_explicacao__f09.png",
+      "sha256": "a7f85d380cc86b483a8e25523b0b32bd5e957102a5c2f7b51b60a89d12ce771b"
+    },
+    {
+      "arquivo": "getbits.gif",
+      "regiao": "operacao_e_resultado",
+      "quadro": 9,
+      "bbox_px": [
+        812,
+        132,
+        1576,
+        864
+      ],
+      "projecao": "getbits_gif__operacao_e_resultado__f09.png",
+      "sha256": "a7e519c070a85d111e6368adda07e4fb3839cc2d6d6d2002ed7d6ab987779765"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "mascara_bitwise_png__integral__f00.png",
+      "sha256": "af4a5921df7fb41b94abc1fa0ee888e28429e69e839e77710d51a33e998fce29"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "definicao",
+      "quadro": 0,
+      "bbox_px": [
+        8,
+        88,
+        1530,
+        196
+      ],
+      "projecao": "mascara_bitwise_png__definicao__f00.png",
+      "sha256": "a51ed86edc0ac09d1731ec44862d5d084cc981908ac0ffab1eb7cd8304826328"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "valor_original",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        195,
+        414,
+        584
+      ],
+      "projecao": "mascara_bitwise_png__valor_original__f00.png",
+      "sha256": "af6da397012dafd23aae856a419d6098c1ece812a8868264c79456b09fe9534e"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "objetivo",
+      "quadro": 0,
+      "bbox_px": [
+        414,
+        195,
+        769,
+        584
+      ],
+      "projecao": "mascara_bitwise_png__objetivo__f00.png",
+      "sha256": "b6c41fd2d24eac1ebbafcf1d946ad08ae1e055817f834d9795aeb249311ee6bb"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "mascara",
+      "quadro": 0,
+      "bbox_px": [
+        768,
+        195,
+        1097,
+        584
+      ],
+      "projecao": "mascara_bitwise_png__mascara__f00.png",
+      "sha256": "c7a96249f4b1dbbd01ee8727571b401d501a472f3cc2cc1cdb07bd77d7c64f82"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "aplicacao",
+      "quadro": 0,
+      "bbox_px": [
+        1096,
+        195,
+        1536,
+        584
+      ],
+      "projecao": "mascara_bitwise_png__aplicacao__f00.png",
+      "sha256": "775d182a8124c5781dc246c17087b3a7fab250f476e68b1371d05eeec91bc03b"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "exemplo_c",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        580,
+        608,
+        850
+      ],
+      "projecao": "mascara_bitwise_png__exemplo_c__f00.png",
+      "sha256": "31062d978aca6bfae024b0fff257a4dc9ce0755930fffa74c856fb4dbb24f032"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "saida_programa",
+      "quadro": 0,
+      "bbox_px": [
+        608,
+        580,
+        1015,
+        850
+      ],
+      "projecao": "mascara_bitwise_png__saida_programa__f00.png",
+      "sha256": "995cb0105585efa8eee912b89e225e128b5615d63110e1ded7caa966129b6107"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "regra_and",
+      "quadro": 0,
+      "bbox_px": [
+        1014,
+        580,
+        1536,
+        850
+      ],
+      "projecao": "mascara_bitwise_png__regra_and__f00.png",
+      "sha256": "cd01e0d745a66455bc941db12d149bc727d3614f0284aa37de59d9b37c16ed0e"
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        848,
+        1536,
+        1018
+      ],
+      "projecao": "mascara_bitwise_png__resumo__f00.png",
+      "sha256": "c7415f0ef1b8d8396ed0c3024819a0a6f6440b568a8ad2eb182f0de25d8b7f52"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "mascara_bitwise2_png__integral__f00.png",
+      "sha256": "86ca1eaf41dbf6fb6b93b0d318e4da900dff0e2f2eec15910058eda68a8ff5f5"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "ideia",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        134,
+        363,
+        564
+      ],
+      "projecao": "mascara_bitwise2_png__ideia__f00.png",
+      "sha256": "34bd661bf5af2460e6c072fdddc94df7f89e9870f969c20218ef98f053c91538"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "valor_original",
+      "quadro": 0,
+      "bbox_px": [
+        363,
+        134,
+        760,
+        564
+      ],
+      "projecao": "mascara_bitwise2_png__valor_original__f00.png",
+      "sha256": "da2364e5f013b079293e39c2463562343ad655053335f3b9674dcceb054fcdf8"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "mascara",
+      "quadro": 0,
+      "bbox_px": [
+        758,
+        134,
+        1105,
+        564
+      ],
+      "projecao": "mascara_bitwise2_png__mascara__f00.png",
+      "sha256": "77de3ce58f1484806693cfb8a364826ad739aebc4159874eb2c0e044b9e1087a"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "aplicacao_or",
+      "quadro": 0,
+      "bbox_px": [
+        1104,
+        134,
+        1536,
+        564
+      ],
+      "projecao": "mascara_bitwise2_png__aplicacao_or__f00.png",
+      "sha256": "5e80a1c4640109dd8205a4e08bbc7e35145694453da79b50ba55f50b6843a046"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "exemplo_c",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        561,
+        640,
+        840
+      ],
+      "projecao": "mascara_bitwise2_png__exemplo_c__f00.png",
+      "sha256": "9576872929f9bd7d3920c33e552af93769920420178240f2495fc00a14140230"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "saida_programa",
+      "quadro": 0,
+      "bbox_px": [
+        640,
+        561,
+        1008,
+        840
+      ],
+      "projecao": "mascara_bitwise2_png__saida_programa__f00.png",
+      "sha256": "79662946856a3e321743fd3f1bc1ecc991163ec87c528be6748d5a079dcdb790"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "regra_or",
+      "quadro": 0,
+      "bbox_px": [
+        1007,
+        561,
+        1536,
+        840
+      ],
+      "projecao": "mascara_bitwise2_png__regra_or__f00.png",
+      "sha256": "137a42e421a291da9504fd57ba015c36393c7fcd8dd5c2a101a2bb31ffdc6c7f"
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        838,
+        1536,
+        1019
+      ],
+      "projecao": "mascara_bitwise2_png__resumo__f00.png",
+      "sha256": "bac2d956fe1ad3b52c01bb7dfdba378f0339517babf9e3b22256a190ec38afd3"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "mascara_bitwise3_png__integral__f00.png",
+      "sha256": "43014e8a366b9cbe1cd2fe5884c452fd8bb9c3fdb94ae2e7d2da51d55cfdfb6d"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "ideia",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        134,
+        362,
+        564
+      ],
+      "projecao": "mascara_bitwise3_png__ideia__f00.png",
+      "sha256": "dbdc28918cc0e393bdca50f465af01318cc176d4d697a344a275158174909e98"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "valor_original",
+      "quadro": 0,
+      "bbox_px": [
+        362,
+        134,
+        758,
+        564
+      ],
+      "projecao": "mascara_bitwise3_png__valor_original__f00.png",
+      "sha256": "878e65aed11c3edcba540e959521e8baff8e8a81d1e7772bbd4e4d0bf198342d"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "mascara",
+      "quadro": 0,
+      "bbox_px": [
+        758,
+        134,
+        1105,
+        564
+      ],
+      "projecao": "mascara_bitwise3_png__mascara__f00.png",
+      "sha256": "e176f6af3b0f4fee9ece7ccc2d751d4225b8d9b9f153333a9b1f70066a3c6030"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "aplicacao_xor",
+      "quadro": 0,
+      "bbox_px": [
+        1104,
+        134,
+        1536,
+        564
+      ],
+      "projecao": "mascara_bitwise3_png__aplicacao_xor__f00.png",
+      "sha256": "21691c57862de8fec8c8f064320478ecd8ef8beeefd7b48b579dcdf7bbde0bf2"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "exemplo_c",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        562,
+        640,
+        839
+      ],
+      "projecao": "mascara_bitwise3_png__exemplo_c__f00.png",
+      "sha256": "a7cbebd748d133f1b77b6e152a13d26a43c379988380c3449dbe97c7d887585d"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "saida_programa",
+      "quadro": 0,
+      "bbox_px": [
+        640,
+        562,
+        1008,
+        839
+      ],
+      "projecao": "mascara_bitwise3_png__saida_programa__f00.png",
+      "sha256": "8da57f11b94094a14fcea296fdbdbc845d59df121a98afd7d88de8df9f556ace"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "regra_xor",
+      "quadro": 0,
+      "bbox_px": [
+        1007,
+        562,
+        1536,
+        839
+      ],
+      "projecao": "mascara_bitwise3_png__regra_xor__f00.png",
+      "sha256": "07b4bf0e0603e65b49ebf226bba5e98b9b1751520e1943cba89d0e4c269409ae"
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        837,
+        1536,
+        1019
+      ],
+      "projecao": "mascara_bitwise3_png__resumo__f00.png",
+      "sha256": "53e71e6e65c889e72140e981c61ed1bd0ba1cfe28b8909220179fd63512c3c84"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "mascara_bitwise4_png__integral__f00.png",
+      "sha256": "aea15ee5def205a0e08120b7bed1dee66758d6109d43abaf30431da15a067ccf"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "construcao_mascara",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        114,
+        534,
+        561
+      ],
+      "projecao": "mascara_bitwise4_png__construcao_mascara__f00.png",
+      "sha256": "16277f415046036d33f3e48f7405265c2443bfde224366d70e7be060b34148cd"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "valor_e_mascara",
+      "quadro": 0,
+      "bbox_px": [
+        534,
+        114,
+        965,
+        565
+      ],
+      "projecao": "mascara_bitwise4_png__valor_e_mascara__f00.png",
+      "sha256": "d10be430dab659d4f755f7c4e4913a6b9a13bef96d656b555452f84b356dae59"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "teste_and",
+      "quadro": 0,
+      "bbox_px": [
+        965,
+        114,
+        1536,
+        550
+      ],
+      "projecao": "mascara_bitwise4_png__teste_and__f00.png",
+      "sha256": "cec87d2dabac90c97662c53bca5fbec3cdc1762ca2457ff6bfeeb9240646b29a"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "ligar_or",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        560,
+        506,
+        1016
+      ],
+      "projecao": "mascara_bitwise4_png__ligar_or__f00.png",
+      "sha256": "959d2dee2ec3e3b0dcfcec51e832146611122f833e37c59c32559dd09c91c7ed"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "desligar_and_not",
+      "quadro": 0,
+      "bbox_px": [
+        505,
+        560,
+        1000,
+        1016
+      ],
+      "projecao": "mascara_bitwise4_png__desligar_and_not__f00.png",
+      "sha256": "4377ffdef886d3afa16b90edd2001d9b2e5e06fec0bc9111f413e03e9ed919b3"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "alternar_xor",
+      "quadro": 0,
+      "bbox_px": [
+        998,
+        547,
+        1536,
+        858
+      ],
+      "projecao": "mascara_bitwise4_png__alternar_xor__f00.png",
+      "sha256": "b57d5f008ee363268d457b38c8f3a626379e6765f64794ecebb6171d502b696b"
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "regiao": "resumo",
+      "quadro": 0,
+      "bbox_px": [
+        998,
+        854,
+        1536,
+        1016
+      ],
+      "projecao": "mascara_bitwise4_png__resumo__f00.png",
+      "sha256": "972616e7e99d7d730ba24bf1151bbfdc71dc00c95600827c36c492c117acd9f0"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "projecao": "operacao_bit_a_bit_png__integral__f00.png",
+      "sha256": "e8393353ad71442cfe72089f4282a4455ac12ff2beaeaad9a44b67ac2827d399"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "sequencias",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        140,
+        440,
+        636
+      ],
+      "projecao": "operacao_bit_a_bit_png__sequencias__f00.png",
+      "sha256": "0b23e805d6c7f9015e7809c39f7fd87ebe72ef7abdeddab1aae0e76e1c6af1e7"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "aplicacao_and",
+      "quadro": 0,
+      "bbox_px": [
+        440,
+        140,
+        855,
+        636
+      ],
+      "projecao": "operacao_bit_a_bit_png__aplicacao_and__f00.png",
+      "sha256": "025c07b810d85d44a39a2e2393949532087254970bdaab969747b555bf2fd9a2"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "operacoes_por_posicao",
+      "quadro": 0,
+      "bbox_px": [
+        855,
+        140,
+        1312,
+        636
+      ],
+      "projecao": "operacao_bit_a_bit_png__operacoes_por_posicao__f00.png",
+      "sha256": "66903387bbd4b8adc58de4dbc312c4902b109632810da596c661dabab4f74ac2"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "resultado_final",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        635,
+        455,
+        1178
+      ],
+      "projecao": "operacao_bit_a_bit_png__resultado_final__f00.png",
+      "sha256": "9939268a084db5f05b96c2a1a43ce89077b841ebdb33dfbc6102873c3f05bac2"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "exemplo_c",
+      "quadro": 0,
+      "bbox_px": [
+        455,
+        635,
+        890,
+        1178
+      ],
+      "projecao": "operacao_bit_a_bit_png__exemplo_c__f00.png",
+      "sha256": "1bdd11608ec99b36272ff2214130666fa3a7ee762699a985b8d75bb49b543abd"
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "regiao": "ideias_principais",
+      "quadro": 0,
+      "bbox_px": [
+        890,
+        635,
+        1312,
+        1178
+      ],
+      "projecao": "operacao_bit_a_bit_png__ideias_principais__f00.png",
+      "sha256": "a02e3872ce84b9898648f371a944f21537037b9189e17649319f2ac87badfe3e"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1312,
+        1199
+      ],
+      "projecao": "operadores_bitwise_png__integral__f00.png",
+      "sha256": "28cdcab0e5ba2a3da143830605ef7dc3f57b43418c44d1984a6183d37f92beae"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "and",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        146,
+        353,
+        616
+      ],
+      "projecao": "operadores_bitwise_png__and__f00.png",
+      "sha256": "d2e96caf6283a3afa4b62a20049cb8ba0109702122bafff753242cb565ecd5e9"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "or",
+      "quadro": 0,
+      "bbox_px": [
+        352,
+        146,
+        675,
+        616
+      ],
+      "projecao": "operadores_bitwise_png__or__f00.png",
+      "sha256": "3f2b1ea55bfaae3201c8431ebfa3a3e3946496f72d9e22b9149b0ab3f278206a"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "xor",
+      "quadro": 0,
+      "bbox_px": [
+        674,
+        146,
+        1035,
+        616
+      ],
+      "projecao": "operadores_bitwise_png__xor__f00.png",
+      "sha256": "c89ed83f4e71257a6521f6b99dcfc0d5d22393a16b2112fb2001f354c8223961"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "not",
+      "quadro": 0,
+      "bbox_px": [
+        1034,
+        146,
+        1312,
+        616
+      ],
+      "projecao": "operadores_bitwise_png__not__f00.png",
+      "sha256": "edf520673c33b5d180da250336dbcdd1fd6790b6ca84946b62c2b6fcf315957b"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "resumo_tabelas",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        620,
+        447,
+        1100
+      ],
+      "projecao": "operadores_bitwise_png__resumo_tabelas__f00.png",
+      "sha256": "a282fe7dcbc6ad0eb97148c9fefefc08fdf1020fb8b9d5d94d4e74b38c32c99b"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "exemplo_4_bits",
+      "quadro": 0,
+      "bbox_px": [
+        447,
+        620,
+        881,
+        1100
+      ],
+      "projecao": "operadores_bitwise_png__exemplo_4_bits__f00.png",
+      "sha256": "1a8686ecfabaf4ad26b1c00a515a92fb3501664705bd96857f06272c8f38573b"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "operadores_c",
+      "quadro": 0,
+      "bbox_px": [
+        880,
+        620,
+        1312,
+        1100
+      ],
+      "projecao": "operadores_bitwise_png__operadores_c__f00.png",
+      "sha256": "931afed1346aaa6a9555b215ea3633d5e66098cbe4c7cdba5b2d46d6cd73f16f"
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "regiao": "sintese",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        1103,
+        1312,
+        1199
+      ],
+      "projecao": "operadores_bitwise_png__sintese__f00.png",
+      "sha256": "9ecc28cf8dc76cf079c2cd53dcafa950cc5354895d8913b2264ee9cdc6a75c55"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "integral",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "projecao": "xor_png__integral__f00.png",
+      "sha256": "5a5434a0d7a5eadf0a95af58f50cb7de839b0abf852fd472969488693086e2f7"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "tabela_or",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        164,
+        511,
+        619
+      ],
+      "projecao": "xor_png__tabela_or__f00.png",
+      "sha256": "2ec106ae6d66d877a74a851475c275109ea45fc2aad7c6e2897c3821670a9db3"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "tabela_xor",
+      "quadro": 0,
+      "bbox_px": [
+        510,
+        164,
+        1021,
+        619
+      ],
+      "projecao": "xor_png__tabela_xor__f00.png",
+      "sha256": "1d828086a91618b5cab803127f0471904ca02d5ff59e7646e56c63e7a8c04c16"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "comparativo_or",
+      "quadro": 0,
+      "bbox_px": [
+        1021,
+        164,
+        1536,
+        619
+      ],
+      "projecao": "xor_png__comparativo_or__f00.png",
+      "sha256": "8a84a0d18bd7c549fd501703b8787b4ad44c85f5a872a5652928d5fc6ae4e2d1"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "exemplo_binario",
+      "quadro": 0,
+      "bbox_px": [
+        0,
+        622,
+        624,
+        1001
+      ],
+      "projecao": "xor_png__exemplo_binario__f00.png",
+      "sha256": "1af664bc55869a6f8cbbf06fd7484b89c47331ed997ea559b4539f20c9133fd4"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "resumo_operacoes",
+      "quadro": 0,
+      "bbox_px": [
+        622,
+        622,
+        1063,
+        1001
+      ],
+      "projecao": "xor_png__resumo_operacoes__f00.png",
+      "sha256": "35112213453e7fa8df36943179c0de850695121662560904553e8e8765d9be9a"
+    },
+    {
+      "arquivo": "xor.png",
+      "regiao": "conclusao",
+      "quadro": 0,
+      "bbox_px": [
+        1062,
+        622,
+        1536,
+        1001
+      ],
+      "projecao": "xor_png__conclusao__f00.png",
+      "sha256": "fc4e045a805f9676bc4ce37e220b9f98c9663a8b81de95180bf6e9599258fd90"
+    }
+  ],
+  "paineis": [
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "painel": "painel_bitwise_10_12_em_C_01.jpg",
+      "projecoes": [
+        "bitwise_10_12_em_C_gif__integral__f00.png",
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f00.png",
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f00.png",
+        "bitwise_10_12_em_C_gif__integral__f01.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "painel": "painel_bitwise_10_12_em_C_02.jpg",
+      "projecoes": [
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f01.png",
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f01.png",
+        "bitwise_10_12_em_C_gif__integral__f02.png",
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f02.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "painel": "painel_bitwise_10_12_em_C_03.jpg",
+      "projecoes": [
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f02.png",
+        "bitwise_10_12_em_C_gif__integral__f03.png",
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f03.png",
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f03.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "painel": "painel_bitwise_10_12_em_C_04.jpg",
+      "projecoes": [
+        "bitwise_10_12_em_C_gif__integral__f04.png",
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f04.png",
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f04.png",
+        "bitwise_10_12_em_C_gif__integral__f05.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "painel": "painel_bitwise_10_12_em_C_05.jpg",
+      "projecoes": [
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f05.png",
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f05.png",
+        "bitwise_10_12_em_C_gif__integral__f06.png",
+        "bitwise_10_12_em_C_gif__codigo_e_explicacao__f06.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "painel": "painel_bitwise_10_12_em_C_06.jpg",
+      "projecoes": [
+        "bitwise_10_12_em_C_gif__bits_e_terminal__f06.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "painel": "painel_bitwise_deslocamento_01.jpg",
+      "projecoes": [
+        "bitwise_deslocamento_gif__integral__f00.png",
+        "bitwise_deslocamento_gif__demonstracao_completa__f00.png",
+        "bitwise_deslocamento_gif__integral__f01.png",
+        "bitwise_deslocamento_gif__demonstracao_completa__f01.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "painel": "painel_bitwise_deslocamento_02.jpg",
+      "projecoes": [
+        "bitwise_deslocamento_gif__integral__f02.png",
+        "bitwise_deslocamento_gif__demonstracao_completa__f02.png",
+        "bitwise_deslocamento_gif__integral__f03.png",
+        "bitwise_deslocamento_gif__demonstracao_completa__f03.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "painel": "painel_bitwise_deslocamento_03.jpg",
+      "projecoes": [
+        "bitwise_deslocamento_gif__integral__f04.png",
+        "bitwise_deslocamento_gif__demonstracao_completa__f04.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "painel": "painel_bitwise_mascaras_01.jpg",
+      "projecoes": [
+        "bitwise_mascaras_gif__integral__f00.png",
+        "bitwise_mascaras_gif__operacao_com_contexto__f00.png",
+        "bitwise_mascaras_gif__operacao_e_resultado__f00.png",
+        "bitwise_mascaras_gif__integral__f01.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "painel": "painel_bitwise_mascaras_02.jpg",
+      "projecoes": [
+        "bitwise_mascaras_gif__operacao_com_contexto__f01.png",
+        "bitwise_mascaras_gif__operacao_e_resultado__f01.png",
+        "bitwise_mascaras_gif__integral__f02.png",
+        "bitwise_mascaras_gif__operacao_com_contexto__f02.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "painel": "painel_bitwise_mascaras_03.jpg",
+      "projecoes": [
+        "bitwise_mascaras_gif__operacao_e_resultado__f02.png",
+        "bitwise_mascaras_gif__integral__f03.png",
+        "bitwise_mascaras_gif__operacao_com_contexto__f03.png",
+        "bitwise_mascaras_gif__operacao_e_resultado__f03.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "painel": "painel_bitwise_mascaras_04.jpg",
+      "projecoes": [
+        "bitwise_mascaras_gif__integral__f04.png",
+        "bitwise_mascaras_gif__operacao_com_contexto__f04.png",
+        "bitwise_mascaras_gif__operacao_e_resultado__f04.png",
+        "bitwise_mascaras_gif__integral__f05.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "painel": "painel_bitwise_mascaras_05.jpg",
+      "projecoes": [
+        "bitwise_mascaras_gif__operacao_com_contexto__f05.png",
+        "bitwise_mascaras_gif__operacao_e_resultado__f05.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "painel": "painel_bitwise_not_01.jpg",
+      "projecoes": [
+        "bitwise_not_png__integral__f00.png",
+        "bitwise_not_png__logico_vs_bitwise__f00.png",
+        "bitwise_not_png__exemplo_4_bits__f00.png",
+        "bitwise_not_png__exemplo_8_bits__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "painel": "painel_bitwise_not_02.jpg",
+      "projecoes": [
+        "bitwise_not_png__interpretacao__f00.png",
+        "bitwise_not_png__complemento_dois__f00.png",
+        "bitwise_not_png__exemplo_c__f00.png",
+        "bitwise_not_png__promocao_inteiros__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "painel": "painel_bitwise_not_03.jpg",
+      "projecoes": [
+        "bitwise_not_png__caracteristicas__f00.png",
+        "bitwise_not_png__comparacao_operadores__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "painel": "painel_bitwise_shift_01.jpg",
+      "projecoes": [
+        "bitwise_shift_png__integral__f00.png",
+        "bitwise_shift_png__pesos_posicoes__f00.png",
+        "bitwise_shift_png__valor_original__f00.png",
+        "bitwise_shift_png__esquerda_uma_posicao__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "painel": "painel_bitwise_shift_02.jpg",
+      "projecoes": [
+        "bitwise_shift_png__entrada_saida__f00.png",
+        "bitwise_shift_png__exemplo_c__f00.png",
+        "bitwise_shift_png__mais_exemplos__f00.png",
+        "bitwise_shift_png__n_posicoes__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "painel": "painel_bitwise_shift_03.jpg",
+      "projecoes": [
+        "bitwise_shift_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "painel": "painel_bitwise_shift2_01.jpg",
+      "projecoes": [
+        "bitwise_shift2_png__integral__f00.png",
+        "bitwise_shift2_png__sintaxe__f00.png",
+        "bitwise_shift2_png__pesos__f00.png",
+        "bitwise_shift2_png__exemplos_esquerda__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "painel": "painel_bitwise_shift2_02.jpg",
+      "projecoes": [
+        "bitwise_shift2_png__exemplos_direita__f00.png",
+        "bitwise_shift2_png__n_posicoes__f00.png",
+        "bitwise_shift2_png__efeito_numerico__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "painel": "painel_bitwise_shift3_01.jpg",
+      "projecoes": [
+        "bitwise_shift3_png__integral__f00.png",
+        "bitwise_shift3_png__esquerda__f00.png",
+        "bitwise_shift3_png__direita__f00.png",
+        "bitwise_shift3_png__perda_esquerda__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "painel": "painel_bitwise_shift3_02.jpg",
+      "projecoes": [
+        "bitwise_shift3_png__perda_direita__f00.png",
+        "bitwise_shift3_png__exemplos_completos__f00.png",
+        "bitwise_shift3_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_01.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__integral__f00.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f00.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f00.png",
+        "bitwise_shift_em_c_gif__integral__f01.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_02.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f01.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f01.png",
+        "bitwise_shift_em_c_gif__integral__f02.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f02.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_03.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__bits_e_terminal__f02.png",
+        "bitwise_shift_em_c_gif__integral__f03.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f03.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f03.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_04.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__integral__f04.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f04.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f04.png",
+        "bitwise_shift_em_c_gif__integral__f05.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_05.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f05.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f05.png",
+        "bitwise_shift_em_c_gif__integral__f06.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f06.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_06.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__bits_e_terminal__f06.png",
+        "bitwise_shift_em_c_gif__integral__f07.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f07.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f07.png"
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "painel": "painel_bitwise_shift_em_c_07.jpg",
+      "projecoes": [
+        "bitwise_shift_em_c_gif__integral__f08.png",
+        "bitwise_shift_em_c_gif__codigo_e_explicacao__f08.png",
+        "bitwise_shift_em_c_gif__bits_e_terminal__f08.png"
+      ]
+    },
+    {
+      "arquivo": "get_bits.png",
+      "painel": "painel_get_bits_01.jpg",
+      "projecoes": [
+        "get_bits_png__integral__f00.png",
+        "get_bits_png__valor_original__f00.png",
+        "get_bits_png__campo_desejado__f00.png",
+        "get_bits_png__resultado_esperado__f00.png"
+      ]
+    },
+    {
+      "arquivo": "get_bits.png",
+      "painel": "painel_get_bits_02.jpg",
+      "projecoes": [
+        "get_bits_png__definicao_campo__f00.png",
+        "get_bits_png__outros_exemplos__f00.png",
+        "get_bits_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "painel": "painel_get_bits2_01.jpg",
+      "projecoes": [
+        "get_bits2_png__integral__f00.png",
+        "get_bits2_png__parametros__f00.png",
+        "get_bits2_png__blocos_expressao__f00.png",
+        "get_bits2_png__calculo_posicao__f00.png"
+      ]
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "painel": "painel_get_bits2_02.jpg",
+      "projecoes": [
+        "get_bits2_png__deslocar__f00.png",
+        "get_bits2_png__construir_mascara__f00.png",
+        "get_bits2_png__aplicar_and__f00.png",
+        "get_bits2_png__ordem_apresentada__f00.png"
+      ]
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "painel": "painel_get_bits2_03.jpg",
+      "projecoes": [
+        "get_bits2_png__arvore_expressao__f00.png",
+        "get_bits2_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_01.jpg",
+      "projecoes": [
+        "getbits_gif__integral__f00.png",
+        "getbits_gif__codigo_e_explicacao__f00.png",
+        "getbits_gif__operacao_e_resultado__f00.png",
+        "getbits_gif__integral__f01.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_02.jpg",
+      "projecoes": [
+        "getbits_gif__codigo_e_explicacao__f01.png",
+        "getbits_gif__operacao_e_resultado__f01.png",
+        "getbits_gif__integral__f02.png",
+        "getbits_gif__codigo_e_explicacao__f02.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_03.jpg",
+      "projecoes": [
+        "getbits_gif__operacao_e_resultado__f02.png",
+        "getbits_gif__integral__f03.png",
+        "getbits_gif__codigo_e_explicacao__f03.png",
+        "getbits_gif__operacao_e_resultado__f03.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_04.jpg",
+      "projecoes": [
+        "getbits_gif__integral__f04.png",
+        "getbits_gif__codigo_e_explicacao__f04.png",
+        "getbits_gif__operacao_e_resultado__f04.png",
+        "getbits_gif__integral__f05.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_05.jpg",
+      "projecoes": [
+        "getbits_gif__codigo_e_explicacao__f05.png",
+        "getbits_gif__operacao_e_resultado__f05.png",
+        "getbits_gif__integral__f06.png",
+        "getbits_gif__codigo_e_explicacao__f06.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_06.jpg",
+      "projecoes": [
+        "getbits_gif__operacao_e_resultado__f06.png",
+        "getbits_gif__integral__f07.png",
+        "getbits_gif__codigo_e_explicacao__f07.png",
+        "getbits_gif__operacao_e_resultado__f07.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_07.jpg",
+      "projecoes": [
+        "getbits_gif__integral__f08.png",
+        "getbits_gif__codigo_e_explicacao__f08.png",
+        "getbits_gif__operacao_e_resultado__f08.png",
+        "getbits_gif__integral__f09.png"
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "painel": "painel_getbits_08.jpg",
+      "projecoes": [
+        "getbits_gif__codigo_e_explicacao__f09.png",
+        "getbits_gif__operacao_e_resultado__f09.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "painel": "painel_mascara_bitwise_01.jpg",
+      "projecoes": [
+        "mascara_bitwise_png__integral__f00.png",
+        "mascara_bitwise_png__definicao__f00.png",
+        "mascara_bitwise_png__valor_original__f00.png",
+        "mascara_bitwise_png__objetivo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "painel": "painel_mascara_bitwise_02.jpg",
+      "projecoes": [
+        "mascara_bitwise_png__mascara__f00.png",
+        "mascara_bitwise_png__aplicacao__f00.png",
+        "mascara_bitwise_png__exemplo_c__f00.png",
+        "mascara_bitwise_png__saida_programa__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "painel": "painel_mascara_bitwise_03.jpg",
+      "projecoes": [
+        "mascara_bitwise_png__regra_and__f00.png",
+        "mascara_bitwise_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "painel": "painel_mascara_bitwise2_01.jpg",
+      "projecoes": [
+        "mascara_bitwise2_png__integral__f00.png",
+        "mascara_bitwise2_png__ideia__f00.png",
+        "mascara_bitwise2_png__valor_original__f00.png",
+        "mascara_bitwise2_png__mascara__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "painel": "painel_mascara_bitwise2_02.jpg",
+      "projecoes": [
+        "mascara_bitwise2_png__aplicacao_or__f00.png",
+        "mascara_bitwise2_png__exemplo_c__f00.png",
+        "mascara_bitwise2_png__saida_programa__f00.png",
+        "mascara_bitwise2_png__regra_or__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "painel": "painel_mascara_bitwise2_03.jpg",
+      "projecoes": [
+        "mascara_bitwise2_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "painel": "painel_mascara_bitwise3_01.jpg",
+      "projecoes": [
+        "mascara_bitwise3_png__integral__f00.png",
+        "mascara_bitwise3_png__ideia__f00.png",
+        "mascara_bitwise3_png__valor_original__f00.png",
+        "mascara_bitwise3_png__mascara__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "painel": "painel_mascara_bitwise3_02.jpg",
+      "projecoes": [
+        "mascara_bitwise3_png__aplicacao_xor__f00.png",
+        "mascara_bitwise3_png__exemplo_c__f00.png",
+        "mascara_bitwise3_png__saida_programa__f00.png",
+        "mascara_bitwise3_png__regra_xor__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "painel": "painel_mascara_bitwise3_03.jpg",
+      "projecoes": [
+        "mascara_bitwise3_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "painel": "painel_mascara_bitwise4_01.jpg",
+      "projecoes": [
+        "mascara_bitwise4_png__integral__f00.png",
+        "mascara_bitwise4_png__construcao_mascara__f00.png",
+        "mascara_bitwise4_png__valor_e_mascara__f00.png",
+        "mascara_bitwise4_png__teste_and__f00.png"
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "painel": "painel_mascara_bitwise4_02.jpg",
+      "projecoes": [
+        "mascara_bitwise4_png__ligar_or__f00.png",
+        "mascara_bitwise4_png__desligar_and_not__f00.png",
+        "mascara_bitwise4_png__alternar_xor__f00.png",
+        "mascara_bitwise4_png__resumo__f00.png"
+      ]
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "painel": "painel_operacao_bit_a_bit_01.jpg",
+      "projecoes": [
+        "operacao_bit_a_bit_png__integral__f00.png",
+        "operacao_bit_a_bit_png__sequencias__f00.png",
+        "operacao_bit_a_bit_png__aplicacao_and__f00.png",
+        "operacao_bit_a_bit_png__operacoes_por_posicao__f00.png"
+      ]
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "painel": "painel_operacao_bit_a_bit_02.jpg",
+      "projecoes": [
+        "operacao_bit_a_bit_png__resultado_final__f00.png",
+        "operacao_bit_a_bit_png__exemplo_c__f00.png",
+        "operacao_bit_a_bit_png__ideias_principais__f00.png"
+      ]
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "painel": "painel_operadores_bitwise_01.jpg",
+      "projecoes": [
+        "operadores_bitwise_png__integral__f00.png",
+        "operadores_bitwise_png__and__f00.png",
+        "operadores_bitwise_png__or__f00.png",
+        "operadores_bitwise_png__xor__f00.png"
+      ]
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "painel": "painel_operadores_bitwise_02.jpg",
+      "projecoes": [
+        "operadores_bitwise_png__not__f00.png",
+        "operadores_bitwise_png__resumo_tabelas__f00.png",
+        "operadores_bitwise_png__exemplo_4_bits__f00.png",
+        "operadores_bitwise_png__operadores_c__f00.png"
+      ]
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "painel": "painel_operadores_bitwise_03.jpg",
+      "projecoes": [
+        "operadores_bitwise_png__sintese__f00.png"
+      ]
+    },
+    {
+      "arquivo": "xor.png",
+      "painel": "painel_xor_01.jpg",
+      "projecoes": [
+        "xor_png__integral__f00.png",
+        "xor_png__tabela_or__f00.png",
+        "xor_png__tabela_xor__f00.png",
+        "xor_png__comparativo_or__f00.png"
+      ]
+    },
+    {
+      "arquivo": "xor.png",
+      "painel": "painel_xor_02.jpg",
+      "projecoes": [
+        "xor_png__exemplo_binario__f00.png",
+        "xor_png__resumo_operacoes__f00.png",
+        "xor_png__conclusao__f00.png"
+      ]
+    }
+  ]
+}
