@@ -1,0 +1,47 @@
+[
+  {
+    "id": "S01",
+    "cena_roteiro": "C01",
+    "fala_id": "F01",
+    "texto": "Uma aplicação pode obter a mesma configuração de três lugares: argumentos, variáveis de ambiente e um valor padrão. Quando há mais de uma fonte, não basta saber ler cada uma; é preciso definir qual prevalece.",
+    "material_candidato": "04_Argumentos_CommandLine/argopt3.png",
+    "inicio_estimado_ms": 0,
+    "duracao_estimada_ms": 14000
+  },
+  {
+    "id": "S02",
+    "cena_roteiro": "C02",
+    "fala_id": "F02",
+    "texto": "Os materiais deste capítulo apresentam uma política explícita: primeiro o argumento, depois o ambiente e, se nenhum deles fornecer a configuração, o padrão.",
+    "material_candidato": "04_Argumentos_CommandLine/env4.png",
+    "inicio_estimado_ms": 14000,
+    "duracao_estimada_ms": 15000
+  },
+  {
+    "id": "S03",
+    "cena_roteiro": "C03",
+    "fala_id": "F03",
+    "texto": "Isso permite explicar por que mudar o ambiente pode não alterar uma execução que já recebeu o valor pela linha de comando.",
+    "material_candidato": "04_Argumentos_CommandLine/env4.png",
+    "inicio_estimado_ms": 29000,
+    "duracao_estimada_ms": 14000
+  },
+  {
+    "id": "S04",
+    "cena_roteiro": "C04",
+    "fala_id": "F04",
+    "texto": "Não é uma prioridade imposta pela linguagem C a todos os programas. É o contrato implementado por esta aplicação.",
+    "material_candidato": "04_Argumentos_CommandLine/resumo2.png",
+    "inicio_estimado_ms": 43000,
+    "duracao_estimada_ms": 13000
+  },
+  {
+    "id": "S05",
+    "cena_roteiro": "C05",
+    "fala_id": "F05",
+    "texto": "Para entender o resultado, siga a decisão desde a fonte de maior prioridade e descubra em qual etapa o valor foi escolhido.",
+    "material_candidato": "04_Argumentos_CommandLine/resumo2.png",
+    "inicio_estimado_ms": 56000,
+    "duracao_estimada_ms": 14000
+  }
+]

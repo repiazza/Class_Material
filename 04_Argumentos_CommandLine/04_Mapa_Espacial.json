@@ -1,0 +1,4765 @@
+{
+  "schema": "mapa_espacial_capitulo",
+  "versao": "1.0",
+  "capitulo": "04_Argumentos_CommandLine",
+  "fonte_semantica": "04_Catalogo_Semantico.docx",
+  "sistema_coordenadas": "[x0,y0,x1,y1] normalizado entre 0 e 1, origem no canto superior esquerdo",
+  "estado": "AUTOAUDITADO_COM_RESSALVAS",
+  "homologacao_humana": false,
+  "materiais": [
+    {
+      "arquivo": "arg_validation.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "d2ae8454e8994d288f8eafdb94b0c243987a3c4f8ea8a8bcd7586225cc0956e3",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "objetivos",
+          "descricao": "Unidade visual completa: objetivos",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0927734375,
+            0.3671875,
+            0.4287109375
+          ],
+          "bbox_px": [
+            12,
+            95,
+            564,
+            439
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "regras",
+          "descricao": "Unidade visual completa: regras",
+          "bbox_normalizada": [
+            0.37109375,
+            0.0927734375,
+            0.69140625,
+            0.4287109375
+          ],
+          "bbox_px": [
+            570,
+            95,
+            1062,
+            439
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "mensagens",
+          "descricao": "Unidade visual completa: mensagens",
+          "bbox_normalizada": [
+            0.6953125,
+            0.0927734375,
+            0.9934895833333334,
+            0.4287109375
+          ],
+          "bbox_px": [
+            1068,
+            95,
+            1526,
+            439
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4326171875,
+            0.4329427083333333,
+            0.9755859375
+          ],
+          "bbox_px": [
+            12,
+            443,
+            665,
+            999
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "testes",
+          "descricao": "Unidade visual completa: testes",
+          "bbox_normalizada": [
+            0.4361979166666667,
+            0.4326171875,
+            0.7434895833333334,
+            0.9755859375
+          ],
+          "bbox_px": [
+            670,
+            443,
+            1142,
+            999
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "arquivo_ajuda_resumo",
+          "descricao": "Unidade visual completa: arquivo ajuda resumo",
+          "bbox_normalizada": [
+            0.7473958333333334,
+            0.4326171875,
+            0.994140625,
+            0.9755859375
+          ],
+          "bbox_px": [
+            1148,
+            443,
+            1527,
+            999
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "7b386a4262cae06b6c3afc8d903c47cadfc9c09a661076d179a538466d7ead7b",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "chamada",
+          "descricao": "Unidade visual completa: chamada",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.3580729166666667,
+            0.431640625
+          ],
+          "bbox_px": [
+            12,
+            97,
+            550,
+            442
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "assinatura",
+          "descricao": "Unidade visual completa: assinatura",
+          "bbox_normalizada": [
+            0.3626302083333333,
+            0.0947265625,
+            0.6555989583333334,
+            0.431640625
+          ],
+          "bbox_px": [
+            557,
+            97,
+            1007,
+            442
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.6588541666666666,
+            0.0947265625,
+            0.9934895833333334,
+            0.431640625
+          ],
+          "bbox_px": [
+            1012,
+            97,
+            1526,
+            442
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "saida",
+          "descricao": "Unidade visual completa: saida",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4384765625,
+            0.3326822916666667,
+            0.8291015625
+          ],
+          "bbox_px": [
+            12,
+            449,
+            511,
+            849
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "memoria",
+          "descricao": "Unidade visual completa: memoria",
+          "bbox_normalizada": [
+            0.3372395833333333,
+            0.4384765625,
+            0.6569010416666666,
+            0.9560546875
+          ],
+          "bbox_px": [
+            518,
+            449,
+            1009,
+            979
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "detalhes",
+          "descricao": "Unidade visual completa: detalhes",
+          "bbox_normalizada": [
+            0.662109375,
+            0.4384765625,
+            0.9934895833333334,
+            0.7265625
+          ],
+          "bbox_px": [
+            1017,
+            449,
+            1526,
+            744
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "formas_main",
+          "descricao": "Unidade visual completa: formas main",
+          "bbox_normalizada": [
+            0.662109375,
+            0.732421875,
+            0.9934895833333334,
+            0.9560546875
+          ],
+          "bbox_px": [
+            1017,
+            750,
+            1526,
+            979
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "argopt.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "723569f63eaa808af64f5064094ec7cb94fd8bb0da8ff33744ae1a771ceaef76",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "categorias",
+          "descricao": "Unidade visual completa: categorias",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3444010416666667,
+            0.4765625
+          ],
+          "bbox_px": [
+            12,
+            96,
+            529,
+            488
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "usos",
+          "descricao": "Unidade visual completa: usos",
+          "bbox_normalizada": [
+            0.349609375,
+            0.09375,
+            0.65234375,
+            0.4765625
+          ],
+          "bbox_px": [
+            537,
+            96,
+            1002,
+            488
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "argv",
+          "descricao": "Unidade visual completa: argv",
+          "bbox_normalizada": [
+            0.65625,
+            0.09375,
+            0.9934895833333334,
+            0.4765625
+          ],
+          "bbox_px": [
+            1008,
+            96,
+            1526,
+            488
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "interpretador",
+          "descricao": "Unidade visual completa: interpretador",
+          "bbox_normalizada": [
+            0.0078125,
+            0.419921875,
+            0.3294270833333333,
+            0.982421875
+          ],
+          "bbox_px": [
+            12,
+            430,
+            506,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "formas_opcoes",
+          "descricao": "Unidade visual completa: formas opcoes",
+          "bbox_normalizada": [
+            0.3190104166666667,
+            0.419921875,
+            0.654296875,
+            0.7568359375
+          ],
+          "bbox_px": [
+            490,
+            430,
+            1005,
+            775
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "execucao",
+          "descricao": "Unidade visual completa: execucao",
+          "bbox_normalizada": [
+            0.650390625,
+            0.419921875,
+            0.9934895833333334,
+            0.7568359375
+          ],
+          "bbox_px": [
+            999,
+            430,
+            1526,
+            775
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "boas_praticas",
+          "descricao": "Unidade visual completa: boas praticas",
+          "bbox_normalizada": [
+            0.3190104166666667,
+            0.7568359375,
+            0.654296875,
+            0.982421875
+          ],
+          "bbox_px": [
+            490,
+            775,
+            1005,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Unidade visual completa: resumo",
+          "bbox_normalizada": [
+            0.650390625,
+            0.7568359375,
+            0.9934895833333334,
+            0.982421875
+          ],
+          "bbox_px": [
+            999,
+            775,
+            1526,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "argopt2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "d1417f7319cd488a905ba6a46874743ebe0b9a557ca2848ce6ac671c2499249e",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "tipos",
+          "descricao": "Unidade visual completa: tipos",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0927734375,
+            0.3854166666666667,
+            0.4404296875
+          ],
+          "bbox_px": [
+            12,
+            95,
+            592,
+            451
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "chamadas",
+          "descricao": "Unidade visual completa: chamadas",
+          "bbox_normalizada": [
+            0.390625,
+            0.0927734375,
+            0.7083333333333334,
+            0.4404296875
+          ],
+          "bbox_px": [
+            600,
+            95,
+            1088,
+            451
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "consumo",
+          "descricao": "Unidade visual completa: consumo",
+          "bbox_normalizada": [
+            0.7135416666666666,
+            0.0927734375,
+            0.9934895833333334,
+            0.4404296875
+          ],
+          "bbox_px": [
+            1096,
+            95,
+            1526,
+            451
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4462890625,
+            0.439453125,
+            0.9736328125
+          ],
+          "bbox_px": [
+            12,
+            457,
+            675,
+            997
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "execucao",
+          "descricao": "Unidade visual completa: execucao",
+          "bbox_normalizada": [
+            0.4440104166666667,
+            0.4462890625,
+            0.7115885416666666,
+            0.9736328125
+          ],
+          "bbox_px": [
+            682,
+            457,
+            1093,
+            997
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "escritas_praticas_resumo",
+          "descricao": "Unidade visual completa: escritas praticas resumo",
+          "bbox_normalizada": [
+            0.7161458333333334,
+            0.4462890625,
+            0.9934895833333334,
+            0.9736328125
+          ],
+          "bbox_px": [
+            1100,
+            457,
+            1526,
+            997
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "argopt3.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "9b1a59f314533dbbb96ec8fcb72f5e6e98e4ab0aa90b743fce7395ea7179a20b",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "tres_fontes",
+          "descricao": "Unidade visual completa: tres fontes",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.33203125,
+            0.48828125
+          ],
+          "bbox_px": [
+            12,
+            97,
+            510,
+            500
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "ordem_precedencia",
+          "descricao": "Unidade visual completa: ordem precedencia",
+          "bbox_normalizada": [
+            0.337890625,
+            0.0947265625,
+            0.6796875,
+            0.48828125
+          ],
+          "bbox_px": [
+            519,
+            97,
+            1044,
+            500
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fluxo_inicializacao",
+          "descricao": "Unidade visual completa: fluxo inicializacao",
+          "bbox_normalizada": [
+            0.6848958333333334,
+            0.0947265625,
+            0.9934895833333334,
+            0.48828125
+          ],
+          "bbox_px": [
+            1052,
+            97,
+            1526,
+            500
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.0078125,
+            0.494140625,
+            0.3587239583333333,
+            0.98046875
+          ],
+          "bbox_px": [
+            12,
+            506,
+            551,
+            1004
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "cenarios",
+          "descricao": "Unidade visual completa: cenarios",
+          "bbox_normalizada": [
+            0.36328125,
+            0.494140625,
+            0.6770833333333334,
+            0.98046875
+          ],
+          "bbox_px": [
+            558,
+            506,
+            1040,
+            1004
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "estrutura",
+          "descricao": "Unidade visual completa: estrutura",
+          "bbox_normalizada": [
+            0.6822916666666666,
+            0.494140625,
+            0.9934895833333334,
+            0.71875
+          ],
+          "bbox_px": [
+            1048,
+            506,
+            1526,
+            736
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos_importantes",
+          "descricao": "Unidade visual completa: pontos importantes",
+          "bbox_normalizada": [
+            0.6822916666666666,
+            0.724609375,
+            0.9934895833333334,
+            0.98046875
+          ],
+          "bbox_px": [
+            1048,
+            742,
+            1526,
+            1004
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "58f4c2b4eefad22ee860feecfd573abcbfbfbe5a77adf4860d250269fdd04d06",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "finalidade_ajuda",
+          "descricao": "Unidade visual completa: finalidade ajuda",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3359375,
+            0.4140625
+          ],
+          "bbox_px": [
+            12,
+            96,
+            516,
+            424
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "estrutura_ajuda",
+          "descricao": "Unidade visual completa: estrutura ajuda",
+          "bbox_normalizada": [
+            0.3404947916666667,
+            0.09375,
+            0.6171875,
+            0.4140625
+          ],
+          "bbox_px": [
+            523,
+            96,
+            948,
+            424
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "saida_help",
+          "descricao": "Unidade visual completa: saida help",
+          "bbox_normalizada": [
+            0.6217447916666666,
+            0.09375,
+            0.9934895833333334,
+            0.4140625
+          ],
+          "bbox_px": [
+            955,
+            96,
+            1526,
+            424
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "funcao_ajuda",
+          "descricao": "Unidade visual completa: funcao ajuda",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4228515625,
+            0.3502604166666667,
+            0.833984375
+          ],
+          "bbox_px": [
+            12,
+            433,
+            538,
+            854
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "deteccao",
+          "descricao": "Unidade visual completa: deteccao",
+          "bbox_normalizada": [
+            0.3548177083333333,
+            0.4228515625,
+            0.6432291666666666,
+            0.767578125
+          ],
+          "bbox_px": [
+            545,
+            433,
+            988,
+            786
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "erros",
+          "descricao": "Unidade visual completa: erros",
+          "bbox_normalizada": [
+            0.6477864583333334,
+            0.4228515625,
+            0.9934895833333334,
+            0.767578125
+          ],
+          "bbox_px": [
+            995,
+            433,
+            1526,
+            786
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "retornos",
+          "descricao": "Unidade visual completa: retornos",
+          "bbox_normalizada": [
+            0.0078125,
+            0.830078125,
+            0.3502604166666667,
+            0.9873046875
+          ],
+          "bbox_px": [
+            12,
+            850,
+            538,
+            1011
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Unidade visual completa: resumo",
+          "bbox_normalizada": [
+            0.3548177083333333,
+            0.763671875,
+            0.9934895833333334,
+            0.9873046875
+          ],
+          "bbox_px": [
+            545,
+            782,
+            1526,
+            1011
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "a92a62d71527e5b91dc528953693dda3a97a708a8980fdc69b9d162eab70489e",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "formatos",
+          "descricao": "Unidade visual completa: formatos",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.3294270833333333,
+            0.4970703125
+          ],
+          "bbox_px": [
+            12,
+            97,
+            506,
+            509
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "recebimento_argv",
+          "descricao": "Unidade visual completa: recebimento argv",
+          "bbox_normalizada": [
+            0.333984375,
+            0.0947265625,
+            0.6640625,
+            0.4970703125
+          ],
+          "bbox_px": [
+            513,
+            97,
+            1020,
+            509
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fluxo_interpretacao",
+          "descricao": "Unidade visual completa: fluxo interpretacao",
+          "bbox_normalizada": [
+            0.6686197916666666,
+            0.0947265625,
+            0.9934895833333334,
+            0.4970703125
+          ],
+          "bbox_px": [
+            1027,
+            97,
+            1526,
+            509
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "parser",
+          "descricao": "Unidade visual completa: parser",
+          "bbox_normalizada": [
+            0.0078125,
+            0.5048828125,
+            0.3268229166666667,
+            0.982421875
+          ],
+          "bbox_px": [
+            12,
+            517,
+            502,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resultados",
+          "descricao": "Unidade visual completa: resultados",
+          "bbox_normalizada": [
+            0.3313802083333333,
+            0.4736328125,
+            0.6634114583333334,
+            0.984375
+          ],
+          "bbox_px": [
+            509,
+            485,
+            1019,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "representacao_opcoes",
+          "descricao": "Unidade visual completa: representacao opcoes",
+          "bbox_normalizada": [
+            0.666015625,
+            0.4736328125,
+            0.9934895833333334,
+            0.7666015625
+          ],
+          "bbox_px": [
+            1023,
+            485,
+            1526,
+            785
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "tokenizacao_pontos",
+          "descricao": "Unidade visual completa: tokenizacao pontos",
+          "bbox_normalizada": [
+            0.5423177083333334,
+            0.7685546875,
+            0.9934895833333334,
+            0.984375
+          ],
+          "bbox_px": [
+            833,
+            787,
+            1526,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "0d61d30d728ea78031a29e8310c013ddac4100a7d73714235858a1a7cfcb49ce",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "contrato",
+          "descricao": "Unidade visual completa: contrato",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.3255208333333333,
+            0.4248046875
+          ],
+          "bbox_px": [
+            12,
+            97,
+            500,
+            435
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "tabela_opcoes",
+          "descricao": "Unidade visual completa: tabela opcoes",
+          "bbox_normalizada": [
+            0.330078125,
+            0.0947265625,
+            0.6647135416666666,
+            0.4248046875
+          ],
+          "bbox_px": [
+            507,
+            97,
+            1021,
+            435
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "formas_valores",
+          "descricao": "Unidade visual completa: formas valores",
+          "bbox_normalizada": [
+            0.6692708333333334,
+            0.0947265625,
+            0.9934895833333334,
+            0.4248046875
+          ],
+          "bbox_px": [
+            1028,
+            97,
+            1526,
+            435
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "chamadas_validas",
+          "descricao": "Unidade visual completa: chamadas validas",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4326171875,
+            0.3359375,
+            0.681640625
+          ],
+          "bbox_px": [
+            12,
+            443,
+            516,
+            698
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "chamadas_invalidas",
+          "descricao": "Unidade visual completa: chamadas invalidas",
+          "bbox_normalizada": [
+            0.3404947916666667,
+            0.4326171875,
+            0.67578125,
+            0.681640625
+          ],
+          "bbox_px": [
+            523,
+            443,
+            1038,
+            698
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "mensagens",
+          "descricao": "Unidade visual completa: mensagens",
+          "bbox_normalizada": [
+            0.6803385416666666,
+            0.4326171875,
+            0.9934895833333334,
+            0.681640625
+          ],
+          "bbox_px": [
+            1045,
+            443,
+            1526,
+            698
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "validacoes",
+          "descricao": "Unidade visual completa: validacoes",
+          "bbox_normalizada": [
+            0.0078125,
+            0.6416015625,
+            0.376953125,
+            0.984375
+          ],
+          "bbox_px": [
+            12,
+            657,
+            579,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "separador",
+          "descricao": "Unidade visual completa: separador",
+          "bbox_normalizada": [
+            0.3567708333333333,
+            0.681640625,
+            0.59765625,
+            0.984375
+          ],
+          "bbox_px": [
+            548,
+            698,
+            918,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "padroes_pontos",
+          "descricao": "Unidade visual completa: padroes pontos",
+          "bbox_normalizada": [
+            0.59765625,
+            0.681640625,
+            1.0,
+            0.984375
+          ],
+          "bbox_px": [
+            918,
+            698,
+            1536,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "compilacao.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "8c520b4e53b4ca022e490eec63906394cc459cde4f3afc133c2845cc3377060f",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fluxo_compilacao_ligacao",
+          "descricao": "Unidade visual completa: fluxo compilacao ligacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.9934895833333334,
+            0.3935546875
+          ],
+          "bbox_px": [
+            12,
+            97,
+            1526,
+            403
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo_fonte",
+          "descricao": "Unidade visual completa: codigo fonte",
+          "bbox_normalizada": [
+            0.0078125,
+            0.400390625,
+            0.3209635416666667,
+            0.8701171875
+          ],
+          "bbox_px": [
+            12,
+            410,
+            493,
+            891
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "compilar_ligar",
+          "descricao": "Unidade visual completa: compilar ligar",
+          "bbox_normalizada": [
+            0.3255208333333333,
+            0.400390625,
+            0.6555989583333334,
+            0.8701171875
+          ],
+          "bbox_px": [
+            500,
+            410,
+            1007,
+            891
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "inspecao_arquivos",
+          "descricao": "Unidade visual completa: inspecao arquivos",
+          "bbox_normalizada": [
+            0.66015625,
+            0.400390625,
+            0.9934895833333334,
+            0.8701171875
+          ],
+          "bbox_px": [
+            1014,
+            410,
+            1526,
+            891
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "execucao",
+          "descricao": "Unidade visual completa: execucao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.8759765625,
+            0.3821614583333333,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            897,
+            587,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo_etapas",
+          "descricao": "Unidade visual completa: resumo etapas",
+          "bbox_normalizada": [
+            0.38671875,
+            0.8759765625,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            594,
+            897,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "cd2734f7c1e363c11ff7fc3883d1c0842e6a3e21d91fc7db77feb8960b509feb",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "argv_texto",
+          "descricao": "Unidade visual completa: argv texto",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.3046875,
+            0.4140625
+          ],
+          "bbox_px": [
+            12,
+            97,
+            468,
+            424
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "strtol",
+          "descricao": "Unidade visual completa: strtol",
+          "bbox_normalizada": [
+            0.3092447916666667,
+            0.0947265625,
+            0.6627604166666666,
+            0.4140625
+          ],
+          "bbox_px": [
+            475,
+            97,
+            1018,
+            424
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.6673177083333334,
+            0.0947265625,
+            0.9934895833333334,
+            0.720703125
+          ],
+          "bbox_px": [
+            1025,
+            97,
+            1526,
+            738
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "testes",
+          "descricao": "Unidade visual completa: testes",
+          "bbox_normalizada": [
+            0.0078125,
+            0.421875,
+            0.3046875,
+            0.802734375
+          ],
+          "bbox_px": [
+            12,
+            432,
+            468,
+            822
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "outros_tipos",
+          "descricao": "Unidade visual completa: outros tipos",
+          "bbox_normalizada": [
+            0.29296875,
+            0.421875,
+            0.6705729166666666,
+            0.62890625
+          ],
+          "bbox_px": [
+            450,
+            432,
+            1030,
+            644
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "endptr",
+          "descricao": "Unidade visual completa: endptr",
+          "bbox_normalizada": [
+            0.29296875,
+            0.6357421875,
+            0.6705729166666666,
+            0.9580078125
+          ],
+          "bbox_px": [
+            450,
+            651,
+            1030,
+            981
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "erros",
+          "descricao": "Unidade visual completa: erros",
+          "bbox_normalizada": [
+            0.0078125,
+            0.8076171875,
+            0.3046875,
+            0.9580078125
+          ],
+          "bbox_px": [
+            12,
+            827,
+            468,
+            981
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Unidade visual completa: resumo",
+          "bbox_normalizada": [
+            0.6673177083333334,
+            0.7275390625,
+            0.9934895833333334,
+            0.9580078125
+          ],
+          "bbox_px": [
+            1025,
+            745,
+            1526,
+            981
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "a49509ea5458b74d0efd226b661941525a78d832611a008aaa9d63ed28001ff7",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "strings",
+          "descricao": "Unidade visual completa: strings",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3483072916666667,
+            0.458984375
+          ],
+          "bbox_px": [
+            12,
+            96,
+            535,
+            470
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "funcoes_conversao",
+          "descricao": "Unidade visual completa: funcoes conversao",
+          "bbox_normalizada": [
+            0.3528645833333333,
+            0.09375,
+            0.6888020833333334,
+            0.458984375
+          ],
+          "bbox_px": [
+            542,
+            96,
+            1058,
+            470
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "endptr",
+          "descricao": "Unidade visual completa: endptr",
+          "bbox_normalizada": [
+            0.693359375,
+            0.09375,
+            0.9934895833333334,
+            0.458984375
+          ],
+          "bbox_px": [
+            1065,
+            96,
+            1526,
+            470
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo_validacao",
+          "descricao": "Unidade visual completa: codigo validacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4658203125,
+            0.3483072916666667,
+            0.974609375
+          ],
+          "bbox_px": [
+            12,
+            477,
+            535,
+            998
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "testes",
+          "descricao": "Unidade visual completa: testes",
+          "bbox_normalizada": [
+            0.3528645833333333,
+            0.4658203125,
+            0.6888020833333334,
+            0.775390625
+          ],
+          "bbox_px": [
+            542,
+            477,
+            1058,
+            794
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "outros_tipos",
+          "descricao": "Unidade visual completa: outros tipos",
+          "bbox_normalizada": [
+            0.693359375,
+            0.4658203125,
+            0.9934895833333334,
+            0.775390625
+          ],
+          "bbox_px": [
+            1065,
+            477,
+            1526,
+            794
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "boas_praticas",
+          "descricao": "Unidade visual completa: boas praticas",
+          "bbox_normalizada": [
+            0.3528645833333333,
+            0.7822265625,
+            0.6438802083333334,
+            0.974609375
+          ],
+          "bbox_px": [
+            542,
+            801,
+            989,
+            998
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "conclusao",
+          "descricao": "Unidade visual completa: conclusao",
+          "bbox_normalizada": [
+            0.6484375,
+            0.7822265625,
+            0.9934895833333334,
+            0.974609375
+          ],
+          "bbox_px": [
+            996,
+            801,
+            1526,
+            998
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "env.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "9b2f9a64267d5046ad377305ff018074126f23fc0a909a7b5296c733d4039422",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "definicao",
+          "descricao": "Unidade visual completa: definicao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3125,
+            0.4755859375
+          ],
+          "bbox_px": [
+            12,
+            96,
+            480,
+            487
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "processo_argumentos_ambiente",
+          "descricao": "Unidade visual completa: processo argumentos ambiente",
+          "bbox_normalizada": [
+            0.3170572916666667,
+            0.09375,
+            0.673828125,
+            0.4755859375
+          ],
+          "bbox_px": [
+            487,
+            96,
+            1035,
+            487
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "terminal",
+          "descricao": "Unidade visual completa: terminal",
+          "bbox_normalizada": [
+            0.6783854166666666,
+            0.09375,
+            0.9934895833333334,
+            0.4755859375
+          ],
+          "bbox_px": [
+            1042,
+            96,
+            1526,
+            487
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "origem_heranca",
+          "descricao": "Unidade visual completa: origem heranca",
+          "bbox_normalizada": [
+            0.0078125,
+            0.482421875,
+            0.3125,
+            0.822265625
+          ],
+          "bbox_px": [
+            12,
+            494,
+            480,
+            842
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "usos",
+          "descricao": "Unidade visual completa: usos",
+          "bbox_normalizada": [
+            0.3170572916666667,
+            0.482421875,
+            0.673828125,
+            0.822265625
+          ],
+          "bbox_px": [
+            487,
+            494,
+            1035,
+            842
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "busca_path",
+          "descricao": "Unidade visual completa: busca path",
+          "bbox_normalizada": [
+            0.6783854166666666,
+            0.482421875,
+            0.9934895833333334,
+            0.822265625
+          ],
+          "bbox_px": [
+            1042,
+            494,
+            1526,
+            842
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "contexto_aplicacao",
+          "descricao": "Unidade visual completa: contexto aplicacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.8291015625,
+            0.525390625,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            849,
+            807,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Unidade visual completa: resumo",
+          "bbox_normalizada": [
+            0.5299479166666666,
+            0.8291015625,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            814,
+            849,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "env2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "665f1d843efed58799e41082b5b272432ff489c2a26d1755ea86c1c4d3c8236f",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "origem",
+          "descricao": "Unidade visual completa: origem",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3287760416666667,
+            0.404296875
+          ],
+          "bbox_px": [
+            12,
+            96,
+            505,
+            414
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "heranca",
+          "descricao": "Unidade visual completa: heranca",
+          "bbox_normalizada": [
+            0.3333333333333333,
+            0.09375,
+            0.6803385416666666,
+            0.404296875
+          ],
+          "bbox_px": [
+            512,
+            96,
+            1045,
+            414
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "isolamento",
+          "descricao": "Unidade visual completa: isolamento",
+          "bbox_normalizada": [
+            0.6848958333333334,
+            0.09375,
+            0.9934895833333334,
+            0.404296875
+          ],
+          "bbox_px": [
+            1052,
+            96,
+            1526,
+            414
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "ambiente_atual",
+          "descricao": "Unidade visual completa: ambiente atual",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4111328125,
+            0.3190104166666667,
+            0.7275390625
+          ],
+          "bbox_px": [
+            12,
+            421,
+            490,
+            745
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "consulta",
+          "descricao": "Unidade visual completa: consulta",
+          "bbox_normalizada": [
+            0.3235677083333333,
+            0.4111328125,
+            0.6927083333333334,
+            0.7275390625
+          ],
+          "bbox_px": [
+            497,
+            421,
+            1064,
+            745
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "modificacao",
+          "descricao": "Unidade visual completa: modificacao",
+          "bbox_normalizada": [
+            0.697265625,
+            0.4111328125,
+            0.9934895833333334,
+            0.7275390625
+          ],
+          "bbox_px": [
+            1071,
+            421,
+            1526,
+            745
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "cadeia",
+          "descricao": "Unidade visual completa: cadeia",
+          "bbox_normalizada": [
+            0.0078125,
+            0.7333984375,
+            0.3971354166666667,
+            0.984375
+          ],
+          "bbox_px": [
+            12,
+            751,
+            610,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "usuario",
+          "descricao": "Unidade visual completa: usuario",
+          "bbox_normalizada": [
+            0.4016927083333333,
+            0.7333984375,
+            0.703125,
+            0.984375
+          ],
+          "bbox_px": [
+            617,
+            751,
+            1080,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.7076822916666666,
+            0.7333984375,
+            0.9934895833333334,
+            0.984375
+          ],
+          "bbox_px": [
+            1087,
+            751,
+            1526,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "env3.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "3e30078a9407f426c7ecb498d84ef297dce6e8e96e8e45f6e3a07b43044a4303",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "finalidades",
+          "descricao": "Unidade visual completa: finalidades",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3346354166666667,
+            0.4638671875
+          ],
+          "bbox_px": [
+            12,
+            96,
+            514,
+            475
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "variaveis",
+          "descricao": "Unidade visual completa: variaveis",
+          "bbox_normalizada": [
+            0.3391927083333333,
+            0.09375,
+            0.6731770833333334,
+            0.4638671875
+          ],
+          "bbox_px": [
+            521,
+            96,
+            1034,
+            475
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "sistema_aplicacao",
+          "descricao": "Unidade visual completa: sistema aplicacao",
+          "bbox_normalizada": [
+            0.677734375,
+            0.09375,
+            0.9934895833333334,
+            0.4638671875
+          ],
+          "bbox_px": [
+            1041,
+            96,
+            1526,
+            475
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "consulta_terminal",
+          "descricao": "Unidade visual completa: consulta terminal",
+          "bbox_normalizada": [
+            0.0078125,
+            0.470703125,
+            0.353515625,
+            0.7333984375
+          ],
+          "bbox_px": [
+            12,
+            482,
+            543,
+            751
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "definir_terminal",
+          "descricao": "Unidade visual completa: definir terminal",
+          "bbox_normalizada": [
+            0.3580729166666667,
+            0.470703125,
+            0.68359375,
+            0.7333984375
+          ],
+          "bbox_px": [
+            550,
+            482,
+            1050,
+            751
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "consulta_c",
+          "descricao": "Unidade visual completa: consulta c",
+          "bbox_normalizada": [
+            0.6881510416666666,
+            0.470703125,
+            0.9934895833333334,
+            0.7333984375
+          ],
+          "bbox_px": [
+            1057,
+            482,
+            1526,
+            751
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "posix",
+          "descricao": "Unidade visual completa: posix",
+          "bbox_normalizada": [
+            0.0078125,
+            0.740234375,
+            0.3951822916666667,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            758,
+            607,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "padrao",
+          "descricao": "Unidade visual completa: padrao",
+          "bbox_normalizada": [
+            0.3997395833333333,
+            0.740234375,
+            0.68359375,
+            0.9853515625
+          ],
+          "bbox_px": [
+            614,
+            758,
+            1050,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "praticas",
+          "descricao": "Unidade visual completa: praticas",
+          "bbox_normalizada": [
+            0.6881510416666666,
+            0.740234375,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            1057,
+            758,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "env4.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "tres_fontes",
+          "descricao": "Unidade visual completa: tres fontes",
+          "bbox_normalizada": [
+            0.0078125,
+            0.095703125,
+            0.3430989583333333,
+            0.4951171875
+          ],
+          "bbox_px": [
+            12,
+            98,
+            527,
+            507
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fluxo_precedencia",
+          "descricao": "Unidade visual completa: fluxo precedencia",
+          "bbox_normalizada": [
+            0.34765625,
+            0.095703125,
+            0.6627604166666666,
+            0.4951171875
+          ],
+          "bbox_px": [
+            534,
+            98,
+            1018,
+            507
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "exemplos_fontes",
+          "descricao": "Unidade visual completa: exemplos fontes",
+          "bbox_normalizada": [
+            0.6673177083333334,
+            0.095703125,
+            0.9934895833333334,
+            0.4951171875
+          ],
+          "bbox_px": [
+            1025,
+            98,
+            1526,
+            507
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.0078125,
+            0.501953125,
+            0.404296875,
+            0.982421875
+          ],
+          "bbox_px": [
+            12,
+            514,
+            621,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "testes",
+          "descricao": "Unidade visual completa: testes",
+          "bbox_normalizada": [
+            0.4088541666666667,
+            0.501953125,
+            0.6627604166666666,
+            0.982421875
+          ],
+          "bbox_px": [
+            628,
+            514,
+            1018,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "varios_parametros",
+          "descricao": "Unidade visual completa: varios parametros",
+          "bbox_normalizada": [
+            0.6673177083333334,
+            0.501953125,
+            0.9934895833333334,
+            0.732421875
+          ],
+          "bbox_px": [
+            1025,
+            514,
+            1526,
+            750
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.6673177083333334,
+            0.7392578125,
+            0.9934895833333334,
+            0.982421875
+          ],
+          "bbox_px": [
+            1025,
+            757,
+            1526,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "env_fork.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "9f435275fdbf9bb25c49591ce1df1420232b6558299a7491af42ff031b57c9b6",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "heranca",
+          "descricao": "Unidade visual completa: heranca",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3736979166666667,
+            0.44921875
+          ],
+          "bbox_px": [
+            12,
+            96,
+            574,
+            460
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pai_shell",
+          "descricao": "Unidade visual completa: pai shell",
+          "bbox_normalizada": [
+            0.3782552083333333,
+            0.09375,
+            0.6497395833333334,
+            0.4873046875
+          ],
+          "bbox_px": [
+            581,
+            96,
+            998,
+            499
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fork_exec_codigo",
+          "descricao": "Unidade visual completa: fork exec codigo",
+          "bbox_normalizada": [
+            0.654296875,
+            0.09375,
+            0.9934895833333334,
+            0.701171875
+          ],
+          "bbox_px": [
+            1005,
+            96,
+            1526,
+            718
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "execucao",
+          "descricao": "Unidade visual completa: execucao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4560546875,
+            0.3736979166666667,
+            0.763671875
+          ],
+          "bbox_px": [
+            12,
+            467,
+            574,
+            782
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "filho_pai",
+          "descricao": "Unidade visual completa: filho pai",
+          "bbox_normalizada": [
+            0.3782552083333333,
+            0.494140625,
+            0.6497395833333334,
+            0.763671875
+          ],
+          "bbox_px": [
+            581,
+            506,
+            998,
+            782
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "verificacao",
+          "descricao": "Unidade visual completa: verificacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.7705078125,
+            0.3736979166666667,
+            0.984375
+          ],
+          "bbox_px": [
+            12,
+            789,
+            574,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "cadeia",
+          "descricao": "Unidade visual completa: cadeia",
+          "bbox_normalizada": [
+            0.3743489583333333,
+            0.76171875,
+            0.6640625,
+            1.0
+          ],
+          "bbox_px": [
+            575,
+            780,
+            1020,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.6510416666666666,
+            0.673828125,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            1000,
+            690,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "env_paths.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "21a697bdb906c0e9cb46a9d604adda5a12276e97de115304cbb940755a06cad9",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "definicao",
+          "descricao": "Unidade visual completa: definicao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.328125,
+            0.390625
+          ],
+          "bbox_px": [
+            12,
+            96,
+            504,
+            400
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "busca",
+          "descricao": "Unidade visual completa: busca",
+          "bbox_normalizada": [
+            0.3326822916666667,
+            0.09375,
+            0.669921875,
+            0.390625
+          ],
+          "bbox_px": [
+            511,
+            96,
+            1029,
+            400
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "caminho_explicito",
+          "descricao": "Unidade visual completa: caminho explicito",
+          "bbox_normalizada": [
+            0.6744791666666666,
+            0.09375,
+            0.9934895833333334,
+            0.390625
+          ],
+          "bbox_px": [
+            1036,
+            96,
+            1526,
+            400
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "consulta",
+          "descricao": "Unidade visual completa: consulta",
+          "bbox_normalizada": [
+            0.0078125,
+            0.3974609375,
+            0.3385416666666667,
+            0.6826171875
+          ],
+          "bbox_px": [
+            12,
+            407,
+            520,
+            699
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "alteracao",
+          "descricao": "Unidade visual completa: alteracao",
+          "bbox_normalizada": [
+            0.3430989583333333,
+            0.3974609375,
+            0.6822916666666666,
+            0.6826171875
+          ],
+          "bbox_px": [
+            527,
+            407,
+            1048,
+            699
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "persistencia",
+          "descricao": "Unidade visual completa: persistencia",
+          "bbox_normalizada": [
+            0.6868489583333334,
+            0.3974609375,
+            0.9934895833333334,
+            0.6826171875
+          ],
+          "bbox_px": [
+            1055,
+            407,
+            1526,
+            699
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "comando_proprio",
+          "descricao": "Unidade visual completa: comando proprio",
+          "bbox_normalizada": [
+            0.0078125,
+            0.689453125,
+            0.4173177083333333,
+            0.984375
+          ],
+          "bbox_px": [
+            12,
+            706,
+            641,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "getenv_path",
+          "descricao": "Unidade visual completa: getenv path",
+          "bbox_normalizada": [
+            0.421875,
+            0.689453125,
+            0.6946614583333334,
+            0.984375
+          ],
+          "bbox_px": [
+            648,
+            706,
+            1067,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.69921875,
+            0.689453125,
+            0.9934895833333334,
+            0.984375
+          ],
+          "bbox_px": [
+            1074,
+            706,
+            1526,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "envp.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "0c71ea001364d5c1c3db280afa5c050162edc5433d39a5b11e82990996fb660a",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "formas_main",
+          "descricao": "Unidade visual completa: formas main",
+          "bbox_normalizada": [
+            0.0078125,
+            0.095703125,
+            0.3157552083333333,
+            0.56640625
+          ],
+          "bbox_px": [
+            12,
+            98,
+            485,
+            580
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "memoria_argv_envp",
+          "descricao": "Unidade visual completa: memoria argv envp",
+          "bbox_normalizada": [
+            0.3203125,
+            0.095703125,
+            0.658203125,
+            0.56640625
+          ],
+          "bbox_px": [
+            492,
+            98,
+            1011,
+            580
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.6627604166666666,
+            0.095703125,
+            0.9934895833333334,
+            0.56640625
+          ],
+          "bbox_px": [
+            1018,
+            98,
+            1526,
+            580
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "execucao",
+          "descricao": "Unidade visual completa: execucao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.5732421875,
+            0.29296875,
+            0.982421875
+          ],
+          "bbox_px": [
+            12,
+            587,
+            450,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "percorrer_argv",
+          "descricao": "Unidade visual completa: percorrer argv",
+          "bbox_normalizada": [
+            0.2975260416666667,
+            0.5732421875,
+            0.5006510416666666,
+            0.982421875
+          ],
+          "bbox_px": [
+            457,
+            587,
+            769,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "percorrer_envp",
+          "descricao": "Unidade visual completa: percorrer envp",
+          "bbox_normalizada": [
+            0.5052083333333334,
+            0.5732421875,
+            0.7220052083333334,
+            0.982421875
+          ],
+          "bbox_px": [
+            776,
+            587,
+            1109,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "observacoes",
+          "descricao": "Unidade visual completa: observacoes",
+          "bbox_normalizada": [
+            0.7265625,
+            0.5732421875,
+            0.9934895833333334,
+            0.982421875
+          ],
+          "bbox_px": [
+            1116,
+            587,
+            1526,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "executando.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "08b50682c6e8147525d741062827bfb34622579379f81fd77fccc8b2606f56b4",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "solicitacao",
+          "descricao": "Unidade visual completa: solicitacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.3326822916666667,
+            0.369140625
+          ],
+          "bbox_px": [
+            12,
+            96,
+            511,
+            378
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "shell",
+          "descricao": "Unidade visual completa: shell",
+          "bbox_normalizada": [
+            0.3372395833333333,
+            0.09375,
+            0.615234375,
+            0.369140625
+          ],
+          "bbox_px": [
+            518,
+            96,
+            945,
+            378
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fork_exec",
+          "descricao": "Unidade visual completa: fork exec",
+          "bbox_normalizada": [
+            0.6197916666666666,
+            0.09375,
+            0.9934895833333334,
+            0.369140625
+          ],
+          "bbox_px": [
+            952,
+            96,
+            1526,
+            378
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "instancias",
+          "descricao": "Unidade visual completa: instancias",
+          "bbox_normalizada": [
+            0.0078125,
+            0.3759765625,
+            0.3157552083333333,
+            0.6875
+          ],
+          "bbox_px": [
+            12,
+            385,
+            485,
+            704
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "observar_processos",
+          "descricao": "Unidade visual completa: observar processos",
+          "bbox_normalizada": [
+            0.3203125,
+            0.3759765625,
+            0.6927083333333334,
+            0.6875
+          ],
+          "bbox_px": [
+            492,
+            385,
+            1064,
+            704
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo_argumentos",
+          "descricao": "Unidade visual completa: codigo argumentos",
+          "bbox_normalizada": [
+            0.697265625,
+            0.3759765625,
+            0.9934895833333334,
+            0.6875
+          ],
+          "bbox_px": [
+            1071,
+            385,
+            1526,
+            704
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "saida",
+          "descricao": "Unidade visual completa: saida",
+          "bbox_normalizada": [
+            0.0078125,
+            0.6943359375,
+            0.24544270833333334,
+            0.966796875
+          ],
+          "bbox_px": [
+            12,
+            711,
+            377,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "paralelo",
+          "descricao": "Unidade visual completa: paralelo",
+          "bbox_normalizada": [
+            0.25,
+            0.6943359375,
+            0.5045572916666666,
+            0.966796875
+          ],
+          "bbox_px": [
+            384,
+            711,
+            775,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "arquivo_processo",
+          "descricao": "Unidade visual completa: arquivo processo",
+          "bbox_normalizada": [
+            0.5091145833333334,
+            0.6943359375,
+            0.7708333333333334,
+            0.966796875
+          ],
+          "bbox_px": [
+            782,
+            711,
+            1184,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.775390625,
+            0.6943359375,
+            0.9934895833333334,
+            0.966796875
+          ],
+          "bbox_px": [
+            1191,
+            711,
+            1526,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "getenv.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "37aaf5e78992104519800958a9ef18a1f64e780793ad099297081e38ee352ce5",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "ambiente",
+          "descricao": "Unidade visual completa: ambiente",
+          "bbox_normalizada": [
+            0.0078125,
+            0.1337890625,
+            0.3365885416666667,
+            0.6298828125
+          ],
+          "bbox_px": [
+            12,
+            137,
+            517,
+            645
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "consulta_codigo_saida",
+          "descricao": "Unidade visual completa: consulta codigo saida",
+          "bbox_normalizada": [
+            0.3411458333333333,
+            0.1337890625,
+            0.9934895833333334,
+            0.6298828125
+          ],
+          "bbox_px": [
+            524,
+            137,
+            1526,
+            645
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "retorno",
+          "descricao": "Unidade visual completa: retorno",
+          "bbox_normalizada": [
+            0.0078125,
+            0.6357421875,
+            0.3092447916666667,
+            0.982421875
+          ],
+          "bbox_px": [
+            12,
+            651,
+            475,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "exemplos_uso",
+          "descricao": "Unidade visual completa: exemplos uso",
+          "bbox_normalizada": [
+            0.3138020833333333,
+            0.6357421875,
+            0.6393229166666666,
+            0.982421875
+          ],
+          "bbox_px": [
+            482,
+            651,
+            982,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Unidade visual completa: resumo",
+          "bbox_normalizada": [
+            0.6438802083333334,
+            0.6357421875,
+            0.9934895833333334,
+            0.982421875
+          ],
+          "bbox_px": [
+            989,
+            651,
+            1526,
+            1006
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "8be61638ab19ff2e5b19eb095bf0f15c0db6408f02e97222c7bf2c11c08d23e6",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "objeto",
+          "descricao": "Unidade visual completa: objeto",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.4967447916666667,
+            0.44140625
+          ],
+          "bbox_px": [
+            12,
+            97,
+            763,
+            452
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "executavel",
+          "descricao": "Unidade visual completa: executavel",
+          "bbox_normalizada": [
+            0.5013020833333334,
+            0.0947265625,
+            0.9934895833333334,
+            0.44140625
+          ],
+          "bbox_px": [
+            770,
+            97,
+            1526,
+            452
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "gerar_objeto",
+          "descricao": "Unidade visual completa: gerar objeto",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4482421875,
+            0.5494791666666666,
+            0.6962890625
+          ],
+          "bbox_px": [
+            12,
+            459,
+            844,
+            713
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "ligar",
+          "descricao": "Unidade visual completa: ligar",
+          "bbox_normalizada": [
+            0.5540364583333334,
+            0.4482421875,
+            0.9934895833333334,
+            0.6962890625
+          ],
+          "bbox_px": [
+            851,
+            459,
+            1526,
+            713
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "comparacao",
+          "descricao": "Unidade visual completa: comparacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.703125,
+            0.43359375,
+            0.966796875
+          ],
+          "bbox_px": [
+            12,
+            720,
+            666,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "hexdump",
+          "descricao": "Unidade visual completa: hexdump",
+          "bbox_normalizada": [
+            0.4381510416666667,
+            0.703125,
+            0.78515625,
+            0.966796875
+          ],
+          "bbox_px": [
+            673,
+            720,
+            1206,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.7897135416666666,
+            0.703125,
+            0.9934895833333334,
+            0.966796875
+          ],
+          "bbox_px": [
+            1213,
+            720,
+            1526,
+            990
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "c085e72e38ebbe766cd4ee4e3e46b37a389e634df4eb62b02d3e98a7a15c8776",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "estrutura_argv",
+          "descricao": "Unidade visual completa: estrutura argv",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.34765625,
+            0.4091796875
+          ],
+          "bbox_px": [
+            12,
+            96,
+            534,
+            419
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "estrategia",
+          "descricao": "Unidade visual completa: estrategia",
+          "bbox_normalizada": [
+            0.3522135416666667,
+            0.09375,
+            0.6588541666666666,
+            0.4091796875
+          ],
+          "bbox_px": [
+            541,
+            96,
+            1012,
+            419
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "funcoes_string",
+          "descricao": "Unidade visual completa: funcoes string",
+          "bbox_normalizada": [
+            0.6634114583333334,
+            0.09375,
+            0.9934895833333334,
+            0.4091796875
+          ],
+          "bbox_px": [
+            1019,
+            96,
+            1526,
+            419
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.0,
+            0.41015625,
+            0.3645833333333333,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            420,
+            560,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "execucao",
+          "descricao": "Unidade visual completa: execucao",
+          "bbox_normalizada": [
+            0.3645833333333333,
+            0.416015625,
+            0.68359375,
+            0.974609375
+          ],
+          "bbox_px": [
+            560,
+            426,
+            1050,
+            998
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "detalhes",
+          "descricao": "Unidade visual completa: detalhes",
+          "bbox_normalizada": [
+            0.6881510416666666,
+            0.416015625,
+            0.9934895833333334,
+            0.671875
+          ],
+          "bbox_px": [
+            1057,
+            426,
+            1526,
+            688
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "variacoes_resumo",
+          "descricao": "Unidade visual completa: variacoes resumo",
+          "bbox_normalizada": [
+            0.6770833333333334,
+            0.654296875,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            1040,
+            670,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "b3f6fc30642a3c4c1fa4ebce430aaf2acc2e4e60991e2a0a719caf5b2f7215a1",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "argv_configuracao",
+          "descricao": "Unidade visual completa: argv configuracao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.1025390625,
+            0.3515625,
+            0.482421875
+          ],
+          "bbox_px": [
+            12,
+            105,
+            540,
+            494
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "estrutura",
+          "descricao": "Unidade visual completa: estrutura",
+          "bbox_normalizada": [
+            0.3561197916666667,
+            0.1025390625,
+            0.6595052083333334,
+            0.482421875
+          ],
+          "bbox_px": [
+            547,
+            105,
+            1013,
+            494
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "preenchimento_fluxo",
+          "descricao": "Unidade visual completa: preenchimento fluxo",
+          "bbox_normalizada": [
+            0.6640625,
+            0.1025390625,
+            0.9934895833333334,
+            0.482421875
+          ],
+          "bbox_px": [
+            1020,
+            105,
+            1526,
+            494
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "preenchimento_exemplo",
+          "descricao": "Unidade visual completa: preenchimento exemplo",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4892578125,
+            0.505859375,
+            0.7470703125
+          ],
+          "bbox_px": [
+            12,
+            501,
+            777,
+            765
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "uso_configuracao",
+          "descricao": "Unidade visual completa: uso configuracao",
+          "bbox_normalizada": [
+            0.5104166666666666,
+            0.4892578125,
+            0.9934895833333334,
+            0.7470703125
+          ],
+          "bbox_px": [
+            784,
+            501,
+            1526,
+            765
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "beneficios",
+          "descricao": "Unidade visual completa: beneficios",
+          "bbox_normalizada": [
+            0.0078125,
+            0.75390625,
+            0.5423177083333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            772,
+            833,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos_atencao",
+          "descricao": "Unidade visual completa: pontos atencao",
+          "bbox_normalizada": [
+            0.546875,
+            0.75390625,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            840,
+            772,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "resumo1.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "87a44f80341159b7befb61e071ebe6147f580a9099f610b80a4b8c62ad532f2e",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "jornada",
+          "descricao": "Unidade visual completa: jornada",
+          "bbox_normalizada": [
+            0.0078125,
+            0.09375,
+            0.9934895833333334,
+            0.3212890625
+          ],
+          "bbox_px": [
+            12,
+            96,
+            1526,
+            329
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "interativo_inicializacao",
+          "descricao": "Unidade visual completa: interativo inicializacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.328125,
+            0.4095052083333333,
+            0.6904296875
+          ],
+          "bbox_px": [
+            12,
+            336,
+            629,
+            707
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "visao_execucao",
+          "descricao": "Unidade visual completa: visao execucao",
+          "bbox_normalizada": [
+            0.41015625,
+            0.322265625,
+            0.740234375,
+            0.7177734375
+          ],
+          "bbox_px": [
+            630,
+            330,
+            1137,
+            735
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "comportamentos",
+          "descricao": "Unidade visual completa: comportamentos",
+          "bbox_normalizada": [
+            0.7356770833333334,
+            0.322265625,
+            1.0,
+            0.7177734375
+          ],
+          "bbox_px": [
+            1130,
+            330,
+            1536,
+            735
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "integracao_dados",
+          "descricao": "Unidade visual completa: integracao dados",
+          "bbox_normalizada": [
+            0.0078125,
+            0.697265625,
+            0.3919270833333333,
+            0.984375
+          ],
+          "bbox_px": [
+            12,
+            714,
+            602,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fontes_argumentos",
+          "descricao": "Unidade visual completa: fontes argumentos",
+          "bbox_normalizada": [
+            0.396484375,
+            0.697265625,
+            0.7161458333333334,
+            0.984375
+          ],
+          "bbox_px": [
+            609,
+            714,
+            1100,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos_conclusao",
+          "descricao": "Unidade visual completa: pontos conclusao",
+          "bbox_normalizada": [
+            0.720703125,
+            0.697265625,
+            0.9934895833333334,
+            0.984375
+          ],
+          "bbox_px": [
+            1107,
+            714,
+            1526,
+            1008
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "resumo2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "cb8319c8cdb9179042817ed708921ba2738335582a065e2d2a7ca2be40b487c0",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "estrutura",
+          "descricao": "Unidade visual completa: estrutura",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.3046875,
+            0.4501953125
+          ],
+          "bbox_px": [
+            12,
+            97,
+            468,
+            461
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "ordem_aplicacao_valores",
+          "descricao": "Aplicação incremental de padrão, ambiente e argumentos; resultado final prioriza argumentos. Não confundir ordem de atribuição com ordem de busca.",
+          "bbox_normalizada": [
+            0.3092447916666667,
+            0.0947265625,
+            0.642578125,
+            0.4501953125
+          ],
+          "bbox_px": [
+            475,
+            97,
+            987,
+            461
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "fluxo_inicializacao",
+          "descricao": "Unidade visual completa: fluxo inicializacao",
+          "bbox_normalizada": [
+            0.6471354166666666,
+            0.0947265625,
+            0.9934895833333334,
+            0.4501953125
+          ],
+          "bbox_px": [
+            994,
+            97,
+            1526,
+            461
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo_inicializacao",
+          "descricao": "Unidade visual completa: codigo inicializacao",
+          "bbox_normalizada": [
+            0.0078125,
+            0.45703125,
+            0.3072916666666667,
+            0.8720703125
+          ],
+          "bbox_px": [
+            12,
+            468,
+            472,
+            893
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo_argumentos",
+          "descricao": "Unidade visual completa: codigo argumentos",
+          "bbox_normalizada": [
+            0.3118489583333333,
+            0.45703125,
+            0.591796875,
+            0.8720703125
+          ],
+          "bbox_px": [
+            479,
+            468,
+            909,
+            893
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "cenarios",
+          "descricao": "Unidade visual completa: cenarios",
+          "bbox_normalizada": [
+            0.5963541666666666,
+            0.45703125,
+            0.80078125,
+            0.8720703125
+          ],
+          "bbox_px": [
+            916,
+            468,
+            1230,
+            893
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "main",
+          "descricao": "Unidade visual completa: main",
+          "bbox_normalizada": [
+            0.8053385416666666,
+            0.45703125,
+            0.9934895833333334,
+            0.830078125
+          ],
+          "bbox_px": [
+            1237,
+            468,
+            1526,
+            850
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "memoria",
+          "descricao": "Unidade visual completa: memoria",
+          "bbox_normalizada": [
+            0.0078125,
+            0.87890625,
+            0.5234375,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            900,
+            804,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "saida",
+          "descricao": "Unidade visual completa: saida",
+          "bbox_normalizada": [
+            0.5279947916666666,
+            0.87890625,
+            0.7936197916666666,
+            0.9853515625
+          ],
+          "bbox_px": [
+            811,
+            900,
+            1219,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.8053385416666666,
+            0.8369140625,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            1237,
+            857,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "setenv.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "dd18e7ca9562cb91bc6368404302b3aaf160726d47ee349458c2202610083255",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "assinaturas",
+          "descricao": "Unidade visual completa: assinaturas",
+          "bbox_normalizada": [
+            0.0078125,
+            0.1025390625,
+            0.3111979166666667,
+            0.6474609375
+          ],
+          "bbox_px": [
+            12,
+            105,
+            478,
+            663
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.3125,
+            0.09765625,
+            0.673828125,
+            0.771484375
+          ],
+          "bbox_px": [
+            480,
+            100,
+            1035,
+            790
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "saida",
+          "descricao": "Unidade visual completa: saida",
+          "bbox_normalizada": [
+            0.6725260416666666,
+            0.1025390625,
+            0.9934895833333334,
+            0.4716796875
+          ],
+          "bbox_px": [
+            1033,
+            105,
+            1526,
+            483
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "alcance",
+          "descricao": "Unidade visual completa: alcance",
+          "bbox_normalizada": [
+            0.6673177083333334,
+            0.46875,
+            1.0,
+            0.771484375
+          ],
+          "bbox_px": [
+            1025,
+            480,
+            1536,
+            790
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "verificacao_shell",
+          "descricao": "Unidade visual completa: verificacao shell",
+          "bbox_normalizada": [
+            0.0078125,
+            0.654296875,
+            0.35546875,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            670,
+            546,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "overwrite",
+          "descricao": "Unidade visual completa: overwrite",
+          "bbox_normalizada": [
+            0.3600260416666667,
+            0.654296875,
+            0.6731770833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            553,
+            670,
+            1034,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "pontos",
+          "descricao": "Unidade visual completa: pontos",
+          "bbox_normalizada": [
+            0.677734375,
+            0.654296875,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            1041,
+            670,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "3085ce6b83ffca24a4540c0257f097aa0f6a6c0f42b53b5ba42023b42228fbbb",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "visao_geral",
+          "descricao": "Unidade visual completa: visao geral",
+          "bbox_normalizada": [
+            0.0078125,
+            0.0947265625,
+            0.306640625,
+            0.400390625
+          ],
+          "bbox_px": [
+            12,
+            97,
+            471,
+            410
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "strtok",
+          "descricao": "Unidade visual completa: strtok",
+          "bbox_normalizada": [
+            0.3111979166666667,
+            0.0947265625,
+            0.6686197916666666,
+            0.400390625
+          ],
+          "bbox_px": [
+            478,
+            97,
+            1027,
+            410
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "strcmp",
+          "descricao": "Unidade visual completa: strcmp",
+          "bbox_normalizada": [
+            0.6731770833333334,
+            0.0947265625,
+            0.9934895833333334,
+            0.400390625
+          ],
+          "bbox_px": [
+            1034,
+            97,
+            1526,
+            410
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "strncmp",
+          "descricao": "Unidade visual completa: strncmp",
+          "bbox_normalizada": [
+            0.0078125,
+            0.4072265625,
+            0.3079427083333333,
+            0.7763671875
+          ],
+          "bbox_px": [
+            12,
+            417,
+            473,
+            795
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "strchr_strrchr",
+          "descricao": "Unidade visual completa: strchr strrchr",
+          "bbox_normalizada": [
+            0.3125,
+            0.4072265625,
+            0.6686197916666666,
+            0.7763671875
+          ],
+          "bbox_px": [
+            480,
+            417,
+            1027,
+            795
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "aplicacao",
+          "descricao": "Unidade visual completa: aplicacao",
+          "bbox_normalizada": [
+            0.6731770833333334,
+            0.4072265625,
+            0.9934895833333334,
+            0.7763671875
+          ],
+          "bbox_px": [
+            1034,
+            417,
+            1526,
+            795
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "resumo_funcoes",
+          "descricao": "Unidade visual completa: resumo funcoes",
+          "bbox_normalizada": [
+            0.0078125,
+            0.783203125,
+            0.9934895833333334,
+            0.9853515625
+          ],
+          "bbox_px": [
+            12,
+            802,
+            1526,
+            1009
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "tipo": "jpeg",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "394dbc1fceb051bdc4a3bfef8ea5ae18d901e514bd01e549b361e0b908f0b6c3",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1312,
+            1199
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "nome_tipo_original",
+          "descricao": "Unidade visual completa: nome tipo original",
+          "bbox_normalizada": [
+            0.0038109756097560975,
+            0.12510425354462051,
+            0.5457317073170732,
+            0.45454545454545453
+          ],
+          "bbox_px": [
+            5,
+            150,
+            716,
+            545
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "nome_tipo_alternativo",
+          "descricao": "Unidade visual completa: nome tipo alternativo",
+          "bbox_normalizada": [
+            0.5449695121951219,
+            0.12510425354462051,
+            0.9984756097560976,
+            0.45454545454545453
+          ],
+          "bbox_px": [
+            715,
+            150,
+            1310,
+            545
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "funcao_comparada",
+          "descricao": "Unidade visual completa: funcao comparada",
+          "bbox_normalizada": [
+            0.0038109756097560975,
+            0.45454545454545453,
+            0.5701219512195121,
+            0.8698915763135947
+          ],
+          "bbox_px": [
+            5,
+            545,
+            748,
+            1043
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "leitura_nome_funcao",
+          "descricao": "Unidade visual completa: leitura nome funcao",
+          "bbox_normalizada": [
+            0.5701219512195121,
+            0.45454545454545453,
+            0.9984756097560976,
+            0.6388657214345288
+          ],
+          "bbox_px": [
+            748,
+            545,
+            1310,
+            766
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "alocacao",
+          "descricao": "Unidade visual completa: alocacao",
+          "bbox_normalizada": [
+            0.5701219512195121,
+            0.6380316930775647,
+            0.9984756097560976,
+            0.8698915763135947
+          ],
+          "bbox_px": [
+            748,
+            765,
+            1310,
+            1043
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "conclusao",
+          "descricao": "Unidade visual completa: conclusao",
+          "bbox_normalizada": [
+            0.0038109756097560975,
+            0.8698915763135947,
+            0.9984756097560976,
+            1.0
+          ],
+          "bbox_px": [
+            5,
+            1043,
+            1310,
+            1199
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ]
+    },
+    {
+      "arquivo": "argumentos_processos.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1120,
+        630
+      ],
+      "sha256": "2431ea6cc29a99808651ddd3b72c7aaa7ecdc71bffc9af8adceb0bd38603dfc8",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1120,
+            630
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "conteudo_estado",
+          "descricao": "Unidade visual completa: conteudo estado",
+          "bbox_normalizada": [
+            0.017857142857142856,
+            0.15873015873015872,
+            0.9821428571428571,
+            0.9126984126984127
+          ],
+          "bbox_px": [
+            20,
+            100,
+            1100,
+            575
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "relacao_processos",
+          "descricao": "Unidade visual completa: relacao processos",
+          "bbox_normalizada": [
+            0.017857142857142856,
+            0.35555555555555557,
+            0.9821428571428571,
+            0.6523809523809524
+          ],
+          "bbox_px": [
+            20,
+            224,
+            1100,
+            411
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "explicacao_estado",
+          "descricao": "Unidade visual completa: explicacao estado",
+          "bbox_normalizada": [
+            0.017857142857142856,
+            0.6825396825396826,
+            0.9821428571428571,
+            0.8920634920634921
+          ],
+          "bbox_px": [
+            20,
+            430,
+            1100,
+            562
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ],
+      "temporal": {
+        "quadros": 14,
+        "duracoes_ms": [
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500
+        ],
+        "ciclo_ms": 35000,
+        "quadros_inspecionados": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "limite": "Integral e conteudo_estado permitem consulta dos 14 estados. relacao_processos e explicacao_estado são evidenciadas no quadro final 13; validar adequação em outros estados antes de reutilizar."
+      }
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "d67f6b395911f80e9a27a683c32f680f3668c8e761e6b6d50187007e5ca8c2c7",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.01625,
+            0.1511111111111111,
+            0.480625,
+            0.7722222222222223
+          ],
+          "bbox_px": [
+            26,
+            136,
+            769,
+            695
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "argv",
+          "descricao": "Unidade visual completa: argv",
+          "bbox_normalizada": [
+            0.491875,
+            0.1511111111111111,
+            0.984375,
+            0.5555555555555556
+          ],
+          "bbox_px": [
+            787,
+            136,
+            1575,
+            500
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "configuracao",
+          "descricao": "Unidade visual completa: configuracao",
+          "bbox_normalizada": [
+            0.491875,
+            0.5711111111111111,
+            0.984375,
+            0.7722222222222223
+          ],
+          "bbox_px": [
+            787,
+            514,
+            1575,
+            695
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "explicacao",
+          "descricao": "Unidade visual completa: explicacao",
+          "bbox_normalizada": [
+            0.01625,
+            0.7933333333333333,
+            0.480625,
+            0.9666666666666667
+          ],
+          "bbox_px": [
+            26,
+            714,
+            769,
+            870
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "terminal",
+          "descricao": "Unidade visual completa: terminal",
+          "bbox_normalizada": [
+            0.491875,
+            0.7933333333333333,
+            0.984375,
+            0.9666666666666667
+          ],
+          "bbox_px": [
+            787,
+            714,
+            1575,
+            870
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ],
+      "temporal": {
+        "quadros": 16,
+        "duracoes_ms": [
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500,
+          2500
+        ],
+        "ciclo_ms": 40000,
+        "quadros_inspecionados": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "limite": "Caixas preservam o envelope espacial em todos os estados; seleção temporal pertence à montagem."
+      }
+    },
+    {
+      "arquivo": "strtok_execucao_tokens.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "e5175923ed7864d4683eec5f680d213f6b1d1a497f83a78ed19aa0d827ac713b",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Visão integral para contexto; detalhes podem exigir regiões próprias.",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "bbox_px": [
+            0,
+            0,
+            1600,
+            900
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "codigo",
+          "descricao": "Unidade visual completa: codigo",
+          "bbox_normalizada": [
+            0.01625,
+            0.1511111111111111,
+            0.480625,
+            0.7722222222222223
+          ],
+          "bbox_px": [
+            26,
+            136,
+            769,
+            695
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "memoria",
+          "descricao": "Unidade visual completa: memoria",
+          "bbox_normalizada": [
+            0.491875,
+            0.1511111111111111,
+            0.984375,
+            0.6444444444444445
+          ],
+          "bbox_px": [
+            787,
+            136,
+            1575,
+            580
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "terminal",
+          "descricao": "Unidade visual completa: terminal",
+          "bbox_normalizada": [
+            0.491875,
+            0.6666666666666666,
+            0.984375,
+            0.9444444444444444
+          ],
+          "bbox_px": [
+            787,
+            600,
+            1575,
+            850
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        },
+        {
+          "id": "explicacao",
+          "descricao": "Unidade visual completa: explicacao",
+          "bbox_normalizada": [
+            0.01625,
+            0.7933333333333333,
+            0.480625,
+            0.9444444444444444
+          ],
+          "bbox_px": [
+            26,
+            714,
+            769,
+            850
+          ],
+          "confianca": "inspecao_direta_original_e_projecao_9_16; não equivale a homologação humana"
+        }
+      ],
+      "temporal": {
+        "quadros": 12,
+        "duracoes_ms": [
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "ciclo_ms": 36000,
+        "quadros_inspecionados": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "limite": "Caixas preservam o envelope espacial em todos os estados; seleção temporal pertence à montagem."
+      }
+    }
+  ],
+  "autoauditoria": "04_Autoauditoria_Mapa.md"
+}

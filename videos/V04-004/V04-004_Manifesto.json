@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "video_id": "V04-004",
+  "tipo_entrega": "REFERENCIA",
+  "estado": "PENDENTE_REVISAO",
+  "justificativa": "MP4 real e verificações técnicas concluídos; escuta perceptiva e revisão humana pendentes, sem homologação editorial.",
+  "utc": "2026-10-30T14:47:07.175267+00:00",
+  "base_commit": "71853fca52ab80762ff5a2113b4cb0023c4090c9",
+  "catalogo": {
+    "caminho": "04_Argumentos_CommandLine/04_Catalogo_Semantico.docx",
+    "sha256": "1611af1d4fe6d057daed3b74a5e41c7db6d4dae3ec0f0512afa2f3f307f34d9b",
+    "versao": "revisão obtida na main 71853fc; sem número de versão declarado no catálogo"
+  },
+  "dossie": {
+    "caminho": "editorial/dossies/04_Dossie_Editorial.docx",
+    "versao": "1.0",
+    "candidatos": 8,
+    "estado": "PROPOSTO"
+  },
+  "selecao": {
+    "id": "V04-004",
+    "dossie": "editorial/dossies/04_Dossie_Editorial.docx",
+    "sha256": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+    "utc": "2026-10-30T14:19:04.675483+00:00"
+  },
+  "fontes": {
+    "editorial/dossies/04_Dossie_Editorial.docx": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+    "editorial/roteiros/04-004_Roteiro_Individual.docx": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+    "04_Argumentos_CommandLine/04_Mapa_Espacial.json": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7"
+  },
+  "segmentos": [
+    {
+      "id": "S01",
+      "cena_roteiro": "C01",
+      "fala_id": "F01",
+      "texto": "Uma aplicação pode obter a mesma configuração de três lugares: argumentos, variáveis de ambiente e um valor padrão. Quando há mais de uma fonte, não basta saber ler cada uma; é preciso definir qual prevalece.",
+      "material_candidato": "04_Argumentos_CommandLine/argopt3.png",
+      "inicio_estimado_ms": 0,
+      "duracao_estimada_ms": 14000,
+      "arquivo": "04_Argumentos_CommandLine/argopt3.png",
+      "regiao_id": "tres_fontes",
+      "bbox_px": [
+        12,
+        97,
+        510,
+        500
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 0,
+      "duracao_s": 15.066666666666666,
+      "frame_inicial": 0,
+      "quadros": 452,
+      "fonte_sha256": "9b1a59f314533dbbb96ec8fcb72f5e6e98e4ab0aa90b743fce7395ea7179a20b"
+    },
+    {
+      "id": "S02",
+      "cena_roteiro": "C02",
+      "fala_id": "F02",
+      "texto": "Os materiais deste capítulo apresentam uma política explícita: primeiro o argumento, depois o ambiente e, se nenhum deles fornecer a configuração, o padrão.",
+      "material_candidato": "04_Argumentos_CommandLine/env4.png",
+      "inicio_estimado_ms": 14000,
+      "duracao_estimada_ms": 15000,
+      "arquivo": "04_Argumentos_CommandLine/env4.png",
+      "regiao_id": "fluxo_precedencia",
+      "bbox_px": [
+        534,
+        98,
+        1018,
+        507
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 15.066666666666666,
+      "duracao_s": 11.966666666666667,
+      "frame_inicial": 452,
+      "quadros": 359,
+      "fonte_sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9"
+    },
+    {
+      "id": "S03",
+      "cena_roteiro": "C03",
+      "fala_id": "F03",
+      "texto": "Isso permite explicar por que mudar o ambiente pode não alterar uma execução que já recebeu o valor pela linha de comando.",
+      "material_candidato": "04_Argumentos_CommandLine/env4.png",
+      "inicio_estimado_ms": 29000,
+      "duracao_estimada_ms": 14000,
+      "arquivo": "04_Argumentos_CommandLine/env4.png",
+      "regiao_id": "exemplos_fontes",
+      "bbox_px": [
+        1025,
+        98,
+        1526,
+        507
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 27.03333333333333,
+      "duracao_s": 8.366666666666667,
+      "frame_inicial": 811,
+      "quadros": 251,
+      "fonte_sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9"
+    },
+    {
+      "id": "S04",
+      "cena_roteiro": "C04",
+      "fala_id": "F04",
+      "texto": "Não é uma prioridade imposta pela linguagem C a todos os programas. É o contrato implementado por esta aplicação.",
+      "material_candidato": "04_Argumentos_CommandLine/resumo2.png",
+      "inicio_estimado_ms": 43000,
+      "duracao_estimada_ms": 13000,
+      "arquivo": "04_Argumentos_CommandLine/resumo2.png",
+      "regiao_id": "estrutura",
+      "bbox_px": [
+        12,
+        97,
+        468,
+        461
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 35.4,
+      "duracao_s": 8.166666666666666,
+      "frame_inicial": 1062,
+      "quadros": 245,
+      "fonte_sha256": "cb8319c8cdb9179042817ed708921ba2738335582a065e2d2a7ca2be40b487c0"
+    },
+    {
+      "id": "S05",
+      "cena_roteiro": "C05",
+      "fala_id": "F05",
+      "texto": "Para entender o resultado, siga a decisão desde a fonte de maior prioridade e descubra em qual etapa o valor foi escolhido.",
+      "material_candidato": "04_Argumentos_CommandLine/resumo2.png",
+      "inicio_estimado_ms": 56000,
+      "duracao_estimada_ms": 14000,
+      "arquivo": "04_Argumentos_CommandLine/env4.png",
+      "regiao_id": "fluxo_precedencia",
+      "bbox_px": [
+        534,
+        98,
+        1018,
+        507
+      ],
+      "modo_visual": "IMAGEM_ESTATICA",
+      "transicao": "CORTE_SECO",
+      "inicio_s": 43.56666666666666,
+      "duracao_s": 9.0,
+      "frame_inicial": 1307,
+      "quadros": 270,
+      "fonte_sha256": "d906057cb6f3a01992a4ed5bfb167263309e24f5c47bf46ec8e5710bd69deeb9"
+    }
+  ],
+  "perfil_real": {
+    "duracao_s": 52.566984,
+    "dimensoes": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "video": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "22050",
+    "decodificacao_integral": "OK",
+    "audio_decodificado_rms": 0.09180941432714462,
+    "audio_decodificado_pico": 0.8148604035377502
+  },
+  "ferramentas": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "pillow": "12.3.0",
+    "python-docx": "1.2.0",
+    "espeakng-loader": "0.2.4",
+    "voice": "pt-br",
+    "rate_wpm": 155
+  },
+  "srt": {
+    "cues": 10,
+    "sintaxe_e_limites": "OK",
+    "texto_igual_a_entrada_sintese": true,
+    "metodo": "intervalos reais de amostras PCM por enunciado",
+    "estado": "PROVISORIO",
+    "escuta_perceptiva": "NAO_REALIZADA"
+  },
+  "validacoes": "validacao.json",
+  "evidencias": [
+    "evidencias/inspecao-01.jpg",
+    "evidencias/inspecao-02.jpg",
+    "evidencias/inspecao-03.jpg"
+  ],
+  "artefatos": [
+    {
+      "caminho": "editorial/dossies/04_Dossie_Editorial.docx",
+      "bytes": 46216,
+      "sha256": "3212b59adc0228c3b68632c40cbbd67e025bb832f75aa16cbb3172d433dc336e",
+      "versionavel": true
+    },
+    {
+      "caminho": "editorial/roteiros/04-004_Roteiro_Individual.docx",
+      "bytes": 38391,
+      "sha256": "a939a9390a023fad2d8e396518b97d62de29eaa341eda409586d42b823bb2958",
+      "versionavel": true
+    },
+    {
+      "caminho": "04_Argumentos_CommandLine/04_Mapa_Espacial.json",
+      "bytes": 129608,
+      "sha256": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7",
+      "versionavel": true
+    },
+    {
+      "caminho": "editorial/montagens/04-004_Montagem.json",
+      "bytes": 5720,
+      "sha256": "e98a9e9b0cbe5ca315295e17a13805ecab57eda6ff692bd2f6e83a35b3a9a2ad",
+      "versionavel": true
+    },
+    {
+      "caminho": "videos/V04-004/renderizar.py",
+      "bytes": 6453,
+      "sha256": "ec3a09cb2ade7e0f43893de2d895befe53ca0ba0c50b0d78d43b64177c22a4ff",
+      "versionavel": true
+    },
+    {
+      "caminho": "videos/V04-004/falas.json",
+      "bytes": 1865,
+      "sha256": "5e559d381f3db4f5f8dbc1200cd36ba9b951e661476f3f7d65c9f0f36e56f309",
+      "versionavel": true
+    },
+    {
+      "caminho": "videos/V04-004/V04-004.srt",
+      "bytes": 1083,
+      "sha256": "caec6b0d461feb4f1e77552cb97a842be1539e3801e160107045534039de911b",
+      "versionavel": true
+    },
+    {
+      "caminho": "videos/V04-004/validacao.json",
+      "bytes": 2966,
+      "sha256": "c7717b923d5e74775578b2f188aea308ca318d9b2f9b87111a6cbf4470195546",
+      "versionavel": true
+    },
+    {
+      "caminho": "videos/V04-004/V04-004_Relatorio.md",
+      "bytes": 6401,
+      "sha256": "d2928ea3c0ff4de9d46461ef07978fa0ad8c3fbaac0ef445eb2075a5bc5b9603",
+      "versionavel": true
+    },
+    {
+      "caminho": "/workspace/artifacts/V04-004/V04-004.mp4",
+      "bytes": 2138336,
+      "sha256": "5b7a7cc739515f8ccf88bd42f81a8699977463d3b82a3f0516c8cb8f31d2b6cb",
+      "versionavel": false
+    },
+    {
+      "caminho": "/workspace/artifacts/V04-004/V04-004_Audio_Referencia.wav",
+      "bytes": 2318234,
+      "sha256": "4d6ab45cfbd63419be34f4428b30f028b378e217fb5b14f56627580cc4b03b9a",
+      "versionavel": false
+    }
+  ],
+  "ocorrencias": [
+    "P04-001, fonte não utilizada no vídeo; nenhuma correção aplicada.",
+    "V04-004-REV-001, escuta humana pendente."
+  ],
+  "homologacao_humana": false,
+  "publicacao_externa": false
+}
