@@ -57,6 +57,7 @@ Siga `curadoria/protocolo_consolidacao_editorial.md` nas tarefas de consolidaç�
 
 - Analise, classifique, recomende e elabore registros autonomamente dentro do escopo solicitado, preservando fontes, IDs e histórico; não produza conteúdo narrativo novo nessa camada.
 - Distinga homologação de relacionamento, aprovação de oportunidade e autorização para roteiro: são decisões humanas independentes. Não as infira de recomendações, registros ou produtos existentes.
+- A aceitação documental de um catálogo não homologa suas interpretações nem converte pendências em aprovação. A avaliação substantiva pode ocorrer depois, sem bloquear automaticamente outras tarefas autorizadas e independentes ou exigir revisões sem motivação concreta. A roteirização exige seleção e autorização explícitas do candidato e dossiê, sem depender da homologação de todas as relações do catálogo.
 - A consolidação pode identificar a fonte explicitamente selecionada, mas não complementar o conteúdo do roteiro. Combinar candidatos exige revisão editorial autorizada de um dossiê; não fazê-lo implicitamente no roteiro.
 
 ### Geração autônoma de roteiros individuais pré-edição
