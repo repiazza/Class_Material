@@ -1,7 +1,7 @@
 # Protocolo de consolidação editorial
 
 > **Identificador:** `curadoria/consolidacao_editorial`\
-> **Versão:** `0.1.0` — contrato inicial de decisões e referências\
+> **Versão:** `0.1.1` — distinção entre aceitação documental e homologação editorial\
 > **Estado:** PROPOSTO — sujeito à revisão e homologação humana\
 > **Escopo:** comparação de candidatos entre dossiês e registro de identidades, alternativas e deliberações\
 > **Registro previsto:** `editorial/consolidacoes/NN_Consolidacao_Editorial.md`
@@ -74,7 +74,13 @@ Reconhecer alternativas não exclui candidatos. A consolidação não altera dos
 
 ## 6. Deliberação e histórico
 
-Há três decisões independentes:
+**A validação documental de uma consolidação não equivale à homologação substantiva de suas interpretações editoriais.** Distinguir:
+
+- **Aceitação documental:** reconhecimento humano de que o catálogo atende ao contrato, contém referências verificáveis e preserva propostas e limitações, podendo ser incorporado ao repositório como resultado válido da execução.
+- **Homologação editorial:** decisão humana específica sobre as identidades e relações propostas, abrangendo a homologação de relacionamento e a aprovação de oportunidade. Pode ocorrer imediatamente ou depois, inclusive com evidências adicionais de roteiros, montagens ou produtos audiovisuais; a existência desses artefatos não determina o resultado.
+- **Autorização de roteirização:** decisão independente que seleciona explicitamente um candidato e seu dossiê-fonte, sem exigir homologação de todas as relações do catálogo.
+
+A aceitação documental não substitui nenhuma das três decisões humanas já previstas:
 
 1. **Homologação de relacionamento:** aprovação humana da classificação e do vínculo entre candidatos.
 2. **Aprovação de oportunidade:** decisão humana sobre a pertinência da identidade editorial para o projeto.
@@ -85,6 +91,10 @@ A homologação de equivalência não aprova um vídeo; a aprovação de uma opo
 Usar controle simples para as **relações**: `PENDENTE`, `HOMOLOGADA` ou `REJEITADA`, registrando a manifestação e a justificativa. A classificação proposta permanece identificável mesmo se rejeitada. Para oportunidade e autorização, registrar a decisão expressa ou sua ausência, sem criar outro ciclo de estados para candidatos. Não converter esses registros automaticamente em `APROVADO`, `RESERVADO` ou `PRODUZIDO`.
 
 Uma mesma manifestação humana pode conter as três decisões, desde que cada uma seja explícita e rastreável; não exigir ritos adicionais para decisões já fornecidas. A aprovação de uma PR não deve ser interpretada como homologação pedagógica de cada proposta nela contida sem manifestação nesse sentido.
+
+A avaliação substantiva pode ser adiada sem significar rejeição, aprovação implícita ou deficiência do catálogo documentalmente aceito. A ausência de homologação de todas as relações **não bloqueia automaticamente novas consolidações, análises ou etapas independentes**, desde que abrangidas pelo escopo autorizado. A roteirização continua dependendo de sua autorização específica; a continuidade operacional não a presume.
+
+Classificações não homologadas permanecem propostas do agente. Não converter `PENDENTE` em `HOMOLOGADA` pela aprovação de PR, integração à `main` ou utilização posterior do catálogo. Não exigir revisões documentais sucessivas apenas para antecipar homologação substantiva. Uma revisão deve ter motivação concreta: inconsistência verificável, nova evidência, decisão humana expressa ou necessidade operacional identificada. A avaliação posterior pode confirmar, modificar ou rejeitar classificações, preservando o histórico.
 
 Revisões posteriores preservam decisões anteriores, justificativas e referências em um histórico conciso no próprio registro. Registrar a revisão da classificação e a nova deliberação quando aplicáveis; não apagar silenciosamente o vínculo anterior nem tratar rejeição como pedido de alternativa. Decisões de consolidação ficam nesse registro; ocorrências nas fontes seguem os registros e autorizações do [protocolo de retroalimentação](protocolo_retroalimentacao.md), sem duplicar seu checklist.
 
@@ -115,4 +125,4 @@ A validação documental não equivale à homologação editorial. Divergências
 
 ## 9. Critério de conclusão
 
-O registro deve permitir reconhecer quais propostas estão relacionadas, onde suas abordagens estão documentadas, o que o agente recomenda, o que o responsável humano decidiu e qual fonte, se alguma, está autorizada para o próximo roteiro. As propostas originais continuam preservadas e acessíveis. Este contrato não produz a consolidação do capítulo 03.
+O registro deve permitir reconhecer quais propostas estão relacionadas, onde suas abordagens estão documentadas, o que o agente recomenda, o que o responsável humano decidiu e qual fonte, se alguma, está autorizada para o próximo roteiro. O atendimento documental a esse critério não exige homologação prévia de todas as interpretações: o catálogo pode ser aceito com relações substantivamente pendentes, sem novas etapas obrigatórias ou novos estados. As propostas originais continuam preservadas e acessíveis. Este contrato não produz a consolidação do capítulo 03.
