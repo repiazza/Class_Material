@@ -480,3 +480,19 @@ Mapeamento autorizado do capítulo completo; originais e documentos editoriais p
 - **Estado:** PENDENTE_REVISAO; aprovação/seleção do roteiro e aprovação da PR técnica não homologam automaticamente a voz ou o vídeo. Sem falha de entrega: link real /workspace/artifacts/V03-003/V03-003.mp4, com orientação Salvar vídeo como...; confirmação de download não exigida.
 - **Fontes:** M03-P-001 evitada por seleção de regiões válidas, sem alterar/corrigir o original; demais M03 fora dos materiais escolhidos. Decisões e pendências anteriores preservadas.
 - **Rastreabilidade:** editorial/montagens/03-003_Montagem.json; videos/V03-003/V03-003_Manifesto.json e V03-003_Relatorio.md; branch audiovisual/piloto-v03-003, commit/PR informados na entrega. Revalidar somente derivados afetados se revisão exigir correção autorizada.
+
+## Experimento integrado do capítulo 04
+
+### P04-001 — P — PENDENTE
+
+- **Origem / evidência:** `04_Argumentos_CommandLine/strtok_execucao_tokens.gif`, quadro 3, aos 9 s. A primeira tokenização já representa todos os delimitadores como `\0`; chamadas sucessivas de `strtok` substituem cada delimitador quando alcançado, não todos na primeira chamada. Evidência preservada em `04_Argumentos_CommandLine/evidencias_mapa_espacial/P04-001-strtok-quadro03.png`.
+- **Encaminhamento:** avaliar a evolução intermediária do GIF na camada do original. Nenhuma alteração pedagógica autorizada ou executada. Confiança alta; estado final não implica correção da evolução intermediária.
+- **Impacto / preservação:** não participa de V04-004. Mapa, dossiê e demais fontes preservados; eventual revalidação futura restrita aos derivados afetados.
+- **Rastreabilidade:** `04_Argumentos_CommandLine/04_Autoauditoria_Mapa.md`; branch `audiovisual/experimento-integrado-capitulo-04`. Registro não altera decisões humanas anteriores.
+
+### V04-004-REV-001 — AV-S / inspeção — PENDENTE
+
+- **Autorização:** experimento integrado, excepcional, com escolha de um candidato somente após salvar o dossiê. Selecionado V04-004 de `editorial/dossies/04_Dossie_Editorial.docx`, versão 1.0; candidato e roteiro permanecem PROPOSTO.
+- **Limitação:** inspeção visual por quadros e fronteiras e validações técnicas não substituem escuta perceptiva contínua. Sem ferramenta de reprodução auditiva para o agente nesta interface; pronúncia, naturalidade e sincronismo fino da referência ficam PENDENTE_REVISAO.
+- **Encaminhamento:** revisar humanamente o MP4 já entregue; não ressintetizar nem regenerar artefatos válidos preventivamente. SRT provisório medido sobre as amostras da síntese local.
+- **Rastreabilidade:** `editorial/montagens/04-004_Montagem.json`, `videos/V04-004/V04-004_Manifesto.json` e `V04-004_Relatorio.md`; mesma branch do experimento. Não representa homologação editorial ou autorização de merge.

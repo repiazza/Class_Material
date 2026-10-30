@@ -1,0 +1,2832 @@
+{
+  "mapa_sha256": "eb35a6f8b57571729e43f1a42adaddb4ded82e4796bc418e91a5e64765f2b7a7",
+  "materiais": 31,
+  "regioes": 253,
+  "originais_estaticos": 28,
+  "quadros_gif_inspecionados": 42,
+  "correcoes": [
+    {
+      "arquivo": "argopt.png",
+      "id": "interpretador",
+      "anterior": [
+        12,
+        496,
+        506,
+        990
+      ],
+      "corrigida": [
+        12,
+        430,
+        506,
+        1006
+      ]
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "formas_opcoes",
+      "anterior": [
+        513,
+        496,
+        992,
+        796
+      ],
+      "corrigida": [
+        490,
+        430,
+        1005,
+        775
+      ]
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "execucao",
+      "anterior": [
+        999,
+        496,
+        1526,
+        861
+      ],
+      "corrigida": [
+        999,
+        430,
+        1526,
+        775
+      ]
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "boas_praticas",
+      "anterior": [
+        513,
+        802,
+        992,
+        990
+      ],
+      "corrigida": [
+        490,
+        775,
+        1005,
+        1006
+      ]
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "resumo",
+      "anterior": [
+        999,
+        868,
+        1526,
+        990
+      ],
+      "corrigida": [
+        999,
+        775,
+        1526,
+        1006
+      ]
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "funcao_ajuda",
+      "anterior": [
+        12,
+        433,
+        538,
+        846
+      ],
+      "corrigida": [
+        12,
+        433,
+        538,
+        854
+      ]
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "deteccao",
+      "anterior": [
+        545,
+        433,
+        988,
+        775
+      ],
+      "corrigida": [
+        545,
+        433,
+        988,
+        786
+      ]
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "erros",
+      "anterior": [
+        995,
+        433,
+        1526,
+        775
+      ],
+      "corrigida": [
+        995,
+        433,
+        1526,
+        786
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "resultados",
+      "anterior": [
+        509,
+        517,
+        1016,
+        1006
+      ],
+      "corrigida": [
+        509,
+        485,
+        1019,
+        1008
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "representacao_opcoes",
+      "anterior": [
+        1023,
+        517,
+        1526,
+        782
+      ],
+      "corrigida": [
+        1023,
+        485,
+        1526,
+        785
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "tokenizacao_pontos",
+      "anterior": [
+        1023,
+        788,
+        1526,
+        1006
+      ],
+      "corrigida": [
+        833,
+        787,
+        1526,
+        1008
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "chamadas_validas",
+      "anterior": [
+        12,
+        443,
+        516,
+        649
+      ],
+      "corrigida": [
+        12,
+        443,
+        516,
+        698
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "chamadas_invalidas",
+      "anterior": [
+        523,
+        443,
+        1038,
+        649
+      ],
+      "corrigida": [
+        523,
+        443,
+        1038,
+        698
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "mensagens",
+      "anterior": [
+        1045,
+        443,
+        1526,
+        649
+      ],
+      "corrigida": [
+        1045,
+        443,
+        1526,
+        698
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "separador",
+      "anterior": [
+        586,
+        657,
+        1082,
+        1008
+      ],
+      "corrigida": [
+        570,
+        698,
+        1082,
+        1008
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "padroes_pontos",
+      "anterior": [
+        1089,
+        657,
+        1526,
+        1008
+      ],
+      "corrigida": [
+        1065,
+        698,
+        1526,
+        1008
+      ]
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "outros_tipos",
+      "anterior": [
+        475,
+        432,
+        1018,
+        644
+      ],
+      "corrigida": [
+        450,
+        432,
+        1030,
+        644
+      ]
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "endptr",
+      "anterior": [
+        475,
+        651,
+        1018,
+        981
+      ],
+      "corrigida": [
+        450,
+        651,
+        1030,
+        981
+      ]
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "cadeia",
+      "anterior": [
+        581,
+        789,
+        998,
+        1008
+      ],
+      "corrigida": [
+        575,
+        780,
+        1020,
+        1024
+      ]
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "pontos",
+      "anterior": [
+        1005,
+        725,
+        1526,
+        1008
+      ],
+      "corrigida": [
+        1000,
+        690,
+        1536,
+        1024
+      ]
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "codigo",
+      "anterior": [
+        12,
+        426,
+        553,
+        998
+      ],
+      "corrigida": [
+        0,
+        420,
+        560,
+        1024
+      ]
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "variacoes_resumo",
+      "anterior": [
+        1057,
+        695,
+        1526,
+        998
+      ],
+      "corrigida": [
+        1040,
+        670,
+        1536,
+        1024
+      ]
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "visao_execucao",
+      "anterior": [
+        636,
+        336,
+        1130,
+        707
+      ],
+      "corrigida": [
+        630,
+        330,
+        1137,
+        735
+      ]
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "comportamentos",
+      "anterior": [
+        1137,
+        336,
+        1526,
+        707
+      ],
+      "corrigida": [
+        1130,
+        330,
+        1536,
+        735
+      ]
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "codigo",
+      "anterior": [
+        485,
+        105,
+        1026,
+        663
+      ],
+      "corrigida": [
+        480,
+        100,
+        1035,
+        790
+      ]
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "alcance",
+      "anterior": [
+        1033,
+        490,
+        1526,
+        663
+      ],
+      "corrigida": [
+        1025,
+        480,
+        1536,
+        790
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "nome_tipo_original",
+      "anterior": [
+        8,
+        126,
+        604,
+        461
+      ],
+      "corrigida": [
+        5,
+        150,
+        716,
+        545
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "nome_tipo_alternativo",
+      "anterior": [
+        609,
+        126,
+        1302,
+        461
+      ],
+      "corrigida": [
+        715,
+        150,
+        1310,
+        545
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "funcao_comparada",
+      "anterior": [
+        8,
+        466,
+        643,
+        1013
+      ],
+      "corrigida": [
+        5,
+        545,
+        748,
+        1043
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "leitura_nome_funcao",
+      "anterior": [
+        650,
+        466,
+        1302,
+        643
+      ],
+      "corrigida": [
+        748,
+        545,
+        1310,
+        766
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "alocacao",
+      "anterior": [
+        650,
+        650,
+        1302,
+        1013
+      ],
+      "corrigida": [
+        748,
+        765,
+        1310,
+        1043
+      ]
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "conclusao",
+      "anterior": [
+        8,
+        1018,
+        1302,
+        1191
+      ],
+      "corrigida": [
+        5,
+        1043,
+        1310,
+        1199
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "separador",
+      "anterior": [
+        570,
+        698,
+        1082,
+        1008
+      ],
+      "corrigida": [
+        548,
+        698,
+        918,
+        1008
+      ]
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "padroes_pontos",
+      "anterior": [
+        1065,
+        698,
+        1526,
+        1008
+      ],
+      "corrigida": [
+        918,
+        698,
+        1536,
+        1008
+      ]
+    }
+  ],
+  "regioes_inspecionadas": [
+    {
+      "arquivo": "arg_validation.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "arg_validation.png",
+      "id": "objetivos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "arg_validation.png",
+      "id": "regras",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "arg_validation.png",
+      "id": "mensagens",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "arg_validation.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "arg_validation.png",
+      "id": "testes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "arg_validation.png",
+      "id": "arquivo_ajuda_resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-01.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "chamada",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "assinatura",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "saida",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "memoria",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "detalhes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argc_argv.png",
+      "id": "formas_main",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-02.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "categorias",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "usos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "argv",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "interpretador",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "formas_opcoes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "boas_praticas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt.png",
+      "id": "resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-03.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "tipos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "chamadas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "consumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt2.png",
+      "id": "escritas_praticas_resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-04.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "tres_fontes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "ordem_precedencia",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "fluxo_inicializacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "cenarios",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "estrutura",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt3.png",
+      "id": "pontos_importantes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-05.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "finalidade_ajuda",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "estrutura_ajuda",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "saida_help",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "funcao_ajuda",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "deteccao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "erros",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "retornos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argopt_help.png",
+      "id": "resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-06.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "formatos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "recebimento_argv",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "fluxo_interpretacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "parser",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "resultados",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "representacao_opcoes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard.png",
+      "id": "tokenizacao_pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-07.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "contrato",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "tabela_opcoes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "formas_valores",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "chamadas_validas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "chamadas_invalidas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "mensagens",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "validacoes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-08.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "separador",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_standard2.png",
+      "id": "padroes_pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "fluxo_compilacao_ligacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "codigo_fonte",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "compilar_ligar",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "inspecao_arquivos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-09.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "compilacao.png",
+      "id": "resumo_etapas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "argv_texto",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "strtol",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "testes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "outros_tipos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "endptr",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-10.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "erros",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos.png",
+      "id": "resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "strings",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "funcoes_conversao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "endptr",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "codigo_validacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "testes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-11.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "outros_tipos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "boas_praticas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "conversao_argumentos2.png",
+      "id": "conclusao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "definicao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "processo_argumentos_ambiente",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "terminal",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "origem_heranca",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-12.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "usos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "busca_path",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "contexto_aplicacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env.png",
+      "id": "resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "origem",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "heranca",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "isolamento",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-13.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "ambiente_atual",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "consulta",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "modificacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "cadeia",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "usuario",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env2.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "finalidades",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-14.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "variaveis",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "sistema_aplicacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "consulta_terminal",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "definir_terminal",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "consulta_c",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "posix",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "padrao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env3.png",
+      "id": "praticas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-15.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "tres_fontes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "fluxo_precedencia",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "exemplos_fontes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "testes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "varios_parametros",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env4.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-16.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "heranca",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "pai_shell",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "fork_exec_codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "filho_pai",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "verificacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "cadeia",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-17.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_fork.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "definicao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "busca",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "caminho_explicito",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "consulta",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "alteracao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "persistencia",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-18.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "comando_proprio",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "getenv_path",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "env_paths.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "formas_main",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "memoria_argv_envp",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-19.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "percorrer_argv",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "percorrer_envp",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "envp.png",
+      "id": "observacoes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "solicitacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "shell",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "fork_exec",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "instancias",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-20.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "observar_processos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "codigo_argumentos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "saida",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "paralelo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "arquivo_processo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "executando.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "getenv.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "getenv.png",
+      "id": "ambiente",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-21.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "getenv.png",
+      "id": "consulta_codigo_saida",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "getenv.png",
+      "id": "retorno",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "getenv.png",
+      "id": "exemplos_uso",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "getenv.png",
+      "id": "resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "objeto",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "executavel",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "gerar_objeto",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-22.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "ligar",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "comparacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "hexdump",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "obj_vs_exe.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "estrutura_argv",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "estrategia",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "funcoes_string",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-23.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "detalhes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv.png",
+      "id": "variacoes_resumo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "argv_configuracao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "estrutura",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "preenchimento_fluxo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-24.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "preenchimento_exemplo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "uso_configuracao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "beneficios",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "parsing_argc_argv2.png",
+      "id": "pontos_atencao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "jornada",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "interativo_inicializacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "visao_execucao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-25.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "comportamentos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "integracao_dados",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "fontes_argumentos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo1.png",
+      "id": "pontos_conclusao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "estrutura",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "ordem_aplicacao_valores",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "fluxo_inicializacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-26.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "codigo_inicializacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "codigo_argumentos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "cenarios",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "main",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "memoria",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "saida",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "resumo2.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-27.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "assinaturas",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "codigo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "saida",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "alcance",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "verificacao_shell",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "overwrite",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "setenv.png",
+      "id": "pontos",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-28.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "visao_geral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "strtok",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "strcmp",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "strncmp",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "strchr_strrchr",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "aplicacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "string_parsing.png",
+      "id": "resumo_funcoes",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "integral",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-29.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "nome_tipo_original",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "nome_tipo_alternativo",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "funcao_comparada",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "leitura_nome_funcao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "alocacao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "typedef.jpeg",
+      "id": "conclusao",
+      "frame_representativo": 0,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argumentos_processos.gif",
+      "id": "integral",
+      "frame_representativo": 13,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argumentos_processos.gif",
+      "id": "conteudo_estado",
+      "frame_representativo": 13,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-30.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argumentos_processos.gif",
+      "id": "relacao_processos",
+      "frame_representativo": 13,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "argumentos_processos.gif",
+      "id": "explicacao_estado",
+      "frame_representativo": 13,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "id": "integral",
+      "frame_representativo": 15,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "id": "codigo",
+      "frame_representativo": 15,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "id": "argv",
+      "frame_representativo": 15,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "id": "configuracao",
+      "frame_representativo": 15,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 6,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "id": "explicacao",
+      "frame_representativo": 15,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 7,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "cmdline_parsing.gif",
+      "id": "terminal",
+      "frame_representativo": 15,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-31.jpg",
+      "posicao_painel": 8,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "strtok_execucao_tokens.gif",
+      "id": "integral",
+      "frame_representativo": 11,
+      "status": "APROVADA_NA_AUTOAUDITORIA_COM_RESSALVA",
+      "painel": "painel-32.jpg",
+      "posicao_painel": 1,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "strtok_execucao_tokens.gif",
+      "id": "codigo",
+      "frame_representativo": 11,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-32.jpg",
+      "posicao_painel": 2,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "strtok_execucao_tokens.gif",
+      "id": "memoria",
+      "frame_representativo": 11,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-32.jpg",
+      "posicao_painel": 3,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "strtok_execucao_tokens.gif",
+      "id": "terminal",
+      "frame_representativo": 11,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-32.jpg",
+      "posicao_painel": 4,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    },
+    {
+      "arquivo": "strtok_execucao_tokens.gif",
+      "id": "explicacao",
+      "frame_representativo": 11,
+      "status": "APROVADA_NA_AUTOAUDITORIA",
+      "painel": "painel-32.jpg",
+      "posicao_painel": 5,
+      "limite": "Avaliação espacial, não certificação do conteúdo original; GIF: projeção representativa final e inspeção dos estados originais."
+    }
+  ]
+}

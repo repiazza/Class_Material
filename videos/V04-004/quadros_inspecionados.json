@@ -1,0 +1,21 @@
+{
+  "indices": [
+    0,
+    226,
+    451,
+    452,
+    631,
+    810,
+    811,
+    936,
+    1061,
+    1062,
+    1184,
+    1306,
+    1307,
+    1442,
+    1576
+  ],
+  "fps": 30,
+  "metodo": "Frames decodificados do MP4, início/fim, pontos médios e ambos os lados de cada corte."
+}

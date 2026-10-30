@@ -1,0 +1,126 @@
+{
+  "utc": "2026-10-30T14:45:36.351270+00:00",
+  "base_commit": "71853fc",
+  "catalogo_sha256": "1611af1d4fe6d057daed3b74a5e41c7db6d4dae3ec0f0512afa2f3f307f34d9b",
+  "candidatos": 8,
+  "docx_integros": true,
+  "narrativa_preservada_exatamente": true,
+  "referencias_documentais_e_inventario": "OK",
+  "materiais_mapa": 31,
+  "regioes_mapa": 253,
+  "sha_fontes": "OK",
+  "preexistentes_alterados": [
+    "curadoria/checklist.md"
+  ],
+  "historico_checklist_preservado": true,
+  "mp4": {
+    "duracao_s": 52.566984,
+    "dimensoes": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "video": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "aac",
+    "sample_rate": "22050",
+    "decodificacao_integral": "OK",
+    "audio_decodificado_rms": 0.09180941432714462,
+    "audio_decodificado_pico": 0.8148604035377502
+  },
+  "srt": {
+    "cues": 10,
+    "sintaxe_e_limites": "OK",
+    "texto_igual_a_entrada_sintese": true,
+    "metodo": "intervalos reais de amostras PCM por enunciado",
+    "estado": "PROVISORIO",
+    "escuta_perceptiva": "NAO_REALIZADA"
+  },
+  "quadros_mp4": [
+    {
+      "frame": 0,
+      "segmento": "S01",
+      "erro_medio_rgb": 1.4039093042695474
+    },
+    {
+      "frame": 226,
+      "segmento": "S01",
+      "erro_medio_rgb": 1.4030499292695473
+    },
+    {
+      "frame": 451,
+      "segmento": "S01",
+      "erro_medio_rgb": 1.364606963734568
+    },
+    {
+      "frame": 452,
+      "segmento": "S02",
+      "erro_medio_rgb": 1.4330264596193416
+    },
+    {
+      "frame": 631,
+      "segmento": "S02",
+      "erro_medio_rgb": 1.4313843878600823
+    },
+    {
+      "frame": 810,
+      "segmento": "S02",
+      "erro_medio_rgb": 1.396673096707819
+    },
+    {
+      "frame": 811,
+      "segmento": "S03",
+      "erro_medio_rgb": 1.3764581725823046
+    },
+    {
+      "frame": 936,
+      "segmento": "S03",
+      "erro_medio_rgb": 1.3747609632201645
+    },
+    {
+      "frame": 1061,
+      "segmento": "S03",
+      "erro_medio_rgb": 1.5452369470164609
+    },
+    {
+      "frame": 1062,
+      "segmento": "S04",
+      "erro_medio_rgb": 1.411687885802469
+    },
+    {
+      "frame": 1184,
+      "segmento": "S04",
+      "erro_medio_rgb": 1.4102655606995884
+    },
+    {
+      "frame": 1306,
+      "segmento": "S04",
+      "erro_medio_rgb": 1.4099582047325103
+    },
+    {
+      "frame": 1307,
+      "segmento": "S05",
+      "erro_medio_rgb": 1.4330264596193416
+    },
+    {
+      "frame": 1442,
+      "segmento": "S05",
+      "erro_medio_rgb": 1.4313843878600823
+    },
+    {
+      "frame": 1576,
+      "segmento": "S05",
+      "erro_medio_rgb": 1.409066679526749
+    }
+  ],
+  "ferramentas": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "pillow": "12.3.0",
+    "python-docx": "1.2.0",
+    "espeakng-loader": "0.2.4",
+    "voice": "pt-br",
+    "rate_wpm": 155
+  },
+  "limite": "Sem playback audiovisual contínuo ou escuta perceptiva. Revisão humana pendente."
+}
