@@ -51,13 +51,21 @@ Na geração de dossiês editoriais, a consulta documental é suficiente para fu
 5. Não substitua um dossiê existente sem autorização explícita para sua regeneração.
 6. Apresente o resultado e as limitações encontradas. Quando a execução estiver autorizada, siga o fluxo de commit, push e PR estabelecido neste `AGENTS.md`, sem realizar merge automaticamente.
 
+### Consolidação editorial
+
+Siga `curadoria/protocolo_consolidacao_editorial.md` nas tarefas de consolidação. Dossiês descobrem e desenvolvem propostas; a consolidação registra identidades, alternativas, sobreposições e decisões; roteiros individuais desenvolvem um candidato selecionado. O caminho previsto dos registros é `editorial/consolidacoes/NN_Consolidacao_Editorial.md`, sem geração automática de catálogos por iniciativa do agente.
+
+- Analise, classifique, recomende e elabore registros autonomamente dentro do escopo solicitado, preservando fontes, IDs e histórico; não produza conteúdo narrativo novo nessa camada.
+- Distinga homologação de relacionamento, aprovação de oportunidade e autorização para roteiro: são decisões humanas independentes. Não as infira de recomendações, registros ou produtos existentes.
+- A consolidação pode identificar a fonte explicitamente selecionada, mas não complementar o conteúdo do roteiro. Combinar candidatos exige revisão editorial autorizada de um dossiê; não fazê-lo implicitamente no roteiro.
+
 ### Geração autônoma de roteiros individuais pré-edição
 
 Quando solicitado a desenvolver um roteiro individual para um candidato `VNN-XXX` já identificado em um dossiê, siga `curadoria/protocolo_roteiro_individual.md`.
 
 **Fontes e escopo**
 
-1. Localize o candidato no dossiê `editorial/dossies/NN_Dossie_Editorial.docx`; o dossiê é a **única fonte de conteúdo editorial** para o roteiro.
+1. Localize o candidato no dossiê canônico `editorial/dossies/NN_Dossie_Editorial.docx`, salvo seleção humana explícita de outro dossiê existente: nesse caso, use o caminho exato, a versão e o candidato indicados. Um único candidato nesse dossiê é a **única fonte de conteúdo editorial** para o roteiro. A consolidação pode identificar a seleção e a autorização, sem fornecer falas, exemplos, argumentos, mídias ou storyboards; a presença de um registro não autoriza geração.
 2. Utilize este `AGENTS.md` e `curadoria/protocolo_roteiro_individual.md` somente como instruções operacionais. O roteiro piloto `editorial/roteiros/01-003_Roteiro_Individual.docx` pode orientar exclusivamente a apresentação e a estrutura, sem fornecer conteúdo ou impor número de cenas e duração.
 3. **Não consulte** inventário, catálogos, vocabulário, relacionamentos, imagens, GIFs, exercícios, outros capítulos ou fontes externas para complementar o roteiro. As regras gerais de consulta e inspeção deste arquivo continuam aplicáveis às outras atividades de curadoria, mas **não** a esta tarefa específica.
 4. Preserve tese, promessa, ressalvas, IDs e nomes de mídia documentados no candidato. Não alegue inspeção visual não realizada.
@@ -67,7 +75,7 @@ Quando solicitado a desenvolver um roteiro individual para um candidato `VNN-XXX
 1. Desenvolva falas completas e naturais, organizadas por cenas/takes com tempos estimados e função dos materiais visuais. Admita sincronismo flexível, mas pedagogicamente coerente, entre narração e imagem.
 2. Gere o DOCX em `editorial/roteiros/NN-XXX_Roteiro_Individual.docx` (sem o prefixo `V` no nome do arquivo); inclua texto corrido para ensaio e pendências efetivas, conforme o protocolo específico.
 3. Mantenha o roteiro no estado `PROPOSTO`. Não antecipe especificações técnicas de edição, aprovação editorial ou produção audiovisual.
-4. Valide o documento e a correspondência com o dossiê. Não sobrescreva roteiro existente sem autorização explícita.
+4. Valide o documento e a correspondência com o dossiê selecionado. Preserve as convenções de ID e saída; a seleção de um experimental não o promove a ID oficial. Registre conflitos de ID, caminho ou saída para decisão humana; não sobrescreva roteiro existente sem autorização explícita nem invente solução silenciosa.
 5. Dentro da execução autorizada, realize commit, push e abertura de PR conforme a seção **Integração Git**, sem merge automático e sem solicitações de aprovação intermediárias para decisões redacionais ordinárias.
 
 ## Relacionamentos conceituais entre capítulos

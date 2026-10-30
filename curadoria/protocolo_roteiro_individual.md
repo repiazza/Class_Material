@@ -1,7 +1,7 @@
 # Protocolo de roteiro individual
 
 > **Identificador:** `curadoria/roteiro_individual`  
-> **Versão:** `0.1.0` — proposta inicial baseada no piloto editorial 01-003  
+> **Versão:** `0.2.0` — seleção explícita do dossiê de entrada, preservada a fonte exclusiva\
 > **Estado:** PROPOSTO — sujeito à homologação humana  
 > **Escopo:** transformação de um candidato de dossiê editorial em roteiro individual pré-edição  
 > **Referência estrutural:** `editorial/roteiros/01-003_Roteiro_Individual.docx`
@@ -14,7 +14,9 @@ O roteirista desenvolve a proposta do dossiê com liberdade de redação e organ
 
 ## 2. Entradas e limites de consulta
 
-A **única fonte de conteúdo editorial** é o dossiê correspondente ao capítulo, em `editorial/dossies/NN_Dossie_Editorial.docx`, e o candidato `VNN-XXX` nele identificado.
+A **única fonte de conteúdo editorial** é um candidato-fonte no dossiê selecionado. Sem indicação específica, permanece o dossiê canônico do capítulo, `editorial/dossies/NN_Dossie_Editorial.docx`, e o candidato `VNN-XXX` nele identificado. Quando a autorização humana selecionar explicitamente outro dossiê existente, usar seu caminho exato e o candidato correspondente, mantendo a referência à versão de origem.
+
+O registro previsto no [protocolo de consolidação editorial](protocolo_consolidacao_editorial.md) pode ser consultado somente para identificar a seleção e a autorização efetivamente manifestadas; não é fonte de falas, exemplos, argumentos, mídias ou storyboards. A presença de um registro ou de uma fonte preferencial sugerida não autoriza roteirização. Não combinar candidatos: se a proposta depender de conteúdo de mais de um, registrar a necessidade de revisão editorial autorizada de um dossiê, sem incorporá-la ao roteiro.
 
 Este protocolo e `AGENTS.md` podem ser consultados **apenas como regras de procedimento**, nunca como fontes adicionais de conteúdo do vídeo. O roteiro piloto é referência de **estrutura e apresentação**, não de fatos, frases, quantidade de cenas, mídias ou duração obrigatória.
 
@@ -22,12 +24,14 @@ Não consultar para enriquecer o conteúdo: catálogo semântico, inventário, e
 
 ## 3. Identificação, localização e nomenclatura
 
-- Dossiê de entrada: `editorial/dossies/NN_Dossie_Editorial.docx`.
+- Dossiê de entrada padrão: `editorial/dossies/NN_Dossie_Editorial.docx`; excepcionalmente, o caminho exato de outro dossiê existente explicitamente selecionado pela autorização humana.
 - Candidato no dossiê: `VNN-XXX`, com `NN` representando o capítulo e `XXX` a sequência do candidato.
 - Roteiro de saída: `editorial/roteiros/NN-XXX_Roteiro_Individual.docx`.
 - Exemplo: candidato `V01-003` → `editorial/roteiros/01-003_Roteiro_Individual.docx`.
 
 Não incluir o prefixo `V` no nome do arquivo. Preservar zeros à esquerda e a correspondência entre identificador, capítulo e nome do roteiro. Não sobrescrever um roteiro existente sem autorização explícita; se já existir, informar o conflito e solicitar orientação sobre revisão ou substituição.
+
+Se a fonte selecionada tiver identificador experimental, preservar esse ID na rastreabilidade; sua seleção não atribui automaticamente um `VNN-XXX`. A atribuição oficial depende de decisão humana, sem renomear o candidato na fonte. Se faltar esse encaminhamento ou houver conflito de ID, caminho de entrada ou arquivo de saída, registrar o impedimento para decisão humana; não sobrescrever nem inventar IDs, nomes ou destinos alternativos silenciosamente.
 
 ## 4. Conteúdo obrigatório do roteiro
 

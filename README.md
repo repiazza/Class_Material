@@ -11,7 +11,10 @@ flowchart TD
     A[Acervo original] --> B[Fundamentação semântica]
     B --> C[Descoberta de oportunidades]
     C --> D[Dossiê editorial]
-    D --> E[Roteiro individual]
+    D --> I[Consolidação de identidades e decisões]
+    D --> J[Seleção humana de candidato e dossiê]
+    I -. Referências e decisões .-> J
+    J --> E[Roteiro individual]
     A --> F[Mapa espacial reutilizável]
     E --> G[Plano de montagem]
     F --> G
@@ -35,7 +38,11 @@ Os originais fornecem o conteúdo visual real; as descrições documentais funda
 
 O [protocolo de roteirização](curadoria/protocolo_roteirizacao.md) orienta a descoberta de oportunidades com pergunta, problema, contraste, surpresa ou aplicação próprios. Não há correspondência obrigatória entre capítulo, conceito e vídeo: conceitos podem ser combinados, desdobrados em narrativas distintas ou usados apenas como apoio. Não se pretende esgotar cada capítulo em vídeos, mas identificar as oportunidades audiovisuais que ele oferece, sem quantidade esperada de candidatos.
 
-O dossiê em [editorial/dossies](editorial/dossies/) desenvolve candidatos com justificativa de autonomia, hooks, narrativas preliminares faláveis e storyboards. As propostas são comparadas quanto às diferenças, sobreposições e possíveis combinações, com precisão pedagógica acima do apelo de abertura. A seleção humana pode encaminhar um candidato ao [roteiro individual pré-edição](curadoria/protocolo_roteiro_individual.md), em [editorial/roteiros](editorial/roteiros/). Nessa etapa, o dossiê é a única fonte de conteúdo editorial; o roteiro desenvolve falas, takes e tempos indicativos.
+O dossiê em [editorial/dossies](editorial/dossies/) desenvolve candidatos com justificativa de autonomia, hooks, narrativas preliminares faláveis e storyboards. As propostas são comparadas quanto às diferenças, sobreposições e possíveis combinações, com precisão pedagógica acima do apelo de abertura.
+
+O [protocolo de consolidação editorial](curadoria/protocolo_consolidacao_editorial.md) define uma camada para organizar identidades, alternativas, sobreposições e decisões entre dossiês, sem reescrever suas propostas ou criar conteúdo narrativo. Os registros previstos em `editorial/consolidacoes/NN_Consolidacao_Editorial.md` são catálogos de decisões e referências; a definição do contrato não significa que esses catálogos já tenham sido produzidos.
+
+A seleção humana determina qual candidato-fonte, em qual dossiê, segue para o [roteiro individual pré-edição](curadoria/protocolo_roteiro_individual.md), em [editorial/roteiros](editorial/roteiros/). O padrão é o dossiê canônico do capítulo, mas a autorização pode selecionar explicitamente outro dossiê existente. O roteiro desenvolve falas, takes e tempos indicativos exclusivamente a partir desse candidato no dossiê selecionado; a consolidação não fornece conteúdo adicional. Homologar um relacionamento, aprovar uma oportunidade e autorizar um roteiro são decisões distintas. Essa camada não altera o caminho independente do mapeamento espacial nem a arquitetura de produção audiovisual.
 
 ### Mapeamento espacial e produção audiovisual
 
@@ -100,21 +107,21 @@ Os links abaixo apontam para os enunciados e seus respectivos gabaritos. Os nome
 
 | Módulo | Exercício | Gabarito |
 |---|---|---|
-| 01 | [exercicio.md](01_Logica_e_Raciocinio/exercicio.md) | [gabarito.md](01_Logica_e_Raciocinio/gabarito.md) |
-| 02 | [exercicio.md](02_Sistemas_de_Numeracao/exercicio.md) | [gabarito.md](02_Sistemas_de_Numeracao/gabarito.md) |
-| 03 | [exercicio.md](03_Operacoes_Bitwise/exercicio.md) | [gabarito.md](03_Operacoes_Bitwise/gabarito.md) |
-| 04 — Argumentos de linha de comando | [1 — Calculadora parametrizável](04_Argumentos_CommandLine/exercicio1.md) | [gabarito1.md](04_Argumentos_CommandLine/gabarito1.md) |
-| 04 — Argumentos de linha de comando | [2 — Evolução da calculadora parametrizável](04_Argumentos_CommandLine/exercicio2.md) | [gabarito2.md](04_Argumentos_CommandLine/gabarito2.md) |
-| 05 — Estruturas de dados | [A — Lista simplesmente encadeada](05_Estruturas_de_Dados/exercicio1.md) | [gabarito1.md](05_Estruturas_de_Dados/gabarito1.md) |
-| 05 — Estruturas de dados | [B — Fila de atendimento drive-thru](05_Estruturas_de_Dados/exercicio2.md) | [gabarito2.md](05_Estruturas_de_Dados/gabarito2.md) |
-| 05 — Estruturas de dados | [C — Calculadora com pilha de desfazimento](05_Estruturas_de_Dados/exercicio3.md) | [gabarito3.md](05_Estruturas_de_Dados/gabarito3.md) |
-| 06 — Arquivos e entrada/saída | [Explorador de arquivos em C](06_Arquivos_e_Entrada_Saida/exercicio.md) | [gabarito.md](06_Arquivos_e_Entrada_Saida/gabarito.md) |
-| 07 | [exercicio.md](07_Tracing_e_Execucao/exercicio.md) | [gabarito.md](07_Tracing_e_Execucao/gabarito.md) |
-| 08 | [exercicio.md](08_Tipos_e_Memoria_C/exercicio.md) | [gabarito.md](08_Tipos_e_Memoria_C/gabarito.md) |
-| 09 | [exercicio.md](09_Depuracao_C/exercicio.md) | [gabarito.md](09_Depuracao_C/gabarito.md) |
-| 10 | [exercicio.md](10_Estruturas_Controle/exercicio.md) | [gabarito.md](10_Estruturas_Controle/gabarito.md) |
-| 11 — Sistemas operacionais | [Processos e comunicação entre processos](11_Sistemas_Operacionais/exercicio.md) | [Orientações](11_Sistemas_Operacionais/gabarito1.md); [código da parte A](11_Sistemas_Operacionais/gabarito1a.c); [código da parte B](11_Sistemas_Operacionais/gabarito1b.c) |
-| 12 — Organização de computadores | [Projeto de um circuito digital](12_Organizacao_Computadores/exercicio1.md) | [gabarito1.md](12_Organizacao_Computadores/gabarito1.md) |
+| 01 - Lógica e raciocínio | [exercicio.md](01_Logica_e_Raciocinio/exercicio.md) | [gabarito.md](01_Logica_e_Raciocinio/gabarito.md) |
+| 02 - Sistemas de numeração | [exercicio.md](02_Sistemas_de_Numeracao/exercicio.md) | [gabarito.md](02_Sistemas_de_Numeracao/gabarito.md) |
+| 03 - Operações bitwise | [exercicio.md](03_Operacoes_Bitwise/exercicio.md) | [gabarito.md](03_Operacoes_Bitwise/gabarito.md) |
+| 04 - Argumentos de linha de comando e variáveis de ambiente em C | [1 — Calculadora parametrizável](04_Argumentos_CommandLine/exercicio1.md) | [gabarito1.md](04_Argumentos_CommandLine/gabarito1.md) |
+| 04 - Argumentos de linha de comando e variáveis de ambiente em C | [2 — Evolução da calculadora parametrizável](04_Argumentos_CommandLine/exercicio2.md) | [gabarito2.md](04_Argumentos_CommandLine/gabarito2.md) |
+| 05 - Estruturas de dados | [A — Lista simplesmente encadeada](05_Estruturas_de_Dados/exercicio1.md) | [gabarito1.md](05_Estruturas_de_Dados/gabarito1.md) |
+| 05 - Estruturas de dados | [B — Fila de atendimento drive-thru](05_Estruturas_de_Dados/exercicio2.md) | [gabarito2.md](05_Estruturas_de_Dados/gabarito2.md) |
+| 05 - Estruturas de dados | [C — Calculadora com pilha de desfazimento](05_Estruturas_de_Dados/exercicio3.md) | [gabarito3.md](05_Estruturas_de_Dados/gabarito3.md) |
+| 06 - Arquivos e entrada/saída | [Explorador de arquivos em C](06_Arquivos_e_Entrada_Saida/exercicio.md) | [gabarito.md](06_Arquivos_e_Entrada_Saida/gabarito.md) |
+| 07 - Tracing e execução | [exercicio.md](07_Tracing_e_Execucao/exercicio.md) | [gabarito.md](07_Tracing_e_Execucao/gabarito.md) |
+| 08 - Tipos e memória em C | [exercicio.md](08_Tipos_e_Memoria_C/exercicio.md) | [gabarito.md](08_Tipos_e_Memoria_C/gabarito.md) |
+| 09 - Depuração em C | [exercicio.md](09_Depuracao_C/exercicio.md) | [gabarito.md](09_Depuracao_C/gabarito.md) |
+| 10 - Estruturas de controle | [exercicio.md](10_Estruturas_Controle/exercicio.md) | [gabarito.md](10_Estruturas_Controle/gabarito.md) |
+| 11 - Sistemas operacionais em C — Linux/POSIX | [Processos e comunicação entre processos](11_Sistemas_Operacionais/exercicio.md) | [Orientações](11_Sistemas_Operacionais/gabarito1.md); [código da parte A](11_Sistemas_Operacionais/gabarito1a.c); [código da parte B](11_Sistemas_Operacionais/gabarito1b.c) |
+| 12 - Organização de computadores e projeto de circuitos digitais | [Projeto de um circuito digital](12_Organizacao_Computadores/exercicio1.md) | [gabarito1.md](12_Organizacao_Computadores/gabarito1.md) |
 
 Os gabaritos podem apresentar explicações, critérios de avaliação ou implementações em C. No módulo 04, `gabarito1.md` contém a implementação em C e `gabarito2.md` reúne implementação e orientações. Todos os 12 módulos possuem ao menos um enunciado de exercício e um gabarito. Os links indicam a correspondência documental; não significam que todos os conteúdos foram submetidos à auditoria técnica e pedagógica.
 
