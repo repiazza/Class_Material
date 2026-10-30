@@ -1,0 +1,310 @@
+{
+  "estado_verificacao_automatica": "APROVADA",
+  "modalidade": "REFERENCIA",
+  "duracao_audio_ms": 91848,
+  "duracao_container_s": 91.833333,
+  "video": {
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "30/1",
+    "duration": "91.833333",
+    "nb_frames": "2755"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 1,
+    "duration": "91.818000"
+  },
+  "decode_integral_sem_erros": true,
+  "falas_cinco_takes_preservadas": true,
+  "blocos_srt": 12,
+  "srt_estado": "PROVISORIO_REFERENCIA",
+  "projecoes_identicas_ao_mapa": 12,
+  "quadros_representativos": [
+    {
+      "id": "T01-01",
+      "tempo_s": 2.94,
+      "mae_h264": 0.86835,
+      "arquivo_frame_temporario": "T01-01-mp4.png"
+    },
+    {
+      "id": "T01-02",
+      "tempo_s": 10.088,
+      "mae_h264": 0.71705,
+      "arquivo_frame_temporario": "T01-02-mp4.png"
+    },
+    {
+      "id": "T02-01",
+      "tempo_s": 17.956,
+      "mae_h264": 0.71751,
+      "arquivo_frame_temporario": "T02-01-mp4.png"
+    },
+    {
+      "id": "T02-02",
+      "tempo_s": 24.468,
+      "mae_h264": 0.71746,
+      "arquivo_frame_temporario": "T02-02-mp4.png"
+    },
+    {
+      "id": "T02-03",
+      "tempo_s": 29.804,
+      "mae_h264": 0.71746,
+      "arquivo_frame_temporario": "T02-03-mp4.png"
+    },
+    {
+      "id": "T03-01",
+      "tempo_s": 37.648,
+      "mae_h264": 0.71831,
+      "arquivo_frame_temporario": "T03-01-mp4.png"
+    },
+    {
+      "id": "T03-02",
+      "tempo_s": 45.924,
+      "mae_h264": 0.71775,
+      "arquivo_frame_temporario": "T03-02-mp4.png"
+    },
+    {
+      "id": "T04-01",
+      "tempo_s": 53.276,
+      "mae_h264": 0.81161,
+      "arquivo_frame_temporario": "T04-01-mp4.png"
+    },
+    {
+      "id": "T04-02",
+      "tempo_s": 60.1,
+      "mae_h264": 0.8116,
+      "arquivo_frame_temporario": "T04-02-mp4.png"
+    },
+    {
+      "id": "T04-03",
+      "tempo_s": 66.696,
+      "mae_h264": 0.6976,
+      "arquivo_frame_temporario": "T04-03-mp4.png"
+    },
+    {
+      "id": "T05-01",
+      "tempo_s": 77.588,
+      "mae_h264": 0.8116,
+      "arquivo_frame_temporario": "T05-01-mp4.png"
+    },
+    {
+      "id": "T05-02",
+      "tempo_s": 88.06,
+      "mae_h264": 0.71762,
+      "arquivo_frame_temporario": "T05-02-mp4.png"
+    }
+  ],
+  "fronteiras_amostradas": [
+    {
+      "tempo_s": 5.98,
+      "esperado": "T01-01",
+      "mae_h264": 0.86837
+    },
+    {
+      "tempo_s": 6.18,
+      "esperado": "T01-02",
+      "mae_h264": 0.71768
+    },
+    {
+      "tempo_s": 14.196,
+      "esperado": "T01-02",
+      "mae_h264": 0.71709
+    },
+    {
+      "tempo_s": 14.396,
+      "esperado": "T02-01",
+      "mae_h264": 0.71991
+    },
+    {
+      "tempo_s": 21.716,
+      "esperado": "T02-01",
+      "mae_h264": 0.71751
+    },
+    {
+      "tempo_s": 21.916,
+      "esperado": "T02-02",
+      "mae_h264": 0.71751
+    },
+    {
+      "tempo_s": 27.22,
+      "esperado": "T02-02",
+      "mae_h264": 0.71746
+    },
+    {
+      "tempo_s": 27.42,
+      "esperado": "T02-03",
+      "mae_h264": 0.71746
+    },
+    {
+      "tempo_s": 32.388,
+      "esperado": "T02-03",
+      "mae_h264": 0.71831
+    },
+    {
+      "tempo_s": 32.588,
+      "esperado": "T03-01",
+      "mae_h264": 0.7183
+    },
+    {
+      "tempo_s": 42.908,
+      "esperado": "T03-01",
+      "mae_h264": 0.71775
+    },
+    {
+      "tempo_s": 43.108,
+      "esperado": "T03-02",
+      "mae_h264": 0.71777
+    },
+    {
+      "tempo_s": 48.94,
+      "esperado": "T03-02",
+      "mae_h264": 0.71798
+    },
+    {
+      "tempo_s": 49.14,
+      "esperado": "T04-01",
+      "mae_h264": 0.81224
+    },
+    {
+      "tempo_s": 57.612,
+      "esperado": "T04-01",
+      "mae_h264": 0.81184
+    },
+    {
+      "tempo_s": 57.812,
+      "esperado": "T04-02",
+      "mae_h264": 0.81145
+    },
+    {
+      "tempo_s": 62.588,
+      "esperado": "T04-02",
+      "mae_h264": 0.81179
+    },
+    {
+      "tempo_s": 62.788,
+      "esperado": "T04-03",
+      "mae_h264": 0.69848
+    },
+    {
+      "tempo_s": 70.804,
+      "esperado": "T04-03",
+      "mae_h264": 0.69749
+    },
+    {
+      "tempo_s": 71.004,
+      "esperado": "T05-01",
+      "mae_h264": 0.80762
+    },
+    {
+      "tempo_s": 84.372,
+      "esperado": "T05-01",
+      "mae_h264": 0.81136
+    },
+    {
+      "tempo_s": 84.572,
+      "esperado": "T05-02",
+      "mae_h264": 0.71833
+    }
+  ],
+  "inicio_fim_conformes": true,
+  "audio_blocos": [
+    {
+      "id": "T01-01",
+      "rms_dbfs": -20.086,
+      "pico_dbfs": -5.404,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T01-02",
+      "rms_dbfs": -20.015,
+      "pico_dbfs": -5.172,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T02-01",
+      "rms_dbfs": -19.168,
+      "pico_dbfs": -5.26,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T02-02",
+      "rms_dbfs": -19.052,
+      "pico_dbfs": -5.234,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T02-03",
+      "rms_dbfs": -18.619,
+      "pico_dbfs": -5.219,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T03-01",
+      "rms_dbfs": -19.812,
+      "pico_dbfs": -4.401,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T03-02",
+      "rms_dbfs": -19.385,
+      "pico_dbfs": -4.364,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T04-01",
+      "rms_dbfs": -19.485,
+      "pico_dbfs": -5.001,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T04-02",
+      "rms_dbfs": -18.404,
+      "pico_dbfs": -4.481,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T04-03",
+      "rms_dbfs": -19.592,
+      "pico_dbfs": -3.33,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T05-01",
+      "rms_dbfs": -19.688,
+      "pico_dbfs": -5.304,
+      "amostras_saturadas": 0
+    },
+    {
+      "id": "T05-02",
+      "rms_dbfs": -20.147,
+      "pico_dbfs": -6.393,
+      "amostras_saturadas": 0
+    }
+  ],
+  "correlacao_aac_pcm": 0.9999004497813906,
+  "escuta_perceptiva_realizada": false,
+  "playback_continuo_realizado": false,
+  "arquivos_preexistentes_alterados": [],
+  "mp4": {
+    "caminho": "/workspace/artifacts/V03-003/V03-003.mp4",
+    "bytes": 3705469,
+    "sha256": "a1f4adaae9b34194d8580c9c4c2c67bc24b3212f67d727213198683a4be351be"
+  },
+  "wav": {
+    "caminho": "/workspace/artifacts/V03-003/V03-003_Audio_Referencia.wav",
+    "bytes": 8817452,
+    "sha256": "8a76046381f99b8138df7a1bdc3a37d0954ddb229ff3019652dd6272331e7c06"
+  },
+  "diferenca_audio_pcm_aac_ms": 30,
+  "ultimos_30ms_wav_silencio_digital": true,
+  "ultimo_bloco_legenda_fim_ms": 91648,
+  "inspecao_visual_dos_12_quadros_realizada": true,
+  "paineis_inspecionados": [
+    "inspecao-01.jpg",
+    "inspecao-02.jpg",
+    "inspecao-03.jpg"
+  ]
+}

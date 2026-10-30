@@ -1,0 +1,229 @@
+{
+  "schema_version": "piloto-1",
+  "video_id": "V03-003",
+  "tipo_entrega": "REFERENCIA",
+  "estado": "PENDENTE_REVISAO",
+  "justificativa": "Referência experimental renderizada e disponível no workspace; validação automatizada e visual por quadros aprovada, mas escuta perceptiva e sincronismo fino permanecem pendentes. Não há bloqueio de entrega por download.",
+  "homologacao_editorial": "PENDENTE",
+  "data_hora_utc": "2026-10-30T02:04:37.187585+00:00",
+  "revisao_base": "e203083cfaf267d17489720da86de01de8684a25",
+  "plano": {
+    "caminho": "editorial/montagens/03-003_Montagem.json",
+    "sha256": "2de0531bd2219c717817e7bd30729cb6f38631c47b1226635a567548d2b629b8"
+  },
+  "fontes": {
+    "roteiro": {
+      "caminho": "editorial/roteiros/03-003_Roteiro_Individual.docx",
+      "commit": "e203083cfaf267d17489720da86de01de8684a25",
+      "sha256": "dfead25705a6a23190bde9adbf4735fd18102f1805ad71c56d9777d3a7291d74",
+      "bytes": 41257
+    },
+    "mapa": {
+      "caminho": "03_Operacoes_Bitwise/03_Mapa_Espacial.json",
+      "commit": "e203083cfaf267d17489720da86de01de8684a25",
+      "sha256": "e1eea5f3e1b3896b49efacc420bd707ab75cb9162dd933af278df90a62a9686f",
+      "bytes": 47974
+    },
+    "originais": [
+      {
+        "caminho": "03_Operacoes_Bitwise/bitwise_not.png",
+        "commit": "e203083cfaf267d17489720da86de01de8684a25",
+        "sha256": "0477f4a0b2cecc94f9009a63c8a67590397c479b98a3727d742ce3dd7cae8481",
+        "bytes": 1908949
+      }
+    ],
+    "autoauditoria": {
+      "caminho": "03_Operacoes_Bitwise/evidencias_mapa_espacial/autoauditoria_regioes.json",
+      "commit": "e203083cfaf267d17489720da86de01de8684a25",
+      "sha256": "fb45ee4341dbe756b45f3d1a298e811d56794d405ffb5a907da0e54b5a58a936",
+      "bytes": 55153
+    }
+  },
+  "ferramentas": {
+    "python": "3.12.14",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+    "voz": "Google Translate TTS HTTP, client=tw-ob, tl=pt-BR",
+    "voz_modelo_versao": "não exposto; preservar o WAV real identificado por hash, sem prometer ressíntese idêntica"
+  },
+  "perfil_saida": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": "30/1",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_hz": 48000,
+    "canais": 1,
+    "duracao_container_s": 91.833333,
+    "duracao_video_s": 91.833333,
+    "duracao_aac_s": 91.818,
+    "duracao_wav_ms": 91848,
+    "duracao_roteiro_estimada_ms": 68000,
+    "ajuste_tempo": "Tempos medidos de 12 frases, com 200 ms de pausa de montagem por bloco; falas não aceleradas nem suprimidas. Quantização de vídeo a 30 fps e -shortest reduziu somente silêncio final: últimos 30 ms do PCM são zeros. Última legenda/fala sintetizada termina em 91,648 s.",
+    "renderizacao": {
+      "encoder": "libx264",
+      "preset": "fast",
+      "tune": "stillimage",
+      "crf": 20,
+      "threads": 2,
+      "audio_bitrate_pedido": "128k",
+      "movflags": "+faststart",
+      "transicoes": "corte_seco",
+      "legendas_embutidas": false,
+      "projecao": "Mesmas caixas/algoritmo do mapa: round, crop, Lanczos fit integral 1080×1920, fundo RGB(22,22,22)."
+    }
+  },
+  "segmentos_executados": [
+    {
+      "id": "S01",
+      "take": "T01",
+      "inicio_ms": 0,
+      "duracao_ms": 14296,
+      "regioes": [
+        "caracteristicas",
+        "exemplo_8_bits"
+      ]
+    },
+    {
+      "id": "S02",
+      "take": "T02",
+      "inicio_ms": 14296,
+      "duracao_ms": 18192,
+      "regioes": [
+        "exemplo_8_bits",
+        "exemplo_8_bits",
+        "exemplo_8_bits"
+      ]
+    },
+    {
+      "id": "S03",
+      "take": "T03",
+      "inicio_ms": 32488,
+      "duracao_ms": 16552,
+      "regioes": [
+        "exemplo_8_bits",
+        "exemplo_8_bits"
+      ]
+    },
+    {
+      "id": "S04",
+      "take": "T04",
+      "inicio_ms": 49040,
+      "duracao_ms": 21864,
+      "regioes": [
+        "caracteristicas",
+        "caracteristicas",
+        "logico_vs_bitwise"
+      ]
+    },
+    {
+      "id": "S05",
+      "take": "T05",
+      "inicio_ms": 70904,
+      "duracao_ms": 20944,
+      "regioes": [
+        "caracteristicas",
+        "exemplo_8_bits"
+      ]
+    }
+  ],
+  "audio_referencia": {
+    "modalidade": "referencia_sintetica_pt_BR",
+    "ferramenta": "Google Translate TTS HTTP, client=tw-ob, tl=pt-BR",
+    "modelo_versao": "não exposto pelo serviço",
+    "amostragem_hz": 48000,
+    "canais": 1,
+    "formato_trabalho": "WAV PCM16",
+    "caminho_workspace": "/workspace/artifacts/V03-003/V03-003_Audio_Referencia.wav",
+    "sha256": "8a76046381f99b8138df7a1bdc3a37d0954ddb229ff3019652dd6272331e7c06",
+    "pausa_entre_blocos_ms": 200,
+    "falas_preservadas": true
+  },
+  "legendas": {
+    "arquivo": "videos/V03-003/V03-003.srt",
+    "estado": "PROVISORIO_REFERENCIA",
+    "metodo": "Um bloco por frase realmente sintetizada; início/fim derivados dos WAVs decodificados; pausas finais excluídas. Sem alinhamento palavra a palavra ou escuta perceptiva nesta interface."
+  },
+  "tratamento_inconsistencias": {
+    "M03-P-001": "Não usa integral, interpretacao ou complemento_dois. Somente regiões sem a inconsistência de sinal. Fonte preservada.",
+    "demais_M03": "Materiais/regiões associados não participam desta montagem.",
+    "promocao_inteiros": "Não selecionada: evitar apresentar um ambiente de 32 bits como regra geral e não acrescentar resultado signed à fala.",
+    "cartao_editorial": "Desnecessário: a região existente exemplo_8_bits já contém os dois padrões corretos. Nenhuma imagem nova foi desenhada.",
+    "documentos_textuais": "Exercício e gabarito são referências do roteiro; o pedido autoriza selecionar regiões visuais válidas do PNG em seu lugar, sem exibir documentos completos."
+  },
+  "artefatos": [
+    {
+      "nome": "V03-003.mp4",
+      "caminho": "/workspace/artifacts/V03-003/V03-003.mp4",
+      "bytes": 3705469,
+      "sha256": "a1f4adaae9b34194d8580c9c4c2c67bc24b3212f67d727213198683a4be351be",
+      "versionado": false
+    },
+    {
+      "nome": "V03-003_Audio_Referencia.wav",
+      "caminho": "/workspace/artifacts/V03-003/V03-003_Audio_Referencia.wav",
+      "bytes": 8817452,
+      "sha256": "8a76046381f99b8138df7a1bdc3a37d0954ddb229ff3019652dd6272331e7c06",
+      "versionado": false
+    },
+    {
+      "nome": "V03-003.srt",
+      "caminho": "/workspace/artifacts/V03-003/V03-003.srt",
+      "bytes": 1337,
+      "sha256": "062d3ebc878e73acdd709fa9e30d9db97e1cbb503039b76df75b40ba3f4fd3a8",
+      "versionado": false
+    },
+    {
+      "nome": "V03-003.srt",
+      "caminho": "videos/V03-003/V03-003.srt",
+      "bytes": 1337,
+      "sha256": "062d3ebc878e73acdd709fa9e30d9db97e1cbb503039b76df75b40ba3f4fd3a8",
+      "versionado": true
+    },
+    {
+      "nome": "renderizar.py",
+      "caminho": "videos/V03-003/renderizar.py",
+      "bytes": 3730,
+      "sha256": "a3c6683a99e4bf25807f57542dfc69799cfdffa8e94bdb9531a1cb7352b5dfbf",
+      "versionado": true
+    }
+  ],
+  "validacao": {
+    "caminho": "videos/V03-003/evidencias/validacao.json",
+    "sha256": "6824c7e5129b56032aa15f604a112a9a4eb2a85b12b372220f7eb37042c253f2",
+    "resumo": "12 quadros do MP4 inspecionados visualmente, 22 amostras de fronteira comparadas, início/fim verificados, 12 blocos SRT literais e cronológicos, decodificação integral sem erros, áudio ativo sem saturação, AAC correlacionado ao PCM. Sem escuta/playback contínuo.",
+    "correlacao_aac_pcm": 0.9999004497813906,
+    "arquivos_protegidos_inalterados": true
+  },
+  "ocorrencias": [
+    {
+      "id": "V03-003-REV-001",
+      "camada": "AV-S / limite de inspeção audiovisual",
+      "gravidade": "BLOQUEANTE para validação integral, não para disponibilizar a referência experimental",
+      "segmentos": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "intervalo": "0–91,833333 s",
+      "estado": "PENDENTE",
+      "evidencia": "TTS, WAV e MP4 reais; metadados, métricas de sinal, quadros e fronteiras inspecionados. Esta interface não oferece ferramenta de escuta ou reprodução audiovisual perceptiva pelo agente. Não foi realizada escuta nem playback contínuo.",
+      "encaminhamento": "Revisão humana da pronúncia de NOT, dígitos e operadores, ritmo e sincronismo fino das legendas ao áudio disponibilizado; não ressintetizar preventivamente nem reescrever o roteiro.",
+      "fonte": "Não decorre de erro conhecido dos painéis originais; M03-P-001 foi evitada pela seleção de outras regiões."
+    }
+  ],
+  "entrega": {
+    "mecanismo": "Link direto do arquivo real no workspace e visualizador da interface; orientar Salvar vídeo como...",
+    "link_mp4": "/workspace/artifacts/V03-003/V03-003.mp4",
+    "arquivo_real_confirmado": true,
+    "download_humano_confirmado": false,
+    "confirmacao_download_exigida": false,
+    "persistencia": "Durante a retenção do ambiente; não presume armazenamento externo permanente.",
+    "uploads_externos": false,
+    "zip_distribuicao": false,
+    "binarios_no_git": false
+  }
+}

@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:05,880
+Você consegue calcular NOT sem saber quantos
+bits está invertendo?
+
+2
+00:00:06,080 --> 00:00:14,096
+Para inverter dez, vamos primeiro definir nossa
+representação: oito bits.
+
+3
+00:00:14,296 --> 00:00:21,616
+Em oito posições, dez é zero zero zero zero um
+zero um zero.
+
+4
+00:00:21,816 --> 00:00:27,120
+O NOT troca cada zero por um e cada um por zero.
+
+5
+00:00:27,320 --> 00:00:32,288
+O padrão passa a ser um um um um zero um zero
+um.
+
+6
+00:00:32,488 --> 00:00:42,808
+Se interpretarmos esse padrão como um inteiro
+sem sinal de oito bits, o resultado é duzentos e
+quarenta e cinco.
+
+7
+00:00:43,008 --> 00:00:48,840
+Essa resposta depende da largura e da
+interpretação que escolhemos.
+
+8
+00:00:49,040 --> 00:00:57,512
+Mas escrever til dez em C não significa limitar
+a operação às oito posições do desenho.
+
+9
+00:00:57,712 --> 00:01:02,488
+O operador atua sobre o tipo efetivo da
+expressão.
+
+10
+00:01:02,688 --> 00:01:10,704
+E inverter bits com til é diferente de negar
+logicamente uma condição com exclamação.
+
+11
+00:01:10,904 --> 00:01:24,272
+Então, antes de dar um resultado para NOT,
+separe três coisas: inverter os bits, definir a
+largura e interpretar o padrão.
+
+12
+00:01:24,472 --> 00:01:31,648
+Duzentos e quarenta e cinco é a resposta ao
+nosso modelo de oito bits sem sinal.

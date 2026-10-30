@@ -466,3 +466,17 @@ Mapeamento autorizado do capítulo completo; originais e documentos editoriais p
 - **Confiança:** alta.
 - **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
 - **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+
+## V03-003 — revisão da referência audiovisual experimental
+
+### V03-003-REV-001 — AV-S / inspeção — PENDENTE
+
+- **Escopo / autorização:** montagem e execução experimental explicitamente autorizadas após aprovação humana da PR #20. Cinco takes e falas preservados. Não autoriza correções das fontes ou homologação editorial.
+- **Segmentos / intervalo:** S01 a S05, MP4 0–91,833333 s; plano medido em PCM até 91,848 s.
+- **Evidência:** MP4 com voz pt-BR real, SRT provisório por blocos medidos, decodificação integral e métricas aprovadas; 12 quadros examinados visualmente e 22 amostras de fronteiras comparadas. Escuta perceptiva e playback contínuo não executados pelo agente, sem ferramenta disponível nesta interface.
+- **Gravidade:** impedimento para alegar inspeção audiovisual integral; não impede disponibilizar a referência experimental já produzida.
+- **Responsável / encaminhamento:** revisão humana de pronúncia, dígitos, ritmo e sincronismo fino no MP4 entregue, preservando os artefatos válidos. Não ressintetizar ou renderizar preventivamente.
+- **Estado:** PENDENTE_REVISAO; aprovação/seleção do roteiro e aprovação da PR técnica não homologam automaticamente a voz ou o vídeo. Sem falha de entrega: link real /workspace/artifacts/V03-003/V03-003.mp4, com orientação Salvar vídeo como...; confirmação de download não exigida.
+- **Fontes:** M03-P-001 evitada por seleção de regiões válidas, sem alterar/corrigir o original; demais M03 fora dos materiais escolhidos. Decisões e pendências anteriores preservadas.
+- **Rastreabilidade:** editorial/montagens/03-003_Montagem.json; videos/V03-003/V03-003_Manifesto.json e V03-003_Relatorio.md; branch audiovisual/piloto-v03-003, commit/PR informados na entrega. Revalidar somente derivados afetados se revisão exigir correção autorizada.

@@ -1,0 +1,464 @@
+{
+  "schema_version": "piloto-1",
+  "video_id": "V03-003",
+  "status": "PROPOSTO",
+  "execucao": "EXPERIMENTAL_AUTORIZADA",
+  "modalidade": "REFERENCIA",
+  "autorizacao": "Solicitação humana explícita de preparação e execução audiovisual experimental após aprovação da PR20; não equivale a homologação editorial.",
+  "formato": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": 30,
+    "container": "mp4",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "preservar_proporcao": true,
+    "fundo_rgb": [
+      22,
+      22,
+      22
+    ]
+  },
+  "fontes": {
+    "roteiro": {
+      "caminho": "editorial/roteiros/03-003_Roteiro_Individual.docx",
+      "commit": "e203083cfaf267d17489720da86de01de8684a25",
+      "sha256": "dfead25705a6a23190bde9adbf4735fd18102f1805ad71c56d9777d3a7291d74",
+      "bytes": 41257
+    },
+    "mapa": {
+      "caminho": "03_Operacoes_Bitwise/03_Mapa_Espacial.json",
+      "commit": "e203083cfaf267d17489720da86de01de8684a25",
+      "sha256": "e1eea5f3e1b3896b49efacc420bd707ab75cb9162dd933af278df90a62a9686f",
+      "bytes": 47974
+    },
+    "originais": [
+      {
+        "caminho": "03_Operacoes_Bitwise/bitwise_not.png",
+        "commit": "e203083cfaf267d17489720da86de01de8684a25",
+        "sha256": "0477f4a0b2cecc94f9009a63c8a67590397c479b98a3727d742ce3dd7cae8481",
+        "bytes": 1908949
+      }
+    ],
+    "autoauditoria": {
+      "caminho": "03_Operacoes_Bitwise/evidencias_mapa_espacial/autoauditoria_regioes.json",
+      "commit": "e203083cfaf267d17489720da86de01de8684a25",
+      "sha256": "fb45ee4341dbe756b45f3d1a298e811d56794d405ffb5a907da0e54b5a58a936",
+      "bytes": 55153
+    }
+  },
+  "duracao_total_ms_estimada": 68000,
+  "duracao_total_ms_medida": 91848,
+  "audio": {
+    "modalidade": "referencia_sintetica_pt_BR",
+    "ferramenta": "Google Translate TTS HTTP, client=tw-ob, tl=pt-BR",
+    "modelo_versao": "não exposto pelo serviço",
+    "amostragem_hz": 48000,
+    "canais": 1,
+    "formato_trabalho": "WAV PCM16",
+    "caminho_workspace": "/workspace/artifacts/V03-003/V03-003_Audio_Referencia.wav",
+    "sha256": "8a76046381f99b8138df7a1bdc3a37d0954ddb229ff3019652dd6272331e7c06",
+    "pausa_entre_blocos_ms": 200,
+    "falas_preservadas": true
+  },
+  "legendas": {
+    "arquivo": "videos/V03-003/V03-003.srt",
+    "estado": "PROVISORIO_REFERENCIA",
+    "metodo": "Um bloco por frase realmente sintetizada; início/fim derivados dos WAVs decodificados; pausas finais excluídas. Sem alinhamento palavra a palavra ou escuta perceptiva nesta interface."
+  },
+  "tratamento_ocorrencias": {
+    "M03-P-001": "Não usa integral, interpretacao ou complemento_dois. Somente regiões sem a inconsistência de sinal. Fonte preservada.",
+    "demais_M03": "Materiais/regiões associados não participam desta montagem.",
+    "promocao_inteiros": "Não selecionada: evitar apresentar um ambiente de 32 bits como regra geral e não acrescentar resultado signed à fala.",
+    "cartao_editorial": "Desnecessário: a região existente exemplo_8_bits já contém os dois padrões corretos. Nenhuma imagem nova foi desenhada.",
+    "documentos_textuais": "Exercício e gabarito são referências do roteiro; o pedido autoriza selecionar regiões visuais válidas do PNG em seu lugar, sem exibir documentos completos."
+  },
+  "segmentos": [
+    {
+      "id": "S01",
+      "take_roteiro": "T01",
+      "fala_id": "F01",
+      "fala": "Você consegue calcular NOT sem saber quantos bits está invertendo? Para inverter dez, vamos primeiro definir nossa representação: oito bits.",
+      "intervalo_estimado_roteiro_s": [
+        0,
+        11
+      ],
+      "inicio_ms_medido": 0,
+      "duracao_ms_medida": 14296,
+      "transicao": "corte_seco",
+      "projecoes": [
+        {
+          "id": "T01-01",
+          "regiao_id": "caracteristicas",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Você consegue calcular NOT sem saber quantos bits está invertendo?",
+          "inicio_ms_medido": 0,
+          "duracao_audio_ms": 5880,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 6080,
+          "bbox_normalizada": [
+            0.4563802083,
+            0.755859375,
+            0.6901041667,
+            1.0
+          ],
+          "bbox_px": [
+            701,
+            774,
+            1060,
+            1024
+          ],
+          "audio_trecho_sha256": "d8258738180575bd90624688d74d4bab6f385ac7e278f9d31a5873681425561b"
+        },
+        {
+          "id": "T01-02",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Para inverter dez, vamos primeiro definir nossa representação: oito bits.",
+          "inicio_ms_medido": 6080,
+          "duracao_audio_ms": 8016,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 8216,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "133d6a724d57a8b2a55794c589779b21587501d557d87d6b69a33af993796764"
+        }
+      ],
+      "funcao_visual": "Hipótese de largura e inversão"
+    },
+    {
+      "id": "S02",
+      "take_roteiro": "T02",
+      "fala_id": "F02",
+      "fala": "Em oito posições, dez é zero zero zero zero um zero um zero. O NOT troca cada zero por um e cada um por zero. O padrão passa a ser um um um um zero um zero um.",
+      "intervalo_estimado_roteiro_s": [
+        11,
+        27
+      ],
+      "inicio_ms_medido": 14296,
+      "duracao_ms_medida": 18192,
+      "transicao": "corte_seco",
+      "projecoes": [
+        {
+          "id": "T02-01",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Em oito posições, dez é zero zero zero zero um zero um zero.",
+          "inicio_ms_medido": 14296,
+          "duracao_audio_ms": 7320,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 7520,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "c9771b9d6d5c1a043c51ff6b5ce6577c780602c936b1bad6f182864481a3510c"
+        },
+        {
+          "id": "T02-02",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "O NOT troca cada zero por um e cada um por zero.",
+          "inicio_ms_medido": 21816,
+          "duracao_audio_ms": 5304,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 5504,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "92c1925bf411ba8d6f5af3f85efc7c1497d9c4647f1a83dd77be6a508ce67ea1"
+        },
+        {
+          "id": "T02-03",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "O padrão passa a ser um um um um zero um zero um.",
+          "inicio_ms_medido": 27320,
+          "duracao_audio_ms": 4968,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 5168,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "adc20fe5aaa2992284d608fde99bf4e441f833a2832689eadb625c12dfe573ef"
+        }
+      ],
+      "funcao_visual": "Inversão de cada uma das oito posições"
+    },
+    {
+      "id": "S03",
+      "take_roteiro": "T03",
+      "fala_id": "F03",
+      "fala": "Se interpretarmos esse padrão como um inteiro sem sinal de oito bits, o resultado é duzentos e quarenta e cinco. Essa resposta depende da largura e da interpretação que escolhemos.",
+      "intervalo_estimado_roteiro_s": [
+        27,
+        38
+      ],
+      "inicio_ms_medido": 32488,
+      "duracao_ms_medida": 16552,
+      "transicao": "corte_seco",
+      "projecoes": [
+        {
+          "id": "T03-01",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Se interpretarmos esse padrão como um inteiro sem sinal de oito bits, o resultado é duzentos e quarenta e cinco.",
+          "inicio_ms_medido": 32488,
+          "duracao_audio_ms": 10320,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 10520,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "e1b044d3b0091bbf33b9aa6b6530f9ce9dd81b9526860b71f3ca2293dd2edd46"
+        },
+        {
+          "id": "T03-02",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Essa resposta depende da largura e da interpretação que escolhemos.",
+          "inicio_ms_medido": 43008,
+          "duracao_audio_ms": 5832,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 6032,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "7723c1fc03f405d0a7a81dd2c6f62a1015d1370c7abcfe688d1ae5a58f17e109"
+        }
+      ],
+      "funcao_visual": "Leitura sem sinal e resultado 245"
+    },
+    {
+      "id": "S04",
+      "take_roteiro": "T04",
+      "fala_id": "F04",
+      "fala": "Mas escrever til dez em C não significa limitar a operação às oito posições do desenho. O operador atua sobre o tipo efetivo da expressão. E inverter bits com til é diferente de negar logicamente uma condição com exclamação.",
+      "intervalo_estimado_roteiro_s": [
+        38,
+        56
+      ],
+      "inicio_ms_medido": 49040,
+      "duracao_ms_medida": 21864,
+      "transicao": "corte_seco",
+      "projecoes": [
+        {
+          "id": "T04-01",
+          "regiao_id": "caracteristicas",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Mas escrever til dez em C não significa limitar a operação às oito posições do desenho.",
+          "inicio_ms_medido": 49040,
+          "duracao_audio_ms": 8472,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 8672,
+          "bbox_normalizada": [
+            0.4563802083,
+            0.755859375,
+            0.6901041667,
+            1.0
+          ],
+          "bbox_px": [
+            701,
+            774,
+            1060,
+            1024
+          ],
+          "audio_trecho_sha256": "c19f3fed16830ba5f00a29421c63c7d0b62df95296d7349c8c65ef67c01981d8"
+        },
+        {
+          "id": "T04-02",
+          "regiao_id": "caracteristicas",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "O operador atua sobre o tipo efetivo da expressão.",
+          "inicio_ms_medido": 57712,
+          "duracao_audio_ms": 4776,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 4976,
+          "bbox_normalizada": [
+            0.4563802083,
+            0.755859375,
+            0.6901041667,
+            1.0
+          ],
+          "bbox_px": [
+            701,
+            774,
+            1060,
+            1024
+          ],
+          "audio_trecho_sha256": "b7f2c8f433c2fc8c3f42eae41518b7eed45267fec7602d6687193eca1344426b"
+        },
+        {
+          "id": "T04-03",
+          "regiao_id": "logico_vs_bitwise",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "E inverter bits com til é diferente de negar logicamente uma condição com exclamação.",
+          "inicio_ms_medido": 62688,
+          "duracao_audio_ms": 8016,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 8216,
+          "bbox_normalizada": [
+            0.0,
+            0.1171875,
+            0.3489583333,
+            0.453125
+          ],
+          "bbox_px": [
+            0,
+            120,
+            536,
+            464
+          ],
+          "audio_trecho_sha256": "175cc42c877998f290c756fe4dec9ada580852d1c1c98ceb491c975cf9a3d6c8"
+        }
+      ],
+      "funcao_visual": "Tipo efetivo em C e distinção de negação lógica"
+    },
+    {
+      "id": "S05",
+      "take_roteiro": "T05",
+      "fala_id": "F05",
+      "fala": "Então, antes de dar um resultado para NOT, separe três coisas: inverter os bits, definir a largura e interpretar o padrão. Duzentos e quarenta e cinco é a resposta ao nosso modelo de oito bits sem sinal.",
+      "intervalo_estimado_roteiro_s": [
+        56,
+        68
+      ],
+      "inicio_ms_medido": 70904,
+      "duracao_ms_medida": 20944,
+      "transicao": "corte_seco",
+      "projecoes": [
+        {
+          "id": "T05-01",
+          "regiao_id": "caracteristicas",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Então, antes de dar um resultado para NOT, separe três coisas: inverter os bits, definir a largura e interpretar o padrão.",
+          "inicio_ms_medido": 70904,
+          "duracao_audio_ms": 13368,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 13568,
+          "bbox_normalizada": [
+            0.4563802083,
+            0.755859375,
+            0.6901041667,
+            1.0
+          ],
+          "bbox_px": [
+            701,
+            774,
+            1060,
+            1024
+          ],
+          "audio_trecho_sha256": "95ceb99883f1541e344d30b37fe1e765138aa583d77b340ce2a39af2101a252d"
+        },
+        {
+          "id": "T05-02",
+          "regiao_id": "exemplo_8_bits",
+          "arquivo": "03_Operacoes_Bitwise/bitwise_not.png",
+          "quadro": 0,
+          "modo": "imagem_estatica",
+          "fala": "Duzentos e quarenta e cinco é a resposta ao nosso modelo de oito bits sem sinal.",
+          "inicio_ms_medido": 84472,
+          "duracao_audio_ms": 7176,
+          "pausa_final_ms": 200,
+          "duracao_ms_medida": 7376,
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "bbox_px": [
+            989,
+            120,
+            1536,
+            464
+          ],
+          "audio_trecho_sha256": "60fdd72134cc59c8ad3ef81f3432c008ab2362f2b7c091f041d842ad7e892b39"
+        }
+      ],
+      "funcao_visual": "Síntese e retorno ao modelo de oito bits"
+    }
+  ],
+  "pendencias": [
+    "Revisão editorial humana da referência e da voz.",
+    "Escuta perceptiva e sincronismo fino do SRT dependem de revisão: não há ferramenta de escuta disponível nesta interface."
+  ],
+  "renderizavel": true
+}
