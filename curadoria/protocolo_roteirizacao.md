@@ -1,9 +1,9 @@
 # Protocolo de roteirização e leitura de dossiês
 
 > **Identificador:** `curadoria/roteirizacao`  
-> **Versão:** `0.2.4` — proposta de integração com roteiros individuais pré-edição  
+> **Versão:** `0.3.0` — descoberta e comparação de oportunidades narrativas
 > **Escopo:** dossiês editoriais de tópicos, seleção de candidatos e encaminhamento para roteiros individuais pré-edição e futura produção  
-> **Estado:** PROPOSTO — atualização de integração sujeita à homologação humana; regras editoriais da 0.2.3 preservadas  
+> **Estado:** PROPOSTO — evolução sujeita à homologação humana; preservadas as regras de fundamentação, desenvolvimento narrativo e integração editorial
 > **Documento piloto de referência:** `editorial/dossies/01_Dossie_Editorial.docx`
 
 ## 1. Finalidade
@@ -35,6 +35,22 @@ Os caminhos dos dossiês e dos roteiros individuais DOCX são **convenções vig
 - **Contrato de produção:** instruções completas para um único vídeo; não pode depender de julgamento criativo do executor.
 
 Novos candidatos recebem novos IDs. Não renumerar IDs existentes; não reaproveitar ID rejeitado.
+
+### 3.1 Descoberta de oportunidades narrativas
+
+Um conceito didático **não corresponde automaticamente a um vídeo**. Uma oportunidade editorial nasce de uma pergunta, problema, contraste, surpresa ou aplicação capaz de sustentar uma narrativa própria e uma promessa de aprendizagem verificável nas fontes.
+
+Vários conceitos podem compor a mesma oportunidade. Um conceito pode sustentar oportunidades distintas quando mudam substantivamente a pergunta, a demonstração ou a recompensa pedagógica; também pode permanecer apenas como apoio, sem candidato independente. A descoberta não pretende esgotar um capítulo em vídeos. **Não há quantidade mínima, máxima ou esperada de candidatos por capítulo.**
+
+Antes de concluir o dossiê:
+
+1. **Explorar recortes narrativos.** Partir dos registros documentais para identificar perguntas e situações explicáveis, considerando combinações e desdobramentos de conceitos. Não converter a lista de assuntos ou palavras-chave em uma lista automática de vídeos.
+2. **Avaliar o potencial qualitativamente.** Considerar a curiosidade que abre a pergunta, a tensão ou dificuldade a resolver, a demonstração possível, a recompensa de compreensão ao final e a distinção frente às demais propostas. Não usar pontuações artificiais, quotas ou promessas de engajamento sem evidência. Precisão técnica e pedagógica prevalece sobre surpresa ou apelo de abertura.
+3. **Justificar a autonomia.** Cada candidato deve explicar por que sua pergunta e seu desenvolvimento merecem um vídeo próprio, em vez de integrar outra proposta ou permanecer como material complementar. Registrar a justificativa no fundamento didático da ficha, articulando promessa, evidências e diferença narrativa; não basta afirmar que o assunto é importante.
+4. **Confrontar as propostas entre si.** Comparar perguntas, promessas, demonstrações e conclusões. Registrar concisamente, no inventário de oportunidades ou nas decisões e pendências, sobreposições, possíveis combinações e diferenças legítimas. Repetir um conceito ou uma mídia não comprova redundância; repetir a mesma trajetória narrativa sem contribuição distinta exige reconsiderar a autonomia.
+5. **Distinguir candidato e alternativa.** Uma troca superficial de hook, título ou formulação permanece alternativa do mesmo candidato. Se houver razões para combinar propostas ou manter abordagens separadas, explicitá-las para avaliação humana. Preservar IDs e decisões já registrados; não excluir, renumerar ou consolidar candidatos existentes sem autorização.
+
+A comparação deve resultar em propostas editorialmente desenvolvidas, com narrativa preliminar falável e storyboard indicativo conforme a seção 7.1. Ela não substitui essas exigências, não oficializa prioridades e não autoriza selecionar ou produzir vídeos. Exemplos específicos, quando usados, apenas ilustram o raciocínio e não estabelecem modelos ou quantidades obrigatórias para outros capítulos.
 
 ## 4. Estados e transições
 
@@ -96,7 +112,7 @@ O cabeçalho de cada dossiê deve conter **somente**: título/tópico, versão d
 Seções recomendadas:
 
 1. **Escopo e evidências:** fontes, materiais disponíveis, limites da inspeção e relações pertinentes.
-2. **Inventário de oportunidades:** tabela de IDs, perguntas, promessa pedagógica, relações, prioridade exploratória e estado.
+2. **Inventário de oportunidades:** tabela de IDs, perguntas, promessa pedagógica, relações, prioridade exploratória e estado, acompanhada de comparação concisa entre as propostas conforme a seção 3.1.
 3. **Fichas de candidatos:** uma seção por ID, sem depender da ordem de aprovação.
 4. **Decisões e pendências:** deliberações, pedidos de insumos e próximos passos.
 
@@ -115,7 +131,7 @@ Cada seção `## VXX-### — <título>` deve identificar:
 | `Promessa` | O que o espectador compreenderá ao final |
 | `Público` | Conhecimento pressuposto, quando relevante |
 | `Alternativas de hook` | Aberturas candidatas, sem seleção implícita |
-| `Fundamento didático` | Conceitos e evidências documentais |
+| `Fundamento didático` | Conceitos, evidências documentais e justificativa da autonomia narrativa do candidato |
 | `Relações RC` | IDs, finalidade e limites de uso, ou `NENHUMA` |
 | `Mídias candidatas` | Caminho exato, papel proposto e situação de inspeção |
 | `Narrativa proposta` | Texto provisório, não locução obrigatória |
@@ -187,3 +203,5 @@ A locução sintética do vídeo-guia é **referência de ritmo**, não texto a 
 - `0.2.3` (homologada, revisão operacional): atualização dos caminhos dos artefatos, alinhamento com a autorização Git do `AGENTS.md` e delimitação do uso do dossiê piloto como referência de apresentação; sem alteração das exigências editoriais da 0.2.2.
 
 - `0.2.4` (proposta): inclusão do roteiro individual pré-edição como etapa editorial independente; reconhecimento da convenção `NN-XXX_Roteiro_Individual.docx` e remissão ao protocolo específico, sem alteração das regras de geração dos dossiês.
+
+- `0.3.0` (proposta): acrescenta a etapa compatível de descoberta e comparação qualitativa de oportunidades narrativas; exige justificar a autonomia de cada candidato no fundamento didático existente, sem criar campo ou alterar estados, IDs, fontes e autorizações. Preserva narrativas faláveis, storyboards desenvolvidos e a distinção candidato/alternativa. Aplica-se às futuras gerações e revisões autorizadas; não regenera dossiês existentes nem migra suas decisões automaticamente.

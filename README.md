@@ -2,9 +2,66 @@
 
 Acervo de materiais didáticos de programação e computação, organizado em módulos temáticos. Reúne imagens PNG e JPEG, animações GIF e documentos Markdown, incluindo exercícios e gabaritos, além de arquivos-fonte em C e catálogos semânticos em DOCX.
 
+## Visão geral da arquitetura
+
+Além do acervo, o projeto reúne uma infraestrutura documental de curadoria e produção editorial para transformar conhecimento documentado em propostas de conteúdo audiovisual. O fluxo separa fundamentação, escolhas editoriais, preparação visual e execução técnica:
+
+```mermaid
+flowchart TD
+    A[Acervo original] --> B[Fundamentação semântica]
+    B --> C[Descoberta de oportunidades]
+    C --> D[Dossiê editorial]
+    D --> E[Roteiro individual]
+    A --> F[Mapa espacial reutilizável]
+    E --> G[Plano de montagem]
+    F --> G
+    G --> H[MP4, SRT, manifesto e relatório]
+```
+
+Cada etapa depende do escopo autorizado; as setas não representam execução automática nem aprovação editorial.
+
+### Arquitetura semântica
+
+| Fonte | Responsabilidade |
+|---|---|
+| [inventario.csv](inventario.csv) | Localizar materiais e catálogos pelos nomes exatos e pelo módulo. |
+| Catálogos semânticos por capítulo, na tabela de módulos abaixo | Descrever conteúdos, representações, exemplos e conceitos dos materiais. |
+| [Vocabulário controlado](curadoria/vocabulario_controlado.md) | Consolidar termos canônicos, definições e associações ao acervo. |
+| [Relacionamentos conceituais](curadoria/relacionamentos_conceituais.md) | Oferecer vínculos auxiliares entre capítulos, com evidências, decisões e ressalvas. |
+
+Os originais fornecem o conteúdo visual real; as descrições documentais fundamentam a descoberta editorial, mas não comprovam correção ou inspeção visual. Os catálogos e o vocabulário são referências primárias para conteúdos e conceitos; o mapa de relacionamentos não impõe uma sequência curricular.
+
+### Arquitetura editorial
+
+O [protocolo de roteirização](curadoria/protocolo_roteirizacao.md) orienta a descoberta de oportunidades com pergunta, problema, contraste, surpresa ou aplicação próprios. Não há correspondência obrigatória entre capítulo, conceito e vídeo: conceitos podem ser combinados, desdobrados em narrativas distintas ou usados apenas como apoio. Não se pretende esgotar cada capítulo em vídeos, mas identificar as oportunidades audiovisuais que ele oferece, sem quantidade esperada de candidatos.
+
+O dossiê em [editorial/dossies](editorial/dossies/) desenvolve candidatos com justificativa de autonomia, hooks, narrativas preliminares faláveis e storyboards. As propostas são comparadas quanto às diferenças, sobreposições e possíveis combinações, com precisão pedagógica acima do apelo de abertura. A seleção humana pode encaminhar um candidato ao [roteiro individual pré-edição](curadoria/protocolo_roteiro_individual.md), em [editorial/roteiros](editorial/roteiros/). Nessa etapa, o dossiê é a única fonte de conteúdo editorial; o roteiro desenvolve falas, takes e tempos indicativos.
+
+### Mapeamento espacial e produção audiovisual
+
+O [mapeamento espacial](curadoria/protocolo_mapeamento_espacial.md) inspeciona os originais e registra regiões completas, IDs e coordenadas em `NN_Mapa_Espacial.json`, com projeções 9:16 e autoauditoria. O mapa é um acervo visual reutilizável, não um storyboard ou sequência obrigatória.
+
+Roteiro e mapa convergem no [plano de montagem](curadoria/protocolo_montagem_audiovisual.md), em [editorial/montagens](editorial/montagens/). Sua execução autorizada pode produzir MP4, SRT conforme a modalidade, manifesto e relatório, seguindo o [contrato de entrega](curadoria/contrato_entrega_video.md) e a [revisão audiovisual](curadoria/protocolo_revisao_audiovisual.md). Arquivos de projeto e evidências ficam em [videos](videos/). MP4 e áudios permanecem fora do Git, em `/workspace/artifacts/<ID_VIDEO>/`; a entrega usa link direto ao MP4 no visualizador do workspace e **Salvar vídeo como...** no navegador, sem presumir persistência após o encerramento do ambiente.
+
+### Retroalimentação e controle de qualidade
+
+O [protocolo de retroalimentação](curadoria/protocolo_retroalimentacao.md) distingue divergência documental (D), problema pedagógico ou do original (P), ressalva visual prevista (V) e defeito geométrico (G). Ocorrências e decisões são registradas no [checklist](curadoria/checklist.md); a correção retorna à camada responsável e preserva originais e derivados válidos. A revalidação se concentra nos derivados efetivamente afetados.
+
+Os pilotos já utilizam inspeção, registro de ocorrências e conferência de hashes. **Correção automática de imagens e rastreamento incremental automático de dependências por hashes permanecem capacidades futuras**, não funcionalidades implementadas. A presença de hashes não equivale a um sistema automático de propagação de mudanças.
+
+### Autonomia e governança
+
+As [instruções operacionais](AGENTS.md) delimitam a atuação dos agentes: pesquisa documental, elaboração, validações técnicas e execução de tarefas autorizadas, incluindo commit, push e abertura de PR. O responsável humano decide sobre escolhas editoriais, correções pedagógicas e integração das PRs. Aprovação técnica de MP4, aprovação de PR e homologação editorial são decisões distintas; não há merge automático.
+
+### Estado atual: piloto V03-003
+
+O capítulo 03 possui [dossiê](editorial/dossies/03_Dossie_Editorial.docx), [roteiro V03-003 — NOT precisa de uma largura](editorial/roteiros/03-003_Roteiro_Individual.docx), [mapa espacial](03_Operacoes_Bitwise/03_Mapa_Espacial.json) e [plano de montagem](editorial/montagens/03-003_Montagem.json) integrados. O [manifesto](videos/V03-003/V03-003_Manifesto.json), o [relatório](videos/V03-003/V03-003_Relatorio.md) e as [evidências de validação](videos/V03-003/evidencias/validacao.json) documentam renderização experimental com voz de referência, SRT provisório e verificações técnicas.
+
+A execução permanece registrada como `PENDENTE_REVISAO`: escuta perceptiva e sincronismo fino dependem de revisão humana. Esses artefatos demonstram a continuidade do fluxo, sem afirmar publicação externa ou homologação editorial. O MP4 não é versionado; sua disponibilidade está vinculada ao workspace de execução.
+
 ## Organização
 
-Cada diretório abaixo corresponde a um módulo. Seus materiais estão armazenados diretamente na respectiva pasta.
+Cada diretório abaixo corresponde a um módulo. Seus materiais originais estão armazenados diretamente na respectiva pasta; capítulos já mapeados também podem conter JSON espacial e um subdiretório de evidências derivadas.
 
 | Diretório | Assunto | Catálogo semântico |
 |---|---|---|
@@ -25,9 +82,9 @@ A numeração dos módulos organiza os assuntos, mas não estabelece necessariam
 
 ## Localização dos materiais
 
-Consulte [inventario.csv](inventario.csv), o índice completo dos 255 arquivos presentes nos módulos: 243 materiais didáticos e 12 catálogos semânticos. O arquivo utiliza o separador `;` e as colunas `modulo` e `arquivo`. Para localizar um material a partir da raiz do repositório, combine os valores como `modulo/arquivo`.
+Consulte [inventario.csv](inventario.csv), o índice dos 255 materiais e documentos de referência do acervo: 243 materiais didáticos e 12 catálogos semânticos. O arquivo utiliza o separador `;` e as colunas `modulo` e `arquivo`. Para localizar um material a partir da raiz do repositório, combine os valores como `modulo/arquivo`.
 
-As entradas estão ordenadas por módulo e, dentro de cada módulo, por nome de arquivo. O índice inclui imagens, GIFs, documentos Markdown, arquivos-fonte em C e os catálogos DOCX, cada um associado ao seu módulo. Os catálogos são documentos de referência, distintos dos materiais que descrevem. Não inclui os documentos de governança da raiz e de `curadoria/`, o próprio inventário nem este README.
+As entradas estão ordenadas por módulo e, dentro de cada módulo, por nome de arquivo. O índice inclui imagens, GIFs, documentos Markdown, arquivos-fonte em C e os catálogos DOCX, cada um associado ao seu módulo. Os catálogos são documentos de referência, distintos dos materiais que descrevem. Não inclui mapas espaciais e suas evidências derivadas, documentos editoriais, artefatos de produção, documentos de governança da raiz e de `curadoria/`, o próprio inventário nem este README.
 
 ## Catálogos semânticos
 
