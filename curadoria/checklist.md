@@ -373,3 +373,96 @@ Continuidade de M01-AV-001 / V01-003-REV-001: dependência espacial RESOLVIDA pe
 - **V01-003-REV-003 / AV-T, BLOQUEANTE de entrega:** MP4, WAV e SRT reais preservados em /workspace/artifacts/V01-003. Uploads GitHub via gh e POST oficial recusados com HTTP 401; zero assets. Rascunho vazio removido, sem publicação. Não há URL acessível do vídeo. Encaminhamento: disponibilização de canal de entrega com upload autenticado funcional. Estado de deliberação: PENDENTE; não solicitar tokens na conversa nem publicar em outro serviço por iniciativa própria.
 - **V01-003-REV-004 / inspeção, BLOQUEANTE para validação integral:** métricas de sinal, correlação AAC/PCM, quadros e fronteiras verificados; escuta perceptiva e sincronismo fino não executados na interface. Encaminhamento: revisão auditiva do MP4 efetivo após disponibilização. Estado de deliberação: PENDENTE; não declarar narração/legendas homologadas.
 - **Estado da execução:** PENDENTE_REVISAO, não GERADO_OK. Relatório e manifesto: videos/V01-003/. Continuidade na mesma branch e PR #15; publicação documental autorizada, merge não realizado.
+
+
+## Capítulo 03 — ocorrências da autoauditoria espacial
+
+Mapeamento autorizado do capítulo completo; originais e documentos editoriais preservados. Registros abaixo não autorizam correções das fontes nem homologam o mapa. Evidências e associação às regiões: [autoauditoria](../03_Operacoes_Bitwise/evidencias_mapa_espacial/autoauditoria.md). O histórico anterior permanece inalterado.
+
+### M03-P-001 — P — PENDENTE
+
+- **Arquivo / regiões:** bitwise_not.png; interpretacao; complemento_dois.
+- **Evidência:** A coluna signed do painel 4 mostra um glifo ~ antes de 11; o painel 5 também imprime 1111 0101₂ = ~11₁₀, enquanto sua própria conta conclui -11. O sinal do valor negativo fica ambíguo/incorreto na fonte.
+- **Proposta / encaminhamento:** Submeter à revisão gráfica/pedagógica a distinção de til e sinal de menos; não substituir o PNG nesta etapa.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Pode afetar a futura escolha de painéis para V03-003; a região exemplo_8_bits continua geometricamente válida. Não se modifica roteiro nem se decide montagem.
+- **Confiança:** alta para a divergência gráfica, média para intenção do glifo.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-P-002 — P — PENDENTE
+
+- **Arquivo / regiões:** mascara_bitwise3.png; valor_original; aplicacao_xor.
+- **Evidência:** O original 0xAC=10101100 tem bits 2 e 1 em 1 e 0, mas o painel 2 afirma 1 e 1. O painel 4 desenha resultado 10100000; 0xAC XOR 0x06 é 10101010 (0xAA), conforme o terminal e a legenda do próprio painel 6.
+- **Proposta / encaminhamento:** Revisar coerência dos bits, agrupamentos e resultado na fonte, após deliberação. Preservar o recorte e o terminal correto.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Restringe reutilização não qualificada desses dois painéis em propostas sobre alternância, incluindo V03-007.
+- **Confiança:** alta.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-P-003 — P — PENDENTE
+
+- **Arquivo / regiões:** mascara_bitwise4.png; desligar_and_not.
+- **Evidência:** No painel de desligar o bit 2, a linha Depois (&) desenha 00001110, mas informa decimal 10/0x0A e afirma ter zerado o bit 2. Com 00001010 & 11111011 o padrão esperado é 00001010.
+- **Proposta / encaminhamento:** Submeter a linha binária inconsistente à correção do original; não alterar por recorte.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Afeta demonstrações de limpeza, como o suporte de V03-006, sem invalidar os demais painéis.
+- **Confiança:** alta.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-P-004 — P — PENDENTE
+
+- **Arquivo / regiões:** get_bits.png; outros_exemplos.
+- **Evidência:** Na tabela do painel 5, a linha Bit único usa p=2 e n=1 e informa resultado 2/0x02; um campo de um bit só pode resultar em 0 ou 1, e o bit 2 de 0xB2 é 0. A mesma linha contém um dígito 2 dentro do desenho dos bits.
+- **Proposta / encaminhamento:** Encaminhar revisão da tabela e de seus desenhos, preservando o PNG e as demais regiões nesta etapa.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Afeta eventual seleção desse quadro em V03-008; não confundir com defeito geométrico.
+- **Confiança:** alta.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-P-005 — P — PENDENTE
+
+- **Arquivo / regiões:** get_bits2.png; getbits.gif; Regiões que incluem a expressão e a construção da máscara; GIF em todos os quadros com código.
+- **Evidência:** A expressão em C usa ~(~0 << n), sem sufixo unsigned no literal. Em implementações de complemento de dois, ~0 é int negativo; o deslocamento à esquerda de valor signed negativo tem comportamento indefinido em C11/C17. O retorno unsigned não torna unsigned os intermediários. O PNG afirma que ~0 já gera o valor na largura do tipo unsigned.
+- **Proposta / encaminhamento:** Deliberar a revisão do código/texto quanto a tipo sem sinal e limites válidos; não executar código nem substituir silenciosamente expressões.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Não reutilizar como código C portátil validado; pode repercutir em V03-008. O mapa preserva integralmente o que está na fonte.
+- **Confiança:** alta para o risco sob C11/C17; nenhuma versão C foi executada/certificada.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-P-006 — P — PENDENTE
+
+- **Arquivo / regiões:** get_bits2.png; getbits.gif; ordem_apresentada; calculo_posicao; operacao_e_resultado; outras regiões que exibem a sequência.
+- **Evidência:** O PNG rotula uma sequência de subexpressões como Ordem de avaliação (precedência) e diz que p+1-n é avaliado primeiro; o GIF apresenta ordem fixa por precedência. Precedência/parentetização não estabelecem essa ordem geral entre os operandos de &.
+- **Proposta / encaminhamento:** Deliberar distinção entre ordem didática de apresentação e ordem de avaliação da linguagem, sem modificar os arquivos nesta PR.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** A produção futura deve preservar a ressalva já presente na proposta V03-008; a geometria não corrige a afirmação do original.
+- **Confiança:** alta.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-P-007 — P — PENDENTE
+
+- **Arquivo / regiões:** getbits.gif; integral.
+- **Evidência:** O cabeçalho informa 2,5 s por etapa, mas cada um dos dez quadros tem duração codificada de 3000 ms: ciclo de 30 s.
+- **Proposta / encaminhamento:** Encaminhar discrepância texto/temporização ao responsável pelo GIF; usar os tempos codificados se futuramente autorizado reproduzir a animação.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Afeta sincronismo futuro, sem demandar alteração das caixas espaciais.
+- **Confiança:** alta.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.
+
+### M03-D-001 — D — PENDENTE
+
+- **Arquivo / regiões:** mascara_bitwise.png / registro no 03_Catalogo_Semantico.docx; objetivo; mascara; aplicacao; exemplo_c.
+- **Evidência:** O registro afirma uso de AND para consultar o estado de um bit e construção por posição. O PNG efetivo exemplifica preservação dos quatro bits inferiores com 0x0F: 0xAD & 0x0F = 0x0D, não uma consulta de posição única.
+- **Proposta / encaminhamento:** Proposta documental mínima para deliberação: antes — Demonstra o uso de AND para consultar o estado de um bit; depois — Demonstra o uso de AND para preservar os quatro bits menos significativos de um valor de oito bits, zerando os demais com a máscara 0x0F. Ajustar também a referência visual à máscara do nibble, em vez de atribuir construção por posição ao exemplo. Não alterar catálogo/glossário nesta PR.
+- **Responsável pela origem:** curadoria documental para D; autoria/curadoria do material para P, com decisão humana antes de editar.
+- **Impacto e derivados:** Reavaliar apenas referências que dependam dessa descrição, por exemplo a função proposta dessa mídia em V03-005; demais fontes do candidato podem sustentar o teste de bit. Preservar regiões espacialmente válidas.
+- **Confiança:** alta.
+- **Deliberação:** PENDENTE; não há aprovação conceitual presumida nem autorização para corrigir fonte. Autorizados apenas o mapeamento e seu registro.
+- **Rastreabilidade:** branch curadoria/mapa-espacial-capitulo-03; artefatos nesta PR de mapeamento, commit informado na entrega. Revalidação futura restrita às fontes/regiões e derivados efetivamente afetados; geometrias válidas preservadas.

@@ -1,0 +1,1668 @@
+{
+  "schema": "mapa_espacial_capitulo",
+  "versao": "1.0",
+  "capitulo": "03_Operacoes_Bitwise",
+  "fonte_semantica": "03_Catalogo_Semantico.docx",
+  "fonte_semantica_sha256": "d3611c7308f2e10329a6036ffaaa152f61b37e1bd7bd6672358e358db992f6e9",
+  "revisao_base": "58a0d4a77fe15bfa97fc2f0689a9637952842752",
+  "sistema_coordenadas": "[x0,y0,x1,y1] normalizado entre 0 e 1, origem no canto superior esquerdo",
+  "estado": "AUTOAUDITADO_COM_RESSALVAS",
+  "homologacao_humana": "PENDENTE",
+  "materiais": [
+    {
+      "arquivo": "bitwise_10_12_em_C.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "e92b8793f7590b6264de6cd0131bf89031ccc4062438375814469e038d185e9e",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "codigo_e_explicacao",
+          "descricao": "Código, destaque e explicação do passo",
+          "bbox_normalizada": [
+            0.015,
+            0.1466666667,
+            0.495,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "bits_e_terminal",
+          "descricao": "Estado dos bits, valores e terminal",
+          "bbox_normalizada": [
+            0.505,
+            0.1466666667,
+            0.985,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ],
+      "quadros": 7,
+      "duracoes_quadros_ms": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "quadros_inspecionados": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "limite_temporal": "Caixas espaciais inspecionadas em todos os quadros decodificados; não definem seleção nem duração de cena."
+    },
+    {
+      "arquivo": "bitwise_deslocamento.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "a0c98c30d8a5116df0fd4df114fc3c30e85a1b13f9236fb2746a56da8fb32891",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "demonstracao_completa",
+          "descricao": "Explicação, posições, pesos, setas e valores",
+          "bbox_normalizada": [
+            0.01875,
+            0.1466666667,
+            0.98125,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ],
+      "quadros": 5,
+      "duracoes_quadros_ms": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "quadros_inspecionados": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "limite_temporal": "Caixas espaciais inspecionadas em todos os quadros decodificados; não definem seleção nem duração de cena."
+    },
+    {
+      "arquivo": "bitwise_mascaras.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "afe8c86100bab28bf89bd601770ba6bd86ad893b631b106c67008bc7d2eefee3",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_com_contexto",
+          "descricao": "Valor original, operação, objetivo e resultado",
+          "bbox_normalizada": [
+            0.01875,
+            0.1466666667,
+            0.98125,
+            0.82
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_e_resultado",
+          "descricao": "Painéis completos da operação e resultado",
+          "bbox_normalizada": [
+            0.01875,
+            0.36,
+            0.98125,
+            0.82
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ],
+      "quadros": 6,
+      "duracoes_quadros_ms": [
+        3000,
+        3000,
+        3000,
+        3000,
+        3000,
+        3000
+      ],
+      "quadros_inspecionados": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "limite_temporal": "Caixas espaciais inspecionadas em todos os quadros decodificados; não definem seleção nem duração de cena."
+    },
+    {
+      "arquivo": "bitwise_not.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "0477f4a0b2cecc94f9009a63c8a67590397c479b98a3727d742ce3dd7cae8481",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "logico_vs_bitwise",
+          "descricao": "Painel completo de NOT lógico e bitwise",
+          "bbox_normalizada": [
+            0.0,
+            0.1171875,
+            0.3489583333,
+            0.453125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_4_bits",
+          "descricao": "Inversão de nibble como modelo didático",
+          "bbox_normalizada": [
+            0.34765625,
+            0.1171875,
+            0.64453125,
+            0.453125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_8_bits",
+          "descricao": "Byte 10 invertido e resultado 245",
+          "bbox_normalizada": [
+            0.6438802083,
+            0.1171875,
+            1.0,
+            0.453125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "interpretacao",
+          "descricao": "Tabela de leitura unsigned e signed",
+          "bbox_normalizada": [
+            0.0,
+            0.453125,
+            0.3828125,
+            0.7587890625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "complemento_dois",
+          "descricao": "Relação matemática e exemplo de oito bits",
+          "bbox_normalizada": [
+            0.3821614583,
+            0.453125,
+            0.677734375,
+            0.7587890625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "exemplo_c",
+          "descricao": "Atribuição unsigned char e terminal",
+          "bbox_normalizada": [
+            0.6770833333,
+            0.453125,
+            1.0,
+            0.7587890625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "promocao_inteiros",
+          "descricao": "Diagrama completo de promoção e inversão",
+          "bbox_normalizada": [
+            0.0,
+            0.755859375,
+            0.4576822917,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "caracteristicas",
+          "descricao": "Características e ressalvas de NOT",
+          "bbox_normalizada": [
+            0.4563802083,
+            0.755859375,
+            0.6901041667,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "comparacao_operadores",
+          "descricao": "Tabela final de operadores bitwise",
+          "bbox_normalizada": [
+            0.6901041667,
+            0.755859375,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "d93dc5fe896234f6c2a18e7dd56f3a39432cf91c33fbdf3b68d9c0655d75d345",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "pesos_posicoes",
+          "descricao": "Posições e pesos de um byte",
+          "bbox_normalizada": [
+            0.0,
+            0.111328125,
+            0.3756510417,
+            0.404296875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "valor_original",
+          "descricao": "Valor 3 e seus bits e pesos",
+          "bbox_normalizada": [
+            0.3743489583,
+            0.111328125,
+            0.642578125,
+            0.404296875
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "esquerda_uma_posicao",
+          "descricao": "Movimento e resultado 6",
+          "bbox_normalizada": [
+            0.6419270833,
+            0.111328125,
+            1.0,
+            0.404296875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "entrada_saida",
+          "descricao": "Bits que saem e entram e ressalva de perda",
+          "bbox_normalizada": [
+            0.0,
+            0.4033203125,
+            0.486328125,
+            0.689453125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "exemplo_c",
+          "descricao": "Deslocamento em C, bits e terminal",
+          "bbox_normalizada": [
+            0.4856770833,
+            0.4033203125,
+            1.0,
+            0.689453125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "mais_exemplos",
+          "descricao": "Tabela completa de deslocamentos de uma posição",
+          "bbox_normalizada": [
+            0.0,
+            0.6884765625,
+            0.4069010417,
+            0.984375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "n_posicoes",
+          "descricao": "Operação e relação com potência de dois",
+          "bbox_normalizada": [
+            0.4069010417,
+            0.6884765625,
+            0.6770833333,
+            0.984375
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Síntese do deslocamento à esquerda",
+          "bbox_normalizada": [
+            0.6764322917,
+            0.6884765625,
+            1.0,
+            0.984375
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "b6c9c5c44e64b9474dde3e201e1be1970ceedef400704962967faff2b238415a",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "sintaxe",
+          "descricao": "Operadores << e >> com significado",
+          "bbox_normalizada": [
+            0.0,
+            0.1142578125,
+            0.513671875,
+            0.3515625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "pesos",
+          "descricao": "Tabela de posições e pesos",
+          "bbox_normalizada": [
+            0.513671875,
+            0.1142578125,
+            1.0,
+            0.3515625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "exemplos_esquerda",
+          "descricao": "Tabela de estados 3 a 6 a 12",
+          "bbox_normalizada": [
+            0.0,
+            0.3515625,
+            0.5110677083,
+            0.6669921875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "exemplos_direita",
+          "descricao": "Tabela de estados 12 a 6 a 3",
+          "bbox_normalizada": [
+            0.5110677083,
+            0.3515625,
+            1.0,
+            0.6669921875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "n_posicoes",
+          "descricao": "Três quantidades em cada direção",
+          "bbox_normalizada": [
+            0.0,
+            0.666015625,
+            0.6061197917,
+            0.9736328125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "efeito_numerico",
+          "descricao": "Relação com potências de dois",
+          "bbox_normalizada": [
+            0.6061197917,
+            0.666015625,
+            1.0,
+            0.9736328125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift3.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "1acdbec8229decebf110b0aa97c46ce299ac7a513f82c4b9201a9dbc676536fd",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "esquerda",
+          "descricao": "Diagrama e regra de entrada e saída à esquerda",
+          "bbox_normalizada": [
+            0.0,
+            0.1123046875,
+            0.5006510417,
+            0.3876953125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "direita",
+          "descricao": "Diagrama e regra de entrada e saída à direita",
+          "bbox_normalizada": [
+            0.5006510417,
+            0.1123046875,
+            1.0,
+            0.3876953125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "perda_esquerda",
+          "descricao": "Modelo de oito bits, 128 deslocado e descartado",
+          "bbox_normalizada": [
+            0.0,
+            0.38671875,
+            0.5188802083,
+            0.6884765625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "perda_direita",
+          "descricao": "Modelo 1 deslocado à direita e resultado zero",
+          "bbox_normalizada": [
+            0.5188802083,
+            0.38671875,
+            1.0,
+            0.6884765625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "exemplos_completos",
+          "descricao": "Tabelas com valores em ambas as direções",
+          "bbox_normalizada": [
+            0.0,
+            0.6865234375,
+            0.626953125,
+            0.97265625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Síntese original sobre deslocamentos",
+          "bbox_normalizada": [
+            0.626953125,
+            0.6865234375,
+            1.0,
+            0.97265625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "bitwise_shift_em_c.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "0a161ea0abd1701a9b7c70c297bfd2a08134bd60f819693b94753607186c0675",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "codigo_e_explicacao",
+          "descricao": "Código, destaque e explicação do passo",
+          "bbox_normalizada": [
+            0.015,
+            0.1466666667,
+            0.495,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "bits_e_terminal",
+          "descricao": "Estado dos bits, valores e terminal",
+          "bbox_normalizada": [
+            0.505,
+            0.1466666667,
+            0.985,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ],
+      "quadros": 9,
+      "duracoes_quadros_ms": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "quadros_inspecionados": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "limite_temporal": "Caixas espaciais inspecionadas em todos os quadros decodificados; não definem seleção nem duração de cena."
+    },
+    {
+      "arquivo": "get_bits.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "f7164d1e19d145ea642ecf13dd953a1f73e3ae3a415b31e27961d4b231756910",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "valor_original",
+          "descricao": "Byte original e identificação hexadecimal",
+          "bbox_normalizada": [
+            0.0,
+            0.1083984375,
+            0.255859375,
+            0.56640625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "campo_desejado",
+          "descricao": "Parâmetros p e n e campo selecionado",
+          "bbox_normalizada": [
+            0.255859375,
+            0.1083984375,
+            0.5325520833,
+            0.56640625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "resultado_esperado",
+          "descricao": "Campo deslocado e resultado esperado",
+          "bbox_normalizada": [
+            0.5325520833,
+            0.1083984375,
+            0.7701822917,
+            0.56640625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "definicao_campo",
+          "descricao": "Convenção de posição e tamanho",
+          "bbox_normalizada": [
+            0.76953125,
+            0.1083984375,
+            1.0,
+            0.56640625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "outros_exemplos",
+          "descricao": "Tabela completa de extrações no original",
+          "bbox_normalizada": [
+            0.0,
+            0.56640625,
+            0.5885416667,
+            0.986328125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Resumo e transição para getbits",
+          "bbox_normalizada": [
+            0.587890625,
+            0.56640625,
+            1.0,
+            0.986328125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "get_bits2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "be596f5886589851cea7726000a3fa0212a858afdfb087a751821fbfb2e4f844",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "parametros",
+          "descricao": "Assinatura, código e definição de parâmetros",
+          "bbox_normalizada": [
+            0.0,
+            0.1064453125,
+            0.337890625,
+            0.4912109375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "blocos_expressao",
+          "descricao": "Expressão completa e seus blocos relacionados",
+          "bbox_normalizada": [
+            0.3372395833,
+            0.1064453125,
+            0.6940104167,
+            0.4912109375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "calculo_posicao",
+          "descricao": "Parênteses p+1-n e propósito",
+          "bbox_normalizada": [
+            0.693359375,
+            0.1064453125,
+            1.0,
+            0.38671875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "deslocar",
+          "descricao": "Subexpressão de alinhamento à direita",
+          "bbox_normalizada": [
+            0.0,
+            0.48828125,
+            0.3177083333,
+            0.73828125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "construir_mascara",
+          "descricao": "Subexpressão de máscara e suas etapas",
+          "bbox_normalizada": [
+            0.3170572917,
+            0.48828125,
+            0.6946614583,
+            0.73828125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "aplicar_and",
+          "descricao": "Expressão final e papel de AND",
+          "bbox_normalizada": [
+            0.6940104167,
+            0.3837890625,
+            1.0,
+            0.6884765625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "ordem_apresentada",
+          "descricao": "Sequência rotulada como ordem de avaliação no original",
+          "bbox_normalizada": [
+            0.0,
+            0.734375,
+            0.3997395833,
+            0.9912109375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "arvore_expressao",
+          "descricao": "Árvore completa das subexpressões",
+          "bbox_normalizada": [
+            0.3990885417,
+            0.734375,
+            0.7278645833,
+            0.9912109375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Síntese das etapas e finalidade",
+          "bbox_normalizada": [
+            0.7272135417,
+            0.68359375,
+            1.0,
+            0.9912109375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "getbits.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        1600,
+        900
+      ],
+      "sha256": "41018c3c6311c221c3650e21f0ae8186185bd7060496bc2dc3b9a7335e58931e",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "codigo_e_explicacao",
+          "descricao": "Código e propósito do passo",
+          "bbox_normalizada": [
+            0.015,
+            0.1466666667,
+            0.4975,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "operacao_e_resultado",
+          "descricao": "Byte, operação, ordem textual e resultado",
+          "bbox_normalizada": [
+            0.5075,
+            0.1466666667,
+            0.985,
+            0.96
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ],
+      "quadros": 10,
+      "duracoes_quadros_ms": [
+        3000,
+        3000,
+        3000,
+        3000,
+        3000,
+        3000,
+        3000,
+        3000,
+        3000,
+        3000
+      ],
+      "quadros_inspecionados": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "limite_temporal": "Caixas espaciais inspecionadas em todos os quadros decodificados; não definem seleção nem duração de cena."
+    },
+    {
+      "arquivo": "mascara_bitwise.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "5e48caa8b3174b8ad4178ceee9f6fe39cbd88caaee5711ae2ceaa861445e79f7",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "definicao",
+          "descricao": "Faixa introdutória: o que é máscara",
+          "bbox_normalizada": [
+            0.0052083333,
+            0.0859375,
+            0.99609375,
+            0.19140625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "valor_original",
+          "descricao": "Byte original e partes significativas",
+          "bbox_normalizada": [
+            0.0,
+            0.1904296875,
+            0.26953125,
+            0.5703125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "objetivo",
+          "descricao": "Preservar nibble inferior e zerar superior",
+          "bbox_normalizada": [
+            0.26953125,
+            0.1904296875,
+            0.5006510417,
+            0.5703125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "mascara",
+          "descricao": "Máscara 0x0F e interpretação dos bits",
+          "bbox_normalizada": [
+            0.5,
+            0.1904296875,
+            0.7141927083,
+            0.5703125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "aplicacao",
+          "descricao": "AND com máscara e resultado",
+          "bbox_normalizada": [
+            0.7135416667,
+            0.1904296875,
+            1.0,
+            0.5703125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_c",
+          "descricao": "Código completo do exemplo",
+          "bbox_normalizada": [
+            0.0,
+            0.56640625,
+            0.3958333333,
+            0.830078125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "saida_programa",
+          "descricao": "Terminal do exemplo e leitura do resultado",
+          "bbox_normalizada": [
+            0.3958333333,
+            0.56640625,
+            0.6608072917,
+            0.830078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "regra_and",
+          "descricao": "Tabela da operação com máscara",
+          "bbox_normalizada": [
+            0.66015625,
+            0.56640625,
+            1.0,
+            0.830078125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Resumo e efeitos conforme o operador",
+          "bbox_normalizada": [
+            0.0,
+            0.828125,
+            1.0,
+            0.994140625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise2.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "cdb3293cd9da20a5c60c2368c8115e4e4d9015383b707e9ef110b08ab6443fe1",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "ideia",
+          "descricao": "Objetivo e exemplos de ativação",
+          "bbox_normalizada": [
+            0.0,
+            0.130859375,
+            0.236328125,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "valor_original",
+          "descricao": "Byte original e posição 2",
+          "bbox_normalizada": [
+            0.236328125,
+            0.130859375,
+            0.4947916667,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "mascara",
+          "descricao": "Construção e valor da máscara",
+          "bbox_normalizada": [
+            0.4934895833,
+            0.130859375,
+            0.7194010417,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "aplicacao_or",
+          "descricao": "OR por posição e resultado",
+          "bbox_normalizada": [
+            0.71875,
+            0.130859375,
+            1.0,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_c",
+          "descricao": "Código do exemplo com OR",
+          "bbox_normalizada": [
+            0.0,
+            0.5478515625,
+            0.4166666667,
+            0.8203125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "saida_programa",
+          "descricao": "Terminal e legenda de resultado do original",
+          "bbox_normalizada": [
+            0.4166666667,
+            0.5478515625,
+            0.65625,
+            0.8203125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "regra_or",
+          "descricao": "Tabela e explicação de OR com máscara",
+          "bbox_normalizada": [
+            0.6555989583,
+            0.5478515625,
+            1.0,
+            0.8203125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Faixa final completa, comparação e regra",
+          "bbox_normalizada": [
+            0.0,
+            0.818359375,
+            1.0,
+            0.9951171875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise3.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "e08ef63640f62f298a822d4181a4c6ec4fbfefab797fdead5ae886a4e621d29a",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "ideia",
+          "descricao": "Objetivo e exemplos de alternância",
+          "bbox_normalizada": [
+            0.0,
+            0.130859375,
+            0.2356770833,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "valor_original",
+          "descricao": "Valor original e posições segundo o PNG",
+          "bbox_normalizada": [
+            0.2356770833,
+            0.130859375,
+            0.4934895833,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "mascara",
+          "descricao": "Máscara para as posições 2 e 1",
+          "bbox_normalizada": [
+            0.4934895833,
+            0.130859375,
+            0.7194010417,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "aplicacao_xor",
+          "descricao": "XOR por posição segundo o PNG",
+          "bbox_normalizada": [
+            0.71875,
+            0.130859375,
+            1.0,
+            0.55078125
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "exemplo_c",
+          "descricao": "Código com XOR",
+          "bbox_normalizada": [
+            0.0,
+            0.548828125,
+            0.4166666667,
+            0.8193359375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "saida_programa",
+          "descricao": "Terminal com resultado 170 e legenda",
+          "bbox_normalizada": [
+            0.4166666667,
+            0.548828125,
+            0.65625,
+            0.8193359375
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "regra_xor",
+          "descricao": "Tabela e regra de XOR com máscara",
+          "bbox_normalizada": [
+            0.6555989583,
+            0.548828125,
+            1.0,
+            0.8193359375
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Faixa final de síntese e comparação",
+          "bbox_normalizada": [
+            0.0,
+            0.8173828125,
+            1.0,
+            0.9951171875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "mascara_bitwise4.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "8fb02102954a2c916f737b3b2ec1cbc5bf3435766db47b2364e1c17a1423a431",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "construcao_mascara",
+          "descricao": "1U << N e tabela de máscaras",
+          "bbox_normalizada": [
+            0.0,
+            0.111328125,
+            0.34765625,
+            0.5478515625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "valor_e_mascara",
+          "descricao": "Valor 10, posição 2 e máscara",
+          "bbox_normalizada": [
+            0.34765625,
+            0.111328125,
+            0.6282552083,
+            0.5517578125
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "teste_and",
+          "descricao": "Código e diagrama do teste por AND",
+          "bbox_normalizada": [
+            0.6282552083,
+            0.111328125,
+            1.0,
+            0.537109375
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "ligar_or",
+          "descricao": "Operação de ligar com antes e depois",
+          "bbox_normalizada": [
+            0.0,
+            0.546875,
+            0.3294270833,
+            0.9921875
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "desligar_and_not",
+          "descricao": "Código e diagrama de limpeza completos",
+          "bbox_normalizada": [
+            0.3287760417,
+            0.546875,
+            0.6510416667,
+            0.9921875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "alternar_xor",
+          "descricao": "Operação de alternar com antes e depois",
+          "bbox_normalizada": [
+            0.6497395833,
+            0.5341796875,
+            1.0,
+            0.837890625
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "resumo",
+          "descricao": "Tabela de expressões e objetivos",
+          "bbox_normalizada": [
+            0.6497395833,
+            0.833984375,
+            1.0,
+            0.9921875
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "operacao_bit_a_bit.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "5e08e6d885b820bf5df483ceb23bca9dd337fbb7593bee521e2279044e2a8836",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "sequencias",
+          "descricao": "Operandos de quatro bits e relação por coluna",
+          "bbox_normalizada": [
+            0.0,
+            0.11676397,
+            0.3353658537,
+            0.530442035
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "aplicacao_and",
+          "descricao": "Operandos, setas e resultado AND",
+          "bbox_normalizada": [
+            0.3353658537,
+            0.11676397,
+            0.6516768293,
+            0.530442035
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "operacoes_por_posicao",
+          "descricao": "Quatro colunas com pesos e cálculo AND",
+          "bbox_normalizada": [
+            0.6516768293,
+            0.11676397,
+            1.0,
+            0.530442035
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "resultado_final",
+          "descricao": "Operandos e resultado binário e decimal",
+          "bbox_normalizada": [
+            0.0,
+            0.5296080067,
+            0.3467987805,
+            0.9824854045
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_c",
+          "descricao": "Declarações, AND em C e valores",
+          "bbox_normalizada": [
+            0.3467987805,
+            0.5296080067,
+            0.6783536585,
+            0.9824854045
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "ideias_principais",
+          "descricao": "Cinco ideias sobre aplicação por posição",
+          "bbox_normalizada": [
+            0.6783536585,
+            0.5296080067,
+            1.0,
+            0.9824854045
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    },
+    {
+      "arquivo": "operadores_bitwise.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1312,
+        1199
+      ],
+      "sha256": "f08bc8134c8225fd04034e9391a1deffe5cb09649e3a021eb339f019e574f4bd",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "and",
+          "descricao": "Regra, tabela e explicação AND",
+          "bbox_normalizada": [
+            0.0,
+            0.1217681401,
+            0.269054878,
+            0.5137614679
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "or",
+          "descricao": "Regra, tabela e explicação OR",
+          "bbox_normalizada": [
+            0.2682926829,
+            0.1217681401,
+            0.5144817073,
+            0.5137614679
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "xor",
+          "descricao": "Regra, tabela e explicação XOR",
+          "bbox_normalizada": [
+            0.5137195122,
+            0.1217681401,
+            0.7888719512,
+            0.5137614679
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "not",
+          "descricao": "Regra, tabela e explicação NOT",
+          "bbox_normalizada": [
+            0.7881097561,
+            0.1217681401,
+            1.0,
+            0.5137614679
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "resumo_tabelas",
+          "descricao": "Tabela conjunta AND OR XOR com texto do original",
+          "bbox_normalizada": [
+            0.0,
+            0.5170975813,
+            0.3407012195,
+            0.9174311927
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_4_bits",
+          "descricao": "Operandos e resultados dos quatro operadores",
+          "bbox_normalizada": [
+            0.3407012195,
+            0.5170975813,
+            0.6714939024,
+            0.9174311927
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "operadores_c",
+          "descricao": "Tabela de símbolos lógicos e bitwise em C",
+          "bbox_normalizada": [
+            0.6707317073,
+            0.5170975813,
+            1.0,
+            0.9174311927
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "sintese",
+          "descricao": "Faixa final de síntese lógica versus bitwise",
+          "bbox_normalizada": [
+            0.0,
+            0.9199332777,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        }
+      ]
+    },
+    {
+      "arquivo": "xor.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "8fb1c3e92a57a02c74fb87169d238d3903bb4118c10529ed2b684fb3ab594e1a",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Material completo com cabeçalho e todos os painéis",
+          "bbox_normalizada": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "confianca": "autoauditada_visualmente_com_ressalvas_ver_relatorio"
+        },
+        {
+          "id": "tabela_or",
+          "descricao": "Tabela e regra de OR",
+          "bbox_normalizada": [
+            0.0,
+            0.16015625,
+            0.3326822917,
+            0.6044921875
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "tabela_xor",
+          "descricao": "Tabela e regra de XOR",
+          "bbox_normalizada": [
+            0.33203125,
+            0.16015625,
+            0.6647135417,
+            0.6044921875
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "comparativo_or",
+          "descricao": "Quatro cálculos de OR com notação lógica",
+          "bbox_normalizada": [
+            0.6647135417,
+            0.16015625,
+            1.0,
+            0.6044921875
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "exemplo_binario",
+          "descricao": "1010 e 1100 com AND OR XOR",
+          "bbox_normalizada": [
+            0.0,
+            0.607421875,
+            0.40625,
+            0.9775390625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "resumo_operacoes",
+          "descricao": "Resumo de regras AND OR XOR NOT",
+          "bbox_normalizada": [
+            0.4049479167,
+            0.607421875,
+            0.6920572917,
+            0.9775390625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        },
+        {
+          "id": "conclusao",
+          "descricao": "Texto de conclusão OR e XOR preservado",
+          "bbox_normalizada": [
+            0.69140625,
+            0.607421875,
+            1.0,
+            0.9775390625
+          ],
+          "confianca": "autoauditada_visualmente_sem_defeito_geometrico_identificado"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "estado": "VALIDADO",
+  "materiais_visuais": 18,
+  "pngs_originais": 13,
+  "gifs_originais": 5,
+  "quadros_gif_inspecionados": 37,
+  "regioes": 123,
+  "projecoes_1080x1920": 215,
+  "paineis_1080x2040": 62,
+  "comparacoes_pixels_iguais": 215,
+  "hashes_fontes_confirmados": true,
+  "geometria_igual_a_renderizacao_inspecionada": true,
+  "links_locais_validos": true,
+  "arquivos_preexistentes_alterados": [
+    "curadoria/checklist.md"
+  ],
+  "historico_checklist_preservado_por_prefixo": true,
+  "homologacao_humana": "PENDENTE",
+  "mapa_sha256": "e1eea5f3e1b3896b49efacc420bd707ab75cb9162dd933af278df90a62a9686f"
+}
