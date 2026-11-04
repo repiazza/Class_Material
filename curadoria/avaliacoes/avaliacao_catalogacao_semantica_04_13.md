@@ -2,7 +2,7 @@
 
 **Estado:** execução experimental concluída; protocolo e catálogos sujeitos à avaliação humana. Não constitui homologação pedagógica.
 **Base das fontes:** `725b9f4`.
-**Protocolo proposto:** [protocolo_catalogacao_semantica.md](protocolo_catalogacao_semantica.md).
+**Protocolo proposto:** [protocolo_catalogacao_semantica.md](../protocolo_catalogacao_semantica.md).
 
 ## A. Implementação
 
@@ -24,7 +24,7 @@ O protocolo cobre finalidade, entradas/identificação, inspeção, evidência, 
 
 ## D. Inconsistências e encaminhamento
 
-[Checklist](checklist.md): 13 novas ocorrências PENDENTES, 11 P e 2 D, com fontes, hashes, evidências e encaminhamentos. P04-001 permanece no registro anterior, sem duplicação ou mudança de estado.
+[Checklist](../checklist.md): 13 novas ocorrências PENDENTES, 11 P e 2 D, com fontes, hashes, evidências e encaminhamentos. P04-001 permanece no registro anterior, sem duplicação ou mudança de estado.
 
 Os casos incluem literal modificável indevidamente por `strtok`, variável não inicializada em conversão, identificação de `argc`, nomes distintos de macro, limpeza com `$^` vazio, regra incompatível com `src/`, dependências não consumidas e mudança de configuração sem reconstrução demonstrada. Não se atribuem esses problemas ao catálogo ou à geometria; nenhuma correção de fonte ou catálogo vigente foi implementada.
 

@@ -16,6 +16,12 @@
 
 Quando houver autorização para gerar ou revisar catálogos a partir dos originais, siga `curadoria/protocolo_catalogacao_semantica.md`. A consulta prévia ao catálogo vigente aplica-se à revisão ordinária; em reconstrução experimental com isolamento autorizado, consulte-o somente após congelar o catálogo experimental. Preserve o consumo documental do Motor 1 e os limites de consulta do roteiro individual. Geração e validação não homologam a qualidade pedagógica; escopo de publicação e preservação dos originais seguem a instrução da tarefa.
 
+### Manutenção incremental e histórico avaliativo
+
+Em capítulo com catálogo existente, use por padrão `ferramentas/catalogacao_incremental.py`, conforme `curadoria/contrato_catalogacao_incremental.md` e as instruções em `ferramentas/README.md`. Primeiro planeje por identidade e SHA-256; sem baseline confiável, estabeleça referência controlada ou registre o bloqueio, sem reconstrução integral silenciosa. A catalogação inaugural continua completa pelo protocolo semântico. Para novos/modificados, o agente inspeciona somente esses originais, prepara as fichas e aplica em candidato; inalterados reutilizam fichas. Hash binário não é reinterpretação semântica. Publicar/substituir um catálogo canônico exige escopo explícito; esta implementação não o autoriza automaticamente.
+
+Protocolos e contratos são normas operacionais; DOCX canônicos são fontes semânticas; `curadoria/avaliacoes/` contém avaliações históricas/investigativas, não regras vigentes nem decisões substitutas. O checklist permanece fonte das ocorrências e deliberações. Não usar avaliações antigas para sobrepor contratos atuais e não tornar obrigatório um novo relatório histórico por execução. Logs temporários e evidências relevantes bastam quando não houver necessidade de registro persistente adicional.
+
 ### Reconciliação documental autônoma
 
 Após inclusão, remoção ou renomeação de materiais, publicação de catálogo ou alteração de contratos/componentes, execute `python ferramentas/reconciliar_documentacao.py` e confira `python ferramentas/reconciliar_documentacao.py --check` antes de publicar o trabalho. Consulte `ferramentas/README.md`. A capacidade é independente da catalogação; a existência física não espera homologação semântica.

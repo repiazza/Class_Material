@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Bibliotecas DOCX do motor incremental
+        run: python -m pip install -r ferramentas/requirements-catalogacao.txt
       - name: Testes com fixtures temporárias
         run: python -B -m unittest discover -s ferramentas/tests -v
       - name: Conferir inventário, README e links

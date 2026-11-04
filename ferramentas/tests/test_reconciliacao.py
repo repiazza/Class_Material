@@ -207,6 +207,13 @@ class ReconciliacaoTest(unittest.TestCase):
         with self.assertRaises(ValueError):self.run_sync()
         self.assertEqual(before,(self.root/'inventario.csv').read_bytes())
 
+    def test_historico_de_avaliacoes_nao_vira_norma(self):
+        self.put('curadoria/avaliacoes/protocolo_historico.md','# Norma histórica de teste\n**Estado:** FUTURO\n')
+        self.run_sync();text=m.read(self.root/'README.md')
+        self.assertIn('[avaliações históricas](curadoria/avaliacoes/)',text)
+        self.assertNotIn('[Norma histórica de teste]',text)
+        self.assertIn('Não são protocolos vigentes',text)
+
     def test_labels_mermaid_sem_palavras_cortadas(self):
         label=m.wrapped('Consolidação de identidades e decisões')
         self.assertEqual(label.replace('<br/>',' '),'Consolidação de identidades e decisões')

@@ -184,6 +184,11 @@ def architecture(root: Path) -> str:
               '### Reconciliação documental', '',
               'Execute `python ferramentas/reconciliar_documentacao.py` após alterações elegíveis. O modo `--check` verifica divergências sem escrever; o CI utiliza esse modo. Somente `inventario.csv` e os blocos gerados deste README são atualizados. Ambiguidades são informadas; não homologam materiais nem bloqueiam entradas independentes.', '',
               'Regras, limites e testes: '+link('instruções de execução','ferramentas/README.md')+'. O responsável humano continua decidindo sobre a integração das PRs, as escolhas editoriais e as correções pedagógicas; não há merge automático.']
+    if (root/'curadoria/avaliacoes').is_dir():
+        lines += ['', '### Histórico avaliativo', '',
+                  'As '+link('avaliações históricas','curadoria/avaliacoes/')+' registram investigações e pilotos. Não são protocolos vigentes, catálogos canônicos ou decisões do checklist. Sua produção não é obrigatória a cada catalogação; estados e referências de época não substituem as normas atuais.']
+    if (root/'ferramentas/catalogacao_incremental.py').is_file():
+        lines += ['', 'A '+link('manutenção incremental dos catálogos','curadoria/contrato_catalogacao_incremental.md')+' tem mecanismo presente em '+link('ferramentas/catalogacao_incremental.py','ferramentas/catalogacao_incremental.py')+'. O agente inspeciona novos/modificados e fornece fichas verificadas; a ferramenta confronta hashes, preserva fichas inalteradas e prepara DOCX candidato. Isso não é interpretação visual automática nem autorização para substituir catálogos canônicos.']
     return '\n'.join(lines)
 
 
@@ -266,14 +271,17 @@ def local_links(root: Path, text: str) -> list[str]:
     return sorted(set(errors))
 
 
-def git_renames(root: Path, added: set, removed: set) -> list[tuple[str, str]]:
+def git_renames(root: Path, added: set, removed: set, reference: str | None = None) -> list[tuple[str, str]]:
     """Correlaciona somente R documentado pelo Git, sem inferir identidade por nome/hash."""
     if not added or not removed:
         return []
     plus={module+'/'+name for module,name in added}
     minus={module+'/'+name for module,name in removed}
     result=set()
-    for revisions in (['--cached','HEAD'], ['HEAD^','HEAD']):
+    comparisons=[['--cached','HEAD'], ['HEAD^','HEAD']]
+    if reference:
+        comparisons.append([reference,'HEAD'])
+    for revisions in comparisons:
         try:
             proc=subprocess.run(['git','-C',str(root),'diff','--name-status','-z','--find-renames',*revisions],capture_output=True,timeout=10,check=False)
         except (OSError,subprocess.TimeoutExpired):
