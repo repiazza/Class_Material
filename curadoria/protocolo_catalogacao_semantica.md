@@ -1,7 +1,7 @@
 # Protocolo de catalogação semântica autônoma
 
 **Identificador:** `curadoria/catalogacao_semantica`
-**Versão:** `0.1.0`
+**Versão:** `0.1.1`
 **Estado:** PROPOSTO — implementação e pilotos autorizados; protocolo e qualidade dos catálogos sujeitos à avaliação humana.
 **Escopo:** geração e revisão de catálogos DOCX a partir dos materiais originais.
 
@@ -102,6 +102,9 @@ Experimentos devem manter catálogo e laudo acessíveis em área temporária/de 
 Publicação documental segue AGENTS e a instrução da tarefa: commit, push e PR apenas dos arquivos autorizados, sem merge automático. Não incorporar quadros extraídos, cópias redundantes ou artefatos experimentais ao Git quando a tarefa determinar preservação externa. Fornecer links reais para revisão; não presumir acesso, download ou persistência futura do workspace.
 
 ## 9. Revisões e impacto
+
+Para capítulo já catalogado, o padrão é a manutenção localizada do [contrato incremental](contrato_catalogacao_incremental.md), implementada em `ferramentas/catalogacao_incremental.py`. A referência de hashes fica vinculada ao DOCX, sem acrescentar colunas ao inventário. Sem referência confiável, não adotar os hashes atuais como se fossem os da versão catalogada nem reconstruir o capítulo silenciosamente. A catalogação inaugural continua completa. A ferramenta preserva fichas inalteradas; a interpretação efetiva dos novos/modificados permanece responsabilidade do agente e requer inspeção, não geração automática de texto por hash.
+
 
 Revisar a menor unidade afetada e preservar histórico e identidades. Se mudar apenas a descrição, revalidar vínculos dependentes; não regenerar mapas, dossiês, roteiros e vídeos válidos por padrão. Se mudar o original mediante autorização, conferir hash e revisar regiões/descrições realmente afetadas. Distinguir detecção, autorização, implementação e homologação.
 

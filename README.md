@@ -65,8 +65,9 @@ A existência de um protocolo não comprova implementação, demonstração ou h
 
 | Contrato | Versão declarada | Estado declarado na fonte |
 |---|---|---|
+| [Contrato — manutenção incremental dos catálogos semânticos](curadoria/contrato_catalogacao_incremental.md) | Não declarado no cabeçalho; consultar a fonte. | IMPLEMENTADO EM CANDIDATOS — mecanismo, testes e piloto controlado nesta PR; sujeito à revisão humana. Não autoriza alteração automática de catálogos canônicos. |
 | [Contrato técnico de entrega de vídeo](curadoria/contrato_entrega_video.md) | Não declarado no cabeçalho; consultar a fonte. | proposta sujeita à homologação humana. |
-| [Protocolo de catalogação semântica autônoma](curadoria/protocolo_catalogacao_semantica.md) | `0.1.0` | PROPOSTO — implementação e pilotos autorizados; protocolo e qualidade dos catálogos sujeitos à avaliação humana. |
+| [Protocolo de catalogação semântica autônoma](curadoria/protocolo_catalogacao_semantica.md) | `0.1.1` | PROPOSTO — implementação e pilotos autorizados; protocolo e qualidade dos catálogos sujeitos à avaliação humana. |
 | [Protocolo de consolidação editorial](curadoria/protocolo_consolidacao_editorial.md) | `0.1.1` — distinção entre aceitação documental e homologação editorial | PROPOSTO — sujeito à revisão e homologação humana |
 | [Protocolo de Mapeamento Espacial e Autoauditoria Visual](curadoria/protocolo_mapeamento_espacial.md) | Não declarado no cabeçalho; consultar a fonte. | proposta operacional para revisão e homologação humana |
 | [Protocolo de montagem audiovisual](curadoria/protocolo_montagem_audiovisual.md) | Não declarado no cabeçalho; consultar a fonte. | proposta sujeita à homologação humana. |
@@ -107,6 +108,12 @@ A [retroalimentação](curadoria/protocolo_retroalimentacao.md) encaminha incons
 Execute `python ferramentas/reconciliar_documentacao.py` após alterações elegíveis. O modo `--check` verifica divergências sem escrever; o CI utiliza esse modo. Somente `inventario.csv` e os blocos gerados deste README são atualizados. Ambiguidades são informadas; não homologam materiais nem bloqueiam entradas independentes.
 
 Regras, limites e testes: [instruções de execução](ferramentas/README.md). O responsável humano continua decidindo sobre a integração das PRs, as escolhas editoriais e as correções pedagógicas; não há merge automático.
+
+### Histórico avaliativo
+
+As [avaliações históricas](curadoria/avaliacoes/) registram investigações e pilotos. Não são protocolos vigentes, catálogos canônicos ou decisões do checklist. Sua produção não é obrigatória a cada catalogação; estados e referências de época não substituem as normas atuais.
+
+A [manutenção incremental dos catálogos](curadoria/contrato_catalogacao_incremental.md) tem mecanismo presente em [ferramentas/catalogacao_incremental.py](ferramentas/catalogacao_incremental.py). O agente inspeciona novos/modificados e fornece fichas verificadas; a ferramenta confronta hashes, preserva fichas inalteradas e prepara DOCX candidato. Isso não é interpretação visual automática nem autorização para substituir catálogos canônicos.
 <!-- reconciliacao:fim arquitetura -->
 
 ## Princípios editoriais
