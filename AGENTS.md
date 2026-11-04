@@ -12,6 +12,10 @@
 - Os catálogos não substituem os arquivos originais nem comprovam sua correção. Quando a tarefa exigir confirmação visual ou houver dúvida sobre uma descrição, examine o original e os quadros relevantes dos GIFs; informe o que foi efetivamente verificado.
 - Não modifique os catálogos silenciosamente. Divergências documentais objetivas seguem `curadoria/protocolo_retroalimentacao.md`: inspeção do original, proposta verificável e, **somente com autorização explícita de implementação**, correção documental delimitada em PR, sem merge automático. Nunca altere materiais originais para fazê-los corresponder ao catálogo.
 
+### Catalogação semântica autônoma
+
+Quando houver autorização para gerar ou revisar catálogos a partir dos originais, siga `curadoria/protocolo_catalogacao_semantica.md`. A consulta prévia ao catálogo vigente aplica-se à revisão ordinária; em reconstrução experimental com isolamento autorizado, consulte-o somente após congelar o catálogo experimental. Preserve o consumo documental do Motor 1 e os limites de consulta do roteiro individual. Geração e validação não homologam a qualidade pedagógica; escopo de publicação e preservação dos originais seguem a instrução da tarefa.
+
 ### Integridade das referências visuais nos catálogos
 
 - Na criação ou revisão dos catálogos semânticos, confronte as descrições com os arquivos originais, verificando a correspondência entre os elementos didáticos mencionados e aqueles efetivamente presentes nas imagens e GIFs.
