@@ -507,3 +507,132 @@ Mapeamento autorizado do capítulo completo; originais e documentos editoriais p
 - **Estado e impacto:** Marco A demonstrado. Marco B humano/autônomo não concluído; responsável confirmou que ainda não há gravação humana. Teste controlado por enunciados sintéticos não substitui essa demonstração.
 - **Encaminhamento:** avaliar transcrição e associação com a futura gravação humana, preservando o núcleo, as fontes e as renderizações válidas. Reformulações desconhecidas e ressalvas não confirmadas permanecem pendentes; sem correção silenciosa da fala.
 - **Rastreabilidade:** `videos/motor3/RELATORIO.md`, testes e evidências; branch `audiovisual/motor3-nucleo`. Estados e decisões anteriores preservados.
+
+## Pilotos do protocolo de catalogação semântica — capítulos 04 e 13
+
+Implementação do protocolo e pilotos autorizados. Os registros abaixo são encaminhamentos **PENDENTES**, sem aprovação conceitual ou autorização para modificar fontes, catálogos vigentes ou inventário. O novo catálogo é experimental. Não se repetiu a certificação visual nem se alteraram decisões anteriores.
+
+Fontes: checkout `725b9f4`; hashes abaixo. Evidência é o original identificado por painel/região; laudos e catálogos completos estão fora do Git em `/workspace/artifacts/catalogacao-pilotos-04-13/`. P04-001 foi novamente observada em `strtok_execucao_tokens.gif`, quadro 3, aos 9 s, e permanece no registro original, sem novo ID ou mudança de estado.
+
+### C04-P-001 — P — PENDENTE
+
+- **Arquivo:** `04_Argumentos_CommandLine/argc_argv.png`.
+- **Fonte SHA-256:** `7b386a4262cae06b6c3afc8d903c47cadfc9c09a661076d179a538466d7ead7b`.
+- **Evidência:** Painel 6 afirma que argc é sempre pelo menos 1. Em C argc pode ser zero; o exemplo com argc=4 permanece válido.
+- **Encaminhamento proposto:** Deliberar a qualificação da frase, preservando exemplo e vetor.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C04-P-002 — P — PENDENTE
+
+- **Arquivo:** `04_Argumentos_CommandLine/cmdline_standard.png`.
+- **Fonte SHA-256:** `a92a62d71527e5b91dc528953693dda3a97a708a8980fdc69b9d162eab70489e`.
+- **Evidência:** Painel 7 declara char *pszArg = "--limite=100" e passa esse literal a strtok. A função tenta modificar o objeto literal, comportamento indefinido em C.
+- **Encaminhamento proposto:** Deliberar uso de buffer modificável no exemplo, sem implementar a troca.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C04-P-003 — P — PENDENTE
+
+- **Arquivo:** `04_Argumentos_CommandLine/conversao_argumentos.png`.
+- **Fonte SHA-256:** `cd2734f7c1e363c11ff7fc3883d1c0842e6a3e21d91fc7db77feb8960b509feb`.
+- **Evidência:** Painel 3 declara long iA,iB, mas as conversões de argv[1] e argv[2] atribuem a iA. O printf utiliza iB sem inicialização; as saídas desenhadas não validam esse código.
+- **Encaminhamento proposto:** Deliberar revisão da segunda atribuição e verificar apenas os derivados que usam esse código.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C04-P-004 — P — PENDENTE
+
+- **Arquivo:** `04_Argumentos_CommandLine/envp.png`.
+- **Fonte SHA-256:** `0c71ea001364d5c1c3db280afa5c050162edc5433d39a5b11e82990996fb660a`.
+- **Evidência:** Painel 2 chama argc, argv e envp de vetores; argc é inteiro escalar na própria assinatura.
+- **Encaminhamento proposto:** Deliberar ajuste da frase que distingue contagem e vetores, sem alterar o original nesta etapa.
+- **Impacto:** médio. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C04-D-001 — D — PENDENTE
+
+- **Documento afetado:** `04_Argumentos_CommandLine/04_Catalogo_Semantico.docx`, registro `resumo2.png`.
+- **Antes:** “Estrutura C, fluxo argumento → ambiente → padrão, exemplos de execução, validação e representação dos campos configurados em memória.”
+- **Depois proposto:** “Estrutura C, aplicação dos valores na ordem padrão → ambiente → argumentos, com maior prioridade dos argumentos, exemplos de execução, validação e representação dos campos configurados em memória.”
+- **Arquivo:** `04_Argumentos_CommandLine/resumo2.png`.
+- **Fonte SHA-256:** `cb8319c8cdb9179042817ed708921ba2738335582a065e2d2a7ca2be40b487c0`.
+- **Evidência:** Registro vigente diz fluxo argumento → ambiente → padrão; painéis 2 e 3 mostram atribuição padrão → ambiente → argv, com argumentos de maior prioridade.
+- **Encaminhamento proposto:** Proposta documental: distinguir ordem de aplicação padrão→ambiente→argumentos da prioridade argumentos→ambiente→padrão. Catálogo vigente preservado.
+- **Impacto:** médio. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C04-D-002 — D — PENDENTE
+
+- **Documento afetado:** `04_Argumentos_CommandLine/04_Catalogo_Semantico.docx`, registro `typedef.jpeg`.
+- **Antes:** “Quadros com struct, typedef struct, alias para ponteiro, comparação de declarações, exemplo de função e diagrama de memória.”
+- **Depois proposto:** “Quadros com struct e typedef struct, comparação de nomes de tipos, campos, parâmetros e funções pela convenção apresentada; declarações de ponteiros e exemplo de alocação com malloc.” A revisão da etiqueta `estrutura de configuração` permanece proposta separada dentro desta ocorrência, por falta de suporte nesse arquivo.
+- **Arquivo:** `04_Argumentos_CommandLine/typedef.jpeg`.
+- **Fonte SHA-256:** `394dbc1fceb051bdc4a3bfef8ea5ae18d901e514bd01e549b361e0b908f0b6c3`.
+- **Evidência:** Registro vigente menciona alias para ponteiro e diagrama de memória. Original mostra alias de estrutura, declarações de ponteiros e anotações de nomes/alocação; não mostra typedef de ponteiro. Etiqueta estrutura de configuração não é sustentada nesse arquivo específico.
+- **Encaminhamento proposto:** Propor descrição das convenções, alias de estrutura e alocação efetivamente mostrados; reavaliar somente a etiqueta sem suporte. Nenhuma correção aplicada.
+- **Impacto:** médio. **Confiança:** alta para a ausência de typedef de ponteiro; média para a revisão da etiqueta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-001 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/gcc_preprocessor.png`.
+- **Fonte SHA-256:** `41183592c998362bc4f429c7f94cab321e783743fb6129e284028589629196a6`.
+- **Evidência:** Painel -D usa -DUSE_LOG=1, mas o código testa #ifdef USELOG. São identificadores distintos.
+- **Encaminhamento proposto:** Deliberar harmonização do nome da macro, sem alterar o PNG.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-002 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/gcc_preprocessor.png`.
+- **Fonte SHA-256:** `41183592c998362bc4f429c7f94cab321e783743fb6129e284028589629196a6`.
+- **Evidência:** Caixa do painel -I afirma busca apenas nos diretórios padrão sem -I. #include com aspas também pesquisa o diretório do arquivo corrente antes dos demais caminhos pertinentes.
+- **Encaminhamento proposto:** Deliberar qualificação da busca conforme forma de inclusão, sem alterar a imagem.
+- **Impacto:** médio. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-003 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/make2.png`.
+- **Fonte SHA-256:** `716fb52e3f669c84ff25fee070aaa2389a13dda04cf7c62a055f7e07bd834618`.
+- **Evidência:** Quadro Outros exemplos úteis apresenta clean: sem pré-requisitos e receita rm -f $^. Nesse contexto $^ é vazio; os objetos mencionados na legenda não estão listados.
+- **Encaminhamento proposto:** Deliberar exemplo de limpeza coerente com a regra exibida; não executar limpeza nem mudar a fonte.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-004 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/make4.png`.
+- **Fonte SHA-256:** `021965ccac7ce7f3fff42e7cd8da834a6d079138ec303728e9905f6bd2eaf1ca`.
+- **Evidência:** Árvore põe os fontes em src/, enquanto o Makefile usa %.o: %.c, sem src/ ou VPATH. A regra genérica é válida em outro arranjo, mas não demonstra localizar esses fontes.
+- **Encaminhamento proposto:** Deliberar consistência entre árvore e pré-requisito da regra.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-005 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/make7.png`.
+- **Fonte SHA-256:** `2800f6a1d5a2d75934efdfb3b6dd30f504c767bc434e06bc65716877402820a8`.
+- **Evidência:** Código dito completo tem -MMD -MP, mas não inclui os .d nem cria obj/bin. Após touch include/calc.h, terminal recompila só calc.o, embora o grafo associe calc.h também a main.c. Gabarito B contém -include e criação de diretórios.
+- **Encaminhamento proposto:** Deliberar revisão localizada da completude e do terminal; preservar imagem, gabaritos e demais artefatos até autorização.
+- **Impacto:** alto. **Confiança:** alta.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-006 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/make_scripts.png`.
+- **Fonte SHA-256:** `fc4988ddb347e4224ea473450d61f1358c61e82d2d36387bd98862ae6c1229ad`.
+- **Evidência:** Scripts trocam CONFIG/CFLAGS, mantêm obj/bin e chamam make all. O trecho não declara dependência da configuração; mudar flags isoladamente não garante reconstruir objetos, apesar da sequência desenhada.
+- **Encaminhamento proposto:** Deliberar tratamento da mudança de configuração ou qualificação do exemplo; não introduzir outro sistema de build nesta tarefa.
+- **Impacto:** alto. **Confiança:** alta para o trecho mostrado; regras estão abreviadas.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+### C13-P-007 — P — PENDENTE
+
+- **Arquivo:** `13_Compilacao_Makefile/gcc_flags2.png`.
+- **Fonte SHA-256:** `577ae9aa90d670545f2480e2314d8d242cbbf192dc97febf68953bcebc91f00e`.
+- **Evidência:** Painel biblioteca estática diz não depender de outros arquivos para rodar. Isso não garante que o executável inteiro deixe de depender de outras bibliotecas compartilhadas.
+- **Encaminhamento proposto:** Avaliar qualificação para o vínculo estático específico, preservando o contraste .a/.so.
+- **Impacto:** médio. **Confiança:** alta para a limitação técnica; média para a leitura pretendida da frase.
+- **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
