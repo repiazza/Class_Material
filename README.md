@@ -139,7 +139,7 @@ Diretórios de capítulos são descobertos na raiz. A identificação abaixo usa
 
 | Diretório | Identificação do capítulo | Entradas no índice | Catálogo canônico |
 |---|---|---:|---|
-| [01_Logica_e_Raciocinio](01_Logica_e_Raciocinio/) | Lógica e Raciocínio | 15 | [01_Catalogo_Semantico.docx](01_Logica_e_Raciocinio/01_Catalogo_Semantico.docx) |
+| [01_Logica_e_Raciocinio](01_Logica_e_Raciocinio/) | Lógica e Raciocínio | 17 | [01_Catalogo_Semantico.docx](01_Logica_e_Raciocinio/01_Catalogo_Semantico.docx) |
 | [02_Sistemas_de_Numeracao](02_Sistemas_de_Numeracao/) | Sistemas de Numeração | 15 | [02_Catalogo_Semantico.docx](02_Sistemas_de_Numeracao/02_Catalogo_Semantico.docx) |
 | [03_Operacoes_Bitwise](03_Operacoes_Bitwise/) | Operações Bitwise | 21 | [03_Catalogo_Semantico.docx](03_Operacoes_Bitwise/03_Catalogo_Semantico.docx) |
 | [04_Argumentos_CommandLine](04_Argumentos_CommandLine/) | Argumentos CommandLine | 36 | [04_Catalogo_Semantico.docx](04_Argumentos_CommandLine/04_Catalogo_Semantico.docx) |
@@ -157,7 +157,7 @@ Diretórios de capítulos são descobertos na raiz. A identificação abaixo usa
 <!-- reconciliacao:inicio inventario -->
 ## Localização dos materiais
 
-O [inventario.csv](inventario.csv) contém **280 entradas** em **13 capítulos**: **268 materiais didáticos** e **12 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
+O [inventario.csv](inventario.csv) contém **282 entradas** em **13 capítulos**: **270 materiais didáticos** e **12 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
 
 São elegíveis materiais PNG, JPG/JPEG, GIF, Markdown, fontes C, headers e pacotes ZIP nas áreas de materiais dos capítulos, além de `NN_Catalogo_Semantico.docx` canônico. O ZIP é uma entrada física, sem promover membros internos. A existência física não depende de homologação semântica.
 
