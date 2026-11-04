@@ -16,6 +16,14 @@
 
 Quando houver autorização para gerar ou revisar catálogos a partir dos originais, siga `curadoria/protocolo_catalogacao_semantica.md`. A consulta prévia ao catálogo vigente aplica-se à revisão ordinária; em reconstrução experimental com isolamento autorizado, consulte-o somente após congelar o catálogo experimental. Preserve o consumo documental do Motor 1 e os limites de consulta do roteiro individual. Geração e validação não homologam a qualidade pedagógica; escopo de publicação e preservação dos originais seguem a instrução da tarefa.
 
+### Reconciliação documental autônoma
+
+Após inclusão, remoção ou renomeação de materiais, publicação de catálogo ou alteração de contratos/componentes, execute `python ferramentas/reconciliar_documentacao.py` e confira `python ferramentas/reconciliar_documentacao.py --check` antes de publicar o trabalho. Consulte `ferramentas/README.md`. A capacidade é independente da catalogação; a existência física não espera homologação semântica.
+
+Há autorização permanente para manter `inventario.csv` e os blocos gerados do `README.md` coerentes com as fontes, sem aprovação individual por atualização. Essa autorização é exceção documental às regras gerais de deliberação; não abrange materiais, catálogos, vocabulário, relações, contratos dos motores ou decisões do checklist. Respeite restrições expressas da tarefa, como “apenas pull”, e não modifique silenciosamente PRs alheias.
+
+Preserve texto editorial/histórico fora dos blocos. Confira avisos e mudanças arquiteturais contra contratos e evidências: estados declarados não equivalem à homologação, e presença de arquivo não comprova capacidade demonstrada. Atualize autonomamente README/inventário quando a divergência for objetiva; registre ambiguidades sem inventar correspondências ou decisões. Para responsabilidades novas não expressas pelos indicadores estruturados, faça análise documental e encaminhe somente a dúvida efetiva, sem exigir aprovação para os registros independentes. Commit, push e PR seguem a execução autorizada; merge continua humano.
+
 ### Integridade das referências visuais nos catálogos
 
 - Na criação ou revisão dos catálogos semânticos, confronte as descrições com os arquivos originais, verificando a correspondência entre os elementos didáticos mencionados e aqueles efetivamente presentes nas imagens e GIFs.
