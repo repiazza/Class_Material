@@ -1,0 +1,19 @@
+name: Reconciliação documental
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Testes com fixtures temporárias
+        run: python -B -m unittest discover -s ferramentas/tests -v
+      - name: Conferir inventário, README e links
+        run: python -B ferramentas/reconciliar_documentacao.py --check
