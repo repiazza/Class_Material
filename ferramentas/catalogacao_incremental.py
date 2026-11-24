@@ -343,7 +343,7 @@ def new_record(name,item,old=None,title_template=None):
     terms=item['palavras_chave']
     if not isinstance(terms,list) or any(not isinstance(t,str) or not t.strip() for t in terms) or len(terms)!=len(set(terms)):
         raise Bloqueio('Etiquetas inválidas: '+name)
-    if old and (item.get('anterior_sha256')!=old['sha256'] or not item.get('justificativa')):
+    if old and (item.get('anterior_sha256')!=old['sha256'] or not isinstance(item.get('justificativa'), str) or not item['justificativa'].strip()):
         raise Bloqueio('Revisão requer ficha anterior exata e justificativa: '+name)
     header=paragraph(name,title_template)
     nodes=[header,paragraph('Conteúdo apresentado. '+item['conteudo']),paragraph('Representação e exemplos. '+item['representacao'])]
@@ -352,15 +352,26 @@ def new_record(name,item,old=None,title_template=None):
     return {'nodes':nodes,'terms':terms,'sha256':digest(nodes)}
 
 
-def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None):
+def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None,*,revisao=False):
     output_guard(root,module,catalog_path,output)
     reader=reader or Leituras();p=plan(root,module,catalog_path,reader)
     if not isinstance(packet,dict) or not isinstance(packet.get('fichas'),dict):raise Bloqueio('Pacote deve conter fichas indexadas por identidade.')
     if packet.get('catalogo_sha256')!=p['catalogo_sha256']:
         raise Bloqueio('Pacote de interpretação não corresponde ao catálogo planejado.')
-    changed={k for k,s in p['estados'].items() if s in {'novo','modificado'}}
-    if set(packet.get('fichas',{}))!=changed:
-        raise Bloqueio('Pacote deve cobrir exatamente novos/modificados; inalterados proibidos.')
+    changed = set(packet['fichas'])
+    deferred = packet.get('adiados', {})
+    if revisao:
+        if any(p['estados'].get(key) != 'inalterado' for key in changed) or deferred != {}:
+            raise Bloqueio('Revisão semântica aceita somente fichas de originais inalterados.')
+        renames = []
+    else:
+        required = {key for key, state in p['estados'].items() if state in {'novo', 'modificado'}}
+        if (not isinstance(deferred, dict)
+                or any(not isinstance(reason, str) or not reason.strip() for reason in deferred.values())
+                or changed.intersection(deferred) or changed.union(deferred) != required):
+            raise Bloqueio('Pacote deve cobrir exatamente novos/modificados com fichas ou adiamentos justificados; inalterados proibidos.')
+        renames = p['renomeacoes']
+    revisions = {}
     reader.permitidos=changed
     cat=Catalogo(catalog_path);base=cat.evidence();records=deepcopy(cat.records)
     definitions={k:v['definition'] for k,v in cat.gloss.items()}
@@ -374,14 +385,22 @@ def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None):
         item=interpreter(identity,data,packet['fichas'][identity],records.get(name)) if interpreter else packet['fichas'][identity]
         if sha(data)!=p['hashes_atuais'][identity] or item.get('sha256_observado')!=sha(data):
             raise Bloqueio('Material mudou entre planejamento e inspeção: '+identity)
-        record=new_record(name,item,records.get(name),next(iter(records.values()))['nodes'][0])
+        previous = records.get(name)
+        record=new_record(name,item,previous,next(iter(records.values()))['nodes'][0])
+        if revisao:
+            revisions[identity] = {
+                'original_sha256': p['hashes_atuais'][identity],
+                'anterior_sha256': previous['sha256'],
+                'justificativa': item['justificativa'],
+                'evidencia': item['evidencia'],
+            }
         for term in record['terms']:
             if term not in definitions:
                 if term in master:definitions[term]=master[term]
                 elif term in proposed and proposed[term]:definitions[term]='PROPOSTA LOCAL — PENDENTE DE HOMOLOGAÇÃO. '+proposed[term]
                 else:raise Bloqueio('Etiqueta sem definição fundamentada: '+term)
         records[name]=record
-    for rename in p['renomeacoes']:
+    for rename in renames:
         old,new=rename['origem'].split('/',1)[1],rename['destino'].split('/',1)[1]
         replacement={}
         for name,r in records.items():
@@ -394,14 +413,14 @@ def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None):
                         t.text=re.sub(r'(?<![\w./-])'+re.escape(old)+r'(?![\w./-])',lambda _:new,t.text)
             replacement[name]=r
         records=replacement
-    # Sem mudanças físicas resolúveis, manter bytes inclusive na presença de pendências.
-    if not changed and not p['renomeacoes']:
+    # Sem fichas ou identidades a ajustar, preservar os bytes do candidato.
+    if not changed and not renames:
         candidate(output,catalog_path)
         if Path(output).resolve()!=Path(catalog_path).resolve():
             payload=Path(catalog_path).read_bytes()
             if not Path(output).exists() or Path(output).read_bytes()!=payload:
                 Path(output).parent.mkdir(parents=True,exist_ok=True);Path(output).write_bytes(payload)
-        return {**p,'alterado':False,'leituras':reader.eventos,'interpretacoes':0,'impacto':[]}
+        return {**p,'alterado':False,'leituras':reader.eventos,'interpretacoes':0,'impacto':[],'adiados':deferred,'revisoes_semanticas':revisions}
     rev={}
     for name,r in records.items():
         for term in r['terms']:rev.setdefault(term,[]).append(name)
@@ -443,18 +462,20 @@ def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None):
     nodes=prefix+[n for r in records.values() for n in r['nodes']]+[deepcopy(cat.nodes[cat.gloss_start])]+deepcopy(cat.gloss_prefix)+gloss_nodes+deepcopy(cat.tail)
     for node in nodes:body.append(node)
     tree=deepcopy(cat.tree);tree.remove(tree.find(W+'body'));tree.append(body)
-    for identity in changed:base['materiais'][identity]=p['hashes_atuais'][identity]
-    for rename in p['renomeacoes']:
+    if not revisao:
+        for identity in changed:base['materiais'][identity]=p['hashes_atuais'][identity]
+    for rename in renames:
         del base['materiais'][rename['origem']];base['materiais'][rename['destino']]=p['hashes_atuais'][rename['destino']]
     # Validar a preservação antes de gravar: manter o contexto de namespaces do corpo.
     expected_tree=deepcopy(cat.tree)
     expected_body=expected_tree.find(W+'body')
+    renamed_origins = {entry['origem'] for entry in renames}
     def validate_preservation(after):
         for name,r in cat.records.items():
             identity=module+'/'+name
-            if p['estados'].get(identity)!='inalterado':continue
+            if identity in changed or identity in renamed_origins:continue
             expected=[expected_body[cat.nodes.index(node)] for node in r['nodes']]
-            for rename in p['renomeacoes']:
+            for rename in renames:
                 old,new=rename['origem'].split('/',1)[1],rename['destino'].split('/',1)[1]
                 for node in expected:
                     for t in node.iter(W+'t'):
@@ -463,15 +484,17 @@ def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None):
                 raise Bloqueio('Preservação da ficha falhou: '+identity)
     save(cat,output,base,xml(tree),validator=validate_preservation)
     after=Catalogo(output);after.evidence()
+    for identity, revision in revisions.items():
+        revision['posterior_sha256'] = after.records[identity.split('/', 1)[1]]['sha256']
     # Relação por etiquetas é candidato a impacto, nunca nova RC homologada.
     terms_changed=set(t for key in changed for t in records[key.split('/',1)[1]]['terms'])
     impact=[name for name,r in cat.records.items() if module+'/'+name not in changed and terms_changed.intersection(r['terms'])]
-    return {**p,'alterado':True,'interpretacoes':len(changed),'leituras':reader.eventos,'impacto':impact,'impacto_natureza':'coocorrência documental para avaliação; não prova relação pedagógica','propostas_terminologicas_pendentes':list(proposed),'docx_integro':True,'glossario_reverso_exatos':True,'referencias_fisicas_validas':not bool(p['ausentes_pendentes']),'fichas':len(after.records)}
+    return {**p,'alterado':True,'adiados':deferred,'revisoes_semanticas':revisions,'interpretacoes':len(changed),'leituras':reader.eventos,'impacto':impact,'impacto_natureza':'coocorrência documental para avaliação; não prova relação pedagógica','propostas_terminologicas_pendentes':list(proposed),'docx_integro':True,'glossario_reverso_exatos':True,'referencias_fisicas_validas':not bool(p['ausentes_pendentes']),'fichas':len(after.records)}
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('operacao',choices=['validar','baseline','planejar','aplicar'])
+    parser.add_argument('operacao',choices=['validar','baseline','planejar','aplicar','revisar'])
     parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1])
     parser.add_argument('--modulo')
     parser.add_argument('--catalogo',type=Path,required=True)
@@ -483,7 +506,7 @@ def main():
     args=parser.parse_args()
     try:
         if args.operacao != 'validar' and not args.modulo:
-            parser.error('--modulo é obrigatório para baseline, planejar e aplicar.')
+            parser.error('--modulo é obrigatório para baseline, planejar, aplicar e revisar.')
         if args.operacao == 'validar':
             catalog = Catalogo(args.catalogo)
             result = {'fichas': len(catalog.records), 'termos': len(catalog.gloss)}
@@ -493,7 +516,7 @@ def main():
         elif args.operacao=='planejar':result=plan(args.root,args.modulo,args.catalogo)
         else:
             if not args.saida or not args.fichas:raise Bloqueio('Aplicação exige --saida e --fichas inspecionadas pelo agente.')
-            result=apply(args.root,args.modulo,args.catalogo,json.loads(args.fichas.read_text(encoding='utf-8')),args.saida)
+            result=apply(args.root,args.modulo,args.catalogo,json.loads(args.fichas.read_text(encoding='utf-8')),args.saida,revisao=args.operacao=='revisar')
         payload=json.dumps(result,ensure_ascii=False,indent=2)
         if args.relatorio:
             candidate(args.relatorio,args.catalogo)

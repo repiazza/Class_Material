@@ -16,7 +16,7 @@ Este protocolo aplica-se à curadoria documental, ao mapeamento espacial e, futu
 
 | Classe | Identificação | Conduta |
 | --- | --- | --- |
-| **D — Divergência documental objetiva** | A descrição afirma que um elemento aparece em determinado arquivo, mas a inspeção do arquivo real demonstra o contrário; ou há troca inequívoca de referências entre arquivos. | Produzir proposta de correção **do documento**, com antes/depois e evidência. Se a execução estiver autorizada, preparar a alteração em branch/PR; **não integrar sem aprovação humana**. |
+| **D — Divergência documental objetiva** | A descrição afirma que um elemento aparece em determinado arquivo, mas a inspeção do arquivo real demonstra o contrário; há troca inequívoca de referências entre arquivos; ou a ficha omite conteúdo verificável cuja ausência compromete a compreensão ou o uso documental. | Produzir proposta de correção **do documento**, com antes/depois e evidência. Se a execução estiver autorizada, preparar a alteração em branch/PR; **não integrar sem aprovação humana**. |
 | **P — Inconsistência pedagógica ou defeito do original** | Erro matemático, conceito incorreto, texto encoberto no original, ambiguidade de exemplo ou decisão didática. | Registrar e encaminhar à curadoria geradora. **Não alterar o material original automaticamente** nem escolher interpretação pedagógica sem deliberação. |
 | **V — Ressalva visual prevista** | Visão integral pequena em 9:16, margens de segurança, espaço vazio ou pequeno fragmento de quadro vizinho, desde que o conteúdo essencial e sua legibilidade estejam preservados conforme o protocolo espacial. | Registrar como observação, se útil. **Não bloquear, reprovar ou “otimizar” compulsivamente o recorte.** |
 | **G — Defeito geométrico efetivo** | Corte de palavra, expressão, borda necessária, legenda ou relação visual; distorção; projeção incorreta. | Retornar à curadoria espacial e corrigir conforme `protocolo_mapeamento_espacial.md`; renderizar e reinspecionar. |
@@ -25,7 +25,7 @@ Este protocolo aplica-se à curadoria documental, ao mapeamento espacial e, futu
 
 ## 3. Verificação antes de propor correção documental
 
-1. Identificar capítulo, nome **exato** do arquivo, registro do catálogo e afirmação questionada.
+1. Identificar capítulo, nome **exato** do arquivo, registro do catálogo e afirmação questionada ou informação ausente.
 2. Abrir o arquivo original correspondente; para GIFs, examinar os estados relevantes. Conferir se não houve confusão entre PNG e GIF de nomes semelhantes.
 3. Comparar a afirmação documental com o conteúdo efetivamente exibido; consultar o vocabulário e outras referências pertinentes somente quando necessário.
 4. Determinar se a divergência é **objetiva e inequívoca**. Se houver dúvida sobre intenção pedagógica, classificar como **P**, não como **D**.
@@ -49,8 +49,7 @@ Usar `curadoria/checklist.md` como registro de deliberação, conforme `AGENTS.m
 ## 5. Autonomia, aprovação e Git
 
 - A detecção, inspeção, classificação, elaboração de proposta e análise de impacto são autônomas dentro da tarefa autorizada.
-- **Sem autorização para editar o catálogo**, preparar a proposta e pedir deliberação; não alterar arquivos persistentes.
-- **Com autorização explícita para implementar correções documentais objetivas**, o Codex pode aplicar a mudança delimitada, validar o DOCX e abrir PR conforme `AGENTS.md`, **sem merge**. O PR é proposta de integração, não aprovação humana.
+- Dentro de uma operação de manutenção ou revisão conforme `AGENTS.md`, aplique em candidato a correção documental objetiva ou a complementação de omissão relevante demonstrada na ficha. Valide o DOCX e abra PR para revisão humana. Em tarefas de leitura ou fora do escopo da operação, registre a proposta para deliberação.
 - Modificações pedagógicas dos originais, mudanças de exemplos conceituais e decisões editoriais continuam exigindo aprovação específica.
 - Não usar uma correção documental como pretexto para modificar PNGs, GIFs, mapas ou roteiros fora do escopo.
 - Quando houver alterações independentes de governança e de conteúdo, preferir PRs de escopo separado. Não reescrever histórico ou refazer PR válida apenas para agregar o novo procedimento.

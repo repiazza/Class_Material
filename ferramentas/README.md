@@ -49,7 +49,7 @@ O reconciliador físico continua independente e sem dependências externas. O mo
 python -m pip install -r ferramentas/requirements-catalogacao.txt
 ```
 
-Em capítulo já catalogado, primeiro execute a reconciliação e planeje o delta. O catálogo precisa conter baseline vinculada às suas partes e à referência dos materiais. Sem ela, a operação informa `BASELINE_AUSENTE` antes de ler os originais; não inicia recatalogação integral.
+Em capítulo já catalogado, primeiro execute a reconciliação e planeje o delta. O catálogo precisa conter baseline vinculada às suas partes e à referência dos materiais. Sem ela, a operação informa `BASELINE_AUSENTE` antes de ler os originais. Recupere a referência pelo histórico antes de aplicar fichas.
 
 Exemplo de estabelecimento controlado em candidato externo, com revisão Git explícita que contenha o mesmo catálogo e seus materiais:
 
@@ -58,15 +58,27 @@ python ferramentas/catalogacao_incremental.py baseline --root . --modulo 12_Orga
 python ferramentas/catalogacao_incremental.py planejar --root . --modulo 12_Organizacao_Computadores --catalogo /workspace/artifacts/catalogacao-incremental/baseline.docx --relatorio /workspace/artifacts/catalogacao-incremental/plano.json
 ```
 
-O agente examina apenas materiais classificados como `novo` ou `modificado`. Fichas inalteradas são reutilizadas do DOCX. Um pacote JSON efêmero de entrada contém `catalogo_sha256` e `fichas`, indexadas por `modulo/arquivo`. Cada ficha fornece `conteudo`, `representacao`, `palavras_chave` (lista), `evidencia`, `sha256_observado` e, quando pertinente, `ressalvas`. Para modificação, exige também `anterior_sha256` (digest do bloco da ficha, disponível no plano) e `justificativa`. Isso vincula o confronto à versão anterior; não prova sozinho que a interpretação está correta.
+Para um catálogo inaugural, valide o DOCX com `validar --catalogo CAMINHO`. Na branch de trabalho, registre um commit local com o DOCX no caminho canônico e com os mesmos bytes dos originais inspecionados no snapshot Git. Confronte os hashes dos originais inspecionados com os desse commit. Use essa revisão explícita em `baseline` para criar o candidato externo, valide e planeje sobre ele. Substitua então o DOCX da branch pelo candidato com baseline, reconcilie a documentação e publique a versão final em PR. Mantenha a referência no histórico alcançável da branch do catálogo. Se a integração usar squash, preserve a revisão de referência por um ref Git durável ou mantenha o commit referenciado na integração, pois ele sustenta a detecção histórica de renomeações.
+
+O agente examina apenas materiais classificados como `novo` ou `modificado`. Fichas inalteradas são reutilizadas do DOCX. Um pacote JSON efêmero de entrada contém `catalogo_sha256` e `fichas`, indexadas por `modulo/arquivo`. Cada ficha fornece `conteudo`, `representacao`, `palavras_chave` (lista), `evidencia`, `sha256_observado` e, quando pertinente, `ressalvas`. Para modificação ou revisão deliberada, exige também `anterior_sha256` (digest do bloco da ficha, disponível no plano) e `justificativa`. Isso vincula o confronto à versão anterior; não prova sozinho que a interpretação está correta.
 
 ```bash
 python ferramentas/catalogacao_incremental.py aplicar --root . --modulo 12_Organizacao_Computadores --catalogo /workspace/artifacts/catalogacao-incremental/baseline.docx --fichas /workspace/artifacts/catalogacao-incremental/fichas-inspecionadas.json --saida /workspace/artifacts/catalogacao-incremental/candidato.docx --relatorio /workspace/artifacts/catalogacao-incremental/resultado.json
 ```
 
+Para adiar um material novo ou modificado por limitação localizada, inclua `adiados` no pacote de `aplicar`, com as identidades adiadas e uma justificativa textual não vazia por identidade. Cubra todo o delta novo/modificado com fichas ou adiamentos, sem sobreposição. Os adiamentos ficam no relatório e reaparecem no próximo plano.
+
+Em revisão deliberada, use o mesmo formato de fichas, selecionando exclusivamente as correções demonstradas de originais classificados como `inalterado`. Use `anterior_sha256` da ficha no plano corrente, `sha256_observado` do original inspecionado e `justificativa` da mudança. Execute:
+
+```bash
+python ferramentas/catalogacao_incremental.py revisar --modulo NN_Capitulo --catalogo /tmp/base.docx --fichas /tmp/revisao.json --saida /tmp/revisado.docx --relatorio /tmp/revisao-relatorio.json
+```
+
+Use `validar` e `planejar` sobre a saída antes de publicar. A revisão preserva os hashes físicos e a procedência. O relatório `revisoes_semanticas` identifica a ficha, os digests anterior e posterior, o hash físico, a justificativa e a evidência. Registre na PR as evidências e os digests das fichas corrigidas. Com zero correções, preserve a versão canônica e relate a conclusão.
+
 Esse pacote é insumo transitório de uma aplicação, não outra base de fichas. O DOCX continua a fonte semântica; a evidência de hashes fica dentro dele, sem novas colunas CSV. Termos existentes reutilizam definições do catálogo/mestre; `termos_locais_propostos` pode fornecer definições fundamentadas de etiquetas ausentes do mestre, marcadas como pendentes no candidato, sem alteração do vocabulário ou das RC.
 
-Os eventos `hash_binario` e `interpretacao_solicitada` separam integridade de interpretação. Um adaptador `interpreter` pode ser fornecido à API para testes/orquestração; na CLI, a ficha vem da inspeção registrada pelo agente. O motor não interpreta automaticamente PNG/GIF e não certifica que um texto de evidência fornecido é verdadeiro. A inspeção efetiva continua obrigatória para novos/modificados.
+Os eventos `hash_binario` e `interpretacao_solicitada` separam integridade de interpretação. Um adaptador `interpreter` pode ser fornecido à API para testes/orquestração; na CLI, a ficha vem da inspeção registrada pelo agente. O motor não interpreta automaticamente PNG/GIF e não certifica que um texto de evidência fornecido é verdadeiro. A inspeção efetiva é obrigatória para novos/modificados e para o escopo de revisão deliberada.
 
 Sem mudanças resolúveis, não há interpretação nem reescrita do documento. Material removido fica pendente sem excluir ficha; um novo material independente pode ser aplicado no mesmo candidato. Renomeação exige `R` do Git e SHA-256 idêntico; reutiliza a correlação do reconciliador, incluindo o intervalo entre a referência Git da baseline e o HEAD. O resultado identifica mudanças normativas separadas e coocorrências para análise de impacto, sem atribuir dependência pedagógica ou modificar fontes.
 
