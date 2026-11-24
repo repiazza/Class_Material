@@ -65,9 +65,9 @@ A existência de um protocolo não comprova implementação, demonstração ou h
 
 | Contrato | Versão declarada | Estado declarado na fonte |
 |---|---|---|
-| [Contrato — manutenção incremental dos catálogos semânticos](curadoria/contrato_catalogacao_incremental.md) | Não declarado no cabeçalho; consultar a fonte. | IMPLEMENTADO EM CANDIDATOS — mecanismo, testes e piloto controlado nesta PR; sujeito à revisão humana. Não autoriza alteração automática de catálogos canônicos. |
+| [Contrato — manutenção incremental dos catálogos semânticos](curadoria/contrato_catalogacao_incremental.md) | Não declarado no cabeçalho; consultar a fonte. | Implementado para candidatos DOCX. O agente publica alterações canônicas em PR no escopo de manutenção definido em AGENTS.md. |
 | [Contrato técnico de entrega de vídeo](curadoria/contrato_entrega_video.md) | Não declarado no cabeçalho; consultar a fonte. | proposta sujeita à homologação humana. |
-| [Protocolo de catalogação semântica autônoma](curadoria/protocolo_catalogacao_semantica.md) | `0.1.1` | PROPOSTO — implementação e pilotos autorizados; protocolo e qualidade dos catálogos sujeitos à avaliação humana. |
+| [Protocolo de catalogação semântica autônoma](curadoria/protocolo_catalogacao_semantica.md) | `0.2.0` | Operação permanente no escopo autorizado por AGENTS.md, com entrega para revisão humana. |
 | [Protocolo de consolidação editorial](curadoria/protocolo_consolidacao_editorial.md) | `0.1.1` — distinção entre aceitação documental e homologação editorial | PROPOSTO — sujeito à revisão e homologação humana |
 | [Protocolo de Mapeamento Espacial e Autoauditoria Visual](curadoria/protocolo_mapeamento_espacial.md) | Não declarado no cabeçalho; consultar a fonte. | proposta operacional para revisão e homologação humana |
 | [Protocolo de montagem audiovisual](curadoria/protocolo_montagem_audiovisual.md) | Não declarado no cabeçalho; consultar a fonte. | proposta sujeita à homologação humana. |
@@ -115,6 +115,12 @@ As [avaliações históricas](curadoria/avaliacoes/) registram investigações e
 
 A [manutenção incremental dos catálogos](curadoria/contrato_catalogacao_incremental.md) tem mecanismo presente em [ferramentas/catalogacao_incremental.py](ferramentas/catalogacao_incremental.py). O agente inspeciona novos/modificados e fornece fichas verificadas; a ferramenta confronta hashes, preserva fichas inalteradas e prepara DOCX candidato. Isso não é interpretação visual automática nem autorização para substituir catálogos canônicos.
 <!-- reconciliacao:fim arquitetura -->
+
+## Manutenção do acervo
+
+A manutenção coordena a reconciliação física com o trabalho semântico do agente. Um capítulo sem catálogo segue a catalogação inaugural. Um capítulo catalogado segue a manutenção incremental de materiais novos ou modificados, incluindo pendências preexistentes. Uma revisão semântica deliberada, quando solicitada, confronta fichas com os originais e corrige omissões relevantes ou divergências demonstradas mesmo com SHA-256 físico inalterado. Lacunas localizadas são registradas e o trabalho independente prossegue.
+
+O reconciliador físico permanece independente da interpretação. O agente inspeciona os originais, prepara os candidatos, valida e entrega as alterações em PR. Os limites da autorização e as decisões reservadas ao responsável humano estão nas [regras operacionais](AGENTS.md). Os critérios de conteúdo e aplicação estão no [protocolo semântico](curadoria/protocolo_catalogacao_semantica.md) e no [contrato incremental](curadoria/contrato_catalogacao_incremental.md).
 
 ## Princípios editoriais
 

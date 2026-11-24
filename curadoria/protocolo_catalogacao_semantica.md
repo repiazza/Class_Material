@@ -1,8 +1,8 @@
 # Protocolo de catalogação semântica autônoma
 
 **Identificador:** `curadoria/catalogacao_semantica`
-**Versão:** `0.1.1`
-**Estado:** PROPOSTO — implementação e pilotos autorizados; protocolo e qualidade dos catálogos sujeitos à avaliação humana.
+**Versão:** `0.2.0`
+**Estado:** Operação permanente no escopo autorizado por AGENTS.md, com entrega para revisão humana.
 **Escopo:** geração e revisão de catálogos DOCX a partir dos materiais originais.
 
 ## 1. Finalidade e fronteiras
@@ -109,9 +109,23 @@ Publicação documental segue AGENTS e a instrução da tarefa: commit, push e P
 
 ## 9. Revisões e impacto
 
-Para capítulo já catalogado, o padrão é a manutenção localizada do [contrato incremental](contrato_catalogacao_incremental.md), implementada em `ferramentas/catalogacao_incremental.py`. A referência de hashes fica vinculada ao DOCX, sem acrescentar colunas ao inventário. Sem referência confiável, não adotar os hashes atuais como se fossem os da versão catalogada nem reconstruir o capítulo silenciosamente. A catalogação inaugural continua completa. A ferramenta preserva fichas inalteradas; a interpretação efetiva dos novos/modificados permanece responsabilidade do agente e requer inspeção, não geração automática de texto por hash.
+### Modalidades operacionais
 
+- **Inaugural:** descubra todos os materiais elegíveis do capítulo sem catálogo, inspecione os originais, elabore as fichas e construa glossário e índice reverso. Valide cobertura, estrutura e suficiência para o Motor 1. Documente as lacunas localizadas e estabeleça a referência Git da versão efetivamente catalogada antes de publicar, conforme o [procedimento da ferramenta](../ferramentas/README.md#catalogação-incremental).
+- **Incremental:** em capítulo já catalogado, planeje por identidade e SHA-256 com o [contrato incremental](contrato_catalogacao_incremental.md). Inspecione novos e modificados, preserve inalterados, trate renomeações comprovadas e registre ausências e adiamentos. Sem referência confiável, recupere-a pelo histórico ou registre o bloqueio localizado. Uma adição preexistente sem ficha é elegível à manutenção.
+- **Revisão deliberada:** quando solicitada, confronte as fichas do escopo com os originais, inclusive quando o hash físico for igual. Avalie fidelidade, correção técnica, suficiência para o Motor 1, exemplos, comandos e código, representações, transições dos GIFs, etiquetas, definições locais e sustentação das relações mencionadas. Preserve fichas adequadas e corrija somente o que a evidência demonstrar. Se houver também diferenças físicas, trate-as pelo incremental e planeje novamente sobre o candidato resultante antes de aplicar correções deliberadas às fichas de originais inalterados.
+
+### Critérios de revisão deliberada
+
+| Constatação | Ação |
+|---|---|
+| Ficha fiel, correta e suficiente, inclusive quando há enriquecimento opcional | Preservar integralmente. Uma revisão sem correções é um resultado válido. |
+| Omissão relevante para compreender ou reutilizar o material, divergência da representação ou erro técnico na descrição | Aplicar o encaminhamento documental do protocolo de retroalimentação. Complementar ou corrigir somente a parte demonstrada, com evidência e justificativa. |
+| Ambiguidade de intenção pedagógica ou erro do original | Registrar e encaminhar à deliberação responsável, preservando o original. |
+| Evidência insuficiente ou inspeção limitada | Registrar a lacuna e a limitação. Adiar a ficha quando necessário e prosseguir com os materiais independentes. |
+
+Use as classificações e os estados do [protocolo de retroalimentação](protocolo_retroalimentacao.md) e do checklist. O procedimento técnico da revisão usa a operação `revisar` no candidato, com digest da ficha anterior, hash observado do original e justificativa. Registre na PR as evidências, alterações e pendências relevantes.
 
 Revisar a menor unidade afetada e preservar histórico e identidades. Se mudar apenas a descrição, revalidar vínculos dependentes; não regenerar mapas, dossiês, roteiros e vídeos válidos por padrão. Se mudar o original mediante autorização, conferir hash e revisar regiões/descrições realmente afetadas. Distinguir detecção, autorização, implementação e homologação.
 
-A primeira adoção deve ser avaliada por pilotos. A conformidade com este documento não constitui prova de precisão geral, nem transforma aprovação da PR do protocolo em homologação dos catálogos experimentais.
+Os pilotos e as operações publicadas documentam o comportamento observado. A precisão do catálogo e sua homologação pedagógica são avaliadas na revisão humana de cada entrega.

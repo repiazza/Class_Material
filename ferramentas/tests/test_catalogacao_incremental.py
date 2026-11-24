@@ -172,6 +172,67 @@ class IncrementalTest(unittest.TestCase):
         with self.assertRaisesRegex(c.Bloqueio,'inalterados proibidos'):c.apply(self.root,self.module,self.initial,self.packet(self.initial,**{'a.png':self.item('a.png')}),self.root/'erro.docx')
         with self.assertRaises(c.Bloqueio):c.Leituras().inspect(self.a,'01_Teste/a.png')
 
+    def test_revisao_deliberada_preserva_baseline_e_fichas_independentes(self):
+        before = c.Catalogo(self.initial)
+        self.b.write_bytes(png((0, 0, 255)))
+        item = self.item('a.png', before.records['a.png'])
+        item['palavras_chave'].append('lógica booleana')
+        packet = self.packet(self.initial, **{'a.png': item})
+        output = self.root / 'revisado.docx'
+        cmd = [sys.executable, '-B', SPEC.origin, 'revisar', '--root', str(self.root),
+               '--modulo', self.module, '--catalogo', str(self.initial),
+               '--fichas', str(self.root / 'revisao.json'), '--saida', str(output)]
+        (self.root / 'revisao.json').write_text(json.dumps(packet))
+        report = json.loads(subprocess.run(cmd, check=True, capture_output=True, text=True).stdout)
+        after = c.Catalogo(output)
+        self.assertEqual(self.reads(report), ['01_Teste/a.png'])
+        self.assertEqual(before.records['b.png']['sha256'], after.records['b.png']['sha256'])
+        self.assertEqual(after.gloss['lógica booleana']['refs'], ['a.png'])
+        self.assertEqual(before.gloss['bit']['definition'], after.gloss['bit']['definition'])
+        self.assertEqual({k: v for k, v in before.evidence().items() if k != 'partes_catalogo'},
+                         {k: v for k, v in after.evidence().items() if k != 'partes_catalogo'})
+        revision = report['revisoes_semanticas']['01_Teste/a.png']
+        self.assertEqual(revision['anterior_sha256'], before.records['a.png']['sha256'])
+        self.assertEqual(revision['posterior_sha256'], after.records['a.png']['sha256'])
+        self.assertNotEqual(revision['anterior_sha256'], revision['posterior_sha256'])
+        plan = c.plan(self.root, self.module, output)
+        self.assertEqual(plan['estados'], {'01_Teste/a.png': 'inalterado', '01_Teste/b.png': 'modificado'})
+        updated = self.root / 'posterior.docx'
+        packet = self.packet(output, **{'b.png': self.item('b.png', after.records['b.png'])})
+        c.apply(self.root, self.module, output, packet, updated)
+        self.assertEqual(c.Catalogo(updated).records['a.png']['sha256'], revision['posterior_sha256'])
+
+    def test_revisao_recusa_ficha_obsoleta_e_original_modificado(self):
+        output = self.root / 'revisado.docx'
+        item = self.item('a.png')
+        packet = self.packet(self.initial, **{'a.png': item})
+        with self.assertRaisesRegex(c.Bloqueio, 'ficha anterior'):
+            c.apply(self.root,self.module,self.initial,packet,output,revisao=True)
+        self.a.write_bytes(png((0, 0, 255)))
+        with self.assertRaisesRegex(c.Bloqueio, 'originais inalterados'):
+            c.apply(self.root,self.module,self.initial,packet,output,revisao=True)
+        self.assertFalse(output.exists())
+
+    def test_revisao_sem_correcoes_preserva_docx_byte_a_byte(self):
+        output = self.root / 'preservado.docx'
+        result = c.apply(self.root,self.module,self.initial,self.packet(self.initial),output,revisao=True)
+        self.assertFalse(result['alterado'])
+        self.assertEqual(self.reads(result), [])
+        self.assertEqual(output.read_bytes(), self.initial.read_bytes())
+
+    def test_adiamento_justificado_preserva_pendencia_sem_bloquear_novo(self):
+        self.a.write_bytes(png((0, 0, 255)))
+        (self.folder/'novo.png').write_bytes(png((0, 0, 255)))
+        output = self.root / 'parcial.docx'
+        packet = self.packet(self.initial, **{'novo.png': self.item('novo.png')})
+        packet['adiados'] = {'01_Teste/a.png': 'Representação ambígua.'}
+        result = c.apply(self.root,self.module,self.initial,packet,output)
+        self.assertEqual(result['adiados'],packet['adiados'])
+        self.assertEqual(self.reads(result),['01_Teste/novo.png'])
+        before,after = map(c.Catalogo,(self.initial,output))
+        self.assertEqual(before.records['a.png']['sha256'],after.records['a.png']['sha256'])
+        self.assertEqual(c.plan(self.root,self.module,output)['estados']['01_Teste/a.png'],'modificado')
+
     def test_revisao_exige_confronto_da_ficha_anterior(self):
         self.a.write_bytes(png((0,0,255)))
         with self.assertRaisesRegex(c.Bloqueio,'ficha anterior'):c.apply(self.root,self.module,self.initial,self.packet(self.initial,**{'a.png':self.item('a.png')}),self.root/'erro.docx')

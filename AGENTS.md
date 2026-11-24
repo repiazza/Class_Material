@@ -11,15 +11,17 @@
 - Respeite o vocabulário controlado cumulativo. Reutilize o termo estabelecido para o mesmo conceito, por exemplo `ponteiro`, sem criar etiquetas alternativas `pointer` ou `apontador`. Mantenha conceitos distintos separados e não normalize, unifique ou renomeie termos automaticamente.
 - Não infira conteúdo visual ausente das descrições. Distinga conhecimento documentado, verificação física/integridade e inspeção visual; nenhum desses estados implica automaticamente os demais.
 - Os catálogos não substituem os arquivos originais nem comprovam sua correção. Quando a tarefa exigir confirmação visual ou houver dúvida sobre uma descrição, examine o original e os quadros relevantes dos GIFs; informe o que foi efetivamente verificado.
-- Não modifique os catálogos silenciosamente. Divergências documentais objetivas seguem `curadoria/protocolo_retroalimentacao.md`: inspeção do original, proposta verificável e, **somente com autorização explícita de implementação**, correção documental delimitada em PR, sem merge automático. Nunca altere materiais originais para fazê-los corresponder ao catálogo.
+- Encaminhe divergências documentais pelo `curadoria/protocolo_retroalimentacao.md`. Preserve os materiais originais e registre a evidência e a correção na PR.
 
-### Catalogação semântica autônoma
+### Manutenção coordenada do acervo
 
-Quando houver autorização para gerar ou revisar catálogos a partir dos originais, siga `curadoria/protocolo_catalogacao_semantica.md`. A consulta prévia ao catálogo vigente aplica-se à revisão ordinária; em reconstrução experimental com isolamento autorizado, consulte-o somente após congelar o catálogo experimental. Preserve o consumo documental do Motor 1 e os limites de consulta do roteiro individual. Geração e validação não homologam a qualidade pedagógica; escopo de publicação e preservação dos originais seguem a instrução da tarefa.
+Pedidos de manutenção do acervo acionam, no escopo solicitado, a descoberta de capítulos e materiais, a reconciliação física, o levantamento de catálogos e pendências semânticas, a inspeção dos originais afetados, a atualização documental, a validação e a entrega em PR. Considere pendências preexistentes no escopo. A reconciliação física e o tratamento de materiais independentes prosseguem diante de lacunas semânticas localizadas.
 
-### Manutenção incremental e histórico avaliativo
+- **“Atualize o acervo”** aciona reconciliação e manutenção semântica, incluindo catalogação inaugural quando não houver catálogo e manutenção incremental quando houver.
+- **“Revise o catálogo semântico do capítulo 08”** aciona o confronto deliberado das fichas com os originais do capítulo e a publicação das correções demonstradas, se houver.
+- **“Atualize e revise todos os catálogos semânticos”** combina as modalidades em todos os capítulos descobertos. Organize a execução e as PRs em unidades revisáveis, preferencialmente por capítulo.
 
-Em capítulo com catálogo existente, use por padrão `ferramentas/catalogacao_incremental.py`, conforme `curadoria/contrato_catalogacao_incremental.md` e as instruções em `ferramentas/README.md`. Primeiro planeje por identidade e SHA-256; sem baseline confiável, estabeleça referência controlada ou registre o bloqueio, sem reconstrução integral silenciosa. A catalogação inaugural continua completa pelo protocolo semântico. Para novos/modificados, o agente inspeciona somente esses originais, prepara as fichas e aplica em candidato; inalterados reutilizam fichas. Hash binário não é reinterpretação semântica. Publicar/substituir um catálogo canônico exige escopo explícito; esta implementação não o autoriza automaticamente.
+Esses pedidos autorizam permanentemente a execução ordinária em seu escopo, inclusive publicação em PR, sem autorizações individuais por capítulo ou ficha. Siga o `curadoria/protocolo_catalogacao_semantica.md` para critérios de conteúdo e revisão, e o `curadoria/contrato_catalogacao_incremental.md` para referência, aplicação e preservação. Restrições expressas como leitura exclusiva e “apenas pull” prevalecem. Alterações pedagógicas nos originais, ambiguidades de intenção didática, exclusões semânticas destrutivas sem decisão, homologação de etiquetas, alterações no vocabulário mestre ou nas relações consolidadas, decisões editoriais, homologação pedagógica definitiva e merge permanecem sob decisão humana.
 
 Protocolos e contratos são normas operacionais; DOCX canônicos são fontes semânticas; `curadoria/avaliacoes/` contém avaliações históricas/investigativas, não regras vigentes nem decisões substitutas. O checklist permanece fonte das ocorrências e deliberações. Não usar avaliações antigas para sobrepor contratos atuais e não tornar obrigatório um novo relatório histórico por execução. Logs temporários e evidências relevantes bastam quando não houver necessidade de registro persistente adicional.
 
@@ -27,7 +29,7 @@ Protocolos e contratos são normas operacionais; DOCX canônicos são fontes sem
 
 Após inclusão, remoção ou renomeação de materiais, publicação de catálogo ou alteração de contratos/componentes, execute `python ferramentas/reconciliar_documentacao.py` e confira `python ferramentas/reconciliar_documentacao.py --check` antes de publicar o trabalho. Consulte `ferramentas/README.md`. A capacidade é independente da catalogação; a existência física não espera homologação semântica.
 
-Há autorização permanente para manter `inventario.csv` e os blocos gerados do `README.md` coerentes com as fontes, sem aprovação individual por atualização. Essa autorização é exceção documental às regras gerais de deliberação; não abrange materiais, catálogos, vocabulário, relações, contratos dos motores ou decisões do checklist. Respeite restrições expressas da tarefa, como “apenas pull”, e não modifique silenciosamente PRs alheias.
+Há autorização permanente para manter `inventario.csv` e os blocos gerados do `README.md` coerentes com as fontes, sem aprovação individual por atualização. Essa autorização física é independente da autorização semântica definida em **Manutenção coordenada do acervo**. Respeite restrições expressas da tarefa, como “apenas pull”, e não modifique silenciosamente PRs alheias.
 
 Preserve texto editorial/histórico fora dos blocos. Confira avisos e mudanças arquiteturais contra contratos e evidências: estados declarados não equivalem à homologação, e presença de arquivo não comprova capacidade demonstrada. Atualize autonomamente README/inventário quando a divergência for objetiva; registre ambiguidades sem inventar correspondências ou decisões. Para responsabilidades novas não expressas pelos indicadores estruturados, faça análise documental e encaminhe somente a dúvida efetiva, sem exigir aprovação para os registros independentes. Commit, push e PR seguem a execução autorizada; merge continua humano.
 
@@ -118,8 +120,8 @@ Quando solicitado a desenvolver um roteiro individual para um candidato `VNN-XXX
 
 - Registre propostas de alteração dos materiais didáticos e da documentação de curadoria em `curadoria/checklist.md`, com identificadores estáveis e estado APROVADA, REJEITADA, PENDENTE ou APROVADA — PRESERVAÇÃO. Candidatos editoriais pertencem aos respectivos dossiês e seguem os estados definidos em `curadoria/protocolo_roteirizacao.md`.
 - Ausência de manifestação significa PENDENTE. Preserve as justificativas humanas e não interprete rejeição como pedido de alternativa.
-- Aprovação conceitual não autoriza modificação de arquivos. A implementação exige autorização textual explícita, identificando propostas e escopo permitido. Após essa autorização, execute autonomamente as operações técnicas e de publicação necessárias, sem pedir aprovação para cada comando.
-- Não execute propostas pendentes ou rejeitadas nem amplie o escopo autorizado.
+- Aprovação conceitual não autoriza modificação de arquivos. Para intervenções fora da manutenção documental e semântica ordinária já autorizada neste arquivo, a implementação exige autorização textual explícita, identificando propostas e escopo permitido. Após essa autorização, execute autonomamente as operações técnicas e de publicação necessárias, sem pedir aprovação para cada comando.
+- Não execute propostas rejeitadas nem decisões pendentes reservadas à deliberação humana. Mantenha o escopo autorizado.
 
 ## Edição e validação
 
@@ -176,7 +178,7 @@ A detecção de divergências em catálogos, materiais originais, mapas espaciai
 
 Valorize a autoauditoria espacial: margens de segurança, visões integrais pouco legíveis em 9:16 e fragmentos não impeditivos de painéis vizinhos são resultados aceitáveis quando preservam a integridade visual e conceitual. Não regenere recortes aprovados apenas para obter enquadramentos esteticamente mais justos.
 
-Quando a inspeção do original comprovar divergência **puramente descritiva**, apresente a correção documental mínima e sua evidência. A alteração persistente e a abertura de PR exigem autorização de implementação nos termos de **Deliberação e autorização humana** e **Integração Git**; o merge permanece humano. Ambiguidades pedagógicas e alterações de PNGs/GIFs exigem deliberação específica.
+Quando a inspeção do original comprovar divergência **puramente descritiva**, apresente a correção documental mínima e sua evidência. Aplique a correção dentro de uma operação de manutenção ou revisão que a abranja, conforme **Manutenção coordenada do acervo** e **Integração Git**. Ambiguidades pedagógicas e alterações de PNGs/GIFs exigem deliberação específica.
 
 Após correção aprovada e integrada, revalide os derivados afetados; **não regenere automaticamente** mapas, dossiês, roteiros ou vídeos que permaneçam válidos. Mantenha registro e rastreabilidade no `curadoria/checklist.md`.
 
