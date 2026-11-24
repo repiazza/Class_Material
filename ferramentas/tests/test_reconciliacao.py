@@ -5,6 +5,7 @@ import subprocess
 import shutil
 import unittest
 import zipfile
+from docx import Document
 
 SOURCE=Path(__file__).resolve().parents[1]/'reconciliar_documentacao.py'
 spec=importlib.util.spec_from_file_location('reconciliacao',SOURCE)
@@ -54,6 +55,7 @@ class ReconciliacaoTest(unittest.TestCase):
         self.assertIn('14_Novo_Capitulo/',text)
         self.assertIn('Sem catálogo canônico',text)
         self.assertIn('14 - Novo Capitulo',text)
+        self.assertEqual(m.main(['--root', str(self.root), '--check']), 0)
 
     def test_remocao_e_renomeacao(self):
         self.run_sync()
@@ -79,11 +81,24 @@ class ReconciliacaoTest(unittest.TestCase):
     def test_catalogo_canonico_e_titulo_xml(self):
         self.run_sync()
         p=self.root/'01_Teste/01_Catalogo_Semantico.docx'
-        with zipfile.ZipFile(p,'w') as z:
-            z.writestr('word/document.xml','<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><w:p><w:r><w:t>01 — Título documentado</w:t></w:r></w:p></w:body></w:document>')
+        document = Document()
+        document.add_heading('01 — Título documentado', 0)
+        document.save(p)
         self.run_sync()
         self.assertIn(('01_Teste',p.name),self.rows())
         self.assertIn('01 - Título documentado',m.read(self.root/'README.md'))
+
+        self.assertEqual(m.main(['--root', str(self.root), '--check']), 0)
+
+    def test_catalogo_ilegivel_permanece_no_inventario_e_falha_no_check(self):
+        name = '01_Catalogo_Semantico.docx'
+        damaged = b'arquivo que nao e DOCX'
+        path = self.put(f'01_Teste/{name}', damaged)
+        result = self.run_sync()
+        self.assertIn(('01_Teste', name), self.rows())
+        self.assertIn(f'01_Teste/{name}: DOCX ilegível', result['catalogos_ilegiveis'][0])
+        self.assertEqual(m.main(['--root', str(self.root), '--check']), 1)
+        self.assertEqual(path.read_bytes(), damaged)
 
     def test_derivados_excluidos_por_papel_e_localizacao(self):
         for file in ['01_Teste/01_Mapa_Espacial.json','01_Teste/01_Autoauditoria_Mapa.md','01_Teste/evidencias_mapa_espacial/painel.png','01_Teste/evidencias_mapa_espacial/nota.md','01_Teste/derivados/copia.PNG','01_Teste/relatorio.md','01_Teste/renderizar.py','01_Teste/01_Catalogo_Semantico_Experimental.docx','01_Teste/arquivo.tmp']:

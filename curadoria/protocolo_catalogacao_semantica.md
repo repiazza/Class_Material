@@ -53,7 +53,13 @@ Preservar formato DOCX legível, identificação do capítulo, escopo e registro
 - Palavras-chave canônicas.
 - Ressalvas, limites ou referências visuais verificadas quando necessários.
 
-Rótulos, fontes, cores, ordem gráfica e numeração ordinal não precisam reproduzir literalmente catálogos anteriores. Campos podem ser combinados se permanecerem claros e completos. `Referências visuais verificadas` é um recurso já previsto no AGENTS, não uma obrigação de repetir evidências em todas as fichas.
+Para novos catálogos canônicos, use a seguinte estrutura compatível com o leitor incremental:
+
+1. Abra cada ficha com um parágrafo próprio no corpo do documento, fora de tabelas. Use o caminho exato relativo ao capítulo, com a extensão inventariável do material, no formato `01. nome.ext`, `Arquivo: nome.ext` ou `nome.ext`. Cada caminho identifica uma única ficha.
+2. Use um parágrafo `Palavras-chave: termo 1; termo 2` em cada ficha, com pelo menos um termo e sem duplicatas. O leitor também aceita ponto após o rótulo e separadores vírgula ou ponto médio. Os demais campos podem usar prosa ou tabelas dentro da ficha, com organização e elaboração semântica livres.
+3. Após a última ficha, use um parágrafo de título iniciado por `Glossário`. Para cada etiqueta, abra uma entrada em parágrafo próprio com `termo — definição` ou com o termo em um parágrafo e sua definição nos seguintes. Termine a entrada com um parágrafo `Materiais: nome.ext; outro.ext` contendo exatamente os caminhos das fichas associadas ao termo.
+
+Preserve os rótulos estruturais e os limites das fichas e do glossário. Fontes, cores, numeração ordinal e elaboração dos demais campos são flexíveis. Inclua referências visuais verificadas quando necessárias.
 
 O documento deve permitir ao Motor 1 fundamentar propostas editoriais sem reinterpretar cada imagem. Isso não substitui a inspeção técnica exigida na produção, não garante a correção do original e não autoriza o roteirista individual a buscar conteúdo fora do candidato selecionado.
 
@@ -93,7 +99,7 @@ Antes de entregar:
 1. Conferir a cobertura contra o escopo físico/inventário conciliado: cada material incluído tem registro, e toda exclusão/limitação está explícita.
 2. Verificar grafia e existência das referências; separar membros de pacotes dos arquivos reais do capítulo.
 3. Conferir conteúdo, evidência visual/textual, sequência de GIFs, palavras-chave, glossário e igualdade do índice reverso com as atribuições dos registros.
-4. Verificar integridade e abertura do DOCX, corpo e tabelas, além de legibilidade/paginação quando houver ferramenta disponível. Não confundir arquivo íntegro com semântica correta.
+4. Verificar integridade e abertura do DOCX, corpo e tabelas, além de legibilidade/paginação quando houver ferramenta disponível. Antes de publicar um catálogo inaugural como canônico, execute `python ferramentas/catalogacao_incremental.py validar --catalogo CAMINHO_DO_CANDIDATO.docx` e exija saída zero. O comando usa o leitor da manutenção incremental para conferir fichas, etiquetas, glossário e índice reverso, sem exigir uma referência de hashes. A validação estrutural não substitui a conferência de cobertura nem a revisão pedagógica.
 5. Documentar fontes, ferramentas, revisão, abrangência efetivamente inspecionada, incertezas e ocorrências. Avaliar suficiência documental para o Motor 1 sem declarar execução editorial que não ocorreu.
 6. Confirmar a preservação dos materiais, catálogos vigentes e inventário fora do escopo autorizado.
 

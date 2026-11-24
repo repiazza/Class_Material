@@ -471,9 +471,9 @@ def apply(root,module,catalog_path,packet,output,reader=None,interpreter=None):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('operacao',choices=['baseline','planejar','aplicar'])
+    parser.add_argument('operacao',choices=['validar','baseline','planejar','aplicar'])
     parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1])
-    parser.add_argument('--modulo',required=True)
+    parser.add_argument('--modulo')
     parser.add_argument('--catalogo',type=Path,required=True)
     parser.add_argument('--saida',type=Path)
     parser.add_argument('--referencia')
@@ -482,7 +482,12 @@ def main():
     parser.add_argument('--relatorio',type=Path)
     args=parser.parse_args()
     try:
-        if args.operacao=='baseline':
+        if args.operacao != 'validar' and not args.modulo:
+            parser.error('--modulo é obrigatório para baseline, planejar e aplicar.')
+        if args.operacao == 'validar':
+            catalog = Catalogo(args.catalogo)
+            result = {'fichas': len(catalog.records), 'termos': len(catalog.gloss)}
+        elif args.operacao=='baseline':
             if not args.saida or not args.referencia:raise Bloqueio('Baseline exige --saida e --referencia Git explícita.')
             result=establish(args.root,args.modulo,args.catalogo,args.repositorio or args.root,args.referencia,args.saida)
         elif args.operacao=='planejar':result=plan(args.root,args.modulo,args.catalogo)
