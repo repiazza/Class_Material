@@ -143,21 +143,22 @@ Diretórios de capítulos são descobertos na raiz. A identificação abaixo usa
 | [02_Sistemas_de_Numeracao](02_Sistemas_de_Numeracao/) | Sistemas de Numeração | 15 | [02_Catalogo_Semantico.docx](02_Sistemas_de_Numeracao/02_Catalogo_Semantico.docx) |
 | [03_Operacoes_Bitwise](03_Operacoes_Bitwise/) | Operações Bitwise | 21 | [03_Catalogo_Semantico.docx](03_Operacoes_Bitwise/03_Catalogo_Semantico.docx) |
 | [04_Argumentos_CommandLine](04_Argumentos_CommandLine/) | Argumentos CommandLine | 36 | [04_Catalogo_Semantico.docx](04_Argumentos_CommandLine/04_Catalogo_Semantico.docx) |
-| [05_Estruturas_de_Dados](05_Estruturas_de_Dados/) | Estruturas de Dados | 25 | [05_Catalogo_Semantico.docx](05_Estruturas_de_Dados/05_Catalogo_Semantico.docx) |
+| [05_Estruturas_de_Dados](05_Estruturas_de_Dados/) | Estruturas de Dados | 30 | [05_Catalogo_Semantico.docx](05_Estruturas_de_Dados/05_Catalogo_Semantico.docx) |
 | [06_Arquivos_e_Entrada_Saida](06_Arquivos_e_Entrada_Saida/) | Arquivos e Entrada/Saída | 9 | [06_Catalogo_Semantico.docx](06_Arquivos_e_Entrada_Saida/06_Catalogo_Semantico.docx) |
 | [07_Tracing_e_Execucao](07_Tracing_e_Execucao/) | Tracing e Execução | 8 | [07_Catalogo_Semantico.docx](07_Tracing_e_Execucao/07_Catalogo_Semantico.docx) |
-| [08_Tipos_e_Memoria_C](08_Tipos_e_Memoria_C/) | Tipos e Memória C | 28 | [08_Catalogo_Semantico.docx](08_Tipos_e_Memoria_C/08_Catalogo_Semantico.docx) |
+| [08_Tipos_e_Memoria_C](08_Tipos_e_Memoria_C/) | Tipos e Memória C | 31 | [08_Catalogo_Semantico.docx](08_Tipos_e_Memoria_C/08_Catalogo_Semantico.docx) |
 | [09_Depuracao_C](09_Depuracao_C/) | Depuração C | 16 | [09_Catalogo_Semantico.docx](09_Depuracao_C/09_Catalogo_Semantico.docx) |
 | [10_Estruturas_Controle](10_Estruturas_Controle/) | Estruturas de Controle | 25 | [10_Catalogo_Semantico.docx](10_Estruturas_Controle/10_Catalogo_Semantico.docx) |
 | [11_Sistemas_Operacionais](11_Sistemas_Operacionais/) | Sistemas Operacionais | 40 | [11_Catalogo_Semantico.docx](11_Sistemas_Operacionais/11_Catalogo_Semantico.docx) |
 | [12_Organizacao_Computadores](12_Organizacao_Computadores/) | Organização de Computadores | 18 | [12_Catalogo_Semantico.docx](12_Organizacao_Computadores/12_Catalogo_Semantico.docx) |
 | [13_Compilacao_Makefile](13_Compilacao_Makefile/) | Compilação e Makefile | 24 | Sem catálogo canônico |
+| [14_Terminal_IO](14_Terminal_IO/) | Terminal IO | 31 | Sem catálogo canônico |
 <!-- reconciliacao:fim organizacao -->
 
 <!-- reconciliacao:inicio inventario -->
 ## Localização dos materiais
 
-O [inventario.csv](inventario.csv) contém **282 entradas** em **13 capítulos**: **270 materiais didáticos** e **12 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
+O [inventario.csv](inventario.csv) contém **321 entradas** em **14 capítulos**: **309 materiais didáticos** e **12 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
 
 São elegíveis materiais PNG, JPG/JPEG, GIF, Markdown, fontes C, headers e pacotes ZIP nas áreas de materiais dos capítulos, além de `NN_Catalogo_Semantico.docx` canônico. O ZIP é uma entrada física, sem promover membros internos. A existência física não depende de homologação semântica.
 
@@ -167,7 +168,7 @@ Não entram mapas espaciais, evidências e derivados técnicos, protótipos, tem
 <!-- reconciliacao:inicio catalogos -->
 ## Catálogos semânticos
 
-Há 12 catálogos canônicos presentes para 13 capítulos; consulte a disponibilidade na tabela. Catálogos experimentais externos ao checkout não são referências canônicas.
+Há 12 catálogos canônicos presentes para 14 capítulos; consulte a disponibilidade na tabela. Catálogos experimentais externos ao checkout não são referências canônicas.
 
 O catálogo descreve conteúdos, representações, exemplos, palavras-chave, glossário e relações inversas aos materiais. Identifique cada material por capítulo e nome exato. O documento não substitui os originais nem comprova correção ou validação visual. A [catalogação semântica](curadoria/protocolo_catalogacao_semantica.md) rege criação e revisão autorizadas; a reconciliação física não lê os registros para classificar ou homologar conteúdos.
 
@@ -194,6 +195,7 @@ Os arquivos são agrupados por capítulo e papel documental, **sem presumir pare
 | 11 - Sistemas Operacionais | [exercicio.md](11_Sistemas_Operacionais/exercicio.md) (Exercício 01 — Processos e comunicação entre processos) | [gabarito1.md](11_Sistemas_Operacionais/gabarito1.md)<br/>[gabarito1a.c](11_Sistemas_Operacionais/gabarito1a.c) (implementação C)<br/>[gabarito1b.c](11_Sistemas_Operacionais/gabarito1b.c) (implementação C) | Não identificado |
 | 12 - Organização de Computadores | [exercicio1.md](12_Organizacao_Computadores/exercicio1.md) (Exercício 12.10.2 — Projeto de um Circuito Digital) | [gabarito1.md](12_Organizacao_Computadores/gabarito1.md) (Gabarito 12.10.2 — Projeto de um Circuito Digital) | Não identificado |
 | 13 - Compilação e Makefile | [exercicio.md](13_Compilacao_Makefile/exercicio.md) (Exercício — Compilação modular e automatização com GNU Make) | [gabarito_a.md](13_Compilacao_Makefile/gabarito_a.md) (Gabarito — Etapa A: Compilação manual com GCC)<br/>[gabarito_a_b_makefile_possivel.md](13_Compilacao_Makefile/gabarito_a_b_makefile_possivel.md) (Gabarito — Uma possível implementação do Makefile)<br/>[gabarito_b.md](13_Compilacao_Makefile/gabarito_b.md) (Gabarito — Etapa B: Automatização com GNU Make) | [projeto_base_exercicio.zip](13_Compilacao_Makefile/projeto_base_exercicio.zip) |
+| 14 - Terminal IO | [exercicio1.md](14_Terminal_IO/exercicio1.md) (14_Terminal_IO — Exercício 1)<br/>[exercicio2.md](14_Terminal_IO/exercicio2.md) (14_Terminal_IO — Exercício 2) | [gabarito1.md](14_Terminal_IO/gabarito1.md) (14_Terminal_IO — Gabarito 1)<br/>[gabarito2.md](14_Terminal_IO/gabarito2.md) (14_Terminal_IO — Gabarito 2) | Não identificado |
 
 A tabela comprova localização e papel documental, não equivalência técnica entre soluções nem auditoria pedagógica. Um gabarito pode orientar várias partes; soluções alternativas não são redundantes por definição.
 <!-- reconciliacao:fim exercicios -->
