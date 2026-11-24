@@ -158,13 +158,13 @@ Diretórios de capítulos são descobertos na raiz. A identificação abaixo usa
 | [11_Sistemas_Operacionais](11_Sistemas_Operacionais/) | Sistemas Operacionais | 40 | [11_Catalogo_Semantico.docx](11_Sistemas_Operacionais/11_Catalogo_Semantico.docx) |
 | [12_Organizacao_Computadores](12_Organizacao_Computadores/) | Organização de Computadores | 18 | [12_Catalogo_Semantico.docx](12_Organizacao_Computadores/12_Catalogo_Semantico.docx) |
 | [13_Compilacao_Makefile](13_Compilacao_Makefile/) | Compilação e Makefile | 25 | [13_Catalogo_Semantico.docx](13_Compilacao_Makefile/13_Catalogo_Semantico.docx) |
-| [14_Terminal_IO](14_Terminal_IO/) | Terminal IO | 31 | Sem catálogo canônico |
+| [14_Terminal_IO](14_Terminal_IO/) | Terminal I/O | 32 | [14_Catalogo_Semantico.docx](14_Terminal_IO/14_Catalogo_Semantico.docx) |
 <!-- reconciliacao:fim organizacao -->
 
 <!-- reconciliacao:inicio inventario -->
 ## Localização dos materiais
 
-O [inventario.csv](inventario.csv) contém **322 entradas** em **14 capítulos**: **309 materiais didáticos** e **13 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
+O [inventario.csv](inventario.csv) contém **323 entradas** em **14 capítulos**: **309 materiais didáticos** e **14 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
 
 São elegíveis materiais PNG, JPG/JPEG, GIF, Markdown, fontes C, headers e pacotes ZIP nas áreas de materiais dos capítulos, além de `NN_Catalogo_Semantico.docx` canônico. O ZIP é uma entrada física, sem promover membros internos. A existência física não depende de homologação semântica.
 
@@ -174,7 +174,7 @@ Não entram mapas espaciais, evidências e derivados técnicos, protótipos, tem
 <!-- reconciliacao:inicio catalogos -->
 ## Catálogos semânticos
 
-Há 13 catálogos canônicos presentes para 14 capítulos; consulte a disponibilidade na tabela. Catálogos experimentais externos ao checkout não são referências canônicas.
+Há 14 catálogos canônicos presentes para 14 capítulos; consulte a disponibilidade na tabela. Catálogos experimentais externos ao checkout não são referências canônicas.
 
 O catálogo descreve conteúdos, representações, exemplos, palavras-chave, glossário e relações inversas aos materiais. Identifique cada material por capítulo e nome exato. O documento não substitui os originais nem comprova correção ou validação visual. A [catalogação semântica](curadoria/protocolo_catalogacao_semantica.md) rege criação e revisão autorizadas; a reconciliação física não lê os registros para classificar ou homologar conteúdos.
 
