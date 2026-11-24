@@ -157,8 +157,8 @@ Diretórios de capítulos são descobertos na raiz. A identificação abaixo usa
 | [10_Estruturas_Controle](10_Estruturas_Controle/) | Estruturas de Controle | 25 | [10_Catalogo_Semantico.docx](10_Estruturas_Controle/10_Catalogo_Semantico.docx) |
 | [11_Sistemas_Operacionais](11_Sistemas_Operacionais/) | Sistemas Operacionais | 40 | [11_Catalogo_Semantico.docx](11_Sistemas_Operacionais/11_Catalogo_Semantico.docx) |
 | [12_Organizacao_Computadores](12_Organizacao_Computadores/) | Organização de Computadores | 18 | [12_Catalogo_Semantico.docx](12_Organizacao_Computadores/12_Catalogo_Semantico.docx) |
-| [13_Compilacao_Makefile](13_Compilacao_Makefile/) | Compilação e Makefile | 24 | Sem catálogo canônico |
-| [14_Terminal_IO](14_Terminal_IO/) | Terminal I/O | 32 | [14_Catalogo_Semantico.docx](14_Terminal_IO/14_Catalogo_Semantico.docx) |
+| [13_Compilacao_Makefile](13_Compilacao_Makefile/) | Compilação e Makefile | 25 | [13_Catalogo_Semantico.docx](13_Compilacao_Makefile/13_Catalogo_Semantico.docx) |
+| [14_Terminal_IO](14_Terminal_IO/) | Terminal IO | 31 | Sem catálogo canônico |
 <!-- reconciliacao:fim organizacao -->
 
 <!-- reconciliacao:inicio inventario -->
