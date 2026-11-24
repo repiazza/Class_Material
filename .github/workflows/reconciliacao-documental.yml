@@ -17,5 +17,5 @@ jobs:
         run: python -m pip install -r ferramentas/requirements-catalogacao.txt
       - name: Testes com fixtures temporárias
         run: python -B -m unittest discover -s ferramentas/tests -v
-      - name: Conferir inventário, README e links
+      - name: Conferir inventário, README, links e legibilidade dos catálogos
         run: python -B ferramentas/reconciliar_documentacao.py --check

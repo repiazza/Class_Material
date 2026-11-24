@@ -86,23 +86,48 @@ def scan(root: Path, previous: list[tuple[str, str]]):
 
 
 def docx_title(path: Path) -> str:
-    try:
-        with zipfile.ZipFile(path) as z:
-            body = ElementTree.fromstring(z.read('word/document.xml'))
-        ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
-        for par in body.findall('.//w:body/w:p', ns):
-            text = ''.join(x.text or '' for x in par.findall('.//w:t', ns)).strip()
-            if text:
-                return text
-    except (OSError, KeyError, zipfile.BadZipFile, ElementTree.ParseError):
-        pass
+    ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+    with zipfile.ZipFile(path) as package:
+        damaged = package.testzip()
+        if damaged:
+            raise ValueError(f'CRC inválido em {damaged}')
+        types = ElementTree.fromstring(package.read('[Content_Types].xml'))
+        relationships = ElementTree.fromstring(package.read('_rels/.rels'))
+        types_ns = '{http://schemas.openxmlformats.org/package/2006/content-types}'
+        rels_ns = '{http://schemas.openxmlformats.org/package/2006/relationships}'
+        has_document_type = any(
+            node.get('PartName') == '/word/document.xml'
+            and node.get('ContentType') == 'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml'
+            for node in types.findall(f'{types_ns}Override')
+        )
+        has_document_relationship = any(
+            node.get('Target', '').lstrip('/') == 'word/document.xml'
+            and node.get('Type') == 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument'
+            and node.get('TargetMode', 'Internal') == 'Internal'
+            for node in relationships.findall(f'{rels_ns}Relationship')
+        )
+        if not (has_document_type and has_document_relationship):
+            raise ValueError('pacote sem parte principal DOCX declarada')
+        document = ElementTree.fromstring(package.read('word/document.xml'))
+    body = document.find('w:body', ns)
+    if document.tag != f'{{{ns["w"]}}}document' or body is None:
+        raise ValueError('documento WordprocessingML sem corpo válido')
+    for paragraph in body.findall('w:p', ns):
+        text = ''.join(node.text or '' for node in paragraph.findall('.//w:t', ns)).strip()
+        if text:
+            return text
     return ''
 
 
-def chapter_title(chapter: Path, warnings: list[str]) -> str:
+def chapter_title(chapter: Path, warnings: list[str], invalid_catalogs: list[str]) -> str:
     number = chapter.name.split('_', 1)[0]
     catalog = chapter / f'{number}_Catalogo_Semantico.docx'
-    titles = [docx_title(catalog)] if catalog.exists() else []
+    titles = []
+    if catalog.is_file() and not catalog.is_symlink():
+        try:
+            titles.append(docx_title(catalog))
+        except (OSError, KeyError, ValueError, RuntimeError, zipfile.BadZipFile, ElementTree.ParseError) as exc:
+            invalid_catalogs.append(f'{chapter.name}/{catalog.name}: DOCX ilegível ({exc}).')
     for p in sorted(chapter.glob('exercicio*.md')):
         titles.extend(re.findall(r'^#\s+(.+)$', material_text(p, warnings), re.M)[:1])
     for title in titles:
@@ -192,8 +217,8 @@ def architecture(root: Path) -> str:
     return '\n'.join(lines)
 
 
-def generated(root: Path, chapters: list[Path], rows: list[tuple[str,str]], warnings: list[str]) -> dict[str,str]:
-    titles = {p.name: chapter_title(p, warnings) for p in chapters}
+def generated(root: Path, chapters: list[Path], rows: list[tuple[str,str]], warnings: list[str], invalid_catalogs: list[str]) -> dict[str,str]:
+    titles = {p.name: chapter_title(p, warnings, invalid_catalogs) for p in chapters}
     catalogs = {(p.name, p.name.split('_',1)[0]+'_Catalogo_Semantico.docx') for p in chapters}
     nc = len(set(rows) & catalogs)
     counts=Counter(module for module,_ in rows)
@@ -306,7 +331,8 @@ def reconcile(root: Path, check: bool=False) -> dict:
     previous=inventory(root)
     chapters,rows,warnings=scan(root,previous)
     text=read(root/'README.md')
-    result_text=update_blocks(text,generated(root,chapters,rows,warnings))
+    invalid_catalogs = []
+    result_text=update_blocks(text,generated(root,chapters,rows,warnings,invalid_catalogs))
     problems=local_links(root,result_text)
     if problems:
         # Links ambíguos fora dos blocos são preservados; alterações independentes são seguras.
@@ -317,7 +343,7 @@ def reconcile(root: Path, check: bool=False) -> dict:
     if not check:
         for name in changed:(root/name).write_text(outputs[name],encoding='utf-8',newline='')
     added,removed=set(rows)-set(previous),set(previous)-set(rows)
-    return dict(capítulos=len(chapters),entradas=len(rows),adicionados=sorted(added),removidos=sorted(removed),renomeacoes_git=git_renames(root,added,removed),documentos_desatualizados=changed,avisos=sorted(set(warnings)),links_invalidos=problems)
+    return dict(capítulos=len(chapters),entradas=len(rows),adicionados=sorted(added),removidos=sorted(removed),renomeacoes_git=git_renames(root,added,removed),documentos_desatualizados=changed,avisos=sorted(set(warnings)),links_invalidos=problems,catalogos_ilegiveis=invalid_catalogs)
 
 
 def main(argv=None) -> int:
@@ -333,8 +359,9 @@ def main(argv=None) -> int:
         for module,name in result[key]:print(f'{key}: {module}/{name}')
     for old,new in result['renomeacoes_git']:print(f'Renomeação registrada pelo Git: {old} -> {new}')
     for name in result['documentos_desatualizados']:print(('Desatualizado: ' if args.check else 'Atualizado: ')+name)
+    for error in result['catalogos_ilegiveis']:print('ERRO: '+error,file=sys.stderr)
     for warning in result['avisos']:print('AVISO: '+warning)
-    return int(bool(result['links_invalidos'] or args.check and result['documentos_desatualizados']))
+    return int(bool(result['catalogos_ilegiveis'] or result['links_invalidos'] or args.check and result['documentos_desatualizados']))
 
 
 if __name__=='__main__':

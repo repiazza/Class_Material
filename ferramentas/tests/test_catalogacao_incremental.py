@@ -5,6 +5,7 @@ from pathlib import Path
 import shutil
 import struct
 import subprocess
+import sys
 import tempfile
 import unittest
 import zipfile
@@ -61,6 +62,24 @@ class IncrementalTest(unittest.TestCase):
         return result
 
     def reads(self,result):return [x['arquivo'] for x in result['leituras'] if x['operacao']=='interpretacao_solicitada']
+
+    def test_candidato_inaugural_validado_antes_da_manutencao_incremental(self):
+        command = [sys.executable, '-B', SPEC.origin, 'validar', '--catalogo']
+        validation = subprocess.run(
+            [*command, str(self.canonical)], capture_output=True, text=True, check=True
+        )
+        self.assertEqual(json.loads(validation.stdout), {'fichas': 2, 'termos': 1})
+        self.assertEqual(set(c.plan(self.root, self.module, self.initial)['estados'].values()), {'inalterado'})
+
+        document = Document(self.canonical)
+        for paragraph in document.paragraphs:
+            if paragraph.text.startswith('Palavras-chave.'):
+                paragraph.text = paragraph.text.replace('Palavras-chave.', 'Conceitos-chave.', 1)
+        invalid = self.root / 'incompativel.docx'
+        document.save(invalid)
+        validation = subprocess.run([*command, str(invalid)], capture_output=True, text=True)
+        self.assertEqual(validation.returncode, 2)
+        self.assertIn('Etiquetas ausentes/duplicadas', validation.stderr)
 
     def test_inclusao_png_preserva_demais_fichas_sem_interpretar(self):
         (self.folder/'novo.png').write_bytes(png((0,0,255)))

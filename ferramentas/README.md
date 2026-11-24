@@ -10,7 +10,9 @@ python -B -m unittest discover -s ferramentas/tests -v
 
 `--root /caminho/do/checkout` permite usar outra árvore ou fixtures. A execução normal escreve somente `inventario.csv` e os cinco blocos `reconciliacao:inicio/fim` do README; fora dos blocos, o texto é preservado. Não escreve documentos iguais, nem incorpora timestamps. O comando apenas informa adições, remoções e ambiguidades na saída; não cria outro inventário ou cadastro de estado.
 
-O modo `--check` não escreve: retorna 0 se os documentos coincidem com a reconciliação e não há links locais inválidos, 1 se há divergência ou link inválido e 2 em erro de leitura/contrato/marcadores. Ambiguidades são avisos, sem bloquear arquivos independentes. Links inválidos de trechos não gerados são preservados, informados e fazem a verificação falhar; não se inventa um destino. O CSV inválido ou marcadores ausentes/duplicados interrompem antes de escrever.
+O modo `--check` não escreve: retorna 0 se os documentos coincidem com a reconciliação e não há links locais inválidos nem catálogos canônicos ilegíveis, 1 se há divergência, link inválido ou catálogo canônico ilegível e 2 em erro de leitura/contrato/marcadores. Ambiguidades são avisos, sem bloquear arquivos independentes. Links inválidos de trechos não gerados são preservados, informados e fazem a verificação falhar; não se inventa um destino. O CSV inválido ou marcadores ausentes/duplicados interrompem antes de escrever.
+
+Capítulos sem catálogo canônico são válidos. Catálogos canônicos ilegíveis permanecem no inventário e são reportados com o caminho do arquivo. A checagem verifica o pacote e o corpo do documento, sem avaliar fichas ou homologar conteúdo.
 
 ## Elegibilidade física
 
