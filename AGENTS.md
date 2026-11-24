@@ -2,7 +2,7 @@
 
 ## Inventário e catálogos semânticos
 
-- Consulte `inventario.csv` para identificar os arquivos presentes em cada módulo. Preserve o separador `;` e as colunas `modulo` e `arquivo`; não acrescente campos, substitua identificadores estáveis ou descarte metadados existentes sem autorização para mudar o contrato.
+- Em toda tarefa que envolva um ou mais capítulos, confronte as entradas de `inventario.csv` com os arquivos elegíveis efetivamente presentes nos capítulos do escopo. Registre arquivos ausentes, materiais ainda sem entrada e outras inconsistências encontradas. Preserve o separador `;` e as colunas `modulo` e `arquivo`; não acrescente campos, substitua identificadores estáveis ou descarte metadados existentes sem autorização para mudar o contrato.
 - Consulte `NN_Catalogo_Semantico.docx` no módulo correspondente antes de interpretar semanticamente seus materiais. Os 12 catálogos são a fonte documental de referência para conteúdos, representações, exemplos, conceitos, palavras-chave e transições relevantes de GIFs.
 - Consulte `curadoria/vocabulario_controlado.md` para a etiqueta canônica, definição consolidada, capítulos e materiais associados antes de classificar ou atualizar registros. Preserve os significados locais dos homônimos e as pendências ali documentadas; revisões do vocabulário e dos catálogos continuam restritas ao escopo autorizado.
 - Relacione os registros documentais aos materiais físicos pelos nomes exatos dos arquivos e pelo módulo. Não confunda o catálogo com imagem, GIF, exercício, gabarito ou código: ele é um documento de referência e também possui entrada própria no inventário.
@@ -136,6 +136,7 @@ Distinga e registre: (1) proposta aprovada; (2) execução autorizada; (3) alter
 - Dentro de um conjunto autorizado para implementação, crie commits coerentes, organize branches, realize push e abra PRs autonomamente. A autorização de implementação abrange essas operações, salvo restrição explícita do usuário.
 - A abertura de PR não autoriza merge. A revisão, aprovação, rejeição e decisão de integração pertencem ao responsável humano; não realize merge automaticamente.
 - Sinalize explicitamente alterações validadas ainda sem commit, commits locais sem push e PRs ainda não integrados.
+- Antes de criar commits e abrir PRs, execute as verificações aplicáveis do GitHub Actions, incluindo os testes das ferramentas e a reconciliação documental com `--check`. Commits diretos do responsável pelo acervo podem introduzir divergências preexistentes. Confirme a causa, reconcilie o inventário e os blocos gerados do README dentro do escopo autorizado e valide novamente antes de publicar. Se a correção estiver fora do escopo, informe o bloqueio.
 - Prefira commits coerentes e PRs com escopo delimitado. Confira o diff, os arquivos preparados e `git diff --check` antes do commit.
 - Não inclua protótipos, arquivos temporários ou materiais fora do escopo aprovado nos commits. Documentos de governança podem ser publicados quando abrangidos pelo escopo autorizado.
 - Mudanças esperadas no histórico remoto e operações Git rotineiras não exigem nova deliberação se preservarem o escopo. Não realize rebase, force-push ou reescrita de histórico sem necessidade técnica demonstrada; o avanço da main, isoladamente, não é motivo.
