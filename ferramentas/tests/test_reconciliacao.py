@@ -229,6 +229,15 @@ class ReconciliacaoTest(unittest.TestCase):
         self.assertNotIn('[Norma histórica de teste]',text)
         self.assertIn('Não são protocolos vigentes',text)
 
+    def test_workflow_coordena_acervo_e_retorna_correcoes_sem_ciclo_obrigatorio(self):
+        self.run_sync()
+        diagram = m.read(self.root / 'README.md').split('```mermaid', 1)[1].split('```', 1)[0]
+        for edge in ('A --> Q', 'A --> K', 'Q --> K', 'K --> B',
+                     'R -.-> K', 'R -.-> F', 'R -.-> G', 'I -.-> J'):
+            self.assertIn(f'    {edge}\n', diagram)
+        self.assertNotIn('    K --> Q\n', diagram)
+        self.assertNotIn('    R --> ', diagram)
+
     def test_labels_mermaid_sem_palavras_cortadas(self):
         label=m.wrapped('Consolidação de identidades e decisões')
         self.assertEqual(label.replace('<br/>',' '),'Consolidação de identidades e decisões')

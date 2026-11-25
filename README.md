@@ -5,14 +5,14 @@ Acervo de materiais didáticos de programação e computação, organizado em m�
 <!-- reconciliacao:inicio arquitetura -->
 ## Visão geral da arquitetura
 
-O fluxo distingue contratos documentais, artefatos existentes e execução experimental. As setas indicam dependências; não são aprovações nem uma sequência automática de produção. Clique nas etapas para consultar suas fontes.
+As setas contínuas indicam dependências e fluxos de informação ou artefatos. As tracejadas indicam apoio à decisão ou retorno para correção localizada. A reconciliação física é independente da manutenção semântica, que usa o inventário e os originais para catalogação inaugural, atualização incremental e revisão deliberada. Os estados e as evidências constam nas seções abaixo.
 
 ```mermaid
 %%{init: {"htmlLabels": false, "markdownAutoWrap": false, "flowchart": {"htmlLabels": false, "wrappingWidth": 240}}}%%
 flowchart TD
     A["Acervo original"]
-    K["Catalogação<br/>semântica"]
-    B["Fundamentação<br/>semântica"]
+    K["Manutenção<br/>semântica do acervo"]
+    B["Catálogos e<br/>vocabulário"]
     C["Descoberta e dossiê<br/>editorial"]
     I["Consolidação de<br/>identidades e<br/>decisões"]
     J["Seleção humana de<br/>candidato e dossiê"]
@@ -24,13 +24,14 @@ flowchart TD
     T["Finalização<br/>experimental: Motor<br/>3"]
     V["Revisão audiovisual<br/>e homologação<br/>humana"]
     R["Retroalimentação de<br/>inconsistências"]
-    Q["Reconciliação<br/>documental: índice<br/>e README"]
+    Q["Reconciliação<br/>física: inventário<br/>e README"]
+    A --> Q
     A --> K
+    Q --> K
     K --> B
     B --> C
     C --> I
     C --> J
-    I -.-> J
     J --> E
     A --> F
     E --> G
@@ -41,7 +42,10 @@ flowchart TD
     H --> V
     T --> V
     V --> R
-    A -.-> Q
+    I -.-> J
+    R -.-> K
+    R -.-> F
+    R -.-> G
     click A "./inventario.csv" "Consultar fonte"
     click K "./curadoria/protocolo_catalogacao_semantica.md" "Consultar fonte"
     click B "./curadoria/vocabulario_controlado.md" "Consultar fonte"

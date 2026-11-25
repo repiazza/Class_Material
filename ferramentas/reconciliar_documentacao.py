@@ -150,8 +150,8 @@ def architecture(root: Path) -> str:
     # Dependências dos contratos conhecidos; existência só demonstra presença, nunca homologação.
     stages = {
         'A': ('Acervo original', 'inventario.csv'),
-        'K': ('Catalogação semântica', 'curadoria/protocolo_catalogacao_semantica.md'),
-        'B': ('Fundamentação semântica', 'curadoria/vocabulario_controlado.md'),
+        'K': ('Manutenção semântica do acervo', 'curadoria/protocolo_catalogacao_semantica.md'),
+        'B': ('Catálogos e vocabulário', 'curadoria/vocabulario_controlado.md'),
         'C': ('Descoberta e dossiê editorial', 'curadoria/protocolo_roteirizacao.md'),
         'I': ('Consolidação de identidades e decisões', 'curadoria/protocolo_consolidacao_editorial.md'),
         'J': ('Seleção humana de candidato e dossiê', 'AGENTS.md'),
@@ -163,18 +163,24 @@ def architecture(root: Path) -> str:
         'T': ('Finalização experimental: Motor 3', 'videos/motor3/__main__.py'),
         'V': ('Revisão audiovisual e homologação humana', 'curadoria/protocolo_revisao_audiovisual.md'),
         'R': ('Retroalimentação de inconsistências', 'curadoria/protocolo_retroalimentacao.md'),
-        'Q': ('Reconciliação documental: índice e README', 'ferramentas/reconciliar_documentacao.py'),
+        'Q': ('Reconciliação física: inventário e README', 'ferramentas/reconciliar_documentacao.py'),
     }
     present = {key: value for key, value in stages.items() if (root / value[1]).is_file()}
     lines = ['## Visão geral da arquitetura', '',
-             'O fluxo distingue contratos documentais, artefatos existentes e execução experimental. As setas indicam dependências; não são aprovações nem uma sequência automática de produção. Clique nas etapas para consultar suas fontes.', '',
+             'As setas contínuas indicam dependências e fluxos de informação ou artefatos. As tracejadas indicam apoio à decisão ou retorno para correção localizada. A reconciliação física é independente da manutenção semântica, que usa o inventário e os originais para catalogação inaugural, atualização incremental e revisão deliberada. Os estados e as evidências constam nas seções abaixo.', '',
              '```mermaid', '%%{init: {"htmlLabels": false, "markdownAutoWrap": false, "flowchart": {"htmlLabels": false, "wrappingWidth": 240}}}%%', 'flowchart TD']
     for key, (title, path) in present.items():
         lines.append(f'    {key}["{wrapped(title)}"]')
-    for left, right in [('A','K'),('K','B'),('B','C'),('C','I'),('C','J'),('I','J'),('J','E'),('A','F'),('E','G'),('F','G'),('G','H'),('G','T'),('U','T'),('H','V'),('T','V'),('V','R'),('A','Q')]:
-        if left in present and right in present:
-            arrow = '-.->' if (left,right) in {('I','J'),('A','Q')} else '-->'
-            lines.append(f'    {left} {arrow} {right}')
+    flows = [
+        ('A', 'Q'), ('A', 'K'), ('Q', 'K'), ('K', 'B'), ('B', 'C'),
+        ('C', 'I'), ('C', 'J'), ('J', 'E'), ('A', 'F'), ('E', 'G'), ('F', 'G'),
+        ('G', 'H'), ('G', 'T'), ('U', 'T'), ('H', 'V'), ('T', 'V'), ('V', 'R'),
+    ]
+    conditional_flows = [('I', 'J'), ('R', 'K'), ('R', 'F'), ('R', 'G')]
+    for edges, arrow in ((flows, '-->'), (conditional_flows, '-.->')):
+        for left, right in edges:
+            if left in present and right in present:
+                lines.append(f'    {left} {arrow} {right}')
     for key, (_, path) in present.items():
         lines.append(f'    click {key} "./{path}" "Consultar fonte"')
     lines.extend(['```', '', '### Contratos presentes e seus estados declarados', '',
