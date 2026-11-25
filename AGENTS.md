@@ -31,7 +31,11 @@ Após inclusão, remoção ou renomeação de materiais, publicação de catálo
 
 Há autorização permanente para manter `inventario.csv` e os blocos gerados do `README.md` coerentes com as fontes, sem aprovação individual por atualização. Essa autorização física é independente da autorização semântica definida em **Manutenção coordenada do acervo**. Respeite restrições expressas da tarefa, como “apenas pull”, e não modifique silenciosamente PRs alheias.
 
-Preserve texto editorial/histórico fora dos blocos. Confira avisos e mudanças arquiteturais contra contratos e evidências: estados declarados não equivalem à homologação, e presença de arquivo não comprova capacidade demonstrada. Atualize autonomamente README/inventário quando a divergência for objetiva; registre ambiguidades sem inventar correspondências ou decisões. Para responsabilidades novas não expressas pelos indicadores estruturados, faça análise documental e encaminhe somente a dúvida efetiva, sem exigir aprovação para os registros independentes. Commit, push e PR seguem a execução autorizada; merge continua humano.
+Preserve texto editorial/histórico fora dos blocos. Confira avisos e mudanças arquiteturais contra contratos e evidências: estados declarados não equivalem à homologação, e presença de arquivo não comprova capacidade demonstrada. Atualize autonomamente README/inventário quando a divergência for objetiva; registre ambiguidades sem inventar correspondências ou decisões. Commit, push e PR seguem a execução autorizada; merge continua humano.
+
+### Manutenção da representação arquitetural
+
+Durante a implementação e antes de publicar, confronte toda inclusão, alteração ou remoção de responsabilidades, componentes, dependências ou pontos de decisão com o workflow do README e suas fontes vigentes. Quando a mudança afetar a arquitetura global, ajuste a definição do fluxo em `ferramentas/reconciliar_documentacao.py`, regenere o README, confira o diff e execute as verificações documentais e os testes pertinentes. Registre a decisão arquitetural no resumo da PR. Quando a mudança se limitar à implementação de uma responsabilidade já representada, preserve o fluxo. A avaliação faz parte do trabalho ordinário, sem solicitação ou relatório adicional. Os critérios de representação e validação estão em `ferramentas/README.md`.
 
 ### Integridade das referências visuais nos catálogos
 
