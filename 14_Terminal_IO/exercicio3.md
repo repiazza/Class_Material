@@ -61,11 +61,100 @@ void vUpdateHP(int iHP, int iMaxHP);
 void vUpdateStatus(const char *pszStatus);
 ```
 
-- `vDrawInterface()` apresenta a estrutura fixa, o nome, o nível e os atributos do personagem.
-- `vUpdateHP()` atualiza somente o valor numérico de HP e sua barra colorida, reutilizando `vPrintBar()`.
-- `vUpdateStatus()` atualiza somente a região de mensagens, removendo eventuais caracteres restantes da mensagem anterior.
-
 Essas funções pertencem à aplicação RPG, não à biblioteca genérica `terminal_utils`.
+
+### B.1 — Desenho inicial: `vDrawInterface()`
+
+Esta função deve apresentar a estrutura fixa da interface: cabeçalho, separadores, nome, nível, ataque e defesa. Reserve também posições para o valor de HP, a barra e a mensagem de estado.
+
+Utilize `vGotoXY()` para posicionar os elementos, inclusive aqueles que aparecem lado a lado. Por exemplo:
+
+```c
+vGotoXY(1, 4);
+vPrintLine("PERSONAGEM", 0);
+
+vGotoXY(24, 4);
+vPrintLine("ATRIBUTOS", 0);
+```
+
+Uma possibilidade é definir as posições das regiões dinâmicas por meio de constantes no `main.c`:
+
+```c
+#define HP_LINE      8
+#define BAR_LINE     9
+#define STATUS_LINE 11
+#define BAR_WIDTH   20
+```
+
+Essas coordenadas correspondem ao layout sugerido acima. Caso organize a interface de outra maneira, adapte as constantes. A ideia é que o desenho inicial e as funções de atualização utilizem as mesmas referências espaciais.
+
+### B.2 — Atualização da vida: `vUpdateHP()`
+
+Esta função recebe a vida atual (`iHP`) e a vida máxima (`iMaxHP`) do personagem. Ela deve atualizar duas regiões distintas: a linha que apresenta o valor numérico e a linha que apresenta a barra colorida.
+
+Por exemplo, ao chamar:
+
+```c
+vUpdateHP(75, 100);
+```
+
+O resultado esperado na região de HP é:
+
+```text
+HP: 75/100
+[###############     ]
+```
+
+Uma chamada posterior a `vUpdateHP(50, 100)` deve produzir, exatamente nas mesmas posições:
+
+```text
+HP: 50/100
+[##########          ]
+```
+
+Observe que a barra continua com 20 células internas. Apenas a quantidade de células preenchidas muda. Os caracteres `#` são ilustrativos: utilize a barra colorida já implementada.
+
+A implementação pode seguir esta sequência:
+
+```text
+Salvar a posição atual do cursor.
+Posicionar o cursor no início da linha de HP.
+Limpar essa linha para remover o valor anterior.
+Imprimir o novo valor de HP.
+Posicionar o cursor no início da linha da barra.
+Desenhar novamente a barra com a mesma largura.
+Restaurar a posição do cursor.
+```
+
+Para orientar a composição das funções, considere este trecho de código C:
+
+```c
+vGotoXY(1, HP_LINE);
+vClearLine();
+printf("HP: %d/%d", iHP, iMaxHP);
+
+vGotoXY(1, BAR_LINE);
+vPrintBar(iHP, iMaxHP, BAR_WIDTH, BGCOLOR_GREEN);
+```
+
+Complete a função com a preservação da posição do cursor e o tratamento dos valores recebidos: a vida máxima deve ser positiva e a vida atual deve permanecer entre zero e a vida máxima.
+
+Não é necessário criar outra função para calcular ou desenhar a barra: `vPrintBar()` já possui essa responsabilidade. Também não é necessário alterar o personagem, calcular dano ou implementar uma batalha dentro de `vUpdateHP()`.
+
+### B.3 — Atualização da mensagem: `vUpdateStatus()`
+
+Esta função deve posicionar o cursor na região de mensagens e substituir o conteúdo anterior, preservando o restante da interface.
+
+Considere as chamadas:
+
+```c
+vUpdateStatus("Cura recebida!");
+vUpdateStatus("Fim");
+```
+
+O resultado final deve ser `STATUS: Fim`, sem caracteres restantes da mensagem anterior.
+
+Uma possibilidade é posicionar o cursor no início da linha, limpá-la com `vClearLine()` e imprimir novamente o rótulo `STATUS:` seguido da nova mensagem. Você pode utilizar as funções de formatação já existentes na biblioteca.
 
 ### Simulação
 
