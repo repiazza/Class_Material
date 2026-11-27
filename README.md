@@ -162,13 +162,13 @@ Diretórios de capítulos são descobertos na raiz. A identificação abaixo usa
 | [11_Sistemas_Operacionais](11_Sistemas_Operacionais/) | Sistemas Operacionais | 40 | [11_Catalogo_Semantico.docx](11_Sistemas_Operacionais/11_Catalogo_Semantico.docx) |
 | [12_Organizacao_Computadores](12_Organizacao_Computadores/) | Organização de Computadores | 18 | [12_Catalogo_Semantico.docx](12_Organizacao_Computadores/12_Catalogo_Semantico.docx) |
 | [13_Compilacao_Makefile](13_Compilacao_Makefile/) | Compilação e Makefile | 25 | [13_Catalogo_Semantico.docx](13_Compilacao_Makefile/13_Catalogo_Semantico.docx) |
-| [14_Terminal_IO](14_Terminal_IO/) | Terminal I/O | 32 | [14_Catalogo_Semantico.docx](14_Terminal_IO/14_Catalogo_Semantico.docx) |
+| [14_Terminal_IO](14_Terminal_IO/) | Terminal I/O | 52 | [14_Catalogo_Semantico.docx](14_Terminal_IO/14_Catalogo_Semantico.docx) |
 <!-- reconciliacao:fim organizacao -->
 
 <!-- reconciliacao:inicio inventario -->
 ## Localização dos materiais
 
-O [inventario.csv](inventario.csv) contém **323 entradas** em **14 capítulos**: **309 materiais didáticos** e **14 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
+O [inventario.csv](inventario.csv) contém **343 entradas** em **14 capítulos**: **329 materiais didáticos** e **14 catálogos canônicos**. O contrato é `modulo;arquivo`; combine `modulo/arquivo` para localizar o arquivo a partir da raiz. A ordenação é estável por capítulo e caminho relativo do arquivo, preservando grafia e caixa.
 
 São elegíveis materiais PNG, JPG/JPEG, GIF, Markdown, fontes C, headers e pacotes ZIP nas áreas de materiais dos capítulos, além de `NN_Catalogo_Semantico.docx` canônico. O ZIP é uma entrada física, sem promover membros internos. A existência física não depende de homologação semântica.
 
@@ -205,7 +205,7 @@ Os arquivos são agrupados por capítulo e papel documental, **sem presumir pare
 | 11 - Sistemas Operacionais | [exercicio.md](11_Sistemas_Operacionais/exercicio.md) (Exercício 01 — Processos e comunicação entre processos) | [gabarito1.md](11_Sistemas_Operacionais/gabarito1.md)<br/>[gabarito1a.c](11_Sistemas_Operacionais/gabarito1a.c) (implementação C)<br/>[gabarito1b.c](11_Sistemas_Operacionais/gabarito1b.c) (implementação C) | Não identificado |
 | 12 - Organização de Computadores | [exercicio1.md](12_Organizacao_Computadores/exercicio1.md) (Exercício 12.10.2 — Projeto de um Circuito Digital) | [gabarito1.md](12_Organizacao_Computadores/gabarito1.md) (Gabarito 12.10.2 — Projeto de um Circuito Digital) | Não identificado |
 | 13 - Compilação e Makefile | [exercicio.md](13_Compilacao_Makefile/exercicio.md) (Exercício — Compilação modular e automatização com GNU Make) | [gabarito_a.md](13_Compilacao_Makefile/gabarito_a.md) (Gabarito — Etapa A: Compilação manual com GCC)<br/>[gabarito_a_b_makefile_possivel.md](13_Compilacao_Makefile/gabarito_a_b_makefile_possivel.md) (Gabarito — Uma possível implementação do Makefile)<br/>[gabarito_b.md](13_Compilacao_Makefile/gabarito_b.md) (Gabarito — Etapa B: Automatização com GNU Make) | [projeto_base_exercicio.zip](13_Compilacao_Makefile/projeto_base_exercicio.zip) |
-| 14 - Terminal I/O | [exercicio1.md](14_Terminal_IO/exercicio1.md) (14_Terminal_IO — Exercício 1)<br/>[exercicio2.md](14_Terminal_IO/exercicio2.md) (14_Terminal_IO — Exercício 2) | [gabarito1.md](14_Terminal_IO/gabarito1.md) (14_Terminal_IO — Gabarito 1)<br/>[gabarito2.md](14_Terminal_IO/gabarito2.md) (14_Terminal_IO — Gabarito 2) | Não identificado |
+| 14 - Terminal I/O | [exercicio1.md](14_Terminal_IO/exercicio1.md) (14_Terminal_IO — Exercício 1)<br/>[exercicio2.md](14_Terminal_IO/exercicio2.md) (14_Terminal_IO — Exercício 2)<br/>[exercicio3.md](14_Terminal_IO/exercicio3.md) (Exercício 3 — Manipulação espacial do terminal)<br/>[exercicio4.md](14_Terminal_IO/exercicio4.md) (Exercício 4 — Construção de interfaces gráficas no terminal) | [gabarito1.md](14_Terminal_IO/gabarito1.md) (14_Terminal_IO — Gabarito 1)<br/>[gabarito2.md](14_Terminal_IO/gabarito2.md) (14_Terminal_IO — Gabarito 2)<br/>[gabarito3.md](14_Terminal_IO/gabarito3.md) (14_Terminal_IO — Gabarito 3)<br/>[gabarito4.md](14_Terminal_IO/gabarito4.md) (14_Terminal_IO --- Gabarito 4) | Não identificado |
 
 A tabela comprova localização e papel documental, não equivalência técnica entre soluções nem auditoria pedagógica. Um gabarito pode orientar várias partes; soluções alternativas não são redundantes por definição.
 <!-- reconciliacao:fim exercicios -->
