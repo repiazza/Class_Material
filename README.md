@@ -46,21 +46,21 @@ flowchart TD
     R -.-> K
     R -.-> F
     R -.-> G
-    click A "./inventario.csv" "Consultar fonte"
-    click K "./curadoria/protocolo_catalogacao_semantica.md" "Consultar fonte"
-    click B "./curadoria/vocabulario_controlado.md" "Consultar fonte"
-    click C "./curadoria/protocolo_roteirizacao.md" "Consultar fonte"
-    click I "./curadoria/protocolo_consolidacao_editorial.md" "Consultar fonte"
-    click J "./AGENTS.md" "Consultar fonte"
-    click E "./curadoria/protocolo_roteiro_individual.md" "Consultar fonte"
-    click F "./curadoria/protocolo_mapeamento_espacial.md" "Consultar fonte"
-    click G "./curadoria/protocolo_montagem_audiovisual.md" "Consultar fonte"
-    click H "./curadoria/contrato_entrega_video.md" "Consultar fonte"
-    click U "./videos/motor3/README.md" "Consultar fonte"
-    click T "./videos/motor3/__main__.py" "Consultar fonte"
-    click V "./curadoria/protocolo_revisao_audiovisual.md" "Consultar fonte"
-    click R "./curadoria/protocolo_retroalimentacao.md" "Consultar fonte"
-    click Q "./ferramentas/reconciliar_documentacao.py" "Consultar fonte"
+    click A "https://github.com/repiazza/Class_Material/blob/main/inventario.csv" "Consultar fonte"
+    click K "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_catalogacao_semantica.md" "Consultar fonte"
+    click B "https://github.com/repiazza/Class_Material/blob/main/curadoria/vocabulario_controlado.md" "Consultar fonte"
+    click C "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_roteirizacao.md" "Consultar fonte"
+    click I "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_consolidacao_editorial.md" "Consultar fonte"
+    click J "https://github.com/repiazza/Class_Material/blob/main/AGENTS.md" "Consultar fonte"
+    click E "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_roteiro_individual.md" "Consultar fonte"
+    click F "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_mapeamento_espacial.md" "Consultar fonte"
+    click G "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_montagem_audiovisual.md" "Consultar fonte"
+    click H "https://github.com/repiazza/Class_Material/blob/main/curadoria/contrato_entrega_video.md" "Consultar fonte"
+    click U "https://github.com/repiazza/Class_Material/blob/main/videos/motor3/README.md" "Consultar fonte"
+    click T "https://github.com/repiazza/Class_Material/blob/main/videos/motor3/__main__.py" "Consultar fonte"
+    click V "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_revisao_audiovisual.md" "Consultar fonte"
+    click R "https://github.com/repiazza/Class_Material/blob/main/curadoria/protocolo_retroalimentacao.md" "Consultar fonte"
+    click Q "https://github.com/repiazza/Class_Material/blob/main/ferramentas/reconciliar_documentacao.py" "Consultar fonte"
 ```
 
 ### Contratos presentes e seus estados declarados

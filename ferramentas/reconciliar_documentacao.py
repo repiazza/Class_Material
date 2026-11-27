@@ -181,8 +181,10 @@ def architecture(root: Path) -> str:
         for left, right in edges:
             if left in present and right in present:
                 lines.append(f'    {left} {arrow} {right}')
+    # O GitHub renderiza Mermaid em outro domínio, sem a base dos links Markdown.
+    source_base = "https://github.com/repiazza/Class_Material/blob/main/"
     for key, (_, path) in present.items():
-        lines.append(f'    click {key} "./{path}" "Consultar fonte"')
+        lines.append(f'    click {key} "{source_base}{quote(path)}" "Consultar fonte"')
     lines.extend(['```', '', '### Contratos presentes e seus estados declarados', '',
                   'A existência de um protocolo não comprova implementação, demonstração ou homologação. Os estados abaixo são transcritos dos cabeçalhos das fontes, sem reinterpretar sua aprovação.', '',
                   '| Contrato | Versão declarada | Estado declarado na fonte |', '|---|---|---|'])
