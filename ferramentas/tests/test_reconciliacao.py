@@ -244,7 +244,9 @@ class ReconciliacaoTest(unittest.TestCase):
         self.assertTrue(all(len(line)<=19 for line in label.split('<br/>')))
         self.run_sync();text=m.read(self.root/'README.md')
         self.assertIn('"htmlLabels": false',text)
-        self.assertIn('click K "./curadoria/protocolo_catalogacao_semantica.md"',text)
+        self.assertIn('click K "https://github.com/repiazza/Class_Material/blob/main/'
+                      'curadoria/protocolo_catalogacao_semantica.md"', text)
+        self.assertNotIn('click K "./', text)
 
 
 if __name__=='__main__':unittest.main()
