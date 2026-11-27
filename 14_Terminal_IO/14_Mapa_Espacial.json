@@ -1,0 +1,145 @@
+{
+  "schema": "mapa_espacial_capitulo",
+  "versao": "0.1",
+  "capitulo": "14_Terminal_IO",
+  "fonte_semantica": "14_Catalogo_Semantico.docx",
+  "sistema_coordenadas": "[x0,y0,x1,y1] normalizado entre 0 e 1, origem no canto superior esquerdo",
+  "estado": "AUTOAUDITADO_COM_RESSALVAS",
+  "materiais": [
+    {
+      "arquivo": "animated_terminal.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        761,
+        508
+      ],
+      "sha256": "3a1466557e943b5ec33a6a8aaf26261aead3cfa9b67a66ce83bab58e8f19f465",
+      "regioes": [
+        {
+          "id": "painel_rpg",
+          "descricao": "Painel RPG com as áreas estáticas, HP e status",
+          "bbox_normalizada": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "confianca": "autoauditada_visualmente"
+        }
+      ],
+      "quadros": 4,
+      "duracoes_quadros_ms": [
+        2500,
+        2500,
+        2500,
+        2500
+      ]
+    },
+    {
+      "arquivo": "interface_com_primitivas2.gif",
+      "tipo": "gif",
+      "dimensoes_px": [
+        748,
+        493
+      ],
+      "sha256": "07fce054b72897ab02da4425130dcc212e36d5354266cdfea93d452962a4a77f",
+      "regioes": [
+        {
+          "id": "composicao_paineis",
+          "descricao": "Progressão da moldura inicial ao painel completo",
+          "bbox_normalizada": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "confianca": "autoauditada_visualmente"
+        }
+      ],
+      "quadros": 4,
+      "duracoes_quadros_ms": [
+        2500,
+        2500,
+        2500,
+        2500
+      ]
+    },
+    {
+      "arquivo": "terminal_xy.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "d07ee90092b99724579492ab9fab76c84257464f19902ea57d1bc166ae1d8794",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Grade, ordem de coordenadas, código e exemplo de saída",
+          "bbox_normalizada": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "confianca": "autoauditada_visualmente"
+        },
+        {
+          "id": "grade_coordenadas",
+          "descricao": "Grade de células com origem e eixos",
+          "bbox_normalizada": [
+            0.006,
+            0.159,
+            0.542,
+            0.537
+          ],
+          "confianca": "autoauditada_visualmente"
+        }
+      ]
+    },
+    {
+      "arquivo": "terminal_region.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "bd69f592694b020c3b391f4c060e31127fbfe170b116e6625a9332bba6d1c1dd",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Atributos de fundo, preenchimento, usos e painel composto",
+          "bbox_normalizada": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "confianca": "autoauditada_visualmente"
+        }
+      ]
+    },
+    {
+      "arquivo": "cursor_restore.png",
+      "tipo": "png",
+      "dimensoes_px": [
+        1536,
+        1024
+      ],
+      "sha256": "553758a740836c1730b0e0656077b8a9293fde44dcc73581426ea5ff895314d4",
+      "regioes": [
+        {
+          "id": "integral",
+          "descricao": "Códigos de controle, trecho de C e comparação das três saídas",
+          "bbox_normalizada": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "confianca": "autoauditada_visualmente"
+        }
+      ]
+    }
+  ]
+}

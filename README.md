@@ -84,11 +84,11 @@ A existência de um protocolo não comprova implementação, demonstração ou h
 
 | Componente | Evidência física atual |
 |---|---|
-| Dossiês canônicos | 4 arquivos em [editorial/dossies](editorial/dossies/); presença não implica aprovação. |
-| Registros de consolidação | 1 arquivo em [editorial/consolidacoes](editorial/consolidacoes/); presença não implica aprovação. |
+| Dossiês canônicos | 5 arquivos em [editorial/dossies](editorial/dossies/); presença não implica aprovação. |
+| Registros de consolidação | 2 arquivos em [editorial/consolidacoes](editorial/consolidacoes/); presença não implica aprovação. |
 | Roteiros individuais | 3 arquivos em [editorial/roteiros](editorial/roteiros/); presença não implica aprovação. |
 | Planos de montagem | 3 arquivos em [editorial/montagens](editorial/montagens/); presença não implica aprovação. |
-| Mapas espaciais | 4 mapas canônicos presentes; seleção e tempos pertencem à montagem. |
+| Mapas espaciais | 5 mapas canônicos presentes; seleção e tempos pertencem à montagem. |
 
 ### Finalização e interpretação humana
 

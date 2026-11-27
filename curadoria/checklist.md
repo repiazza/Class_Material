@@ -636,3 +636,17 @@ Fontes: checkout `725b9f4`; hashes abaixo. Evidência é o original identificado
 - **Encaminhamento proposto:** Avaliar qualificação para o vínculo estático específico, preservando o contraste .a/.so.
 - **Impacto:** médio. **Confiança:** alta para a limitação técnica; média para a leitura pretendida da frase.
 - **Responsável / limites:** curadoria documental para D; autoria/curadoria pedagógica para P. Preservar materiais e derivados válidos; avaliar apenas dependências efetivamente afetadas. Registro não autoriza implementação.
+
+## Capítulo 14 — ocorrências encaminhadas durante a preparação editorial
+
+### C14-P-001 — P — PENDENTE
+
+- **Arquivo:** [cursor_restore.png](../14_Terminal_IO/cursor_restore.png). Ressalva registrada na ficha correspondente do catálogo.
+- **Evidência:** na seção de demonstração, a seta marca a posição ao lado de “Início...”. O trecho em C emite uma quebra de linha antes da sequência de salvamento. O mesmo descompasso aparece na vista integral do [painel espacial](../14_Terminal_IO/evidencias_mapa_espacial/painel-3.jpg).
+- **Impacto e encaminhamento:** a imagem pode servir para discutir salvamento e restauração com ressalva, mas os quadros não devem ser exibidos como traço literal do trecho. Encaminhar à autoria pedagógica a decisão sobre alinhar o ponto indicado ao código. Sem autorização de implementação.
+
+### C14-P-002 — P — PENDENTE
+
+- **Arquivo:** [unicode_ascii_utf8.png](../14_Terminal_IO/unicode_ascii_utf8.png). Ressalva registrada na ficha correspondente do catálogo.
+- **Evidência:** a saída ilustrada indica seis bytes para “lição”. Em UTF-8, l, i e o ocupam um byte cada; ç e ã, dois cada. A ficha de unicode_ascii_utf8_2.png sustenta o total de sete.
+- **Impacto e encaminhamento:** V14-005 usa o exemplo que documenta sete bytes. Encaminhar à autoria pedagógica eventual correção localizada do valor ilustrado. Sem autorização de implementação.
